@@ -89,7 +89,7 @@ const IndustryDyanmicContent = ({activeId}) => {
         {/* 5th */}
         <div className={`m-5 ${activeId == 5 ? '' : 'hidden'}`}>
           <h5 className="text-blue font-bold mb-9">
-            Increased Organizational Pro
+            Increased Organizational 
           </h5>
           <div className="flex flex-col gap-6">
             <p className="font-bold"> Business Application Industry Content</p>

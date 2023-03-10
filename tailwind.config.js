@@ -21,6 +21,8 @@ module.exports = {
       },
       boxShadow: {
         "custom-shadow": "0px 4px 0px rgba(9, 37, 70, 0.25)",
+        "navbar-shadow": "0px 3px 2px rgba(0, 0, 0, 0.22)",
+        "main-navbar-shadow": "0px 3px 2px rgba(0, 0, 0, 0.22);",
       },
     },
   },

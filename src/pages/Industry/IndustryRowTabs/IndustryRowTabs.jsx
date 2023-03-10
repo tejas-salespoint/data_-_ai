@@ -6,8 +6,11 @@ const IndustryRowTabs = () => {
 
   const tabActiveHandler = (id) => {
     setTabActive(id);
-    console.log(tabActive)
   };
+
+  useEffect(() => {
+    tabActiveHandler(tabActive);
+  }, []);
 
   const rows = [
     {
@@ -28,21 +31,19 @@ const IndustryRowTabs = () => {
     },
     {
       id: "5",
-      title: "Increased Organizational Productivity",
+      title: "Increased Organizational",
     },
   ];
   return (
     <>
       <section className="mx-10 my-10  md:mx-32 md:my-10">
-        <ul className="flex gap-5 flex-nowrap relative overflow-hidden">
+        <ul className="flex gap-5 justify-between flex-nowrap relative overflow-hidden">
           {rows.map((item) => (
             <li
               onClick={() => tabActiveHandler(item.id)}
               key={item.id}
               className={`flex items-center  whitespace-nowrap  cursor-pointer text-2xl font-medium text-blue bg-light-blue  px-3 py-2 ${
-                tabActive === item.id
-                  ? "border-4 border-blue-500"
-                  : ""
+                tabActive == item?.id ? "border-4 border-blue-500" : ""
               }`}
             >
               {item.title}
