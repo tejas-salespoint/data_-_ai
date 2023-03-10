@@ -45,7 +45,10 @@ const Navbar = () => {
               Catalyst
             </li>
           </Link>
-          <Link className="h-20 flex items-center hover:border-b-8 hover:border-blue  hover:text-blue">
+          <Link 
+          target='_blank'
+          to={'https://apps.powerapps.com/play/e/839eace6-59ab-4243-97ec-a5b8fcc104e4/a/2db83f8b-2acb-4cc9-a835-9c462479c0b4?tenantId=72f988bf-86f1-41af-91ab-2d7cd011db47'}
+           className="h-20 flex items-center hover:border-b-8 hover:border-blue  hover:text-blue">
             <li className="text-xl font-medium text-gray-800  p-2 px-3">
               MegaMap
             </li>

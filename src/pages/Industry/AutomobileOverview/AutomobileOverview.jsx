@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const AutomobileOverview = () => {
   return (
@@ -23,8 +24,7 @@ const AutomobileOverview = () => {
           drive effective
         </p>
         <p>
-          conversations with your customers visit the <span className="text-cyan-600">Industry Hub</span>{" "}
-          today.
+          conversations with your customers visit the <Link to={'https://microsofteur.sharepoint.com/:li:/t/HQDataAIIndustryTeam/E4pr_KeHoqdMhUs9qUtAMDoBwc_NeXTfjE9K0aDdailwyA?e=fK2Olm'} target='_blank' className="text-cyan-600">here </Link>.
         </p>
         <p>Priority Industries for Business Applications</p>
         <ul className="list-disc ml-5 font-medium">
