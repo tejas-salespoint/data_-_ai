@@ -1,0 +1,18 @@
+{
+  // "editor.fontFamily": "'Input Mono'",
+  "editor.fontFamily": "'Ubuntu Mono', monospace",
+  "font_options": ["no_italic"],
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": [
+           "meta.import variable.other.readwrite",
+           "other scopes ..."
+        ],
+        "settings": {
+          "fontStyle": ""
+        }
+      }
+    ]
+  }
+}
