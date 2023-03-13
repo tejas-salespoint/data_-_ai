@@ -4,13 +4,13 @@ import arrow from "../../../assets/home/industry/arrow.png";
 
 const IndustryLanding = () => {
   const industry = [
-    "HealthCare",
-    "Manufacturing",
     "Automobile",
-    "financial services",
-    "government",
-    "horizontal",
-    "media",
+    "Manufacturing",
+    "Retail",
+    "Financial Services",
+    "Government",
+    "Media",
+    "Horizontal",
   ];
   return (
     <section className="mx-10 my-10  md:mx-32 md:my-10">
@@ -30,7 +30,7 @@ const IndustryLanding = () => {
 
         <div className="flex justify-center items-center bg-[#E8F0FE]">
           <div className="flex flex-grow  p-5 justify-center items-center gap-3">
-            <h5 className="uppercase font-semibold">See More</h5>
+            <h5 className="uppercase font-semibold">Other Industries</h5>
           </div>
           <div className="flex ml-auto bg-blue h-full px-5  justify-center items-center">
             <img className="h-10" src={arrow} alt="arrow" />
