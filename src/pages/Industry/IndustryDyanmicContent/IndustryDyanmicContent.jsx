@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 
 const IndustryDyanmicContent = ({activeId}) => {
   const [toggleState, setToggleState] = useState(1);
@@ -187,7 +188,8 @@ const IndustryDyanmicContent = ({activeId}) => {
             </p>
           </div>
           <button className=" px-3 py-2 my-6 bg-blue text-sm font-extrabold rounded-full text-white">
-            See more
+            
+            <Link to={'/connected_vehicle'}>See more</Link>
           </button>
         </div>
 
