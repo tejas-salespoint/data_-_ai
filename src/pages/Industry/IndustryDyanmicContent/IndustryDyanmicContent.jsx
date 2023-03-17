@@ -8,18 +8,48 @@ const IndustryDyanmicContent = ({activeId}) => {
     setToggleState(index);
   };
   return (
-    <section className="mx-10 my-10  md:mx-32 md:my-10 grid grid-cols-3 grid-flow-row border m-5 border-gray-600 ">
+    <section className="mx-10 my-10 h-[60vh]  md:mx-32 md:my-10 grid grid-cols-3 grid-flow-row border m-5 border-gray-600 ">
       {/* First component  */}
 
-      <div className="flex flex-col">
+      <div className="flex flex-col overflow-auto  scrollbar scrollbar-thin scrollbar-thumb-slate-300 scrollbar-track-zinc-500">
         {/* first component multiple tabs */}
         {/* 1st */}
-        <div className={`m-5 ${activeId == 1 ? '' : 'hidden'}`}>
+        <div className={`m-5   ${activeId == 1 ? '' : 'hidden'} `}>
           <h5 className="text-blue font-bold mb-9">
             Accelerated Innovation
           </h5>
-          <div className="flex flex-col gap-6">
+          <div className="flex flex-col gap-6 ">
             <p className="font-bold"> Business Application Industry Content</p>
+            <p>
+              Every industry is facing transformational change and we have a
+              strategic opportunity in Business Applications to drive long
+              lasting impact and change for our customers. Industry customers
+              are facing more challenges than ever before and need a partner to
+              help them use technology as their key to success. To engage
+              effectively, we need to leverage the industry value propositions
+              we have at Microsoft and pair them with a Business Applications
+              point of view.
+            </p>
+            <p>
+              Every industry is facing transformational change and we have a
+              strategic opportunity in Business Applications to drive long
+              lasting impact and change for our customers. Industry customers
+              are facing more challenges than ever before and need a partner to
+              help them use technology as their key to success. To engage
+              effectively, we need to leverage the industry value propositions
+              we have at Microsoft and pair them with a Business Applications
+              point of view.
+            </p>
+            <p>
+              Every industry is facing transformational change and we have a
+              strategic opportunity in Business Applications to drive long
+              lasting impact and change for our customers. Industry customers
+              are facing more challenges than ever before and need a partner to
+              help them use technology as their key to success. To engage
+              effectively, we need to leverage the industry value propositions
+              we have at Microsoft and pair them with a Business Applications
+              point of view.
+            </p>
             <p>
               Every industry is facing transformational change and we have a
               strategic opportunity in Business Applications to drive long

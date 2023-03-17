@@ -5,40 +5,52 @@ import Logo from "../assets/logo.png";
 const Navbar = () => {
   const navLinks = [
     {
+      id: 1,
       title: "Home",
       link: "/",
-      active : 'active'
+      active: "active",
     },
     {
-      title: "Industry",
-      link: "/industry",
-    },
-    {
-      title: "App Innovation & DAI",
-      link: "/additional_resources",
-    },
-    {
-      title: "Partners For DAI",
-      link: "/additional_resources",
-    },
-    {
-      title: "Specialist",
-      link: "/additional_resources",
-    },
-    {
-      title: "Additional Resources",
-      link: "/additional_resources",
-    },
-    {
+      id: 2,
       title: "GBB Community",
       link: "https://microsoft.sharepoint.com/teams/DataAIGBBCommunity/",
       target: "_blank",
     },
     {
+      id: 3,
+      title: "Specialist Community",
+      link: "/additional_resources",
+    },
+    {
+      id: 4,
+      title: "App Innovation & DAI",
+      link: "/additional_resources",
+    },
+    {
+      id: 5,
+      title: "Industry hub",
+      link: "/industry",
+    },
+
+    {
+      id: 6,
+      title: "Partners For DAI",
+      link: "/additional_resources",
+    },
+    {
+      id: 7,
       title: "MegaMap",
       link: "https://apps.powerapps.com/play/e/839eace6-59ab-4243-97ec-a5b8fcc104e4/a/2db83f8b-2acb-4cc9-a835-9c462479c0b4?tenantId=72f988bf-86f1-41af-91ab-2d7cd011db47",
       target: "_blank",
     },
+
+    {
+      id: 8,
+      title: "Additional Resources",
+      link: "/additional_resources",
+    },
+
+    
   ];
 
   return (
@@ -53,10 +65,16 @@ const Navbar = () => {
           {navLinks.map((nav) => (
             <Link
               to={nav?.link}
-              className={`h-20 flex items-center  ${ nav?.active ? 'border-b-8 border-blue' : ''}  hover:border-b-8 hover:border-blue  hover:text-blue`}
+              className={`h-20 flex items-center  ${
+                nav?.active ? "border-b-8 border-blue" : ""
+              }  hover:border-b-8 hover:border-blue  hover:text-blue`}
               target={nav?.target}
             >
-              <li className={`text-xl  font-medium  ${ nav?.active ? 'text-blue' : 'text-gray-800'}  p-2 px-3`}>
+              <li
+                className={`text-lg  font-medium  ${
+                  nav?.active ? "text-blue" : "text-gray-800"
+                }  p-2 px-3`}
+              >
                 {nav?.title}
               </li>
             </Link>

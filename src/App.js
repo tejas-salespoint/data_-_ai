@@ -9,7 +9,7 @@ import IndustryDetail from "pages/IndustryDetail/IndustryDetail";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App ">
       <BrowserRouter>
         <Navbar />
         <Routes>
