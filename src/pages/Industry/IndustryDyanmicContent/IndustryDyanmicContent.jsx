@@ -8,7 +8,7 @@ const IndustryDyanmicContent = ({activeId}) => {
     setToggleState(index);
   };
   return (
-    <section className="mx-10 my-10 h-[60vh]  md:mx-32 md:my-10 grid grid-cols-3 grid-flow-row border m-5 border-gray-600 ">
+    <section className="mx-10 my-10 h-[70vh]  md:mx-32 md:my-10 grid grid-cols-3 grid-flow-row border m-5 border-gray-600 ">
       {/* First component  */}
 
       <div className="flex flex-col overflow-auto  scrollbar scrollbar-thin scrollbar-thumb-slate-300 scrollbar-track-zinc-500">

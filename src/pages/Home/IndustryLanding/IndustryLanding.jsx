@@ -1,6 +1,7 @@
 import React from "react";
 import Industry from "../../../assets/home/industry/industry.png";
 import arrow from "../../../assets/home/industry/arrow.png";
+import { Link } from "react-router-dom";
 
 const IndustryLanding = () => {
   const industry = [
@@ -17,24 +18,26 @@ const IndustryLanding = () => {
       <h4 className="font-semibold py-6">Industry Landing</h4>
       <div className="grid grid-cols-2 md:grid-cols-4 gap-5">
         {industry.map((indus) => (
-          <div className="flex flex-row  justify-center items-center bg-[#E8F0FE]  ">
+          <div className="flex border-2 border-blue hover:border-0 hover:bg-blue hover:text-white  flex-row  justify-center items-center   ">
             <div className="flex flex-grow  p-5 items-center gap-3">
-              <img className="h-20" src={Industry} alt="industry" />
-              <h5 className="uppercase font-semibold">{indus}</h5>
-            </div>
-            <div className="flex ml-auto bg-blue h-full px-2  justify-center items-center">
-              <img className="h-6" src={arrow} alt="arrow" />
+              <img
+                className="h-20 border-4 border-blue peer-hover:border-black hover rounded-full "
+                src={Industry}
+                alt="industry"
+              />
+              <h5 className="uppercase font-bold self-center text-blue group-hover:text-white text-center">
+                {indus}
+              </h5>
             </div>
           </div>
         ))}
 
-        <div className="flex justify-center items-center bg-[#E8F0FE]">
-          <div className="flex flex-grow  p-5 justify-center items-center gap-3">
-            <h5 className="uppercase font-semibold">Other Industries</h5>
-          </div>
-          <div className="flex ml-auto bg-blue h-full px-5  justify-center items-center">
-            <img className="h-10" src={arrow} alt="arrow" />
-          </div>
+        <div className="flex border-2 border-blue justify-center items-center hover:border-0 hover:text-white hover:bg-blue ">
+          <Link to={"industry_grid"}>
+            <div className="flex flex-grow  p-5 justify-center items-center gap-3">
+              <h5 className="uppercase font-bold text-blue">All Industries</h5>
+            </div>
+          </Link>
         </div>
       </div>
     </section>
