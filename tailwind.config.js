@@ -8,6 +8,7 @@ module.exports = {
     extend: {
       backgroundImage: {
         "img-banner": "url('./assets/header.png')",
+        "buffer-bg": "url('./assets/buffer.png')",
         "custom-linear-gradient":
           "linear-gradient(91.25deg, #092546 -1.83%, #1A43B1 100.61%);",
       },

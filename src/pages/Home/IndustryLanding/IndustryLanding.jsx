@@ -18,10 +18,10 @@ const IndustryLanding = () => {
       <h4 className="font-semibold py-6">Industry Landing</h4>
       <div className="grid grid-cols-2 md:grid-cols-4 gap-5">
         {industry.map((indus) => (
-          <div className="flex border-2 border-blue hover:border-0 hover:bg-blue hover:text-white  flex-row  justify-center items-center   ">
+          <div className="group flex border-2 border-blue hover:border-0 hover:bg-blue hover:text-white  flex-row  justify-center items-center   ">
             <div className="flex flex-grow  p-5 items-center gap-3">
               <img
-                className="h-20 border-4 border-blue peer-hover:border-black hover rounded-full "
+                className="h-20 border-4 border-blue group-hover:border-black  rounded-full "
                 src={Industry}
                 alt="industry"
               />
@@ -32,10 +32,10 @@ const IndustryLanding = () => {
           </div>
         ))}
 
-        <div className="flex border-2 border-blue justify-center items-center hover:border-0 hover:text-white hover:bg-blue ">
+        <div className="group flex border-2 border-blue justify-center items-center hover:border-0 hover:text-white hover:bg-blue ">
           <Link to={"industry_grid"}>
             <div className="flex flex-grow  p-5 justify-center items-center gap-3">
-              <h5 className="uppercase font-bold text-blue">All Industries</h5>
+              <h5 className="uppercase font-bold text-blue group-hover:text-white">All Industries</h5>
             </div>
           </Link>
         </div>
