@@ -1,8 +1,13 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import Logo from "../assets/logo.png";
 
 const Navbar = () => {
+  const activeLink =
+    "h-20 flex items-center text-blue  hover:border-b-8 hover:border-blue  hover:text-blue border-b-8 border-blue ";
+  const nonActiveLink =
+    "h-20 flex items-center text-gray-800  hover:border-b-8 hover:border-blue  hover:text-blue";
+
   const navLinks = [
     {
       id: 1,
@@ -49,8 +54,6 @@ const Navbar = () => {
       title: "Additional Resources",
       link: "/additional_resources",
     },
-
-    
   ];
 
   return (
@@ -63,21 +66,19 @@ const Navbar = () => {
       <div className="flex items-center">
         <ul className="flex gap-5 align-middle items-center ">
           {navLinks.map((nav) => (
-            <Link
+            <NavLink
               to={nav?.link}
-              className={`h-20 flex items-center  ${
-                nav?.active ? "border-b-8 border-blue" : ""
-              }  hover:border-b-8 hover:border-blue  hover:text-blue`}
+              className={({ isActive }) =>
+                isActive ? activeLink : nonActiveLink
+              }
               target={nav?.target}
             >
               <li
-                className={`text-lg  font-medium  ${
-                  nav?.active ? "text-blue" : "text-gray-800"
-                }  p-2 px-3`}
+                className={`text-lg  font-medium   p-2 px-3`}
               >
                 {nav?.title}
               </li>
-            </Link>
+            </NavLink>
           ))}
 
           {/* <Link
