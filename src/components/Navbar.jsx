@@ -33,8 +33,9 @@ const Navbar = () => {
     },
     {
       id: 5,
-      title: "Industry hub",
-      link: "/industry",
+      title: "Industry Hub",
+      link: "https://industryhub.transform.microsoft.com/",
+      target: "_blank",
     },
 
     {
@@ -57,7 +58,7 @@ const Navbar = () => {
   ];
 
   return (
-    <div className="flex text-gray-800 gap-4 items-center mx-20 shadow-navbar-shadow main-navbar-shadow">
+    <div className="flex text-gray-800 gap-4 items-center mx-20  main-navbar-shadow">
       <div className="flex  gap-3">
         <img className="h-10 w-10" src={Logo} alt="logo" />
         <h1 className="text-3xl text-gray-500 font-medium">Microsoft</h1>

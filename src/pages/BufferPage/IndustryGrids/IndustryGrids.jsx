@@ -5,31 +5,31 @@ const IndustryGrids = () => {
   const AllIndustry = [
     {
       id: "1",
-      title: "Media",
+      title: "Automobile",
       link: "",
       img: "bg-buffer-bg",
     },
     {
       id: "2",
-      title: "Media",
+      title: "Manufacturing",
       link: "",
       img: "bg-buffer-bg-2",
     },
     {
       id: "3",
-      title: "Media",
+      title: "Retail",
       link: "",
       img: "bg-buffer-bg",
     },
     {
       id: "4",
-      title: "Media",
+      title: "Financial Services",
       link: "",
       img: "bg-buffer-bg-2",
     },
     {
       id: "5",
-      title: "Media",
+      title: "Government",
       link: "",
       img: "bg-buffer-bg",
     },
@@ -41,40 +41,46 @@ const IndustryGrids = () => {
     },
     {
       id: "7",
-      title: "Media",
+      title: "Horizontal",
       link: "",
       img: "bg-buffer-bg",
     },
     {
       id: "8",
-      title: "Media",
+      title: "Banking",
       link: "",
       img: "bg-buffer-bg-2",
     },
     {
       id: "9",
-      title: "Media",
+      title: "Healthcare",
       link: "",
       img: "bg-buffer-bg",
+      coming: true
     },
     {
       id: "10",
-      title: "Media",
+      title: "Education",
       link: "",
       img: "bg-buffer-bg-2",
+      coming: true
     },
     {
       id: "11",
-      title: "Media",
+      title: "Energy",
       link: "",
       img: "bg-buffer-bg",
+      coming: true
     },
     {
       id: "12",
-      title: "Media",
+      title: "Engineering & construction",
       link: "",
       img: "bg-buffer-bg-2",
-    },
+      coming: true
+    }
+  
+ 
   ];
   return (
     <section className="mx-10 my-10  md:mx-32 md:my-10">
@@ -92,7 +98,7 @@ const IndustryGrids = () => {
             </h5>
             <div className="absolute z-10 inset-1 flex justify-center items-center font-bold text-white">
               <button className="border-2 hidden group-hover:block p-3 px-5 rounded-full group-hover:border-white group-hover:text-white">
-                Learn More
+               { item?.coming ? "Coming Soon" : "Learn More" }
               </button>
             </div>
             <div class="absolute inset-0 group-hover:bg-[#242424] group-hover:bg-opacity-[0.7]"></div>

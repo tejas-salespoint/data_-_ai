@@ -11,7 +11,7 @@ const Industry = () => {
       <IndustryNavbar />
       <AutomobileOverview />
       <IndustryRowTabs />
-      <IndustryPreFooter />
+      {/* <IndustryPreFooter /> */}
     </div>
   );
 };
