@@ -123,7 +123,7 @@ const FeaturedResources = () => {
 
       {/* Todo :: Updated  */}
       <section className="mx-10 my-10  md:mx-32 md:my-10">
-        <h4 className="font-semibold py-6">Featured resources</h4>
+        <h4 className="font-semibold py-6 text-blue">Featured Resources</h4>
         <div className="grid grid-cols-3 grid-rows-2 gap-5 ">
           {featuredResourcesData.map((feature) => (
             <div key={feature.id} className="row-span-1 relative">

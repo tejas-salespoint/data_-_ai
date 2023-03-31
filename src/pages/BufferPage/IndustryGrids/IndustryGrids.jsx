@@ -1,107 +1,154 @@
-import { buffer } from "constants";
+import { Feature_1 } from "constants";
+import { Automotive_buffer } from "constants";
+import { Finance_buffer } from "constants";
+import { Healthcare_buffer } from "constants";
+import { Manufacturing_buffer } from "constants";
+import { Education_buffer } from "constants";
+import { Media_buffer } from "constants";
+import { Sustainability_buffer } from "constants";
+import { Engineering_buffer } from "constants";
+import { Retail_buffer } from "constants";
+import { Horizantal_buffer } from "constants";
+import { Government_buffer } from "constants";
+import { Energy_buffer } from "constants";
+
 import React from "react";
+import { Link } from "react-router-dom";
 
 const IndustryGrids = () => {
   const AllIndustry = [
     {
       id: "1",
-      title: "Automobile",
+      title: "Automotive",
       link: "",
-      img: "bg-buffer-bg",
+      img: Automotive_buffer,
     },
     {
       id: "2",
-      title: "Manufacturing",
+      title: "Energy",
       link: "",
-      img: "bg-buffer-bg-2",
+      img: Energy_buffer,
     },
     {
       id: "3",
-      title: "Retail",
+      title: "Financial Services",
       link: "",
-      img: "bg-buffer-bg",
+      img: Finance_buffer,
     },
     {
       id: "4",
-      title: "Financial Services",
+      title: "Government",
       link: "",
-      img: "bg-buffer-bg-2",
+      img: Government_buffer,
     },
     {
       id: "5",
-      title: "Government",
+      title: "Healthcare",
       link: "",
-      img: "bg-buffer-bg",
+      img: Healthcare_buffer,
     },
     {
       id: "6",
-      title: "Media",
+      title: "Horizontal",
       link: "",
-      img: "bg-buffer-bg-2",
+      img: Horizantal_buffer,
     },
     {
       id: "7",
-      title: "Horizontal",
+      title: "Manufacturing",
       link: "",
-      img: "bg-buffer-bg",
+      img: Manufacturing_buffer,
     },
     {
       id: "8",
-      title: "Banking",
+      title: "Retail",
       link: "",
-      img: "bg-buffer-bg-2",
+      img: Retail_buffer,
     },
+
+  
+  ];
+  const CommingSoonIndustry = [
+    // comming soon
     {
       id: "9",
-      title: "Healthcare",
+      title: "Education",
       link: "",
-      img: "bg-buffer-bg",
-      coming: true
+      img: Education_buffer,
+      coming: true,
     },
     {
       id: "10",
-      title: "Education",
+      title: "Engineering & Construction",
       link: "",
-      img: "bg-buffer-bg-2",
-      coming: true
+      img: Engineering_buffer,
+      coming: true,
     },
+
     {
       id: "11",
-      title: "Energy",
+      title: "Media",
       link: "",
-      img: "bg-buffer-bg",
-      coming: true
+      img: Media_buffer,
+      coming: true,
     },
+
     {
       id: "12",
-      title: "Engineering & construction",
+      title: "Sustainability",
       link: "",
-      img: "bg-buffer-bg-2",
-      coming: true
-    }
-  
- 
+      img: Sustainability_buffer,
+      coming: true,
+    },
   ];
   return (
     <section className="mx-10 my-10  md:mx-32 md:my-10">
-      <h4 className="font-semibold py-6">Industry Landing</h4>
+      <h4 className="font-semibold text-blue py-6">Industry Landing</h4>
       <div className="grid grid-cols-4 grid-rows-3 gap-4">
         {AllIndustry.map((item) => (
           <div
-            style={{
-              backgroundImage: buffer,
-            }}
-            className={`group relative flex ${item?.img}  bg-cover bg-center bg-no-repeat  items-center bg-blue justify-center h-60 w-full  `}
+            key={item?.title}
+            className={`group relative flex   bg-cover bg-center bg-no-repeat  items-center  justify-center h-60 w-full  `}
           >
+           <img className="h-full w-full" src={item?.img} alt="feature_1" />
+           <div>
+
+          
             <h5 className="absolute z-10 inset-1 flex justify-center group-hover:hidden items-center font-bold text-white">
-              {item.title}
+              {item?.title}
             </h5>
             <div className="absolute z-10 inset-1 flex justify-center items-center font-bold text-white">
-              <button className="border-2 hidden group-hover:block p-3 px-5 rounded-full group-hover:border-white group-hover:text-white">
-               { item?.coming ? "Coming Soon" : "Learn More" }
-              </button>
+              <Link to={"/industry"}>
+                <button className="border-2 hidden group-hover:block p-3 px-5 rounded-full group-hover:border-white group-hover:text-white">
+               Learn More
+                </button>
+              </Link>
+            </div>
             </div>
             <div class="absolute inset-0 group-hover:bg-[#242424] group-hover:bg-opacity-[0.7]"></div>
+          </div>
+        ))}
+
+    
+
+        {CommingSoonIndustry.map((item) => (
+          <div
+            className={`group relative flex  bg-cover bg-center bg-no-repeat  items-center bg-blue justify-center h-60 w-full  `}
+          >
+            <img className="h-full w-full blur-sm" src={item?.img} alt="feature_1" />
+            <div className="flex flex-col absolute gap-3 z-10 inset-1 justify-center items-center">
+              <h5 className=" flex justify-center  items-center font-bold text-white">
+              {item.title}
+              </h5>
+              <div className=" font-bold text-white">
+                <Link to={"/industry"}>
+                  <button className="p-1 text-white bg-blue  px-5 rounded-full ">
+                    Coming Soon
+                  </button>
+                </Link>
+              </div>
+            </div>
+            <div class="absolute inset-0 bg-[#242424] bg-opacity-[0.7]"></div>
           </div>
         ))}
       </div>

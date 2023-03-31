@@ -1,102 +1,25 @@
-import { Avatar } from "constants";
-import React from "react";
+import React from 'react'
+import Teams from './Teams'
 
 const Footer = () => {
   return (
-    <section className=" md:px-32 md:py-10 bg-light-blue">
+    <>
 
-     <h3 className="font-semibold pb-8 text-blue">Our Team</h3>
-     
-      <div className="grid grid-cols-5 gap-10 ">
-        <div className="flex hover:bg-blue-100  flex-col gap-3 items-center p-8 px-14 border-2 bg-white border-blue">
-          <img className="h-40 w-40 shadow-avatar-shadow rounded-full" src={Avatar} alt="avatar" />
-          <div className="flex flex-col gap-1 items-center">
-            <h5 className="font-bold">Anial Drian</h5>
-            <p className="text-sgray">anial.drian@microsoft.com</p>
-            <p className="text-sgray">+1-1234567890</p>
-          </div>
-        </div>
-        <div className="flex hover:bg-blue-100   flex-col gap-3 items-center p-8 px-14 border-2 bg-white border-blue">
-          <img className="h-40 w-40 shadow-avatar-shadow rounded-full" src={Avatar} alt="avatar" />
-          <div className="flex flex-col gap-1 items-center">
-            <h5 className="font-bold">Anial Drian</h5>
-            <p className="text-sgray">anial.drian@microsoft.com</p>
-            <p className="text-sgray">+1-1234567890</p>
-          </div>
-        </div>
-        <div className="flex hover:bg-blue-100  flex-col gap-3 items-center p-8 px-14 border-2 bg-white border-blue">
-          <img className="h-40 w-40 shadow-avatar-shadow rounded-full" src={Avatar} alt="avatar" />
-          <div className="flex flex-col gap-1 items-center">
-            <h5 className="font-bold">Anial Drian</h5>
-            <p className="text-sgray">anial.drian@microsoft.com</p>
-            <p className="text-sgray">+1-1234567890</p>
-          </div>
-        </div>
-        <div className="flex hover:bg-blue-100  flex-col gap-3 items-center p-8 px-14 border-2 bg-white border-blue">
-          <img className="h-40 w-40 shadow-avatar-shadow rounded-full" src={Avatar} alt="avatar" />
-          <div className="flex flex-col gap-1 items-center">
-            <h5 className="font-bold">Anial Drian</h5>
-            <p className="text-sgray">anial.drian@microsoft.com</p>
-            <p className="text-sgray">+1-1234567890</p>
-          </div>
-        </div>
-        <div className="flex hover:bg-blue-100  flex-col gap-3 items-center p-8 px-14 border-2 bg-white border-blue">
-          <img className="h-40 w-40 shadow-avatar-shadow rounded-full" src={Avatar} alt="avatar" />
-          <div className="flex flex-col gap-1 items-center">
-            <h5 className="font-bold">Anial Drian</h5>
-            <p className="text-sgray">anial.drian@microsoft.com</p>
-            <p className="text-sgray">+1-1234567890</p>
-          </div>
-        </div>
-        <div className="flex hover:bg-blue-100  flex-col gap-3 items-center p-8 px-14 border-2 bg-white border-blue">
-          <img className="h-40 w-40 shadow-avatar-shadow rounded-full" src={Avatar} alt="avatar" />
-          <div className="flex flex-col gap-1 items-center">
-            <h5 className="font-bold">Anial Drian</h5>
-            <p className="text-sgray">anial.drian@microsoft.com</p>
-            <p className="text-sgray">+1-1234567890</p>
-          </div>
-        </div>
-        <div className="flex hover:bg-blue-100  flex-col gap-3 items-center p-8 px-14 border-2 bg-white border-blue">
-          <img className="h-40 w-40 shadow-avatar-shadow rounded-full" src={Avatar} alt="avatar" />
-          <div className="flex flex-col gap-1 items-center">
-            <h5 className="font-bold">Anial Drian</h5>
-            <p className="text-sgray">anial.drian@microsoft.com</p>
-            <p className="text-sgray">+1-1234567890</p>
-          </div>
-        </div>
+    
+    <Teams/>
 
-        <div className="flex hover:bg-blue-100  flex-col gap-3 items-center p-8 px-14 border-2 bg-white border-blue">
-          <img className="h-40 w-40 shadow-avatar-shadow rounded-full" src={Avatar} alt="avatar" />
-          <div className="flex flex-col gap-1 items-center">
-            <h5 className="font-bold">Anial Drian</h5>
-            <p className="text-sgray">anial.drian@microsoft.com</p>
-            <p className="text-sgray">+1-1234567890</p>
-          </div>
-        </div>
+    <div className='bg-footer'>
+      <ul className='flex justify-end p-5 gap-3'>
+        <li className='font-medium text-white text-md'>Contact Microsoft</li>
+        <li className='font-medium text-white text-md'>Privacy</li>
+        <li className='font-medium text-white text-md'>Terms of use</li>
+        <li className='font-medium text-white text-md'>Trademarks</li>
+        <li className='font-medium text-white text-md'>About our ads</li>
+        <li className='font-medium text-white text-md'> Microsoft 2023</li>
+      </ul>
+    </div>
+    </>
+  )
+}
 
-        <div className="flex hover:bg-blue-100  flex-col gap-3 items-center p-8 px-14 border-2 bg-white border-blue">
-          <img className="h-40 w-40 shadow-avatar-shadow rounded-full" src={Avatar} alt="avatar" />
-          <div className="flex flex-col gap-1 items-center">
-            <h5 className="font-bold">Anial Drian</h5>
-            <p className="text-sgray">anial.drian@microsoft.com</p>
-            <p className="text-sgray">+1-1234567890</p>
-          </div>
-        </div>
-
-        <div className="flex hover:bg-blue-100  flex-col gap-3 items-center p-8 px-14 border-2 bg-white border-blue">
-          <img className="h-40 w-40 shadow-avatar-shadow rounded-full" src={Avatar} alt="avatar" />
-          <div className="flex flex-col gap-1 items-center">
-            <h5 className="font-bold">Anial Drian</h5>
-            <p className="text-sgray">anial.drian@microsoft.com</p>
-            <p className="text-sgray">+1-1234567890</p>
-          </div>
-        </div>
-
-
-      </div>
-      
-    </section>
-  );
-};
-
-export default Footer;
+export default Footer
