@@ -15,29 +15,28 @@ const IndustryRowTabs = () => {
   const rows = [
     {
       id: "1",
-      title: "Accelerated Innovation",
+      title: "Accelerated Innovations",
     },
     {
       id: "2",
-      title: "Emerging Mobility Services",
+      title: "Deliver Differentiated CX",
     },
     {
       id: "3",
-      title: "Resiient Operations",
+      title: "Emerging Mobility Services",
     },
     {
       id: "4",
-      title: "Differentiated Customer EXP",
+      title: "Resilient Operations",
     },
-    {
-      id: "5",
-      title: "Increased Organizational",
-    },
+    
+    
+    
   ];
   return (
     <>
       <section className="mx-10 my-10  md:mx-32 md:my-10">
-        <ul className="flex gap-5 justify-between flex-nowrap relative overflow-hidden">
+        <ul className="flex gap-5  flex-nowrap relative overflow-hidden">
           {rows.map((item) => (
             <li
               onClick={() => tabActiveHandler(item.id)}

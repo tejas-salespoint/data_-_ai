@@ -71,3 +71,7 @@ export const Retail_buffer = require("assets/Industry images/Retail.jpg")
 export const Sustainability_buffer = require("assets/Industry images/Automotive.jpg")
 
 
+// icons svg
+export const AssetsIcons = require("assets/icons/Assets.svg")
+export const DemoIcons = require("assets/icons/Demo.svg")
+export const SaasIcons = require("assets/icons/Saas.svg")

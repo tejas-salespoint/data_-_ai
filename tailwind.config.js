@@ -13,6 +13,7 @@ module.exports = {
         "custom-linear-gradient":
           "linear-gradient(91.25deg, #092546 -1.83%, #1A43B1 100.61%);",
           "footer" : "linear-gradient(91.25deg, #092546 -1.83%, #1A43B1 100.61%);",
+          "power-apps-bg" : "linear-gradient(91.12deg, #652263 0%, #962E8B 100%);",
 
           // INDUSTRY LANDING
           "Automotive": "url('./assets/Industry images/Automotive.jpg')",
@@ -45,6 +46,7 @@ module.exports = {
         "navbar-shadow": "0px 3px 2px rgba(0, 0, 0, 0.22)",
         "main-navbar-shadow": "0px 3px 2px rgba(0, 0, 0, 0.22);",
         "avatar-shadow": "0px 4px 15px rgba(0, 0, 0, 0.2);",
+        "company-shadow" : "0px 4px 10px rgba(0, 0, 0, 0.25);"
       },
     },
   },
