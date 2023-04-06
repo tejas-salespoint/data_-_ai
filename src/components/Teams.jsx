@@ -55,7 +55,7 @@ const Teams = () => {
   ];
   return (
     <section className=" md:px-32 md:py-10 bg-light-gray ">
-      <h4 className="font-semibold pb-8 text-blue">Our Team</h4>
+      <h4 className="font-semibold pb-8 text-blue">Key Contacts</h4>
 
       <div className="grid grid-cols-7 gap-10 ">
 

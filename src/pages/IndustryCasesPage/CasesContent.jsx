@@ -4,9 +4,10 @@ import React from "react";
 const CasesContent = () => {
   return (
     <section className="mx-10 my-10  md:mx-32 md:my-10">
-      <h4 className="font-semibold py-6 text-blue">Featured Resources</h4>
+     
       <div className="grid grid-cols-2 gap-10">
         <div className="flex flex-col gap-8 text-gray">
+        <h4 className="font-semibold py-6 text-blue"> Key Highlights</h4>
           {/*  */}
           <div>
             <text className="font font-semibold text-lg">Decision Makers :</text>
@@ -77,6 +78,7 @@ const CasesContent = () => {
 
         <div className="flex flex-col gap-10">
           {/* second side */}
+            <h4 className="font-semibold py-6 text-blue"> Key Highlights</h4>
 
           <div className="flex flex-col">
             <text className="font-medium">Industries : Manufacturing</text>

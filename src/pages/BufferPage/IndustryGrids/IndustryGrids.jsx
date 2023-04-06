@@ -65,8 +65,6 @@ const IndustryGrids = () => {
       link: "",
       img: Retail_buffer,
     },
-
-  
   ];
   const CommingSoonIndustry = [
     // comming soon
@@ -110,39 +108,44 @@ const IndustryGrids = () => {
             key={item?.title}
             className={`group relative flex   bg-cover bg-center bg-no-repeat  items-center  justify-center h-60 w-full  `}
           >
-           <img className="h-full w-full" src={item?.img} alt="feature_1" />
-           <div>
-
-          
-            <h5 className="absolute z-10 inset-1 flex justify-center group-hover:hidden items-center font-bold text-white">
-              {item?.title}
-            </h5>
-            <div className="absolute z-10 inset-1 flex justify-center items-center font-bold text-white">
-              <Link to={"/industry"}>
-                <button className="border-2 hidden group-hover:block p-3 px-5 rounded-full group-hover:border-white group-hover:text-white">
-               Learn More
+            <img className="h-full w-full" src={item?.img} alt="feature_1" />
+            <div>
+              <div className="absolute z-10 inset-1 flex justify-center group-hover:hidden items-center font-bold text-white">
+                <button className="p-1 text-white bg-blue font-bold   px-5 rounded-full ">
+                  {item?.title}
                 </button>
-              </Link>
-            </div>
+              </div>
+
+              <div className="absolute z-10 inset-1 flex justify-center items-center font-bold text-white">
+                <Link to={"/industry"}>
+                
+                  <button className="p-1 hidden group-hover:block text-blue bg-white font-bold   px-5 rounded-full ">
+                  Learn More
+                </button>
+                </Link>
+              </div>
             </div>
             <div class="absolute inset-0 group-hover:bg-[#242424] group-hover:bg-opacity-[0.7]"></div>
           </div>
         ))}
 
-    
-
         {CommingSoonIndustry.map((item) => (
           <div
             className={`group relative flex  bg-cover bg-center bg-no-repeat  items-center bg-blue justify-center h-60 w-full  `}
           >
-            <img className="h-full w-full blur-sm" src={item?.img} alt="feature_1" />
+            <img
+              className="h-full w-full blur-sm"
+              src={item?.img}
+              alt="feature_1"
+            />
             <div className="flex flex-col absolute gap-3 z-10 inset-1 justify-center items-center">
-              <h5 className=" flex justify-center  items-center font-bold text-white">
-              {item.title}
-              </h5>
+             
+              <button className="p-1 text-white bg-blue font-bold   w-[70%] rounded-full ">
+                  {item?.title}
+                </button>
               <div className=" font-bold text-white">
                 <Link to={"/industry"}>
-                  <button className="p-1 text-white bg-blue  px-5 rounded-full ">
+                  <button className="p-1 text-blue bg-white  px-5 rounded-full ">
                     Coming Soon
                   </button>
                 </Link>

@@ -19,7 +19,7 @@ export const featuredResourcesData = [
   },
   {
     id: 2,
-    title: "Azure OpenAI on GearUp",
+    title: "Azure OpenAI on GearUp | Industry Assets",
     img: Feature_2,
     link: "https://gearup.microsoft.com/product/azure-openai-service",
     target: "_blank",
@@ -42,16 +42,17 @@ export const featuredResourcesData = [
   },
   {
     id: 5,
-    title: "DAI Learning & Development Resources",
+   
+    title: "DAI Industry MegaMap",
     img: Feature_5,
     // jimmy to find link
-    link: "",
+    link: "https://apps.powerapps.com/play/e/839eace6-59ab-4243-97ec-a5b8fcc104e4/a/2db83f8b-2acb-4cc9-a835-9c462479c0b4?tenantId=72f988bf-86f1-41af-91ab-2d7cd011db47",
   },
   {
     id: 6,
-    title: "DAI MegaMap",
+    title: "DAI Industry Learning Resources",
     img: Feature_6,
-    link: "https://apps.powerapps.com/play/e/839eace6-59ab-4243-97ec-a5b8fcc104e4/a/2db83f8b-2acb-4cc9-a835-9c462479c0b4?tenantId=72f988bf-86f1-41af-91ab-2d7cd011db47",
+    link: "",
     target: "_blank",
   },
 ];

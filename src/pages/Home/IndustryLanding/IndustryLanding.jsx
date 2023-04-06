@@ -24,7 +24,7 @@ const IndustryLanding = () => {
       icon : Government
     },
     {
-      title : 'Healtcare',
+      title : 'Healthcare',
       icon : Healthcare
     },
     {
