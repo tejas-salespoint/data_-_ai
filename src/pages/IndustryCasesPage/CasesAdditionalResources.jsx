@@ -3,15 +3,16 @@ import PlayIcon from "assets/icons/PlayIcon";
 import SystemIcon from "assets/icons/SystemIcon";
 
 import TestIcon from "assets/icons/TestIcon";
+import { powerAppsImg } from "constants";
 
 import React from "react";
 import { Link } from "react-router-dom";
 
 const CasesAdditionalResources = () => {
   return (
-    <section className="mx-10 my-10  md:mx-32 md:my-10">
-      <h4 className="font-semibold py-6 text-blue">Additional Resources</h4>
-      <div className="grid grid-cols-5  gap-12 place-items-center">
+    <section className="mx-10 my-10  md:mx-32 md:my-10 flex justify-center items-center">
+      {/* <h4 className="font-semibold py-6 text-blue">Additional Resources</h4> */}
+      {/* <div className="grid grid-cols-5  gap-12 place-items-center">
         <Link className="p-5 flex gap-2 bg-light-blue w-full items-center justify-center hover:bg-white hover:shadow-company-shadow ">
           <TestIcon />
           <span className="text-blue font-semibold">Assets</span>
@@ -28,7 +29,20 @@ const CasesAdditionalResources = () => {
           <LinkIcon />
           <span className="text-white font-semibold" >Power Apps | Industry Use Case MegaMap</span>
         </Link>
-      </div>
+      </div> */}
+<div className="w-[60%] border border-2 p-5 rounded-2xl shadow-company-shadow border-blue">
+  <h4 className="font-semibold text-blue flex justify-center mb-5">Additional Resources</h4>
+  <div className="grid grid-cols-2 gap-10 px-8">
+    <div>
+      <h4 className="font-medium text-gray">Pitch Decks , Demos , Assets,Solution , Accelerators, etc.</h4>
+      <button className="p-5 my-8 text-white font-semibold col-span-2 flex gap-1 bg-power-apps-bg w-full items-center justify-center hover:bg-white hover:shadow-company-shadow">Power Apps | Industry Use Case MegaMap</button>
+    </div>
+    <div>
+      <img className="" src={powerAppsImg} alt="powerApps" />
+    </div>
+  </div>
+</div>
+      
     </section>
   );
 };

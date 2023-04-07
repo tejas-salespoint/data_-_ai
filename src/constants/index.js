@@ -75,3 +75,7 @@ export const Sustainability_buffer = require("assets/Industry images/Automotive.
 export const AssetsIcons = require("assets/icons/Assets.svg")
 export const DemoIcons = require("assets/icons/Demo.svg")
 export const SaasIcons = require("assets/icons/Saas.svg")
+
+// demo image
+
+export const powerAppsImg = require("assets/power_apps.png")
