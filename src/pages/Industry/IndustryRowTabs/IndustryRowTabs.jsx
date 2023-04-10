@@ -42,7 +42,7 @@ const IndustryRowTabs = () => {
               onClick={() => tabActiveHandler(item.id)}
               key={item.id}
               className={`flex items-center  whitespace-nowrap  cursor-pointer text-2xl font-medium text-blue bg-light-blue  px-3 py-2 ${
-                tabActive == item?.id ? "border-4 border-blue-500" : ""
+                tabActive === item?.id ? "border-4 border-blue-500" : ""
               }`}
             >
               {item.title}

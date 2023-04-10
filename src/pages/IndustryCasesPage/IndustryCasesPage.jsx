@@ -1,5 +1,4 @@
 import Header from "components/Header";
-import AdditionalResources from "pages/Home/AdditionalResources/AdditionalResources";
 import React from "react";
 import CasesAdditionalResources from "./CasesAdditionalResources";
 import CasesContent from "./CasesContent";
