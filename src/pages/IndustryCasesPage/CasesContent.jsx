@@ -1,5 +1,6 @@
 import { Cases } from "constants";
 import React from "react";
+import { Link } from "react-router-dom";
 
 const CasesContent = () => {
   return (
@@ -7,7 +8,7 @@ const CasesContent = () => {
      
       <div className="grid grid-cols-2 gap-10">
         <div className="flex flex-col gap-8 text-gray">
-        <h4 className="font-semibold py-6 text-blue"> Key Highlights</h4>
+        <h4 className="font-semibold pt-6 text-blue">Key Highlights</h4>
           {/*  */}
           <div>
             <text className="font font-semibold text-lg">Decision Makers :</text>
@@ -78,7 +79,7 @@ const CasesContent = () => {
 
         <div className="flex flex-col gap-10">
           {/* second side */}
-            <h4 className="font-semibold py-6 text-blue"> Key Highlights</h4>
+            <h4 className="font-semibold pt-6 text-blue">Ideal Customer Profile</h4>
 
           <div className="flex flex-col">
             <text className="font-medium">Industries : Manufacturing</text>
@@ -90,7 +91,7 @@ const CasesContent = () => {
 
           <div>
             <img className="w-[80%]" src={Cases} alt="cases" />
-            <p className="text-center w-[80%] pt-1 font-bold text-gray">Buisness Architecture: Automated Quality Inspection</p>
+            <p className="text-center w-[80%] pt-1 font-bold text-gray">Refer to <Link><span className="text-blue">Manufacturing Kit</span></Link> for more details</p>
           </div>
           
         </div>
