@@ -1,12 +1,6 @@
-import LinkIcon from "assets/icons/LinkIcon";
-import PlayIcon from "assets/icons/PlayIcon";
-import SystemIcon from "assets/icons/SystemIcon";
 
-import TestIcon from "assets/icons/TestIcon";
 import { powerAppsImg } from "constants";
-
 import React from "react";
-import { Link } from "react-router-dom";
 
 const CasesAdditionalResources = () => {
   return (

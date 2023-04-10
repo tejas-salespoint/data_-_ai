@@ -1,4 +1,4 @@
-import { Feature_1 } from "constants";
+
 import { Automotive_buffer } from "constants";
 import { Finance_buffer } from "constants";
 import { Healthcare_buffer } from "constants";

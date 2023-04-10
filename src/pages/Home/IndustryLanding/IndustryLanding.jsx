@@ -1,5 +1,4 @@
 import React from "react";
-import Industry from "../../../assets/home/industry/industry.png";
 import { Link } from "react-router-dom";
 import { Automotive } from "constants";
 import { Financial } from "constants";

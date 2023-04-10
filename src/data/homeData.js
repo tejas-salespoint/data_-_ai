@@ -6,8 +6,7 @@ import { Feature_5 } from "constants";
 import { Feature_6 } from "constants";
 import { Feature_3 } from "constants";
 import { Feature_2 } from "constants";
-import { FeaturedImage_2 } from "constants";
-import { FeaturedImage_1 } from "constants";
+
 
 export const featuredResourcesData = [
   {

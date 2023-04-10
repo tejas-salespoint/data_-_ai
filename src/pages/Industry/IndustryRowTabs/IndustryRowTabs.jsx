@@ -10,7 +10,7 @@ const IndustryRowTabs = () => {
 
   useEffect(() => {
     tabActiveHandler(tabActive);
-  }, []);
+  },);
 
   const rows = [
     {
