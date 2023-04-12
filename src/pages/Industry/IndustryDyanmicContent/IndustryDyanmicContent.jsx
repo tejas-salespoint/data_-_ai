@@ -15,7 +15,7 @@ const IndustryDyanmicContent = ({ activeId }) => {
       <div className="flex flex-col overflow-y-scroll rounded-lg rounded-full">
         {/* first component multiple tabs */}
         {/* 1st */}
-        <div className={`m-5   ${activeId === 1 ? "" : "hidden"} `}>
+        <div className={`m-5   ${activeId == 1 ? "" : "hidden"} `}>
           <h4 className="text-blue font-bold mb-9">Accelerated Innovations</h4>
           <div className="flex flex-col gap-6 ">
             <p className="font-bold"> Business Application Industry Content</p>
@@ -62,7 +62,7 @@ const IndustryDyanmicContent = ({ activeId }) => {
           </div>
         </div>
         {/* 2nd */}
-        <div className={`m-5 ${activeId === 2 ? "" : "hidden"}`}>
+        <div className={`m-5 ${activeId == 2 ? "" : "hidden"}`}>
           <h5 className="text-blue font-bold mb-9">
             Emerging Mobility Services
           </h5>
@@ -81,7 +81,7 @@ const IndustryDyanmicContent = ({ activeId }) => {
           </div>
         </div>
         {/* 3rd */}
-        <div className={`m-5 ${activeId === 3 ? "" : "hidden"}`}>
+        <div className={`m-5 ${activeId == 3 ? "" : "hidden"}`}>
           <h5 className="text-blue font-bold my-5">Resilient Operations</h5>
           <div className="flex flex-col gap-6">
             <p className="font-bold"> Business Application Industry Content</p>
@@ -98,7 +98,7 @@ const IndustryDyanmicContent = ({ activeId }) => {
           </div>
         </div>
         {/* 4th */}
-        <div className={`m-5 ${activeId === 4 ? "" : "hidden"}`}>
+        <div className={`m-5 ${activeId == 4 ? "" : "hidden"}`}>
           <h4 className="text-blue font-bold mb-3">Resilient Operations</h4>
           <div className="flex flex-col gap-6">
             <div className="flex flex-col gap-4">
@@ -174,7 +174,7 @@ const IndustryDyanmicContent = ({ activeId }) => {
           </div>
         </div>
         {/* 5th */}
-        <div className={`m-5 ${activeId === 5 ? "" : "hidden"}`}>
+        <div className={`m-5 ${activeId == 5 ? "" : "hidden"}`}>
           <h5 className="text-blue font-bold mb-9">Increased Organizational</h5>
           <div className="flex flex-col gap-6">
             <p className="font-bold"> Business Application Industry Content</p>
@@ -192,12 +192,12 @@ const IndustryDyanmicContent = ({ activeId }) => {
         </div>
       </div>
       {/* second navbar component */}
-      <div className={`   ${activeId === 1 ? "" : "hidden"} bg-light-blue`}>
+      <div className={`   ${activeId == 1 ? "" : "hidden"} bg-light-blue`}>
         <div className=" flex flex-col  gap-2   bg-light-blue pt-8 w-100">
           <label
             onClick={() => toggleTab(1)}
             className={`text-blue font-bold p-3 px-6  ${
-              toggleState === 1
+              toggleState == 1
                 ? "bg-white border-l-8 border-black w-100 shadow-custom-shadow"
                 : ""
             }`}
@@ -207,7 +207,7 @@ const IndustryDyanmicContent = ({ activeId }) => {
           <label
             onClick={() => toggleTab(2)}
             className={`text-blue font-bold p-3 px-6 ${
-              toggleState === 2
+              toggleState == 2
                 ? "bg-white border-l-8 border-black w-100 shadow-custom-shadow"
                 : ""
             }`}
@@ -216,12 +216,12 @@ const IndustryDyanmicContent = ({ activeId }) => {
           </label>
         </div>
       </div>
-      <div className={`   ${activeId === 2 ? "" : "hidden"} bg-light-blue`}>
+      <div className={`   ${activeId == 2 ? "" : "hidden"} bg-light-blue`}>
         <div className=" flex flex-col  gap-2   bg-light-blue pt-8 w-100">
           <label
             onClick={() => toggleTab(1)}
             className={`text-blue font-bold p-3 px-6  ${
-              toggleState === 1
+              toggleState == 1
                 ? "bg-white border-l-8 border-black w-100 shadow-custom-shadow"
                 : ""
             }`}
@@ -230,12 +230,12 @@ const IndustryDyanmicContent = ({ activeId }) => {
           </label>
         </div>
       </div>
-      <div className={`   ${activeId === 3 ? "" : "hidden"} bg-light-blue`}>
+      <div className={`   ${activeId == 3 ? "" : "hidden"} bg-light-blue`}>
         <div className=" flex flex-col  gap-2   bg-light-blue pt-8 w-100">
           <label
             onClick={() => toggleTab(1)}
             className={`text-blue font-bold p-3 px-6  ${
-              toggleState === 1
+              toggleState == 1
                 ? "bg-white border-l-8 border-black w-100 shadow-custom-shadow"
                 : ""
             }`}
@@ -244,12 +244,12 @@ const IndustryDyanmicContent = ({ activeId }) => {
           </label>
         </div>
       </div>
-      <div className={`   ${activeId === 4 ? "" : "hidden"} bg-light-blue`}>
+      <div className={`   ${activeId == 4 ? "" : "hidden"} bg-light-blue`}>
         <div className=" flex flex-col  gap-2   bg-light-blue pt-8 w-100">
           <label
             onClick={() => toggleTab(1)}
             className={`text-blue font-bold p-3 px-6  ${
-              toggleState === 1
+              toggleState == 1
                 ? "bg-white border-l-8 border-black w-100 shadow-custom-shadow"
                 : ""
             }`}
@@ -259,7 +259,7 @@ const IndustryDyanmicContent = ({ activeId }) => {
           <label
             onClick={() => toggleTab(2)}
             className={`text-blue font-bold p-3 px-6 ${
-              toggleState === 2
+              toggleState == 2
                 ? "bg-white border-l-8 border-black w-100 shadow-custom-shadow"
                 : ""
             }`}
@@ -269,7 +269,7 @@ const IndustryDyanmicContent = ({ activeId }) => {
           <label
             onClick={() => toggleTab(3)}
             className={`text-blue font-bold p-3 px-6 ${
-              toggleState === 3
+              toggleState == 3
                 ? "bg-white border-l-8 border-black w-100 shadow-custom-shadow"
                 : ""
             }`}
@@ -279,7 +279,7 @@ const IndustryDyanmicContent = ({ activeId }) => {
           <label
             onClick={() => toggleTab(4)}
             className={`text-blue font-bold p-3 px-6 ${
-              toggleState === 4
+              toggleState == 4
                 ? "bg-white border-l-8 border-black w-100 shadow-custom-shadow"
                 : ""
             }`}
@@ -289,7 +289,7 @@ const IndustryDyanmicContent = ({ activeId }) => {
           <label
             onClick={() => toggleTab(5)}
             className={`text-blue font-bold p-3 px-6 ${
-              toggleState === 5
+              toggleState == 5
                 ? "bg-white border-l-8 border-black w-100 shadow-custom-shadow"
                 : ""
             }`}
@@ -302,7 +302,7 @@ const IndustryDyanmicContent = ({ activeId }) => {
       {/* third Content Component */}
       <div className="m-5">
         {/* tab 1 */}
-        <div className={toggleState === 1 ? "" : "hidden"}>
+        <div className={toggleState == 1 ? "" : "hidden"}>
           <h4 className="font-bold text-blue">Connected Vehicle</h4>
           <div className="flex gap-4 flex-col my-5">
             <p className="font-bold">Business Application Industry Content</p>
@@ -333,7 +333,7 @@ const IndustryDyanmicContent = ({ activeId }) => {
         </div>
 
         {/* tab 2 */}
-        <div className={toggleState === 2 ? "" : "hidden"}>
+        <div className={toggleState == 2 ? "" : "hidden"}>
           <h4 className="font-bold text-blue">Autonomous Devlopment</h4>
           <div className="flex gap-4 flex-col my-5">
             <p className="font-bold">Business Application Industry Content</p>
@@ -364,7 +364,7 @@ const IndustryDyanmicContent = ({ activeId }) => {
         </div>
 
         {/* tab 3 */}
-        <div className={toggleState === 3 ? "" : "hidden"}>
+        <div className={toggleState == 3 ? "" : "hidden"}>
           <h4 className="font-bold text-blue">DevOps / ML Ops</h4>
           <div className="flex gap-4 flex-col my-5">
             <p className="font-bold">Business Application Industry Content</p>
@@ -395,7 +395,7 @@ const IndustryDyanmicContent = ({ activeId }) => {
         </div>
 
         {/* tab 4 */}
-        <div className={toggleState === 4 ? "" : "hidden"}>
+        <div className={toggleState == 4 ? "" : "hidden"}>
           <h4 className="font-bold text-blue">Connected Services</h4>
           <div className="flex gap-4 flex-col my-5">
             <p className="font-bold">Business Application Industry Content</p>
@@ -426,7 +426,7 @@ const IndustryDyanmicContent = ({ activeId }) => {
         </div>
 
         {/* tab 5 */}
-        <div className={toggleState === 5 ? "" : "hidden"}>
+        <div className={toggleState == 5 ? "" : "hidden"}>
           <h4 className="font-bold text-blue">Automated Quality Inspection</h4>
           <div className="flex gap-4 flex-col my-5">
             <p className="font-bold">Overview</p>
@@ -464,7 +464,7 @@ const IndustryDyanmicContent = ({ activeId }) => {
         </div>
 
         {/* tab 6 */}
-        <div className={toggleState === 6 ? "" : "hidden"}>
+        <div className={toggleState == 6 ? "" : "hidden"}>
           <h4 className="font-bold text-blue">Digital Engineering & HPC</h4>
           <div className="flex gap-4 flex-col my-5">
             <p className="font-bold">Business Application Industry Content</p>
