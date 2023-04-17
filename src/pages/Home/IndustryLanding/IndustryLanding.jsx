@@ -7,7 +7,7 @@ import { Healthcare } from "constants";
 import { Horizontal } from "constants";
 import { Manufacturing } from "constants";
 import { Retail } from "constants";
-import LinkWithoutScroll from "LinkWithoutScroll";
+
 
 const IndustryLanding = () => {
   const industry = [
@@ -42,10 +42,7 @@ const IndustryLanding = () => {
     
   ];
 
-  const handleLinkClick = (event) => {
-    event.preventDefault(); // prevent default anchor tag behavior
-    // additional custom logic or navigation here
-  };
+  
   return (
     <section className="mx-10 my-10  md:mx-32 md:my-10">
       <h4 className="font-semibold py-6 text-blue">Industry Landing</h4>

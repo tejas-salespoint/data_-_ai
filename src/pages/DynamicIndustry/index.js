@@ -1,5 +1,5 @@
 
-import IndustryDynamicTable from "components/industry/IndustryDynamicTable";
+
 import IndustryNavbar from "components/industry/IndustryNavbar";
 import IndustryOverview from "components/industry/IndustryOverview";
 import IndustrySolutionPlayes from "components/industry/IndustrySolutionPlayes";
