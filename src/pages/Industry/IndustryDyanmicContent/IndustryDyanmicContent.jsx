@@ -485,7 +485,7 @@ const IndustryDyanmicContent = ({ activeId }) => {
               and drive effective
             </p>
             <p>
-              conversations with your customers visit the{" "}
+              conversations with your customers visit the
               <span className="text-cyan-600">Industry Hub</span> today.
             </p>
           </div>

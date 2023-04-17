@@ -61,7 +61,7 @@ const Teams = () => {
 
       {
         teams.map(team => (
-          <div className="flex hover:bg-blue-100  flex-col gap-3 items-center   ">
+          <div className="flex   flex-col gap-3 items-center   ">
           <img
             className=" h-[50%] shadow-avatar-shadow rounded-full"
             src={team?.avatar}

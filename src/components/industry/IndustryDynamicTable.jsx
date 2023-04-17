@@ -22,6 +22,10 @@ const IndustryDynamicTable = ({ activeId, activeIndustryData, tabActive }) => {
     changeToggle();
   }, [tabActive]);
 
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   const toggleTab = (index) => {
     setToggleState(index);
   };
@@ -31,16 +35,16 @@ const IndustryDynamicTable = ({ activeId, activeIndustryData, tabActive }) => {
   );
 
   return (
-    <section className="mx-10 my-10 h-[42rem]  md:mx-32 md:my-10 grid grid-cols-3 grid-flow-row border m-5 border-gray-600 ">
+    <section className="mx-10 my-10 h-[42rem] overflow-hidden  md:mx-32 md:my-10 grid grid-cols-3 grid-flow-row border m-5 border-gray-600 ">
       {/* First component  */}
 
       {/* <div className="flex flex-col overflow-auto  scrollbar scrollbar-thin scrollbar-thumb-[#CCCCCC] scrollbar-track-transparent"> */}
       <div className="flex flex-col overflow-y-scroll rounded-lg rounded-full">
         {/* first component multiple tabs */}
         {/* 1st */}
-        <div className={`m-5 `}>
+        <div className={`m-5`}>
           <h4 className="text-blue font-bold mb-9">{solution_play?.title}</h4>
-          <div className="flex flex-col gap-6 ">
+          <div className="flex flex-col gap-6  ">
             {/* content */}
 
             {Parser(solution_play?.content)}
@@ -71,20 +75,19 @@ const IndustryDynamicTable = ({ activeId, activeIndustryData, tabActive }) => {
         </div>
       </div>
 
-
       {/* third Content Component */}
-      <div className="m-5">
+      <div className="p-5 overflow-y-scroll">
         {/* tab 1 */}
         {/* <div className={toggleState == 1 ? "" : "hidden"}> */}
-        <div>
-          <h4 className="font-bold text-blue">{currentUseCases?.title}</h4>
-          <div className="flex gap-4 flex-col my-5">
-            <p className="font-bold">
+        <div className="">
+          <h4 className="font-bold text-blue mb-9">{currentUseCases?.title}</h4>
+          <div className="flex gap-4 flex-col ">
+            <p className="font-bold ">
               {currentUseCases?.use_cases_content[0]?.subtitle}
             </p>
-            
+
             {/* content */}
-            
+
             {Parser(currentUseCases?.use_cases_content[0]?.desc || "not found")}
             {/* {currentUseCases?.use_cases_content[0]?.desc} */}
           </div>

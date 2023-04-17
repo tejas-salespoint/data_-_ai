@@ -12,10 +12,12 @@ import { Horizantal_buffer } from "constants";
 import { Government_buffer } from "constants";
 import { Energy_buffer } from "constants";
 
-import React from "react";
+import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 
 const IndustryGrids = () => {
+
+
   const AllIndustry = [
     {
       id: "1",
@@ -99,6 +101,10 @@ const IndustryGrids = () => {
       coming: true,
     },
   ];
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <section className="mx-10 my-10  md:mx-32 md:my-10">
       <h4 className="font-semibold text-blue py-6">Industry Landing</h4>
@@ -111,13 +117,13 @@ const IndustryGrids = () => {
             <img className="h-full w-full" src={item?.img} alt="feature_1" />
             <div>
               <div className="absolute z-10 inset-1 flex justify-center group-hover:hidden items-center font-bold text-white">
-                <button className="p-1 text-white bg-blue font-bold   px-5 rounded-full ">
+                <button className="p-1 text-white bg-blue font-bold  w-[48%]   px-5 rounded-full ">
                   {item?.title}
                 </button>
               </div>
 
               <div className="absolute z-10 inset-1 flex justify-center items-center font-bold text-white">
-                <Link to={"/industry"}>
+                <Link to={"/industry/automotive"}>
                 
                   <button className="p-1 hidden group-hover:block text-blue bg-white font-bold   px-5 rounded-full ">
                   Learn More
@@ -140,7 +146,7 @@ const IndustryGrids = () => {
             />
             <div className="flex flex-col absolute gap-3 z-10 inset-1 justify-center items-center">
              
-              <button className="p-1 text-white bg-blue font-bold   w-[70%] rounded-full ">
+              <button className="p-1 text-white bg-blue font-bold   w-[65%] rounded-full ">
                   {item?.title}
                 </button>
               <div className=" font-bold text-white">

@@ -7,6 +7,7 @@ import { Healthcare } from "constants";
 import { Horizontal } from "constants";
 import { Manufacturing } from "constants";
 import { Retail } from "constants";
+import LinkWithoutScroll from "LinkWithoutScroll";
 
 const IndustryLanding = () => {
   const industry = [
@@ -40,13 +41,18 @@ const IndustryLanding = () => {
     },
     
   ];
+
+  const handleLinkClick = (event) => {
+    event.preventDefault(); // prevent default anchor tag behavior
+    // additional custom logic or navigation here
+  };
   return (
     <section className="mx-10 my-10  md:mx-32 md:my-10">
       <h4 className="font-semibold py-6 text-blue">Industry Landing</h4>
       <div className="grid grid-cols-2 md:grid-cols-4 gap-5">
         {industry.map((item) => (
-          <Link to={'/industry'}>
-            <div className="group flex border-2 border-blue hover:border-0 hover:bg-blue hover:text-white  flex-row  justify-center items-center   ">
+          <Link to={'/industry/automotive'} key={item?.title} >
+            <div  className="group flex border-2 border-blue hover:border-0 hover:bg-blue hover:text-white  flex-row  justify-center items-center   ">
               <div className="flex flex-grow  p-5 items-center gap-3">
                 <img
                   className="h-20 border-2 border-blue group-hover:border-white  rounded-full "

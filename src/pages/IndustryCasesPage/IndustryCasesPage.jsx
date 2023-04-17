@@ -1,14 +1,17 @@
 import Header from "components/Header";
-import React from "react";
+import React, { useEffect } from "react";
 import CasesAdditionalResources from "./CasesAdditionalResources";
 import CasesContent from "./CasesContent";
 import Companies from "./Companies";
 
 const IndustryCasesPage = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
       <Header title={"Automated Quality Inspection"} />
-      <CasesContent/>
+      <CasesContent />
       <Companies />
       <CasesAdditionalResources />
     </>

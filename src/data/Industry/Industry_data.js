@@ -15,7 +15,6 @@ export const Industry = [
         id: crypto.randomUUID(),
         title: "Accelerated Innovations",
         content: `
-
         <p className="font-bold"> Business Application Industry Content</p>
           <p>
             Every industry is facing transformational change and we have a
@@ -65,7 +64,7 @@ export const Industry = [
             see_more_link: "",
             use_cases_content: [
               {
-                subtitle: "overview",
+                subtitle: "Overview",
                 see_more_link:
                   "/industry/resilient_operations/Automated_quality_inspection",
 
@@ -85,7 +84,7 @@ export const Industry = [
                 and drive effective
               </p>
               <p>
-                conversations with your customers visit the{" "}
+                conversations with your customers visit the
                 <span className="text-cyan-600">Industry Hub</span> today.
               </p>`,
               },
@@ -98,7 +97,7 @@ export const Industry = [
             see_more_link: "",
             use_cases_content: [
               {
-                subtitle: "overview",
+                subtitle: "Overview",
                 see_more_link: "",
                 desc: ` <p>
                 Every industry is facing transformational change and we have a
@@ -117,7 +116,7 @@ export const Industry = [
                 and drive effective
               </p>
               <p>
-                conversations with your customers visit the{" "}
+                conversations with your customers visit the
                 <span className="text-cyan-600">Industry Hub</span> today.
               </p>`,
               },
@@ -149,7 +148,7 @@ export const Industry = [
             see_more_link: "",
             use_cases_content: [
               {
-                subtitle: "overview",
+                subtitle: "Overview",
                 see_more_link: "",
                 desc: ` <p>
                 Every industry is facing transformational change and we have a
@@ -168,7 +167,7 @@ export const Industry = [
                 and drive effective
               </p>
               <p>
-                conversations with your customers visit the{" "}
+                conversations with your customers visit the
                 <span className="text-cyan-600">Industry Hub</span> today.
               </p>`,
               },
@@ -200,7 +199,7 @@ export const Industry = [
             see_more_link: "",
             use_cases_content: [
               {
-                subtitle: "overview",
+                subtitle: "Overview",
                 see_more_link: "",
                 desc: ` <p>
                 Every industry is facing transformational change and we have a
@@ -219,7 +218,7 @@ export const Industry = [
                 and drive effective
               </p>
               <p>
-                conversations with your customers visit the{" "}
+                conversations with your customers visit the
                 <span className="text-cyan-600">Industry Hub</span> today.
               </p>`,
               },
@@ -312,7 +311,7 @@ export const Industry = [
             see_more_link: "",
             use_cases_content: [
               {
-                subtitle: "overview",
+                subtitle: "Overview",
                 see_more_link: "",
                 desc: ` <p>
               Every industry is facing transformational change and we have a
@@ -331,7 +330,7 @@ export const Industry = [
               and drive effective
             </p>
             <p>
-              conversations with your customers visit the{" "}
+              conversations with your customers visit the
               <span className="text-cyan-600">Industry Hub</span> today.
             </p>`,
               },
@@ -344,7 +343,7 @@ export const Industry = [
             see_more_link: "",
             use_cases_content: [
               {
-                subtitle: "overview",
+                subtitle: "Overview",
                 see_more_link: "",
                 desc: ` <p>
               Every industry is facing transformational change and we have a
@@ -363,7 +362,7 @@ export const Industry = [
               and drive effective
             </p>
             <p>
-              conversations with your customers visit the{" "}
+              conversations with your customers visit the
               <span className="text-cyan-600">Industry Hub</span> today.
             </p>`,
               },
@@ -376,7 +375,7 @@ export const Industry = [
             see_more_link: "",
             use_cases_content: [
               {
-                subtitle: "overview",
+                subtitle: "Overview",
                 see_more_link: "",
                 desc: ` <p>
               Every industry is facing transformational change and we have a
@@ -395,7 +394,7 @@ export const Industry = [
               and drive effective
             </p>
             <p>
-              conversations with your customers visit the{" "}
+              conversations with your customers visit the
               <span className="text-cyan-600">Industry Hub</span> today.
             </p>`,
               },
@@ -408,7 +407,7 @@ export const Industry = [
             see_more_link: "",
             use_cases_content: [
               {
-                subtitle: "overview",
+                subtitle: "Overview",
                 see_more_link: "",
                 desc: ` <p>
               Every industry is facing transformational change and we have a
@@ -427,7 +426,7 @@ export const Industry = [
               and drive effective
             </p>
             <p>
-              conversations with your customers visit the{" "}
+              conversations with your customers visit the
               <span className="text-cyan-600">Industry Hub</span> today.
             </p>`,
               },
@@ -440,7 +439,7 @@ export const Industry = [
             see_more_link: "",
             use_cases_content: [
               {
-                subtitle: "overview",
+                subtitle: "Overview",
                 see_more_link: "",
                 desc: `  <p>
                 Automated quality control improves inspection measurement
@@ -460,10 +459,10 @@ export const Industry = [
                 problems are detected. <br />
               </p>
               <p>
-                <div className="font-bold pr-4 ">
-                  {" "}
-                  Key Services / Product Stack{" "}
-                </div>{" "}
+                <p className="font-bold pr-4 ">
+                  
+                  Key Services / Product Stack
+                </p>
                 <br />
                 Azure Container Registry, Azure DevOps, Azure loT Hub, Azure
                 Key/ault, Azure Machine Learning, Cognitive Services: Vision,
