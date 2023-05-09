@@ -21,6 +21,23 @@ export const Horizontal = require("assets/home/industry/Horizantal.png");
 export const Manufacturing = require("assets/home/industry/Manufacturing.png");
 export const Retail = require("assets/home/industry/Media.png");
 
+export const AutomotiveIcon = require("assets/icons/industryLanding/automobile.png");
+export const FinancialServicesIcon = require("assets/icons/industryLanding/financial.png");
+export const GovernmentIcon = require("assets/icons/industryLanding/government.png");
+export const HealthCareIcon = require("assets/icons/industryLanding/healtcare.png");
+export const HorizontalIcon = require("assets/icons/industryLanding/horizontal.png");
+export const ManufacturingIcon = require("assets/icons/industryLanding/manufacturing.png");
+export const RetailIcon = require("assets/icons/industryLanding/retail.png");
+export const OtherIndustriesIcon = require("assets/icons/industryLanding/other.png");
+
+export const AutomotiveBlueIcon = require("assets/icons/industryLanding/automobile_blue.png");
+export const FinancialServicesBlueIcon = require("assets/icons/industryLanding/financial_blue.png");
+export const GovernmentBlueIcon = require("assets/icons/industryLanding/government_blue.png");
+export const HealthCareBlueIcon = require("assets/icons/industryLanding/healtcare_blue.png");
+export const HorizontalBlueIcon = require("assets/icons/industryLanding/horizontal_blue.png");
+export const ManufacturingBlueIcon = require("assets/icons/industryLanding/manufacturing_blue.png");
+export const RetailBlueIcon = require("assets/icons/industryLanding/retail_blue.png");
+export const OtherIndustriesBlueIcon = require("assets/icons/industryLanding/other_blue.png");
 
 // avatar
 export const Avatar = require("assets/avatar/avatar.png")

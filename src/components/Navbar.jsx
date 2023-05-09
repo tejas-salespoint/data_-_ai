@@ -1,5 +1,5 @@
 import React from "react";
-import {  NavLink } from "react-router-dom";
+import {  Link, NavLink } from "react-router-dom";
 import Logo from "../assets/logo.png";
 
 const Navbar = () => {
@@ -59,10 +59,10 @@ const Navbar = () => {
 
   return (
     <div className="flex text-gray-800 gap-4 items-center mx-20  main-navbar-shadow">
-      <div className="flex  gap-3">
+      <Link to={'/'} className="flex  gap-3">
         <img className="h-10 w-10" src={Logo} alt="logo" />
         <h1 className="text-3xl text-gray-500 font-medium">Microsoft</h1>
-      </div>
+      </Link>
       <div className="h-12 w-1 bg-black"></div>
       <div className="flex items-center">
         <ul className="flex gap-5 align-middle items-center ">

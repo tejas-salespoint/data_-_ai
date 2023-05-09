@@ -2,7 +2,7 @@ import Header from "components/Header";
 import React, { useEffect } from "react";
 import CasesAdditionalResources from "./CasesAdditionalResources";
 import CasesContent from "./CasesContent";
-import Companies from "./Companies";
+
 
 const IndustryCasesPage = () => {
   useEffect(() => {
@@ -12,7 +12,7 @@ const IndustryCasesPage = () => {
     <>
       <Header title={"Automated Quality Inspection"} />
       <CasesContent />
-      <Companies />
+      {/* <Companies /> */}
       <CasesAdditionalResources />
     </>
   );

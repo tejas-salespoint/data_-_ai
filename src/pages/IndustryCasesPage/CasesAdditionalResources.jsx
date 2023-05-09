@@ -22,8 +22,8 @@ const CasesAdditionalResources = () => {
               Power Apps | Industry Use Case MegaMap
             </button>
           </div>
-          <div>
-            <img className="" src={powerAppsImg} alt="powerApps" />
+          <div className=" rounded-xl">
+            <img className="border-2 rounded-xl border-blue" src={powerAppsImg} alt="powerApps" />
           </div>
         </div>
       </div>

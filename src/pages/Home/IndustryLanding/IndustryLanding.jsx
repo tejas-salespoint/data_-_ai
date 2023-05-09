@@ -1,78 +1,99 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Automotive } from "constants";
-import { Financial } from "constants";
-import { Government } from "constants";
-import { Healthcare } from "constants";
-import { Horizontal } from "constants";
-import { Manufacturing } from "constants";
-import { Retail } from "constants";
 
+
+import { AutomotiveIcon } from "constants";
+import { FinancialServicesIcon } from "constants";
+import { GovernmentIcon } from "constants";
+import { HealthCareIcon } from "constants";
+import { HorizontalIcon } from "constants";
+import { ManufacturingIcon } from "constants";
+import { RetailIcon } from "constants";
+import { OtherIndustriesIcon } from "constants";
+import { AutomotiveBlueIcon } from "constants";
+import { OtherIndustriesBlueIcon } from "constants";
+import { RetailBlueIcon } from "constants";
+import { ManufacturingBlueIcon } from "constants";
+import { HorizontalBlueIcon } from "constants";
+import { HealthCareBlueIcon } from "constants";
+import { GovernmentBlueIcon } from "constants";
+import { FinancialServicesBlueIcon } from "constants";
 
 const IndustryLanding = () => {
   const industry = [
     {
-      title : 'Automotive',
-      icon : Automotive
+      title: "Automotive",
+      icon: AutomotiveIcon,
+      icon_hover: AutomotiveBlueIcon,
+      url : '/industry/automotive'
+     
     },
     {
-      title : 'Financial Services',
-      icon : Financial
+      title: "Financial Services",
+      icon: FinancialServicesIcon,
+      icon_hover: FinancialServicesBlueIcon,
+      url : '/industry/automotive'
     },
     {
-      title : 'Government',
-      icon : Government
+      title: "Government",
+      icon: GovernmentIcon,
+      icon_hover: GovernmentBlueIcon,
+      url : '/industry/automotive'
     },
     {
-      title : 'Healthcare',
-      icon : Healthcare
+      title: "Healthcare",
+      icon: HealthCareIcon,
+      icon_hover: HealthCareBlueIcon,
+       url : '/industry/automotive'
     },
     {
-      title : 'Horizontal',
-      icon : Horizontal
+      title: "Horizontal",
+      icon: HorizontalIcon,
+      icon_hover: HorizontalBlueIcon,
+       url : '/industry/automotive'
     },
     {
-      title : 'Manufacturing',
-      icon : Manufacturing
+      title: "Manufacturing",
+      icon: ManufacturingIcon,
+      icon_hover: ManufacturingBlueIcon,
+       url : '/industry/automotive'
     },
     {
-      title : 'Retail',
-      icon : Retail
+      title: "Retail",
+      icon: RetailIcon,
+      icon_hover: RetailBlueIcon,
+       url : '/industry/automotive'
     },
-    
+    {
+      title: "Other Industries",
+      icon: OtherIndustriesIcon,
+      icon_hover: OtherIndustriesBlueIcon,
+      url : '/industry_grid'
+    },
   ];
 
-  
   return (
     <section className="mx-10 my-10  md:mx-32 md:my-10">
       <h4 className="font-semibold py-6 text-blue">Industry Landing</h4>
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-5">
-        {industry.map((item) => (
-          <Link to={'/industry/automotive'} key={item?.title} >
-            <div  className="group flex border-2 border-blue hover:border-0 hover:bg-blue hover:text-white  flex-row  justify-center items-center   ">
-              <div className="flex flex-grow  p-5 items-center gap-3">
-                <img
-                  className="h-20 border-2 border-blue group-hover:border-white  rounded-full "
-                  src={item?.icon}
-                  alt="industry"
-                />
-                <h5 className="uppercase font-bold self-center text-blue group-hover:text-white text-center">
-                  {item?.title}
-                </h5>
+      <div className="grid grid-cols-8 gap-5 ">
+        {/* Automotive  */}
+        {industry?.map((item) => (
+          <Link to={item?.url} key={item?.title}>
+            <div className="flex flex-col group justify-center items-center">
+              <div className="bg-blue group-hover:bg-white group-hover:border-2 group-hover:border-blue w-[10rem] h-[10rem] m-5 flex justify-center items-center rounded-full">
+                <div className="group-hover:hidden">
+                  <img className="w-20" src={item?.icon} alt={item?.title} />
+                </div>
+                <div className="hidden group-hover:block">
+                  <img className="w-20" src={item?.icon_hover} alt={item?.title} />
+                </div>
               </div>
+              <h3 className="text-2xl text-blue font-bold text-center">
+                {item?.title}
+              </h3>
             </div>
           </Link>
         ))}
-
-        <div className="group flex border-2 border-blue justify-center items-center hover:border-0 hover:text-white hover:bg-blue ">
-          <Link to={"industry_grid"}>
-            <div className="flex flex-grow  p-5 justify-center items-center gap-3">
-              <h5 className="uppercase font-bold text-blue group-hover:text-white">
-                All Industries
-              </h5>
-            </div>
-          </Link>
-        </div>
       </div>
     </section>
   );

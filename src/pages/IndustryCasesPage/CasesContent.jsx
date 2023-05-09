@@ -1,15 +1,19 @@
 import { Cases } from "constants";
 import React from "react";
 import { Link } from "react-router-dom";
+import Companies from "./Companies";
 
 const CasesContent = () => {
   return (
     <section className="mx-10 my-10  md:mx-32 md:my-10">
      
-      <div className="grid grid-cols-2 gap-10">
+      <div className="grid grid-cols-3 gap-10">
         <div className="flex flex-col gap-8 text-gray">
         <h4 className="font-semibold pt-6 text-blue">Key Highlights</h4>
           {/*  */}
+          <div className="grid grid-cols-2 gap-4">
+
+         
           <div>
             <text className="font font-semibold text-lg">Decision Makers :</text>
             <ul className="list-disc mx-6">
@@ -50,7 +54,11 @@ const CasesContent = () => {
           </div>
           {/*  */}
           {/*  */}
-          <div>
+          
+          {/*  */}
+        </div>
+
+        <div>
             <text className="font font-semibold text-lg">Other Notable Attributes:</text>
             <ul className="list-disc mx-6">
               <li>
@@ -74,7 +82,6 @@ const CasesContent = () => {
               </li>
             </ul>
           </div>
-          {/*  */}
         </div>
 
         <div className="flex flex-col gap-10">
@@ -95,7 +102,10 @@ const CasesContent = () => {
           </div>
           
         </div>
+
+        <Companies />
       </div>
+     
     </section>
   );
 };

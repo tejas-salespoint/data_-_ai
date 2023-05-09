@@ -15,42 +15,49 @@ const Teams = () => {
       name: "Anial Drian",
       email: "anial.drian@microsoft.com",
       phone: "+1-1234567890",
+      role : 'CEO'
     },
     {
       avatar : avatar_2,
       name: "Anial Drian",
       email: "anial.drian@microsoft.com",
       phone: "+1-1234567890",
+      role : 'CEO'
     },
     {
       avatar : avatar_3,
       name: "Anial Drian",
       email: "anial.drian@microsoft.com",
       phone: "+1-1234567890",
+      role : 'CEO'
     },
     {
       avatar : avatar_4,
       name: "Anial Drian",
       email: "anial.drian@microsoft.com",
       phone: "+1-1234567890",
+      role : 'CEO'
     },
     {
       avatar : avatar_5,
       name: "Anial Drian",
       email: "anial.drian@microsoft.com",
       phone: "+1-1234567890",
+      role : 'CEO'
     },
     {
       avatar : avatar_6,
       name: "Anial Drian",
       email: "anial.drian@microsoft.com",
       phone: "+1-1234567890",
+      role : 'CEO'
     },
     {
       avatar : avatar_7,
       name: "Anial Drian",
       email: "anial.drian@microsoft.com",
       phone: "+1-1234567890",
+      role : 'CEO'
     },
   ];
   return (
@@ -69,8 +76,8 @@ const Teams = () => {
           />
           <div className="flex flex-col gap-1 items-center">
             <h5 className="font-bold text-blue">{team?.name}</h5>
-            <p className="text-sgray">{team?.email}</p>
-            <p className="text-sgray">{team?.phone}</p>
+            <p className="text-gray font-bold">{team?.role}</p>
+            
           </div>
         </div>
         ))
