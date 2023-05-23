@@ -58,12 +58,12 @@ const Navbar = () => {
   ];
 
   return (
-    <div className="flex text-gray-800 gap-4 items-center mx-20  main-navbar-shadow">
-      <Link to={'/'} className="flex  gap-3">
-        <img className="h-10 w-10" src={Logo} alt="logo" />
-        <h1 className="text-3xl text-gray-500 font-medium">Microsoft</h1>
+    <div className="flex text-gray-800 gap-4 items-center mx-20  main-navbar-shadow ">
+      <Link to={'/'} className="flex  gap-3 ">
+        <img className="h-10 w-auto " src={Logo} alt="logo" />
+        <h1 className="text-3xl text-gray-500 font-medium ">Microsoft</h1>
       </Link>
-      <div className="h-12 w-1 bg-black"></div>
+      <div className="h-12 ml-4 w-1 bg-black block"></div>
       <div className="flex items-center">
         <ul className="flex gap-5 align-middle items-center ">
           {navLinks.map((nav) => (
@@ -75,58 +75,14 @@ const Navbar = () => {
               target={nav?.target}
             >
               <li
-                className={`text-lg  font-medium   p-2 px-3`}
+                className={`text-lg   min-w-0 font-medium   p-2 px-3`}
               >
                 {nav?.title}
               </li>
             </NavLink>
           ))}
 
-          {/* <Link
-            to={"/"}
-            className="h-20 flex items-center border-b-8 border-blue"
-          >
-            <li className="text-xl  font-medium text-blue p-2 px-3">Home</li>
-          </Link>
-          <Link
-            target="_blank"
-            className="h-20 flex items-center hover:border-b-8 hover:border-blue  hover:text-blue"
-            to={""}
-          >
-            <li className="text-xl font-medium text-gray-800  p-2 px-3">
-              GBB Community
-            </li>
-          </Link>
-          <Link className="h-20 flex items-center hover:border-b-8 hover:border-blue  hover:text-blue">
-            <li className="text-xl font-medium text-gray-800   p-2 px-3">
-              Apps & DAI
-            </li>
-          </Link>
-          <Link
-            className="h-20 flex items-center hover:border-b-8 hover:border-blue  hover:text-blue"
-            to={"industry"}
-          >
-            <li className="text-xl font-medium text-gray-800   p-2 px-3">
-              Industry
-            </li>
-          </Link>
-          <Link
-            to={"additional_resources"}
-            className="h-20 flex items-center hover:border-b-8 hover:border-blue  hover:text-blue"
-          >
-            <li className="text-xl font-medium text-gray-800  p-2 px-3">
-              Additional Resources
-            </li>
-          </Link>
-          <Link
-            target="_blank"
-            to={""}
-            className="h-20 flex items-center hover:border-b-8 hover:border-blue  hover:text-blue"
-          >
-            <li className="text-xl font-medium text-gray-800  p-2 px-3">
-              MegaMap
-            </li>
-          </Link> */}
+         
         </ul>
       </div>
     </div>

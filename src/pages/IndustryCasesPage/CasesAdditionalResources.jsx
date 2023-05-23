@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const CasesAdditionalResources = () => {
   return (
     <section className="mx-10 my-10  md:mx-32 md:my-10 flex justify-center items-center">
-    <Link className="w-[60%]">
+    <Link to={'https://apps.powerapps.com/play/e/839eace6-59ab-4243-97ec-a5b8fcc104e4/a/650ccba3-1876-4884-ac90-3eeb9e2b54ca?tenantId=72f988bf-86f1-41af-91ab-2d7cd011db47'} target="_blank" className="w-[60%]">
 
    
       <div className="border border-2 p-5 rounded-2xl shadow-company-shadow border-blue">

@@ -80,12 +80,12 @@ const IndustryLanding = () => {
         {industry?.map((item) => (
           <Link to={item?.url} key={item?.title}>
             <div className="flex flex-col group justify-center items-center">
-              <div className="bg-blue group-hover:bg-white group-hover:border-2 group-hover:border-blue w-[10rem] h-[10rem] m-5 flex justify-center items-center rounded-full">
+              <div className="bg-blue group-hover:bg-white group-hover:border-2 group-hover:border-blue w-[7rem] h-[7rem] m-5 flex justify-center items-center rounded-full">
                 <div className="group-hover:hidden">
-                  <img className="w-20" src={item?.icon} alt={item?.title} />
+                  <img className="w-14" src={item?.icon} alt={item?.title} />
                 </div>
                 <div className="hidden group-hover:block">
-                  <img className="w-20" src={item?.icon_hover} alt={item?.title} />
+                  <img className="w-14" src={item?.icon_hover} alt={item?.title} />
                 </div>
               </div>
               <h3 className="text-2xl text-blue font-bold text-center">
