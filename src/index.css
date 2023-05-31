@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+html { font-size: 13px; }
+
 h1 {
   font-size: 3.75rem;
 }
