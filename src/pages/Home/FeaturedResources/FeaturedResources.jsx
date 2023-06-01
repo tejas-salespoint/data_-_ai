@@ -127,9 +127,9 @@ const FeaturedResources = () => {
 
         <div className="grid grid-cols-3 grid-rows-2 gap-5 ">
           {featuredResourcesData.map((feature) => (
-            <div key={feature.id} className="row-span-1 relative">
+            <div key={feature.id} className="row-span-1 relative ">
               <Link to={feature?.link} target={feature?.target}>
-                <img className=" h-full " src={feature?.img} alt="text" />
+                <img className=" h-[88%] w-full" src={feature?.img} alt="text" />
                 <div className="flex justify-between bg-blue p-3  text-white font-semibold absolute bottom-0 w-full">
                   <Link to={feature?.link} target={feature?.target}>
                     <h5>{feature?.title} </h5>

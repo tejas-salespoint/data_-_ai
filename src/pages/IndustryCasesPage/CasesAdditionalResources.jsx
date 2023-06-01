@@ -18,7 +18,7 @@ const CasesAdditionalResources = () => {
               Pitch Decks, Demos, Assets, Solution Accelerators, etc.
             </h4>
 
-            <button className="p-5 my-8 text-white font-semibold col-span-2 flex gap-1 bg-power-apps-bg w-full items-center justify-center hover:bg-white hover:shadow-company-shadow">
+            <button className="p-5 my-8 text-lg text-white font-semibold col-span-2 flex gap-1 bg-power-apps-bg w-full items-center justify-center hover:bg-white hover:shadow-company-shadow">
               Power Apps | Industry Use Case MegaMap
             </button>
           </div>
