@@ -75,7 +75,7 @@ const Navbar = () => {
               target={nav?.target}
             >
               <li
-                className={`text-lg   min-w-0 font-medium   p-2 px-3`}
+                className={`text-xl   min-w-0 font-medium   p-2 px-3`}
               >
                 {nav?.title}
               </li>

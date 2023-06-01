@@ -63,7 +63,7 @@ const IndustryDynamicTable = ({ activeId, activeIndustryData, tabActive }) => {
               <label
                 key={cases?.id}
                 onClick={() => toggleTab(cases?.id)}
-                className={`text-blue font-bold p-3 px-6  ${
+                className={`text-blue text-lg font-bold p-3 px-6  ${
                   toggleState === cases?.id
                     ? "bg-white border-l-8 border-black w-100 shadow-custom-shadow"
                     : ""

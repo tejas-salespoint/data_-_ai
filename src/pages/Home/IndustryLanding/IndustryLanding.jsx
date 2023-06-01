@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-
 import { AutomotiveIcon } from "constants";
 import { FinancialServicesIcon } from "constants";
 import { GovernmentIcon } from "constants";
@@ -25,57 +24,56 @@ const IndustryLanding = () => {
       title: "Automotive",
       icon: AutomotiveIcon,
       icon_hover: AutomotiveBlueIcon,
-      url : '/industry/automotive'
-     
+      url: "/industry/automotive",
     },
     {
       title: "Financial Services",
       icon: FinancialServicesIcon,
       icon_hover: FinancialServicesBlueIcon,
-      url : '/industry/automotive'
+      url: "/industry/automotive",
     },
     {
       title: "Government",
       icon: GovernmentIcon,
       icon_hover: GovernmentBlueIcon,
-      url : '/industry/automotive'
+      url: "/industry/automotive",
     },
     {
       title: "Healthcare",
       icon: HealthCareIcon,
       icon_hover: HealthCareBlueIcon,
-       url : '/industry/automotive'
+      url: "/industry/automotive",
     },
     {
       title: "Horizontal",
       icon: HorizontalIcon,
       icon_hover: HorizontalBlueIcon,
-       url : '/industry/automotive'
+      url: "/industry/automotive",
     },
     {
       title: "Manufacturing",
       icon: ManufacturingIcon,
       icon_hover: ManufacturingBlueIcon,
-       url : '/industry/automotive'
+      url: "/industry/automotive",
     },
     {
       title: "Retail",
       icon: RetailIcon,
       icon_hover: RetailBlueIcon,
-       url : '/industry/automotive'
+      url: "/industry/automotive",
     },
     {
       title: "Other Industries",
       icon: OtherIndustriesIcon,
       icon_hover: OtherIndustriesBlueIcon,
-      url : '/industry_grid'
+      url: "/industry_grid",
     },
   ];
 
   return (
     <section className="mx-10 my-10  md:mx-32 md:my-10">
       <h4 className="font-semibold py-6 text-blue">Industry Landing</h4>
-      <div className="grid grid-cols-8 gap-5 ">
+      <div className="grid grid-cols-8">
         {/* Automotive  */}
         {industry?.map((item) => (
           <Link to={item?.url} key={item?.title}>
@@ -85,10 +83,14 @@ const IndustryLanding = () => {
                   <img className="w-14" src={item?.icon} alt={item?.title} />
                 </div>
                 <div className="hidden group-hover:block">
-                  <img className="w-14" src={item?.icon_hover} alt={item?.title} />
+                  <img
+                    className="w-14"
+                    src={item?.icon_hover}
+                    alt={item?.title}
+                  />
                 </div>
               </div>
-              <h3 className="text-2xl text-blue font-bold text-center">
+              <h3 className="text-2xl text-blue font-medium text-center">
                 {item?.title}
               </h3>
             </div>
