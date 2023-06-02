@@ -106,7 +106,7 @@ const CasesContent = () => {
           style={{
             margin: "0 5rem",
           }}
-          className="  "
+          className=""
         >
           {/* second side */}
           <div className="flex flex-col gap-10   ">
