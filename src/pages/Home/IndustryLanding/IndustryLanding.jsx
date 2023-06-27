@@ -17,11 +17,14 @@ import { HorizontalBlueIcon } from "constants";
 import { HealthCareBlueIcon } from "constants";
 import { GovernmentBlueIcon } from "constants";
 import { FinancialServicesBlueIcon } from "constants";
+import { AllDaiUseCasesIcon } from "constants";
+import { EnergyBlueIcon } from "constants";
+import { EnergyIcon } from "constants";
 
 const IndustryLanding = () => {
   const industry = [
     {
-      title: "Automotive",
+      title: "Manufacturing & Mobility",
       icon: AutomotiveIcon,
       icon_hover: AutomotiveBlueIcon,
       url: "/industry/automotive",
@@ -30,38 +33,39 @@ const IndustryLanding = () => {
       title: "Financial Services",
       icon: FinancialServicesIcon,
       icon_hover: FinancialServicesBlueIcon,
-      url: "/industry/automotive",
+      url: "/industry/financial",
+    },
+    {
+      title: "Retail & CG",
+      icon: RetailIcon,
+      icon_hover: RetailBlueIcon,
+      url: "/industry/retail_and_cg",
     },
     {
       title: "Government",
       icon: GovernmentIcon,
       icon_hover: GovernmentBlueIcon,
-      url: "/industry/automotive",
+      url: "/industry/government",
     },
     {
-      title: "Healthcare",
-      icon: HealthCareIcon,
-      icon_hover: HealthCareBlueIcon,
-      url: "/industry/automotive",
+      title: "Energy",
+      icon: EnergyIcon,
+      icon_hover: EnergyBlueIcon,
+      url: "/industry/energy",
     },
+    // {
+    //   title: "Horizontal",
+    //   icon: HorizontalIcon,
+    //   icon_hover: HorizontalBlueIcon,
+    //   url: "/industry/automotive",
+    // },
     {
-      title: "Horizontal",
-      icon: HorizontalIcon,
-      icon_hover: HorizontalBlueIcon,
-      url: "/industry/automotive",
-    },
-    {
-      title: "Manufacturing",
+      title: "Media & Entertainment",
       icon: ManufacturingIcon,
       icon_hover: ManufacturingBlueIcon,
-      url: "/industry/automotive",
+      url: "/industry/media_&_entertainment",
     },
-    {
-      title: "Retail",
-      icon: RetailIcon,
-      icon_hover: RetailBlueIcon,
-      url: "/industry/automotive",
-    },
+   
     {
       title: "Other Industries",
       icon: OtherIndustriesIcon,
@@ -69,11 +73,27 @@ const IndustryLanding = () => {
       url: "/industry_grid",
     },
   ];
+  
 
   return (
     <section className="mx-10 my-10  md:mx-32 md:my-10">
       <h4 className="font-semibold py-6 text-blue">Industry Landing</h4>
       <div className="grid grid-cols-8">
+        {/* All Dai use Cases */}
+          <Link to={'/additional_resources'} >
+            <div className="flex flex-col group justify-center items-center">
+              <div className=" bg-all-usecases-bg shadow-all_dai_usecases-shadow   w-[7rem] h-[7rem] m-5 flex justify-center items-center rounded-full">
+                <div className="bg-white p-3 rounded-full">
+                  <img className="w-14" src={AllDaiUseCasesIcon} alt='use_cases' />
+                </div>
+                
+              </div>
+              <h3 className="text-2xl font-semibold text-blue text-center">
+                All DAI Ind. Use Cases
+              </h3>
+            </div>
+          </Link>
+
         {/* Automotive  */}
         {industry?.map((item) => (
           <Link to={item?.url} key={item?.title}>
@@ -90,7 +110,7 @@ const IndustryLanding = () => {
                   />
                 </div>
               </div>
-              <h3 className="text-2xl text-blue font-medium text-center">
+              <h3 className="text-2xl text-blue font-semibold text-center">
                 {item?.title}
               </h3>
             </div>

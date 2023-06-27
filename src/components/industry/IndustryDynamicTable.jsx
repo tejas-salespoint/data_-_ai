@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import Parser from "html-react-parser";
-const IndustryDynamicTable = ({ activeId, activeIndustryData, tabActive }) => {
-  // activeId = 1;
 
+const IndustryDynamicTable = ({ activeId, activeIndustryData, tabActive }) => {
+  
   //  Todo :: current data -> Solition play data
   const solution_play = Object.assign(
     {},

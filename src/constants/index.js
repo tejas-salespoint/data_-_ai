@@ -29,6 +29,8 @@ export const HorizontalIcon = require("assets/icons/industryLanding/horizontal.p
 export const ManufacturingIcon = require("assets/icons/industryLanding/manufacturing.png");
 export const RetailIcon = require("assets/icons/industryLanding/retail.png");
 export const OtherIndustriesIcon = require("assets/icons/industryLanding/other.png");
+export const EnergyIcon = require("assets/icons/industryLanding/energy.png")
+export const AllDaiUseCasesIcon = require("assets/icons/industryLanding/all_dai_usecases.png")
 
 export const AutomotiveBlueIcon = require("assets/icons/industryLanding/automobile_blue.png");
 export const FinancialServicesBlueIcon = require("assets/icons/industryLanding/financial_blue.png");
@@ -38,7 +40,7 @@ export const HorizontalBlueIcon = require("assets/icons/industryLanding/horizont
 export const ManufacturingBlueIcon = require("assets/icons/industryLanding/manufacturing_blue.png");
 export const RetailBlueIcon = require("assets/icons/industryLanding/retail_blue.png");
 export const OtherIndustriesBlueIcon = require("assets/icons/industryLanding/other_blue.png");
-
+export const EnergyBlueIcon = require("assets/icons/industryLanding/energy_blue.png")
 // avatar
 export const Avatar = require("assets/avatar/avatar.png")
 
@@ -96,3 +98,7 @@ export const SaasIcons = require("assets/icons/Saas.svg")
 // demo image
 
 export const powerAppsImg = require("assets/power_apps.png")
+
+
+// industry pages arrow button
+export const useCasesButtonIcons  = require("assets/icons/ArrowUseCases.png")

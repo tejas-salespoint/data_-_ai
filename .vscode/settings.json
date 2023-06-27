@@ -1,6 +1,6 @@
 {
   // "editor.fontFamily": "'Input Mono'",
-  "editor.fontFamily": "'Ubuntu Mono', monospace",
+  "editor.fontFamily": "Fira Code, monospace",
   "font_options": ["no_italic"],
   "editor.tokenColorCustomizations": {
     "textMateRules": [

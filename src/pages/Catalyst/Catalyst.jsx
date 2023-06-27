@@ -6,7 +6,7 @@ import CatalystOverview from "./CatalystOverview/CatalystOverview";
 const Catalyst = () => {
   return (
     <>
-      <Header title={"Catalyst Jumpstart Sales Kits"} />
+      <Header title={"DAI Ind. Use Cases"} />
       <CatalystOverview />
       <CatalystOption />
     </>

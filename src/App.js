@@ -21,7 +21,7 @@ function App() {
           <Route path="/industry" element={<Industry />} />
           <Route path="/additional_resources" element={<Catalyst />} />
           <Route path="/connected_vehicle" element={<IndustryDetail />} />
-          <Route path="/industry/:industry" element={<DynamicIndustry />} />
+          <Route exact  path="/industry/:industry" element={<DynamicIndustry />} />
           <Route path="/industry/:industry/:cases" element={<IndustryCasesPage />} />
         </Routes>
         <Footer />

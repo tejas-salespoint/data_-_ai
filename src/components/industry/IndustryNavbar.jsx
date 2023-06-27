@@ -3,13 +3,18 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const IndustryNavbar = ({ activeTab }) => {
+  
   return (
     <div className="w-full h-24  bg-img-banner bg-no-repeat bg-cover flex flex-col justify-center shadow-navbar-shadow">
       <ul className="flex h-full items-center  flex-row justify-between gap-10  mx-10   md:mx-32 ">
         {Industry.map((industry) => {
           return (
-            <li className={`flex items-center h-full p-3 text-white font-medium text-2xl ${activeTab === industry?.link ? 'border-b-8 font-bold' : '' } hover:border-b-8`}>
-              {industry?.title}
+            <li
+              className={`flex items-center h-full p-3 text-white font-medium text-2xl ${
+                activeTab === industry?.link ? "border-b-8 font-bold" : ""
+              } hover:border-b-8`}
+            >
+              <Link to={`/industry/${industry?.link}`} key={industry?.title}>{industry?.title}</Link>
             </li>
           );
         })}

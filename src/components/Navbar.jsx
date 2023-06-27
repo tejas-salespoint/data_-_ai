@@ -4,9 +4,9 @@ import Logo from "../assets/logo.png";
 
 const Navbar = () => {
   const activeLink =
-    "h-20 flex items-center text-blue  hover:border-b-8 hover:border-blue  hover:text-blue border-b-8 border-blue ";
+    "h-20 flex items-center text-blue  hover:border-b-4 hover:border-blue  hover:text-blue border-b-4 border-blue ";
   const nonActiveLink =
-    "h-20 flex items-center text-gray-800  hover:border-b-8 hover:border-blue  hover:text-blue";
+    "h-20 flex items-center text-gray-800  hover:border-b-4 hover:border-blue  hover:text-blue";
 
   const navLinks = [
     {
@@ -14,6 +14,11 @@ const Navbar = () => {
       title: "Home",
       link: "/",
       active: "active",
+    },
+    {
+      id: 4,
+      title: "DAI Ind. Use Cases",
+      link: "/additional_resources",
     },
     {
       id: 2,
@@ -26,11 +31,7 @@ const Navbar = () => {
       title: "Specialist Community",
       link: "/additional_resources",
     },
-    {
-      id: 4,
-      title: "App Innovation & DAI",
-      link: "/additional_resources",
-    },
+   
     {
       id: 5,
       title: "Industry Hub",
@@ -52,7 +53,7 @@ const Navbar = () => {
 
     {
       id: 8,
-      title: "Additional Resources",
+      title: "Industry Hub",
       link: "/additional_resources",
     },
   ];
