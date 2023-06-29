@@ -23,31 +23,31 @@ const Navbar = () => {
     {
       id: 2,
       title: "GBB Community",
-      link: "https://microsoft.sharepoint.com/teams/DataAIGBBCommunity/",
+      link: "https://microsoft.sharepoint.com/teams/DataAIGBBCommunity/?xsdata=MDV8MDF8fDk2OThmODgwMWQyMDQ0ZGEwNTA4MDhkYjc2OWUwMGJlfDcyZjk4OGJmODZmMTQxYWY5MWFiMmQ3Y2QwMTFkYjQ3fDB8MHw2MzgyMzQxOTMxOTI0MjA2MTZ8VW5rbm93bnxWR1ZoYlhOVFpXTjFjbWwwZVZObGNuWnBZMlY4ZXlKV0lqb2lNQzR3TGpBd01EQWlMQ0pRSWpvaVYybHVNeklpTENKQlRpSTZJazkwYUdWeUlpd2lWMVFpT2pFeGZRPT18MXxMMk5vWVhSekx6RTVPbTFsWlhScGJtZGZUV3BzYkU1RVVUSk9hbGwwVFhwU2ExcHBNREJPVkVWM1RGUnJkMWxVUlhSYVIwVXhUa2RaZDFwVVNUQk5WRTE1UUhSb2NtVmhaQzUyTWk5dFpYTnpZV2RsY3k4eE5qZzNPREl5TlRFNE5UQXp8OTFhMjkwNmFlZDIwNDgwODA1MDgwOGRiNzY5ZTAwYmV8ODNhOTM0ZGIwOGNhNDMxZGEyM2RmZDlhNzgxNzgyMjQ%3D&sdata=RFlHMTRIT1orZEdFZDUrc1VaUkhRb1IvU0k1enlGTHFOUllpUFJydTZ6RT0%3D&ovuser=72f988bf-86f1-41af-91ab-2d7cd011db47%2Cjimmygill%40microsoft.com&OR=Teams-HL&CT=1687822525527&clickparams=eyJBcHBOYW1lIjoiVGVhbXMtRGVza3RvcCIsIkFwcFZlcnNpb24iOiIyNy8yMzA2MDQwMTEyNyIsIkhhc0ZlZGVyYXRlZFVzZXIiOmZhbHNlfQ%3D%3D",
       target: "_blank",
     },
     {
       id: 3,
       title: "Specialist Community",
-      link: "/additional_resources",
+      link: "https://microsoft.sharepoint.com/teams/DataAISpecialistCommunity/",
     },
    
-    {
-      id: 5,
-      title: "Industry Hub",
-      link: "https://industryhub.transform.microsoft.com/",
-      target: "_blank",
-    },
+    // {
+    //   id: 5,
+    //   title: "Industry Hub",
+    //   link: "https://industryhub.transform.microsoft.com/",
+    //   target: "_blank",
+    // },
 
     {
       id: 6,
       title: "Partners For DAI",
-      link: "/additional_resources",
+      link: "/coming_soon",
     },
     {
       id: 7,
-      title: "MegaMap",
-      link: "https://apps.powerapps.com/play/e/839eace6-59ab-4243-97ec-a5b8fcc104e4/a/2db83f8b-2acb-4cc9-a835-9c462479c0b4?tenantId=72f988bf-86f1-41af-91ab-2d7cd011db47",
+      title: "Industry MegaMap",
+      link: "https://aka.ms/daiindustrymegamap",
       target: "_blank",
     },
 
@@ -69,6 +69,7 @@ const Navbar = () => {
         <ul className="flex gap-5 align-middle items-center ">
           {navLinks.map((nav) => (
             <NavLink
+            key={nav?.id}
               to={nav?.link}
               className={({ isActive }) =>
                 isActive ? activeLink : nonActiveLink
@@ -76,7 +77,7 @@ const Navbar = () => {
               target={nav?.target}
             >
               <li
-                className={`text-xl   min-w-0 font-medium   p-2 px-3`}
+                className={`text-xl   min-w-0 font-semibold   p-2 px-3`}
               >
                 {nav?.title}
               </li>

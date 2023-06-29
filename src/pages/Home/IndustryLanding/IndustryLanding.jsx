@@ -4,22 +4,20 @@ import { Link } from "react-router-dom";
 import { AutomotiveIcon } from "constants";
 import { FinancialServicesIcon } from "constants";
 import { GovernmentIcon } from "constants";
-import { HealthCareIcon } from "constants";
-import { HorizontalIcon } from "constants";
-import { ManufacturingIcon } from "constants";
+
 import { RetailIcon } from "constants";
 import { OtherIndustriesIcon } from "constants";
 import { AutomotiveBlueIcon } from "constants";
 import { OtherIndustriesBlueIcon } from "constants";
 import { RetailBlueIcon } from "constants";
-import { ManufacturingBlueIcon } from "constants";
-import { HorizontalBlueIcon } from "constants";
-import { HealthCareBlueIcon } from "constants";
+
 import { GovernmentBlueIcon } from "constants";
 import { FinancialServicesBlueIcon } from "constants";
 import { AllDaiUseCasesIcon } from "constants";
 import { EnergyBlueIcon } from "constants";
 import { EnergyIcon } from "constants";
+import { HealthCareIcon } from "constants";
+import { HealthCareBlueIcon } from "constants";
 
 const IndustryLanding = () => {
   const industry = [
@@ -27,13 +25,19 @@ const IndustryLanding = () => {
       title: "Manufacturing & Mobility",
       icon: AutomotiveIcon,
       icon_hover: AutomotiveBlueIcon,
-      url: "/industry/automotive",
+      url: "/industry/manufacturing_&_mobility",
     },
     {
       title: "Financial Services",
       icon: FinancialServicesIcon,
       icon_hover: FinancialServicesBlueIcon,
       url: "/industry/financial",
+    },
+    {
+      title: "Healthcare",
+      icon: HealthCareIcon,
+      icon_hover: HealthCareBlueIcon,
+      url: "/industry/healthcare",
     },
     {
       title: "Retail & CG",
@@ -59,15 +63,15 @@ const IndustryLanding = () => {
     //   icon_hover: HorizontalBlueIcon,
     //   url: "/industry/automotive",
     // },
-    {
-      title: "Media & Entertainment",
-      icon: ManufacturingIcon,
-      icon_hover: ManufacturingBlueIcon,
-      url: "/industry/media_&_entertainment",
-    },
+    // {
+    //   title: "Media & Entertainment",
+    //   icon: ManufacturingIcon,
+    //   icon_hover: ManufacturingBlueIcon,
+    //   url: "/industry/media_&_entertainment",
+    // },
    
     {
-      title: "Other Industries",
+      title: "All Industries",
       icon: OtherIndustriesIcon,
       icon_hover: OtherIndustriesBlueIcon,
       url: "/industry_grid",

@@ -134,11 +134,11 @@ const IndustryDyanmicContent = ({ activeId }) => {
             </div>
             <div className="flex flex-col gap-4">
               <p className="font-bold">Desiried Business Outcomes </p>
-              <text>
+             <p>
                 Realize the true value of your data by unifying disparate data
                 sources across the shopper journey, discovering insights that
                 enable better experiences
-              </text>
+             </p>
               <ul className="list-disc ">
                 <li className="mx-4">
                   Gain insights across the complete view of a shopper's journey

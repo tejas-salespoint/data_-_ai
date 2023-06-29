@@ -41,6 +41,7 @@ module.exports = {
         sgray: "#413737",
         black: "#2A2B2E",
         'light-gray' : '#F2F2F2',
+        'light-light-gray' : '#A4A4A4'
         
 
       },

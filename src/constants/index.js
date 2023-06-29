@@ -1,4 +1,3 @@
-
 //  Home -> featured Resources img
 export const FeaturedImage_1 = require("assets/home/featured/f-2.png");
 export const FeaturedImage_2 = require("assets/home/featured/f-4.png");
@@ -29,8 +28,8 @@ export const HorizontalIcon = require("assets/icons/industryLanding/horizontal.p
 export const ManufacturingIcon = require("assets/icons/industryLanding/manufacturing.png");
 export const RetailIcon = require("assets/icons/industryLanding/retail.png");
 export const OtherIndustriesIcon = require("assets/icons/industryLanding/other.png");
-export const EnergyIcon = require("assets/icons/industryLanding/energy.png")
-export const AllDaiUseCasesIcon = require("assets/icons/industryLanding/all_dai_usecases.png")
+export const EnergyIcon = require("assets/icons/industryLanding/energy.png");
+export const AllDaiUseCasesIcon = require("assets/icons/industryLanding/all_dai_usecases.png");
 
 export const AutomotiveBlueIcon = require("assets/icons/industryLanding/automobile_blue.png");
 export const FinancialServicesBlueIcon = require("assets/icons/industryLanding/financial_blue.png");
@@ -40,65 +39,75 @@ export const HorizontalBlueIcon = require("assets/icons/industryLanding/horizont
 export const ManufacturingBlueIcon = require("assets/icons/industryLanding/manufacturing_blue.png");
 export const RetailBlueIcon = require("assets/icons/industryLanding/retail_blue.png");
 export const OtherIndustriesBlueIcon = require("assets/icons/industryLanding/other_blue.png");
-export const EnergyBlueIcon = require("assets/icons/industryLanding/energy_blue.png")
+export const EnergyBlueIcon = require("assets/icons/industryLanding/energy_blue.png");
 // avatar
-export const Avatar = require("assets/avatar/avatar.png")
-
+export const Avatar = require("assets/avatar/avatar.png");
 
 // grid
-export const buffer = require("assets/buffer.png")
-export const buffer_2 = require("assets/home/featured/featured_2.png")
-
+export const buffer = require("assets/buffer.png");
+export const buffer_2 = require("assets/home/featured/featured_2.png");
 
 // industry cases photo
-export const Cases = require("assets/cases.png")
-
+export const Cases = require("assets/cases.png");
 
 // teams
-export const avatar_1 = require("assets/Avatars/1.png")
-export const avatar_2 = require("assets/Avatars/2.png")
-export const avatar_3 = require("assets/Avatars/3.png")
-export const avatar_4 = require("assets/Avatars/4.png")
-export const avatar_5 = require("assets/Avatars/5.png")
-export const avatar_6 = require("assets/Avatars/6.png")
-export const avatar_7 = require("assets/Avatars/7.png")
-
+export const jimmy_gill = require("assets/Avatars/jimmy gill.png");
+export const sanjay_shirole = require("assets/Avatars/sanjay shirole.png");
+export const sanjay_soni = require("assets/Avatars/sanjay soni.png");
+export const naveen_raigaga = require("assets/Avatars/Navin Raigaga.png");
+export const holly_dickson = require("assets/Avatars/holly dickson.png");
+export const matt_sinclair = require("assets/Avatars/Matt Sinclair.png");
+export const jeeva_akr = require("assets/Avatars/Jeeva Akr.png");
+export const ana_maria_lopes = require("assets/Avatars/Ana Maria Lopes.png");
+export const manaswini_shastri = require("assets/Avatars/Manaswini Shastri.png");
 
 // companies
-export const tcs = require("assets/companyLogo/tcs.png")
-export const capgemini = require("assets/companyLogo/capgemini.png")
-export const luxoft = require("assets/companyLogo/luxoft.png")
-export const wpp = require("assets/companyLogo/wpp.png")
-export const dsa = require("assets/companyLogo/dsa.png")
-export const wipro = require("assets/companyLogo/Wipro.png")
-export const dxc = require("assets/companyLogo/dxc.png")
-export const Ey = require("assets/companyLogo/Ey.png")
+export const tcs = require("assets/companyLogo/tcs.png");
+export const capgemini = require("assets/companyLogo/capgemini.png");
+export const luxoft = require("assets/companyLogo/luxoft.png");
+export const wpp = require("assets/companyLogo/wpp.png");
+export const dsa = require("assets/companyLogo/dsa.png");
+export const wipro = require("assets/companyLogo/Wipro.png");
+export const dxc = require("assets/companyLogo/dxc.png");
+export const Ey = require("assets/companyLogo/Ey.png");
+export const adobe = require("assets/companyLogo/adobe.png");
+export const ibm = require("assets/companyLogo/ibm.png");
+export const accenture = require("assets/companyLogo/accenture.png");
+export const pwc = require("assets/companyLogo/pwc.png");
 
 
 // buffer industries
-export const Automotive_buffer = require("assets/Industry images/Automotive.jpg")
-export const Education_buffer = require("assets/Industry images/Education.jpg")
-export const Energy_buffer = require("assets/Industry images/Energy.jpg")
-export const Engineering_buffer = require("assets/Industry images/Engineering & construction.jpg")
-export const Finance_buffer = require("assets/Industry images/Finance.jpg")
-export const Government_buffer = require("assets/Industry images/Government.jpg")
-export const Healthcare_buffer = require("assets/Industry images/Healthcare.jpg")
-export const Horizantal_buffer = require("assets/Industry images/Horizantal.png")
-export const Manufacturing_buffer = require("assets/Industry images/Manufacturing.jpg")
-export const Media_buffer = require("assets/Industry images/Media.jpg")
-export const Retail_buffer = require("assets/Industry images/Retail.jpg")
-export const Sustainability_buffer = require("assets/Industry images/Automotive.jpg")
-
+export const Automotive_buffer = require("assets/Industry images/Automotive.jpg");
+export const Education_buffer = require("assets/Industry images/Education.jpg");
+export const Energy_buffer = require("assets/Industry images/Energy.jpg");
+export const Engineering_buffer = require("assets/Industry images/Engineering & construction.jpg");
+export const Finance_buffer = require("assets/Industry images/Finance.jpg");
+export const Government_buffer = require("assets/Industry images/Government.jpg");
+export const Healthcare_buffer = require("assets/Industry images/Healthcare.jpg");
+export const Horizantal_buffer = require("assets/Industry images/Horizantal.png");
+export const Manufacturing_buffer = require("assets/Industry images/Manufacturing.jpg");
+export const Media_buffer = require("assets/Industry images/Media.jpg");
+export const Retail_buffer = require("assets/Industry images/Retail.jpg");
+export const Sustainability_buffer = require("assets/Industry images/Automotive.jpg");
 
 // icons svg
-export const AssetsIcons = require("assets/icons/Assets.svg")
-export const DemoIcons = require("assets/icons/Demo.svg")
-export const SaasIcons = require("assets/icons/Saas.svg")
+export const AssetsIcons = require("assets/icons/Assets.svg");
+export const DemoIcons = require("assets/icons/Demo.svg");
+export const SaasIcons = require("assets/icons/Saas.svg");
 
 // demo image
 
-export const powerAppsImg = require("assets/power_apps.png")
-
+export const powerAppsImg = require("assets/power_apps.png");
 
 // industry pages arrow button
-export const useCasesButtonIcons  = require("assets/icons/ArrowUseCases.png")
+export const useCasesButtonIcons = require("assets/icons/ArrowUseCases.png");
+
+// Level 3 page images
+export const automated_quality_inspection = require("assets/industry_usecases_imges/manufacturing_&_mobility/automated_quality_inspection.png");
+export const connected_smart_products = require("assets/industry_usecases_imges/manufacturing_&_mobility/connected_smart_products.png");
+export const document_process_automation = require("assets/industry_usecases_imges/manufacturing_&_mobility/document_process_automation.png");
+export const demand_forecasting = require("assets/industry_usecases_imges/manufacturing_&_mobility/demand_forecasting.jpg");
+export const predictive_maintainance = require("assets/industry_usecases_imges/manufacturing_&_mobility/predictive_maintainance.png");
+
+
+

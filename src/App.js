@@ -22,7 +22,7 @@ function App() {
           <Route path="/additional_resources" element={<Catalyst />} />
           <Route path="/connected_vehicle" element={<IndustryDetail />} />
           <Route exact  path="/industry/:industry" element={<DynamicIndustry />} />
-          <Route path="/industry/:industry/:cases" element={<IndustryCasesPage />} />
+          <Route path="/industry/:industry/:piller/:cases" element={<IndustryCasesPage />} />
         </Routes>
         <Footer />
       </BrowserRouter>

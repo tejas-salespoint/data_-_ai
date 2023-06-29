@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import Parser from "html-react-parser";
 
-const IndustryDynamicTable = ({ activeId, activeIndustryData, tabActive }) => {
+const IndustryDynamicTable = ({ activeId, activeIndustryData, tabActive,solutionPlay }) => {
   
   //  Todo :: current data -> Solition play data
   const solution_play = Object.assign(
@@ -58,21 +58,38 @@ const IndustryDynamicTable = ({ activeId, activeIndustryData, tabActive }) => {
       <div className={`bg-light-blue`}>
         <div className=" flex flex-col  gap-2   bg-light-blue pt-8 w-100">
           {/* solution play use cases map */}
-          {solution_play?.use_cases?.map((cases) => {
-            return (
-              <label
-                key={cases?.id}
-                onClick={() => toggleTab(cases?.id)}
-                className={`text-blue text-lg font-bold p-3 px-6  ${
-                  toggleState === cases?.id
-                    ? "bg-white border-l-8 border-black w-100 shadow-custom-shadow"
-                    : ""
-                }`}
-              >
-                {cases?.title}
-              </label>
-            );
-          })}
+          {
+            solution_play?.use_cases[0].title && solution_play?.use_cases?.map((cases) => {
+                return (
+                    <label
+                        key={cases?.id}
+                        onClick={() => toggleTab(cases?.id)}
+                        className={`text-blue text-lg font-bold p-3 px-6  ${
+                            toggleState === cases?.id
+                                ? "bg-white border-l-8 border-black w-100 shadow-custom-shadow"
+                                : ""
+                        }`}
+                    >
+                      {cases?.title}
+                    </label>
+                );
+              })
+          }
+          {/*{solution_play?.use_cases?.map((cases) => {*/}
+          {/*  return (*/}
+          {/*    <label*/}
+          {/*      key={cases?.id}*/}
+          {/*      onClick={() => toggleTab(cases?.id)}*/}
+          {/*      className={`text-blue text-lg font-bold p-3 px-6  ${*/}
+          {/*        toggleState === cases?.id*/}
+          {/*          ? "bg-white border-l-8 border-black w-100 shadow-custom-shadow"*/}
+          {/*          : ""*/}
+          {/*      }`}*/}
+          {/*    >*/}
+          {/*      {cases?.title}*/}
+          {/*    </label>*/}
+          {/*  );*/}
+          {/*})}*/}
         </div>
       </div>
 
@@ -80,7 +97,11 @@ const IndustryDynamicTable = ({ activeId, activeIndustryData, tabActive }) => {
       <div className="p-5 overflow-y-scroll">
         {/* tab 1 */}
         {/* <div className={toggleState == 1 ? "" : "hidden"}> */}
-        <div className="">
+
+        {
+
+        }
+        <div className={`${solution_play?.use_cases[0].title ? "" : 'hidden'}`}>
           <h4 className="font-bold text-blue mb-9">{currentUseCases?.title}</h4>
           <div className="flex gap-4 flex-col ">
             <p className="font-bold ">
@@ -89,12 +110,12 @@ const IndustryDynamicTable = ({ activeId, activeIndustryData, tabActive }) => {
 
             {/* content */}
 
-            {Parser(currentUseCases?.use_cases_content[0]?.desc || "not found")}
+            {Parser(currentUseCases?.use_cases_content[0]?.desc || "")}
             {/* {currentUseCases?.use_cases_content[0]?.desc} */}
           </div>
           <button className=" px-3 py-2 my-6 bg-blue text-sm font-extrabold rounded-full text-white">
             <Link
-              to={"/industry/resilient_operations/Automated_quality_inspection"}
+              to={`/industry/${activeIndustryData?.link}/${solutionPlay}/${currentUseCases?.title}`}
             >
               See more
             </Link>

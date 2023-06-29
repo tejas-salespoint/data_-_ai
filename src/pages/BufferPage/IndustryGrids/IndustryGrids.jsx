@@ -21,52 +21,47 @@ const IndustryGrids = () => {
   const AllIndustry = [
     {
       id: "1",
-      title: "Automotive",
+      title: "Manufacturing & Mobility",
       link: "",
       img: Automotive_buffer,
     },
     {
       id: "2",
-      title: "Energy",
+      title: "Financial Services",
       link: "",
       img: Energy_buffer,
     },
     {
       id: "3",
-      title: "Financial Services",
-      link: "",
-      img: Finance_buffer,
-    },
-    {
-      id: "4",
-      title: "Government",
-      link: "",
-      img: Government_buffer,
-    },
-    {
-      id: "5",
       title: "Healthcare",
       link: "",
       img: Healthcare_buffer,
     },
     {
-      id: "6",
-      title: "Horizontal",
+      id: "4",
+      title: "Retail & CG",
       link: "",
-      img: Horizantal_buffer,
+      img: Government_buffer,
+    },
+    {
+      id: "5",
+      title: "Government",
+      link: "",
+      img: Government_buffer,
+    },
+    {
+      id: "6",
+      title: "Energy",
+      link: "",
+      img: Energy_buffer,
     },
     {
       id: "7",
-      title: "Manufacturing",
+      title: "Media & Entertainment",
       link: "",
-      img: Manufacturing_buffer,
+      img: Media_buffer,
     },
-    {
-      id: "8",
-      title: "Retail",
-      link: "",
-      img: Retail_buffer,
-    },
+
   ];
   const CommingSoonIndustry = [
     // comming soon
@@ -85,13 +80,6 @@ const IndustryGrids = () => {
       coming: true,
     },
 
-    {
-      id: "11",
-      title: "Media",
-      link: "",
-      img: Media_buffer,
-      coming: true,
-    },
 
     {
       id: "12",

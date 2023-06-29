@@ -3,7 +3,7 @@ import React from "react";
 const CatalystOverview = () => {
   return (
     <section className="mx-10 my-10  md:mx-32 md:my-10">
-      <h4 className="font-semibold py-6 text-blue">DAI Ind. Use Cases</h4>
+      {/*<h4 className="font-semibold py-6 text-blue">DAI Ind. Use Cases</h4>*/}
       {/* <div className="flex flex-col gap-6">
         <p>
           <span className="font-bold">

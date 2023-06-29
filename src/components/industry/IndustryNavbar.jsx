@@ -10,6 +10,7 @@ const IndustryNavbar = ({ activeTab }) => {
         {Industry.map((industry) => {
           return (
             <li
+            key={industry?.id}
               className={`flex items-center h-full p-3 text-white font-medium text-2xl ${
                 activeTab === industry?.link ? "border-b-8 font-bold" : ""
               } hover:border-b-8`}
@@ -19,21 +20,7 @@ const IndustryNavbar = ({ activeTab }) => {
           );
         })}
 
-        {/* <li className="flex items-center h-full p-3 text-white font-medium text-2xl hover:border-b-8 ">
-          Financial Services
-        </li>
-        <li className="flex items-center h-full p-3 text-white font-medium text-2xl hover:border-b-8">
-          Government
-        </li>
-        <li className="flex items-center h-full p-3 text-white font-medium text-2xl hover:border-b-8">
-          Horizontal
-        </li>
-        <li className="flex items-center h-full p-3 text-white font-medium text-2xl hover:border-b-8">
-          Manufacturing
-        </li>
-        <li className="flex items-center h-full p-3 text-white font-medium text-2xl hover:border-b-8">
-          Retail
-        </li> */}
+       
         <Link to={"/industry_grid"}>
           <li className="flex items-center p-3 px-5 rounded-full  bg-white text-blue font-medium text-2xl ">
             All Industries

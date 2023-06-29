@@ -5,10 +5,14 @@ import { Industry } from "data/Industry/Industry_data";
 import React from "react";
 
 const DynamicIndustry = () => {
+
+
+
  const currentURL = window?.location?.pathname
  const currentIndustry = currentURL.split('/')[currentURL.split.length]
  const industryFetch = Object.assign({},...Industry.filter(industry  => currentIndustry === industry?.link))
- 
+
+
 
   return (
     <section>
