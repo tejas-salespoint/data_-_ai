@@ -40,18 +40,18 @@ const AdditionalResources = () => {
   return (
     <section className="mx-10 my-10 md:mx-32 md:my-10">
       <h4 className="font-semibold py-6 text-blue">Additional Resources</h4>
-      <div className="flex flex-col md:flex-row gap-10">
+      <div className="grid grid-cols-4 gap-10">
 
 
 
         {resources.map((item) => (
           <div className="flex flex-col items-center justify-center border-spacing-4  border border-slate-400 p-5 ">
-            <img className="h-20 p-2 " src={item?.icon} alt="additional_1" />
+            <img className="h-28 p-2 " src={item?.icon} alt="additional_1" />
             <p className="font-bold text-blue p-3 flex justify-center text-center">{item?.title}</p>
-            <p className="text-center space-y-3">{item?.desc}</p>
-            <Link to={item?.link}>
-              <button className="border-2 border-slate-400 px-5 py-2 m-3 border-blue-500 font-extrabold rounded-full text-blue">
-                View details
+            {/*<p className="text-center space-y-3">{item?.desc}</p>*/}
+            <Link to={item?.link} target={'_blank'}>
+              <button className="border-2 border-blue px-5 py-2 m-3 border-blue-500 hover:bg-blue hover:text-white font-bold rounded-full text-blue">
+               Click here to view details
               </button>
             </Link>
           </div>

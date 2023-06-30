@@ -62,6 +62,10 @@ const Teams = () => {
             role: 'Sr. Director, DAI Enablment Lead',
             link: "https://whoplus.microsoft.com/?_vwp=true&_vwpAlias=HDICKSON"
         },
+
+    ];
+
+    const other_four = [
         {
             avatar: matt_sinclair,
             name: "Matt Sinclair",
@@ -92,7 +96,7 @@ const Teams = () => {
             role: 'Business Program Manager, Enablement Team',
             link: "https://whoplus.microsoft.com/?_vwp=true&_vwpAlias=MSHASTRI"
         },
-    ];
+    ]
     return (
         <section className=" md:px-32 md:py-10 bg-light-gray ">
             <h4 className="font-semibold pb-8 text-blue">Key Contacts</h4>
@@ -101,13 +105,42 @@ const Teams = () => {
 
                 {
                     teams.map(team => (
-                        <div key={team?.name} className="flex   flex-col gap-3 items-center   ">
+                        <div key={team?.name} className="flex flex-col gap-3 items-center   ">
+                            <Link  to={team.link}  target={'_blank'}>
                             <img
-                                className=" h-[50%] shadow-avatar-shadow rounded-full"
+                                className="  shadow-avatar-shadow rounded-full h-[15rem]"
                                 src={team?.avatar}
                                 alt="avatar"
                             />
-                            <Link to={team.link}>
+                            </Link>
+                            <Link  to={team.link}  target={'_blank'}>
+                                <div className="flex flex-col gap-1 items-center text-center">
+                                    <h5 className="font-bold text-blue">{team?.name}</h5>
+                                    <p className="text-light-light-gray text-2xl font-semibold">{team?.role}</p>
+
+                                </div>
+                            </Link>
+
+                        </div>
+                    ))
+                }
+
+
+            </div>
+
+            <div className="grid grid-cols-4 px-[5rem] py-[2rem]  text-center items-center">
+
+                {
+                    other_four.map(team => (
+                        <div key={team?.name} className="flex flex-col gap-3 items-center   ">
+                            <Link  to={team.link}  target={'_blank'}>
+                            <img
+                                className="  shadow-avatar-shadow rounded-full h-[15rem]"
+                                src={team?.avatar}
+                                alt="avatar"
+                            />
+                            </Link>
+                            <Link  to={team.link}  target={'_blank'}>
                                 <div className="flex flex-col gap-1 items-center text-center">
                                     <h5 className="font-bold text-blue">{team?.name}</h5>
                                     <p className="text-light-light-gray text-2xl font-semibold">{team?.role}</p>

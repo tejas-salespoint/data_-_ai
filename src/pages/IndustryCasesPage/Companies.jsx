@@ -1,14 +1,9 @@
 
-import { wpp } from "constants";
-import { wipro } from "constants";
-import { Ey } from "constants";
-import { dxc } from "constants";
-import { dsa } from "constants";
-import { luxoft } from "constants";
-import { tcs } from "constants";
+
+
 import React from "react";
 import { Link } from "react-router-dom";
-import {accenture, adobe, capgemini, ibm, pwc} from "../../constants";
+import {accenture, adobe, ibm, pwc,wipro} from "../../constants";
 
 const Companies = () => {
   return (
@@ -18,33 +13,24 @@ const Companies = () => {
           DAI Partner Solutions for Automated Quality Inspection
         </h4>
         <div className="grid grid-cols-2 gap-5">
-          <Link
-            className="h-15 w-50 p-5 flex justify-center items-center  bg-light-gray hover:bg-white hover:shadow-company-shadow  "
-          >
-            <img className="h-[3rem]" src={tcs} alt="tcs" />
+          <Link to={'https://aka.ms/Adobe_Battlecards'} target={'_blank'} className="h-15 w-50 p-5 flex justify-center items-center bg-light-gray hover:bg-white hover:shadow-company-shadow ">
+            <img className="h-[3rem]" src={adobe} alt="adobe" />
           </Link>
 
-          <Link className="h-15 w-50 p-5 flex justify-center items-center  bg-light-gray hover:bg-white hover:shadow-company-shadow ">
-            <img className="h-[3rem]" src={capgemini} alt="capgemini" />
-          </Link>
-          <Link className="h-15 w-50 p-5  flex justify-center items-center bg-light-gray hover:bg-white hover:shadow-company-shadow ">
-            <img className="h-[3rem]" src={wipro} alt="lux" />
-          </Link>
-          <Link className="h-15 w-50 p-5 flex justify-center items-center bg-light-gray hover:bg-white hover:shadow-company-shadow ">
-            <img className="h-[3rem]" src={adobe} alt="wpp" />
-          </Link>
-          <Link className="h-15 w-50 p-5 flex justify-center items-center bg-light-gray hover:bg-white hover:shadow-company-shadow ">
-            <img className="h-[3rem]" src={ibm} alt="dsa" />
+          <Link to={'https://aka.ms/Wipro_Battlecards'} target={'_blank'} className="h-15 w-50 p-5  flex justify-center items-center bg-light-gray hover:bg-white hover:shadow-company-shadow ">
+            <img className="h-[3rem]" src={wipro} alt="wipro" />
           </Link>
 
-          <Link className="h-15 w-50 p-5 flex justify-center items-center bg-light-gray hover:bg-white hover:shadow-company-shadow ">
-            <img className="h-[3rem]" src={accenture} alt="wipro" />
+          <Link to={'https://aka.ms/IBM_Battlecards'} target={'_blank'} className="h-15 w-50 p-5 flex justify-center items-center bg-light-gray hover:bg-white hover:shadow-company-shadow ">
+            <img className="h-[3rem]" src={ibm} alt="ibm" />
           </Link>
-          <Link className="h-15 w-50 p-5 flex justify-center items-center bg-light-gray hover:bg-white hover:shadow-company-shadow ">
-            <img className="h-[3rem]" src={Ey} alt="dxc" />
+
+          <Link to={'https://aka.ms/Accenture_Battlecards'} target={'_blank'} className="h-15 w-50 p-5 flex justify-center items-center bg-light-gray hover:bg-white hover:shadow-company-shadow ">
+            <img className="h-[3rem]" src={accenture} alt="accenture" />
           </Link>
-          <Link className="h-15 w-50 p-5 flex justify-center items-center bg-light-gray hover:bg-white hover:shadow-company-shadow ">
-            <img className="h-[3rem]" src={pwc} alt="Ey" />
+
+          <Link to={'https://aka.ms/PWC_Battlecards '} target={'_blank'} className="h-15 w-50 p-5 flex justify-center items-center bg-light-gray hover:bg-white hover:shadow-company-shadow ">
+            <img className="h-[3rem]" src={pwc} alt="pwc" />
           </Link>
         </div>
       </section>

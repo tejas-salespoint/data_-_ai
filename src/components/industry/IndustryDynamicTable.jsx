@@ -75,21 +75,6 @@ const IndustryDynamicTable = ({ activeId, activeIndustryData, tabActive,solution
                 );
               })
           }
-          {/*{solution_play?.use_cases?.map((cases) => {*/}
-          {/*  return (*/}
-          {/*    <label*/}
-          {/*      key={cases?.id}*/}
-          {/*      onClick={() => toggleTab(cases?.id)}*/}
-          {/*      className={`text-blue text-lg font-bold p-3 px-6  ${*/}
-          {/*        toggleState === cases?.id*/}
-          {/*          ? "bg-white border-l-8 border-black w-100 shadow-custom-shadow"*/}
-          {/*          : ""*/}
-          {/*      }`}*/}
-          {/*    >*/}
-          {/*      {cases?.title}*/}
-          {/*    </label>*/}
-          {/*  );*/}
-          {/*})}*/}
         </div>
       </div>
 
@@ -111,11 +96,11 @@ const IndustryDynamicTable = ({ activeId, activeIndustryData, tabActive,solution
             {/* content */}
 
             {Parser(currentUseCases?.use_cases_content[0]?.desc || "")}
-            {/* {currentUseCases?.use_cases_content[0]?.desc} */}
           </div>
           <button className=" px-3 py-2 my-6 bg-blue text-sm font-extrabold rounded-full text-white">
             <Link
-              to={`/industry/${activeIndustryData?.link}/${solutionPlay}/${currentUseCases?.title}`}
+              // to={`/industry/${activeIndustryData?.link}/${solutionPlay}/${currentUseCases?.title}`}
+              to={`/industry/${activeIndustryData?.link}/${ currentUseCases?.solution_play ? currentUseCases?.solution_play : solutionPlay}/${currentUseCases?.title}`}
             >
               See more
             </Link>

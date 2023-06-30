@@ -14,8 +14,10 @@
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.8.2",
     "react-scripts": "5.0.1",
+    "react-spring-lightbox": "^1.7.1",
     "react-swipeable": "^7.0.0",
     "tailwind-scrollbar": "^3.0.0",
+    "use-react-router-breadcrumbs": "^4.0.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

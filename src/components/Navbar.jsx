@@ -30,6 +30,7 @@ const Navbar = () => {
       id: 3,
       title: "Specialist Community",
       link: "https://microsoft.sharepoint.com/teams/DataAISpecialistCommunity/",
+      target: "_blank",
     },
    
     // {
@@ -54,7 +55,8 @@ const Navbar = () => {
     {
       id: 8,
       title: "Industry Hub",
-      link: "/additional_resources",
+      link: "https://industryhub.transform.microsoft.com/",
+      target: "_blank",
     },
   ];
 

@@ -39,6 +39,7 @@ export const featuredResourcesData = [
         title: "DAI Dream Demos",
         img: Feature_4,
         link: "https://aka.ms/dreamdemos",
+        target: "_blank",
     },
     {
         id: 5,
@@ -47,6 +48,7 @@ export const featuredResourcesData = [
         img: Feature_5,
         // jimmy to find link
         link: "https://aka.ms/daiindustrymegamap",
+        target: "_blank",
     },
     {
         id: 6,

@@ -103,11 +103,24 @@ export const powerAppsImg = require("assets/power_apps.png");
 export const useCasesButtonIcons = require("assets/icons/ArrowUseCases.png");
 
 // Level 3 page images
-export const automated_quality_inspection = require("assets/industry_usecases_imges/manufacturing_&_mobility/automated_quality_inspection.png");
-export const connected_smart_products = require("assets/industry_usecases_imges/manufacturing_&_mobility/connected_smart_products.png");
-export const document_process_automation = require("assets/industry_usecases_imges/manufacturing_&_mobility/document_process_automation.png");
-export const demand_forecasting = require("assets/industry_usecases_imges/manufacturing_&_mobility/demand_forecasting.jpg");
-export const predictive_maintainance = require("assets/industry_usecases_imges/manufacturing_&_mobility/predictive_maintainance.png");
+export const automated_quality_inspection = require("assets/industry_usecases_imges/manufacturing_&_mobility/MM_AutomatedQualityInspection.png");
+export const connected_smart_products = require("assets/industry_usecases_imges/manufacturing_&_mobility/MM_ConnectedSmartProducts.png");
+export const document_process_automation = require("assets/industry_usecases_imges/manufacturing_&_mobility/MM_DocumentProcessAutomation.png");
+export const factory_working_safety = require("assets/industry_usecases_imges/manufacturing_&_mobility/MM_Factory&WorkerSafety.png")
+export const remote_asset_monitoring = require("assets/industry_usecases_imges/manufacturing_&_mobility/MM_RemoteAssetMonitoring.png")
+export const demand_forecasting = require("assets/industry_usecases_imges/manufacturing_&_mobility/MM_DemandForecasting.png");
+export const predictive_maintainance = require("assets/industry_usecases_imges/manufacturing_&_mobility/MM_PredictiveMaintenance.png");
 
 
 
+
+
+// Reatail and cg
+export const buy_online_pick_up_in_store = require("assets/industry_usecases_imges/retail_&_CG/Buy Online, Pick Up In-Store.png");
+export const conversational_ai_with_azure_openai_for_retail = require("assets/industry_usecases_imges/retail_&_CG/Conversational AI with Azure OpenAI for Retail.png");
+export const customer_revenue_growth_factor = require("assets/industry_usecases_imges/retail_&_CG/Customer Revenue Growth Factor.png");
+export const _retail_demand_forecasting = require("assets/industry_usecases_imges/retail_&_CG/Demand Forecasting.png");
+export const personalization_and_recommendations = require("assets/industry_usecases_imges/retail_&_CG/Personalization and Recommendations.png");
+export const product_catalog_discovery = require("assets/industry_usecases_imges/retail_&_CG/Product Catalog Discovery.png");
+export const sales_service_and_support_bot = require("assets/industry_usecases_imges/retail_&_CG/Sales, Service and Support Bot.png");
+export const azure_intelligent_recommendations = require("assets/industry_usecases_imges/retail_&_CG/Azure Intelligent Recommendations.png");

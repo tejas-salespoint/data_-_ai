@@ -9,6 +9,7 @@ import IndustryDetail from "pages/IndustryDetail/IndustryDetail";
 import BufferPage from "pages/BufferPage/BufferPage";
 import IndustryCasesPage from "pages/IndustryCasesPage/IndustryCasesPage";
 import DynamicIndustry from "pages/DynamicIndustry";
+import NotFound from "./components/NotFound";
 
 function App() {
   return (
@@ -23,6 +24,8 @@ function App() {
           <Route path="/connected_vehicle" element={<IndustryDetail />} />
           <Route exact  path="/industry/:industry" element={<DynamicIndustry />} />
           <Route path="/industry/:industry/:piller/:cases" element={<IndustryCasesPage />} />
+          <Route element={<NotFound/>} />
+          <Route path="/coming_soon" element={<NotFound />} />
         </Routes>
         <Footer />
       </BrowserRouter>
