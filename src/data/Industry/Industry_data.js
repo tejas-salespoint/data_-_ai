@@ -54,7 +54,10 @@ export const Industry = [
           <p>
            Ultimately, you’ll want to connect and monitor factory performance across the globe, using data from smart assets to apply operational insights and further optimize your production processes. This is where even the most advanced manufacturing service providers such as Jabil, or the Industrial Automation giants such as Rockwell Automation, Schneider Automation, Siemens etc, are finding new opportunities by augmenting operational technologies (long powered by Windows embedded technologies), with new IT capabilities such as IoT, AI, Mixed Reality and secure and compliant communication and collaboration cloud capabilities.
           </p>
-          <p><a className="text-blue font-semibold" target="_blank href="https://industryhub.transform.microsoft.com/enterprise-commercial/manufacturing?tab=overview"> Learn More </a>  about this Indusrty Pillar</p>
+
+
+          
+          <p><a className="text-blue font-semibold" target="_blank" href="https://industryhub.transform.microsoft.com/enterprise-commercial/manufacturing?tab=overview"> Learn More </a>  about this Indusrty Pillar</p>
        `,
         use_cases: [
           // Todo :: Automated Quality Inspection
@@ -724,254 +727,7 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
         ],
       },
 
-      // 4th use case
-      //
-      // {
-      //   id: crypto.randomUUID(),
-      //   title: "Resilient Operations",
-      //   content: ` <div className="flex flex-col gap-4">
-      //         <p className="font-bold"> Overview </p>
-      //         <p>
-      //           Realize the true value of your data by unifying disparate data
-      //           sources across the shopper journey, discovering insights that
-      //           enable better experiences
-      //         </p>
-      //       </div>
-      //       <div className="flex flex-col gap-4">
-      //         <p className="font-bold">Roles </p>
-      //         <ul className="list-disc ">
-      //           <li className="mx-4">CIO/VP</li>
-      //           <li className="mx-4">CDO/VP</li>
-      //           <li className="mx-4">COO/VP</li>
-      //           <li className="mx-4">CMO/VP (required by all)</li>
-      //         </ul>
-      //       </div>
-      //       <div className="flex flex-col gap-4">
-      //         <p className="font-bold">Customer Challenges </p>
-      //         <ul className="list-disc ">
-      //           <li className="mx-4">
-      //             Vast amounts of data in many places makes it hard to make
-      //             sense of it or know what's important and what's not
-      //           </li>
-      //           <li className="mx-4">360-degree view of the customer</li>
-      //           <li className="mx-4">
-      //             New shopping journeys creating fraud vulnerabilities across
-      //             digital and voice channels
-      //           </li>
-      //         </ul>
-      //       </div>
-      //       <div className="flex flex-col gap-4">
-      //         <p className="font-bold">Desiried Business Outcomes </p>
-      //        <p>
-      //           Realize the true value of your data by unifying disparate data
-      //           sources across the shopper journey, discovering insights that
-      //           enable better experiences
-      //         </p>
-      //         <ul className="list-disc ">
-      //           <li className="mx-4">
-      //             Gain insights across the complete view of a shopper's journey
-      //           </li>
-      //           <li className="mx-4">
-      //             Unlock omnichannel insights with advanced analytics
-      //           </li>
-      //           <li className="mx-4">
-      //             Protect your revenue from fraud using AI to id patterns and
-      //             multi-modal biometrics stop fraudsters
-      //           </li>
-      //           <li className="mx-4">
-      //             Unlock ad revenue using your 1st party shopper data
-      //           </li>
-      //           <li className="mx-4">
-      //             Reduce costs by optimizing shopper journeys and streamlining
-      //             automation
-      //           </li>
-      //         </ul>
-      //         <p>
-      //
-      //           <a
-      //             className="text-blue"
-      //             target={"_blank"}
-      //             href=
-      //               "https://industryhub.transform.microsoft.com/solution-plays/maximize-the-value-of-your-data?tab=overview"
-      //
-      //           >
-      //             Learn more
-      //           </a>
-      //
-      //           about this Indusrty Pillar
-      //         </p>
-      //       </div>`,
-      //   use_cases: [
-      //     {
-      //       id: crypto.randomUUID(),
-      //       title: "Connected Factories/Digital Twins",
-      //       // l3 page link
-      //       link: "",
-      //       use_cases_content: [
-      //         {
-      //           subtitle: "Overview",
-      //           link: "",
-      //           desc: ` <p>
-      //         Every industry is facing transformational change and we have a
-      //         strategic opportunity in Business Applications to drive long
-      //         lasting impact and change for our customers. Industry customers
-      //         are facing more challenges than ever before and need a partner to
-      //         help them use technology as their key to success. To engage
-      //         effectively, we need to leverage the industry value propositions
-      //         we have at Microsoft and pair them with a Business Applications
-      //         point of view, The assets in this section will help you
-      //         demonstrate to customers that you understand their challenges and
-      //         how to address them with industry-specific solutions.
-      //       </p>
-      //       <p>
-      //         To learn more about all public and commercial sector industries
-      //         and drive effective
-      //       </p>
-      //       <p>
-      //         conversations with your customers visit the
-      //         <span className="text-cyan-600">Industry Hub</span> today.
-      //       </p>`,
-      //         },
-      //       ],
-      //     },
-      //     {
-      //       id: crypto.randomUUID(),
-      //       title: "Integrated Supply Chain",
-      //       // l3 page link
-      //       link: "",
-      //       use_cases_content: [
-      //         {
-      //           subtitle: "Overview",
-      //           link: "",
-      //           desc: ` <p>
-      //         Every industry is facing transformational change and we have a
-      //         strategic opportunity in Business Applications to drive long
-      //         lasting impact and change for our customers. Industry customers
-      //         are facing more challenges than ever before and need a partner to
-      //         help them use technology as their key to success. To engage
-      //         effectively, we need to leverage the industry value propositions
-      //         we have at Microsoft and pair them with a Business Applications
-      //         point of view, The assets in this section will help you
-      //         demonstrate to customers that you understand their challenges and
-      //         how to address them with industry-specific solutions.
-      //       </p>
-      //       <p>
-      //         To learn more about all public and commercial sector industries
-      //         and drive effective
-      //       </p>
-      //       <p>
-      //         conversations with your customers visit the
-      //         <span className="text-cyan-600">Industry Hub</span> today.
-      //       </p>`,
-      //         },
-      //       ],
-      //     },
-      //     {
-      //       id: crypto.randomUUID(),
-      //       title: " Connected Businesses",
-      //       // l3 page link
-      //       link: "",
-      //       use_cases_content: [
-      //         {
-      //           subtitle: "Overview",
-      //           link: "",
-      //           desc: ` <p>
-      //         Every industry is facing transformational change and we have a
-      //         strategic opportunity in Business Applications to drive long
-      //         lasting impact and change for our customers. Industry customers
-      //         are facing more challenges than ever before and need a partner to
-      //         help them use technology as their key to success. To engage
-      //         effectively, we need to leverage the industry value propositions
-      //         we have at Microsoft and pair them with a Business Applications
-      //         point of view, The assets in this section will help you
-      //         demonstrate to customers that you understand their challenges and
-      //         how to address them with industry-specific solutions.
-      //       </p>
-      //       <p>
-      //         To learn more about all public and commercial sector industries
-      //         and drive effective
-      //       </p>
-      //       <p>
-      //         conversations with your customers visit the
-      //         <span className="text-cyan-600">Industry Hub</span> today.
-      //       </p>`,
-      //         },
-      //       ],
-      //     },
-      //     {
-      //       id: crypto.randomUUID(),
-      //       title: "Sustainability",
-      //       // l3 page link
-      //       link: "",
-      //       use_cases_content: [
-      //         {
-      //           subtitle: "Overview",
-      //           link: "",
-      //           desc: ` <p>
-      //         Every industry is facing transformational change and we have a
-      //         strategic opportunity in Business Applications to drive long
-      //         lasting impact and change for our customers. Industry customers
-      //         are facing more challenges than ever before and need a partner to
-      //         help them use technology as their key to success. To engage
-      //         effectively, we need to leverage the industry value propositions
-      //         we have at Microsoft and pair them with a Business Applications
-      //         point of view, The assets in this section will help you
-      //         demonstrate to customers that you understand their challenges and
-      //         how to address them with industry-specific solutions.
-      //       </p>
-      //       <p>
-      //         To learn more about all public and commercial sector industries
-      //         and drive effective
-      //       </p>
-      //       <p>
-      //         conversations with your customers visit the
-      //         <span className="text-cyan-600">Industry Hub</span> today.
-      //       </p>`,
-      //         },
-      //       ],
-      //     },
-      //     {
-      //       id: crypto.randomUUID(),
-      //       title: " Automated Quality Inspection",
-      //       // l3 page link
-      //       link: "",
-      //       use_cases_content: [
-      //         {
-      //           subtitle: "Overview",
-      //           link: "",
-      //           desc: `  <p>
-      //           Automated quality control improves inspection measurement
-      //           reliability. Accurate measurements on complex parts and high
-      //           throughput production lines is assured with automated inspections.
-      //           These systems can capture more data for large quantities of parts
-      //           faster. <br />
-      //           <br />
-      //           Artificial Intelligence of Things (AlT) is the combination of
-      //           artificial intelligence (AI) technologies with the Internet of
-      //           Things (loT) infrastructure to achieve more efficient loT
-      //           operations, improve human-machine interactions and enhance data
-      //           management and analytics. Automated quality inspection typically
-      //           leverages Al image analysis (vision) and data from loT sensors to
-      //           identify product quality issues in real-time on the production
-      //           line, triggering an alert for further inspection and/or action if
-      //           problems are detected. <br />
-      //         </p>
-      //         <p>
-      //           <p className="font-bold pr-4 ">
-      //
-      //             Key Services / Product Stack
-      //           </p>
-      //           <br />
-      //           Azure Container Registry, Azure DevOps, Azure loT Hub, Azure
-      //           Key/ault, Azure Machine Learning, Cognitive Services: Vision,
-      //           Azure SQL, Azure Storage, Docker, Power BI
-      //         </p>
-      //       </div>`,
-      //         },
-      //       ],
-      //     },
-      //   ],
-      // },
+      
 
       // 5th all use cases
       {
@@ -2402,7 +2158,7 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
           <li>Does the technology you're using today preserve the integrity of patient records as physicians are measured on accuracy and compliance audits?</li>
         </ul>
 
-        <p><a className="text-blue font-semibold" target="_blank href="https://industryhub.transform.microsoft.com/solution-plays"> Learn More </a>  about this Indusrty Pillar</p>
+        <p><a className="text-blue font-semibold" target="_blank" href="https://industryhub.transform.microsoft.com/solution-plays"> Learn More </a>  about this Indusrty Pillar</p>
       </div>`,
         use_cases: [
 
@@ -3548,7 +3304,7 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
             </p>
             
           
-            <p><a className="text-blue font-semibold" target="_blank href="https://industryhub.transform.microsoft.com/solution-plays/maximize-the-value-of-your-data?tab=overview"> Learn More </a>  about Indusrty Pillar</p>
+            <p><a className="text-blue font-semibold" target="_blank" href="https://industryhub.transform.microsoft.com/solution-plays/maximize-the-value-of-your-data?tab=overview"> Learn More </a>  about Indusrty Pillar</p>
             `,
 
         use_cases: [
@@ -3935,7 +3691,7 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
   
           
           </p>       
-          <p><a className="text-blue font-semibold" target="_blank href="https://industryhub.transform.microsoft.com/solution-plays"> Learn More </a>  about Indusrty Pillar</p>`,
+          <p><a className="text-blue font-semibold" target="_blank" href="https://industryhub.transform.microsoft.com/solution-plays"> Learn More </a>  about Indusrty Pillar</p>`,
 
         use_cases: [
           {
@@ -4218,7 +3974,7 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
   
           
           </p>       
-          <p><a className="text-blue font-semibold" target="_blank href="https://industryhub.transform.microsoft.com/solution-plays"> Learn More </a>  about Indusrty Pillar</p>`,
+          <p><a className="text-blue font-semibold" target="_blank" href="https://industryhub.transform.microsoft.com/solution-plays"> Learn More </a>  about Indusrty Pillar</p>`,
 
         use_cases: [
           {
@@ -4339,7 +4095,7 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
   
           
           </p> 
-          <p><a className="text-blue font-semibold" target="_blank href="https://industryhub.transform.microsoft.com/solution-plays"> Learn More </a>  about Indusrty Pillar</p>      
+          <p><a className="text-blue font-semibold" target="_blank" href="https://industryhub.transform.microsoft.com/solution-plays"> Learn More </a>  about Indusrty Pillar</p>      
           `,
         use_cases : [
           {
@@ -5137,7 +4893,7 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
 <!--            <b>Coming Soon</b>-->
 <!--          </p>-->
 
-<p><a className="text-blue font-semibold" target="_blank href="https://industryhub.transform.microsoft.com/public-sector/government?tab=overview"> Learn More </a>  about this Indusrty Pillar</p>
+<p><a className="text-blue font-semibold" target="_blank" href="https://industryhub.transform.microsoft.com/public-sector/government?tab=overview"> Learn More </a>  about this Indusrty Pillar</p>
 `
 
         ,
@@ -5328,7 +5084,7 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
 <!--          <b>Coming Soon </b> -->
 <!--        </p>-->
 
-<p><a className="text-blue font-semibold" target="_blank href="https://industryhub.transform.microsoft.com/public-sector/government?tab=overview"> Learn More </a>  about this Indusrty Pillar</p>
+<p><a className="text-blue font-semibold" target="_blank" href="https://industryhub.transform.microsoft.com/public-sector/government?tab=overview"> Learn More </a>  about this Indusrty Pillar</p>
 
 `,
 
@@ -5435,7 +5191,7 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
 <!--          <b>Coming Soon </b> -->
 <!--        </p>-->
 
-<p><a className="text-blue font-semibold" target="_blank href="https://industryhub.transform.microsoft.com/public-sector/government?tab=overview"> Learn More </a>  about this Indusrty Pillar</p>
+<p><a className="text-blue font-semibold" target="_blank" href="https://industryhub.transform.microsoft.com/public-sector/government?tab=overview"> Learn More </a>  about this Indusrty Pillar</p>
 
 
 `,
