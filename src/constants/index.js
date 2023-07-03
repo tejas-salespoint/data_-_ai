@@ -124,3 +124,18 @@ export const personalization_and_recommendations = require("assets/industry_usec
 export const product_catalog_discovery = require("assets/industry_usecases_imges/retail_&_CG/Product Catalog Discovery.png");
 export const sales_service_and_support_bot = require("assets/industry_usecases_imges/retail_&_CG/Sales, Service and Support Bot.png");
 export const azure_intelligent_recommendations = require("assets/industry_usecases_imges/retail_&_CG/Azure Intelligent Recommendations.png");
+
+
+// Todo :: Healthcare
+export const clinical_analytics_and_decision_support_patient_risk = require('assets/industry_usecases_imges/Healthcare/HC_ClinicalAnalytics&DecisionSupport.png')
+export const document_process_automation_healtcare = require('assets/industry_usecases_imges/Healthcare/HC_DocProcessAutomation 1.png')
+export const drug_discovery_and_research = require('assets/industry_usecases_imges/Healthcare/HC_DrugDiscovery&Research 1.png')
+export const service_and_support_bot_healthcare = require('assets/industry_usecases_imges/Healthcare/HC_VirtualSalesService&Support 1.png')
+export const medical_device_and_equipment_tracking = require('assets/industry_usecases_imges/Healthcare/fa2f5a3e-d475-47cb-a6ff-98a6beda13b8 1.png')
+
+
+// Todo :: Government
+export const information_discovery_and_management = require("../assets/industry_usecases_imges/Government/GOV_InfoDiscovery&Mgmnt 1.png")
+export const document_process_automation_government = require("assets/industry_usecases_imges/Government/GOV_DocumentProcessAutomation 1.png")
+export const service_and_support_bot_government = require("assets/industry_usecases_imges/Government/GOV_SalesServiceSupport 1.png")
+export const fraud_detection_and_transaction_monitoring = require("assets/industry_usecases_imges/Government/GOV_FraudDetection 1.png")

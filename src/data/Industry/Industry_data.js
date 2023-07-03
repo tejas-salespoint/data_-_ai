@@ -14,10 +14,21 @@ import { automated_quality_inspection } from "constants";
 import {
   azure_intelligent_recommendations,
   buy_online_pick_up_in_store,
+  clinical_analytics_and_decision_support_patient_risk,
   conversational_ai_with_azure_openai_for_retail,
   customer_revenue_growth_factor,
-  factory_working_safety, personalization_and_recommendations, product_catalog_discovery,
-  remote_asset_monitoring, sales_service_and_support_bot,
+  document_process_automation_government,
+  document_process_automation_healtcare,
+  drug_discovery_and_research,
+  factory_working_safety, fraud_detection_and_transaction_monitoring,
+  information_discovery_and_management,
+  medical_device_and_equipment_tracking,
+  personalization_and_recommendations,
+  product_catalog_discovery,
+  remote_asset_monitoring,
+  sales_service_and_support_bot,
+  service_and_support_bot_government,
+  service_and_support_bot_healthcare,
 } from "../../constants";
 
 export const Industry = [
@@ -517,7 +528,7 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
                   employees: "",
                   budget: "",
                   image: "",
-                  image_subtitle: "",
+                  image_subtitle: "Business  Architecture:  ",
                   image_link: "",
                 },
 
@@ -2035,7 +2046,7 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
                   employees: "",
                   budget: "",
                   image: "",
-                  image_subtitle: "",
+                  image_subtitle: "Business  Architecture:  ",
                   image_link: "",
                 },
                 partners: [
@@ -2100,7 +2111,7 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
                   employees: "",
                   budget: "",
                   image: "",
-                  image_subtitle: "",
+                  image_subtitle: "Business  Architecture:  ",
                   image_link: "",
                 },
                 partners: [
@@ -2165,7 +2176,7 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
                   employees: "",
                   budget: "",
                   image: "",
-                  image_subtitle: "",
+                  image_subtitle: "Business  Architecture:  ",
                   image_link: "",
                 },
                 partners: [
@@ -2230,7 +2241,7 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
                   employees: "",
                   budget: "",
                   image: "",
-                  image_subtitle: "",
+                  image_subtitle: "Business  Architecture:  ",
                   image_link: "",
                 },
                 partners: [
@@ -2295,7 +2306,7 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
                   employees: "",
                   budget: "",
                   image: "",
-                  image_subtitle: "",
+                  image_subtitle: "Business  Architecture:  ",
                   image_link: "",
                 },
                 partners: [
@@ -2347,806 +2358,1148 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
     link: "healthcare",
     heading: "Healthcare Overview",
     overview:
-      "The market for the movement of people and goods is one of the largest and most dynamic ecosystems globally which represents $6T in global revenues today and is projected to grow to $11T by 2030 (~6% CAGR). This shift is disrupting the ecosystem, creating the opportunity for new market entrants to become future market leaders and driving traditional players to partner with technology providers who can help them reinvent their business models and deliver next generation experiences across automotive, mobility, and transportation. While we represent these industry trends separately, the alignment of automotive, mobility, and transportation was purposeful as the lines between each continue to converge.",
+      "The Healthcare industry is comprised of providers of diagnostic, preventative, remedial, and therapeutic services such as doctors, nurses, hospitals, and other private, public, and voluntary organizations.  It also includes medical technology/equipment manufacturers, pharmaceutical and life sciences manufacturers, and health payor and insurance companies.  This industry has been at the forefront of the COVID-19 response which will have long lasting impacts on all the verticals in the industry.",
 
     solution_plays: [
       // 1st use cases
       {
         id: crypto.randomUUID(),
-        title: "Accelerated Innovations",
+        title: "Unlock Value from Your Clinical and Operational Data",
         content: `
-        <p className="font-bold"> Business Application Industry Content</p>
-          <p>
-            Every industry is facing transformational change and we have a
-            strategic opportunity in Business Applications to drive long
-            lasting impact and change for our customers. Industry customers
-            are facing more challenges than ever before and need a partner to
-            help them use technology as their key to success. To engage
-            effectively, we need to leverage the industry value propositions
-            we have at Microsoft and pair them with a Business Applications
-            point of view.
-          </p>
-          <p>
-            Every industry is facing transformational change and we have a
-            strategic opportunity in Business Applications to drive long
-            lasting impact and change for our customers. Industry customers
-            are facing more challenges than ever before and need a partner to
-            help them use technology as their key to success. To engage
-            effectively, we need to leverage the industry value propositions
-            we have at Microsoft and pair them with a Business Applications
-            point of view.
-          </p>
-          <p>
-            Every industry is facing transformational change and we have a
-            strategic opportunity in Business Applications to drive long
-            lasting impact and change for our customers. Industry customers
-            are facing more challenges than ever before and need a partner to
-            help them use technology as their key to success. To engage
-            effectively, we need to leverage the industry value propositions
-            we have at Microsoft and pair them with a Business Applications
-            point of view.
-          </p>
-          <p>
-            Every industry is facing transformational change and we have a
-            strategic opportunity in Business Applications to drive long
-            lasting impact and change for our customers. Industry customers
-            are facing more challenges than ever before and need a partner to
-            help them use technology as their key to success. To engage
-            effectively, we need to leverage the industry value propositions
-            we have at Microsoft and pair them with a Business Applications
-            point of view.
-          </p>`,
-        use_cases: [
-          {
-            id: crypto.randomUUID(),
-            title: "Autonomous Dev Workflow",
-            // l3 page link
-            link: "",
-            use_cases_content: [
-              {
-                subtitle: "Overview",
-                link: "/industry/resilient_operations/Automated_quality_inspection",
+      
+        <div>
+        <p className="font-bold mb-4">Unlock Value from Your Clinical and Operational Data</p>
+        <p>Leverage insights to improve patient care by connecting data from multiple sources and using predictive analytics for data modeling and identifying clinical trends.</p>
+        
+        <p className="font-bold mt-6 mb-2">Customer Scenarios</p>
+        <p>Clinical analytics: Access and securely share actionable data insights</p>
+        <p>Operational analytics: Gain insights to help optimize operational effectiveness</p>
+        
+        <p className="font-bold mt-6 mb-2">Roles</p>
+        <ul>
+          <li>COO, VP/Dir. Of Ops</li>
+          <li>CTO/Head of IT/Development Leaders</li>
+          <li>Chief digital officer</li>
+          <li>Chief Medial/Nursing Informatics Officer</li>
+        </ul>
+        
+        <p className="font-bold mt-6 mb-2">Challenges</p>
+        <ul>
+          <li>Managing a fragmented ecosystem of data, applications, and devices</li>
+          <li>Managing changing technology and legacy systems</li>
+          <li>Lack of consolidated and real-time financial data to assess performance and opportunities</li>
+          <li>Data management and security</li>
+        </ul>
+        
+        <p className="font-bold mt-6 mb-2">Business Outcomes</p>
+        <p>Leverage insights to improve patient care by connecting data from multiple sources and using predictive analytics for data modeling and identifying clinical trends.</p>
+        
+        <p className="font-bold mt-6 mb-2">Questions to Ask</p>
+        <ul>
+          <li>How do you ensure that you have the right resources - inventory, people, equipment - at the right place at the right time?</li>
+          <li>Are different teams using data from disparate systems to make decisions?</li>
+          <li>How are you using IT as an entry point to qualify for strategic initiatives like population health?</li>
+          <li>Does the technology you're using today preserve the integrity of patient records as physicians are measured on accuracy and compliance audits?</li>
+        </ul>
 
-                desc: `<p>Every industry is facing transformational change and we have a
-                strategic opportunity in Business Applications to drive long
-                lasting impact and change for our customers. Industry customers
-                are facing more challenges than ever before and need a partner to
-                help them use technology as their key to success. To engage
-                effectively, we need to leverage the industry value propositions
-                we have at Microsoft and pair them with a Business Applications
-                point of view, The assets in this section will help you
-                demonstrate to customers that you understand their challenges and
-                how to address them with industry-specific solutions.
-              </p>
-              <p>
-                To learn more about all public and commercial sector industries
-                and drive effective
-              </p>
-              <p>
-                conversations with your customers visit the
-                <span className="text-cyan-600">Industry Hub</span> today.
-              </p>`,
-              },
-            ],
-          },
+        <p><a className="text-blue font-semibold" target="_blank href="https://industryhub.transform.microsoft.com/solution-plays"> Learn More </a>  about this Indusrty Pillar</p>
+      </div>`,
+        use_cases: [
+
+          // todo :: Clinical Analytics and Decision Support (Patient Risk)
+
           {
             id: crypto.randomUUID(),
-            title: "Connected Vehicle",
-            // l3 page link
+            title: "Clinical Analytics and Decision Support (Patient Risk)",
             link: "",
             use_cases_content: [
               {
                 subtitle: "Overview",
                 link: "",
-                desc: ` <p>
-                Every industry is facing transformational change and we have a
-                strategic opportunity in Business Applications to drive long
-                lasting impact and change for our customers. Industry customers
-                are facing more challenges than ever before and need a partner to
-                help them use technology as their key to success. To engage
-                effectively, we need to leverage the industry value propositions
-                we have at Microsoft and pair them with a Business Applications
-                point of view, The assets in this section will help you
-                demonstrate to customers that you understand their challenges and
-                how to address them with industry-specific solutions.
-              </p>
-              <p>
-                To learn more about all public and commercial sector industries
-                and drive effective
-              </p>
-              <p>
-                conversations with your customers visit the
-                <span className="text-cyan-600">Industry Hub</span> today.
-              </p>`,
+                desc: "",
+                keyHighlights: {
+                  decision_makers: [
+                    'Primary: Chief Medical Officer, Chief Science Officer, Chief Data Officer'
+                  ],
+                  decision_making_factors: [
+                    'Ability to integrate with current systems',
+                    'Cost',
+                    'Impact on patient outcomes',
+                    'Scalability'
+                  ],
+                  desired_business_objectives: [
+                    'Improve patient outcomes by optimizing treatments based on individual factors',
+                    'Improve patient experience by transforming their health data into actionable guidance',
+                    'Reduce unnecessary intake/re-admissions through proactive/reactive intervention',
+                    'Reduce operating costs by enabling providers to make faster, more reliable decisions'
+                  ],
+                  customer_pain_points: [
+                    'Struggling to accelerate transition to value-based, personalized care',
+                    'Early intervention is a challenge',
+                    'Data is disparate, or cannot be processed effectively, limiting ability to do predictive analytics for patient and treatment insights',
+                    'Variation in care and quality of outcomes is high',
+                    'Burnout among staff is high, demanding workloads and schedules'
+                  ],
+                  proposed_technical_solution: [],
+                  other_notable_attributes: [],
+                  products: [
+                    'Azure Machine Learning',
+                    'Cognitive Services: Speech',
+                    'Applied AI Services: Form Recognizer',
+                    'Azure Synapse Analytics',
+                    'Azure Cosmos DB',
+                    'PowerApps',
+                    'Azure Kubernetes Service',
+                    'Azure Container Registry'
+                  ]
+                },
+                idealCostomerProfile: {
+                  industries: "Healthcare",
+                  geography: "",
+                  market_cap: "",
+                  employees: "",
+                  budget: "",
+                  image: clinical_analytics_and_decision_support_patient_risk,
+                  image_subtitle: "Business  Architecture: Clinical Analytics and Decision Support (Patient Risk)",
+                  image_link: "",
+                },
+                partners: [
+                  {
+                    image: "",
+                    link: "",
+                  },
+                  {
+                    image: "",
+                    link: "",
+                  },
+                  {
+                    image: "",
+                    link: "",
+                  },
+                  {
+                    image: "",
+                    link: "",
+                  },
+                  {
+                    image: "",
+                    link: "",
+                  },
+                  {
+                    image: "",
+                    link: "",
+                  },
+                  {
+                    image: "",
+                    link: "",
+                  },
+                  {
+                    image: "",
+                    link: "",
+                  },
+                ],
               },
             ],
           },
-        ],
-      },
 
-      // 2nd use cases
-      {
-        id: crypto.randomUUID(),
-        title: "Deliver Differentiated CX",
-        content: `<p className="font-bold"> Business Application Industry Content</p>
-            <p>
-              Every industry is facing transformational change and we have a
-              strategic opportunity in Business Applications to drive long
-              lasting impact and change for our customers. Industry customers
-              are facing more challenges than ever before and need a partner to
-              help them use technology as their key to success. To engage
-              effectively, we need to leverage the industry value propositions
-              we have at Microsoft and pair them with a Business Applications
-              point of view.
-            </p>`,
-        use_cases: [
+          // Todo :: Document Process Automation
+
           {
             id: crypto.randomUUID(),
-            title: "Customer Data Platform",
-            // l3 page link
+            title: "Document Process Automation",
             link: "",
             use_cases_content: [
               {
                 subtitle: "Overview",
                 link: "",
-                desc: ` <p>
-                Every industry is facing transformational change and we have a
-                strategic opportunity in Business Applications to drive long
-                lasting impact and change for our customers. Industry customers
-                are facing more challenges than ever before and need a partner to
-                help them use technology as their key to success. To engage
-                effectively, we need to leverage the industry value propositions
-                we have at Microsoft and pair them with a Business Applications
-                point of view, The assets in this section will help you
-                demonstrate to customers that you understand their challenges and
-                how to address them with industry-specific solutions.
-              </p>
-              <p>
-                To learn more about all public and commercial sector industries
-                and drive effective
-              </p>
-              <p>
-                conversations with your customers visit the
-                <span className="text-cyan-600">Industry Hub</span> today.
-              </p>`,
-              },
-            ],
-          },
-        ],
-      },
+                desc: "Reduce human intervention and automate extraction of data from large and complex structured and unstructured documents to unlock insights and enable users to find key data points",
+                keyHighlights: {
+                  decision_makers: [
+                    'Primary: Chief Operations Officer, Chief Data Officer, Chief Information Officer'
+                  ],
+                  decision_making_factors: [
+                    'Scalability',
+                    'Cost',
+                    'Efficiency'
+                  ],
+                  desired_business_objectives: [
+                    'Increase speed to value/insight by reducing document processing times',
+                    'Reduce operating expenses through automation of manual processes',
+                    'Improve data confidence and accuracy in extracted data by relying less on error-prone manual processes'
+                  ],
+                  customer_pain_points: [
+                    'Investing in expensive manual labor to extract data',
+                    'Manual data extraction is inefficient and/or error-prone, resulting in low confidence in data accuracy'
+                  ],
+                  proposed_technical_solution: [
+                    'Reduce human intervention and automate extraction of data from large and complex structured and unstructured documents to unlock insights and enable users to find key data points'
+                  ],
+                  other_notable_attributes: [],
+                  products: [
+                    'Form Recognizer',
+                    'Azure Logic Apps',
+                    'Azure Cosmos DB',
+                    'Power BI',
+                    'Azure Data Explorer',
+                    'Bot Framework',
+                    'Luis'
+                  ]
 
-      //  3rd use cases
-      {
-        id: crypto.randomUUID(),
-        title: "Emerging Mobility Services",
-        content: `<p className="font-bold"> Business Application Industry Content</p>
-            <p>
-              Every industry is facing transformational change and we have a
-              strategic opportunity in Business Applications to drive long
-              lasting impact and change for our customers. Industry customers
-              are facing more challenges than ever before and need a partner to
-              help them use technology as their key to success. To engage
-              effectively, we need to leverage the industry value propositions
-              we have at Microsoft and pair them with a Business Applications
-              point of view.
-            </p>`,
-        use_cases: [
-          {
-            id: crypto.randomUUID(),
-            title: "Data Sharing & Monetization",
-            // l3 page link
-            link: "",
-            use_cases_content: [
-              {
-                subtitle: "Overview",
-                link: "",
-                desc: ` <p>
-                Every industry is facing transformational change and we have a
-                strategic opportunity in Business Applications to drive long
-                lasting impact and change for our customers. Industry customers
-                are facing more challenges than ever before and need a partner to
-                help them use technology as their key to success. To engage
-                effectively, we need to leverage the industry value propositions
-                we have at Microsoft and pair them with a Business Applications
-                point of view, The assets in this section will help you
-                demonstrate to customers that you understand their challenges and
-                how to address them with industry-specific solutions.
-              </p>
-              <p>
-                To learn more about all public and commercial sector industries
-                and drive effective
-              </p>
-              <p>
-                conversations with your customers visit the
-                <span className="text-cyan-600">Industry Hub</span> today.
-              </p>`,
-              },
-            ],
-          },
-        ],
-      },
-
-      // 4th use case
-      {
-        id: crypto.randomUUID(),
-        title: "Resilient Operations",
-        content: ` <div className="flex flex-col gap-4">
-              <p className="font-bold"> Overview </p>
-              <p>
-                Realize the true value of your data by unifying disparate data
-                sources across the shopper journey, discovering insights that
-                enable better experiences
-              </p>
-            </div>
-            <div className="flex flex-col gap-4">
-              <p className="font-bold">Roles </p>
-              <ul className="list-disc ">
-                <li className="mx-4">CIO/VP</li>
-                <li className="mx-4">CDO/VP</li>
-                <li className="mx-4">COO/VP</li>
-                <li className="mx-4">CMO/VP (required by all)</li>
-              </ul>
-            </div>
-            <div className="flex flex-col gap-4">
-              <p className="font-bold">Customer Challenges </p>
-              <ul className="list-disc ">
-                <li className="mx-4">
-                  Vast amounts of data in many places makes it hard to make
-                  sense of it or know what's important and what's not
-                </li>
-                <li className="mx-4">360-degree view of the customer</li>
-                <li className="mx-4">
-                  New shopping journeys creating fraud vulnerabilities across
-                  digital and voice channels
-                </li>
-              </ul>
-            </div>
-            <div className="flex flex-col gap-4">
-              <p className="font-bold">Desiried Business Outcomes </p>
-             <p>
-                Realize the true value of your data by unifying disparate data
-                sources across the shopper journey, discovering insights that
-                enable better experiences
-              </p>
-              <ul className="list-disc ">
-                <li className="mx-4">
-                  Gain insights across the complete view of a shopper's journey
-                </li>
-                <li className="mx-4">
-                  Unlock omnichannel insights with advanced analytics
-                </li>
-                <li className="mx-4">
-                  Protect your revenue from fraud using AI to id patterns and
-                  multi-modal biometrics stop fraudsters
-                </li>
-                <li className="mx-4">
-                  Unlock ad revenue using your 1st party shopper data
-                </li>
-                <li className="mx-4">
-                  Reduce costs by optimizing shopper journeys and streamlining
-                  automation
-                </li>
-              </ul>
-              <p>
-             
-                <a
-                  className="text-blue"
-                  target={"_blank"}
-                  href=
-                    "https://industryhub.transform.microsoft.com/solution-plays/maximize-the-value-of-your-data?tab=overview"
                   
-                >
-                  Learn more
-                </a>
-              
-                about this Indusrty Pillar
-              </p>
-            </div>`,
+                },
+                idealCostomerProfile: {
+                  industries: "Healthcare",
+                  geography: "",
+                  market_cap: "",
+                  employees: "",
+                  budget: "",
+                  image: document_process_automation_healtcare,
+                  image_subtitle: "Business  Architecture: Document Process Automation ",
+                  image_link: "",
+                },
+                partners: [
+                  {
+                    image: "",
+                    link: "",
+                  },
+                  {
+                    image: "",
+                    link: "",
+                  },
+                  {
+                    image: "",
+                    link: "",
+                  },
+                  {
+                    image: "",
+                    link: "",
+                  },
+                  {
+                    image: "",
+                    link: "",
+                  },
+                  {
+                    image: "",
+                    link: "",
+                  },
+                  {
+                    image: "",
+                    link: "",
+                  },
+                  {
+                    image: "",
+                    link: "",
+                  },
+                ],
+              },
+            ],
+          },
+
+          // Todo :: Drug Discovery and Research
+
+          {
+            id: crypto.randomUUID(),
+            title: "Drug Discovery and Research",
+            link: "",
+            use_cases_content: [
+              {
+                subtitle: "Overview",
+                link: "",
+                desc: "Assist in drug research through drug property prediction and drug-target interaction prediction (in addition to searching literature)",
+                keyHighlights: {
+                  decision_makers: [
+                    'Primary: Head of Research, Chief Operating Officer, Chief Executive Officer, Chief Data Officer, Director of Innovation'
+                  ],
+                  decision_making_factors: [
+                    'Scalability',
+                    'Cost',
+                    'Efficiency'
+                  ],
+                  desired_business_objectives: [
+                    'Increase speed to market by reducing time needed to identify viable drugs',
+                    'Improve patient outcomes by discovering drugs that combat diseases with little or no treatments',
+                    'Reduce cost of experimentation and research by automating the process to go through data and past results to feed AI-enabled simulations'
+                  ],
+                  customer_pain_points: [
+                    'Long discovery and trial and error lead times put the organization at a competitive disadvantage',
+                    'Drug R&D costs are very high, putting pressure on margins',
+                    'Low rates of viability (both in terms of drug efficacy and commercialization)'
+                  ],
+                  proposed_technical_solution: [
+                    'Assist in drug research through drug property prediction and drug-target interaction prediction (in addition to searching literature)'
+                  ],
+                  other_notable_attributes: [],
+                  products_tech_stack: []
+                },
+                idealCostomerProfile: {
+                  industries: "",
+                  geography: "",
+                  market_cap: "",
+                  employees: "",
+                  budget: "",
+                  image: drug_discovery_and_research,
+                  image_subtitle: "Business  Architecture: Drug Discovery and Research ",
+                  image_link: "",
+                },
+                partners: [
+                  {
+                    image: "",
+                    link: "",
+                  },
+                  {
+                    image: "",
+                    link: "",
+                  },
+                  {
+                    image: "",
+                    link: "",
+                  },
+                  {
+                    image: "",
+                    link: "",
+                  },
+                  {
+                    image: "",
+                    link: "",
+                  },
+                  {
+                    image: "",
+                    link: "",
+                  },
+                  {
+                    image: "",
+                    link: "",
+                  },
+                  {
+                    image: "",
+                    link: "",
+                  },
+                ],
+              },
+            ],
+          },
+
+         ],
+      },
+
+       // 2nd use cases
+       {
+        id: crypto.randomUUID(),
+        title: "Deliver Exceptional Patient Experiences",
+        content: `
+        <div>
+      <p className="font-bold">Deliver Exceptional Patient Experiences: Deliver personalized experiences to engage patients in secure, individualized encounters through every point of care.</p>
+      
+      <p className="font-bold">Customer Scenarios</p>
+      <p>Personalized care: Build relationships through enhanced omnichannel experiences</p>
+      <p>Patient insights: Transform data into prescriptive insights</p>
+      <p>Virtual health: Provide new avenues for care</p>
+      
+      <p className="font-bold">Roles</p>
+      <ul>
+        <li>CEO, CXO or Clinical Leads</li>
+        <li>Chief experience officer, VP/Head of Marketing, Customer support</li>
+        <li>Chief Digital Officer</li>
+        <li>COO</li>
+      </ul>
+      
+      <p className="font-bold">Business Outcomes</p>
+      <p>Deliver personalized experiences to engage patients in secure, individualized encounters through every point of care.</p>
+      
+      <p className="font-bold">Questions to Ask</p>
+      <ul>
+        <li>Do you personalize and nurture patient interactions across the entire journey?</li>
+        <li>Do you have a method of easily escalating a support conversation from digital messaging to a more personal method?</li>
+        <li>Do you have every detail of your patients aggregated in a single view?</li>
+        <li>How do you measure and quantify patient satisfaction within your health system today?</li>
+      </ul>
+      
+      <p><a className="text-blue font-semibold" target="_blank" href="https://industryhub.transform.microsoft.com/solution-plays">Learn More</a> about this Industry Pillar</p>
+      
+   
+    </div>
+        
+        `,
         use_cases: [
           {
             id: crypto.randomUUID(),
-            title: "Connected Factories/Digital Twins",
-            // l3 page link
+            title: "Service and Support Bot",
             link: "",
             use_cases_content: [
               {
                 subtitle: "Overview",
                 link: "",
-                desc: ` <p>
-              Every industry is facing transformational change and we have a
-              strategic opportunity in Business Applications to drive long
-              lasting impact and change for our customers. Industry customers
-              are facing more challenges than ever before and need a partner to
-              help them use technology as their key to success. To engage
-              effectively, we need to leverage the industry value propositions
-              we have at Microsoft and pair them with a Business Applications
-              point of view, The assets in this section will help you
-              demonstrate to customers that you understand their challenges and
-              how to address them with industry-specific solutions.
-            </p>
-            <p>
-              To learn more about all public and commercial sector industries
-              and drive effective
-            </p>
-            <p>
-              conversations with your customers visit the
-              <span className="text-cyan-600">Industry Hub</span> today.
-            </p>`,
+                desc: "Resolve user and customer queries without human intervention across multiple channels, including voice-enabled support",
+                keyHighlights: {
+                  decision_makers: [
+                    'Primary: Head of Customer Service, Head of Customer Experience, Head of IT, Head of Legal, Head of HR, Chief Marketing Officer, Product Owner, Director of eCommerce',
+                    'Secondary: Head of Customer Service, Head of Customer Experience'
+                  ],
+                  decision_making_factors: [
+                    'Scalability',
+                    'Cost',
+                    'Efficiency'
+                  ],
+                  desired_business_objectives: [
+                    'Improve first-call resolution rates by answering specific questions with the best available knowledge',
+                    'Increase patient satisfaction by reducing wait times with immediate 24/7 service through a conversational agent',
+                    'Improve patient experience by leveraging conversational interfaces for personal health management and administration',
+                    'Reduce support costs/cost of operations by offloading and automating certain support services'
+                  ],
+                  customer_pain_points: [
+                    'Case volumes and wait times are increasing',
+                    'Growing customer churn due to impersonal and inconsistent sales or support service',
+                    'Customers are dissatisfied with response wait times and expect to be able to reach sales or support service at all hours, but the business is unable to provide or must spend exorbitant amounts to do so, adding pressure on tight margins',
+                    'Sales or support agents are tied up answering simple queries that can be automated'
+                  ],
+                  proposed_technical_solution: [
+                    'Resolve user and customer queries without human intervention across multiple channels, including voice-enabled support'
+                  ],
+                  other_notable_attributes: [],
+                  products_tech_stack: []
+                },
+                idealCostomerProfile: {
+                  industries: "Healthcare",
+                  geography: "",
+                  market_cap: "",
+                  employees: "",
+                  budget: "",
+                  image: service_and_support_bot_healthcare,
+                  image_subtitle: "Business Architecture: Service and Support Bot",
+                  image_link: "",
+                },
+                partners: [
+                  {
+                    image: "",
+                    link: "",
+                  },
+                  {
+                    image: "",
+                    link: "",
+                  },
+                  {
+                    image: "",
+                    link: "",
+                  },
+                  {
+                    image: "",
+                    link: "",
+                  },
+                  {
+                    image: "",
+                    link: "",
+                  },
+                  {
+                    image: "",
+                    link: "",
+                  },
+                  {
+                    image: "",
+                    link: "",
+                  },
+                  {
+                    image: "",
+                    link: "",
+                  },
+                ],
               },
             ],
-          },
-          {
+          }
+        ]
+      
+      },
+
+      // 3rd use cases
+      {
+        id: crypto.randomUUID(),
+        title: "Empower Your Healthcare Workforce",
+        content: `
+        <div>
+        <p className="font-bold"> Reduce time spent documenting patient encounters and alleviate provider burnout through AI-powered solutions that drive more personal and accessible patient care</p>
+        
+        <p className="font-bold">Customer Scenarios</p>
+        <p>Ambient clinical intelligence: Automatically document patient encounters</p>
+        <p>Clinical documentation: Reduce administrative tasks and burnout</p>
+        <p>Diagnostic intelligence: Empower radiologists to drive action, quality, and efficiency</p>
+        
+        <p className="font-bold">Roles</p>
+        <ul>
+          <li>CEO, CXO or Clinical Leads</li>
+          <li>Chief experience officer, VP/Head of Marketing, Customer support</li>
+          <li>Chief Digital Officer</li>
+          <li>COO</li>
+        </ul>
+        
+        <p className="font-bold">Business Outcomes</p>
+        <p>Reduce time spent documenting patient encounters and alleviate provider burnout through AI-powered solutions that drive more personal and accessible patient care</p>
+        
+        <p className="font-bold">Questions to Ask</p>
+        <ul>
+          <li>How are you reducing complexity with clinician workflows?</li>
+          <li>How are you training staff on new technologies?</li>
+          <li>Are your teams able to stay productive and efficient with your existing tools?</li>
+          <li>Do you have manual or paper-based processes that could be automated?</li>
+          <li>Are your teams able to stay productive and efficient with your existing tools?</li>
+        </ul>
+        
+        <p><a className="text-blue font-semibold" target="_blank" href="https://industryhub.transform.microsoft.com/solution-plays">Learn More</a> about this Industry Pillar</p>
+      </div>
+        
+        `,
+        use_cases: [
+            {
             id: crypto.randomUUID(),
-            title: "Integrated Supply Chain",
-            // l3 page link
+            title: "Medical Device and Equipment Tracking",
             link: "",
             use_cases_content: [
               {
                 subtitle: "Overview",
                 link: "",
-                desc: ` <p>
-              Every industry is facing transformational change and we have a
-              strategic opportunity in Business Applications to drive long
-              lasting impact and change for our customers. Industry customers
-              are facing more challenges than ever before and need a partner to
-              help them use technology as their key to success. To engage
-              effectively, we need to leverage the industry value propositions
-              we have at Microsoft and pair them with a Business Applications
-              point of view, The assets in this section will help you
-              demonstrate to customers that you understand their challenges and
-              how to address them with industry-specific solutions.
-            </p>
-            <p>
-              To learn more about all public and commercial sector industries
-              and drive effective
-            </p>
-            <p>
-              conversations with your customers visit the
-              <span className="text-cyan-600">Industry Hub</span> today.
-            </p>`,
+                desc: "Manage and monitor data from medical devices and equipment to optimize operations (resource allocation, maintenance)",
+                keyHighlights: {
+                  decision_makers: [
+                    'Primary: Chief Medical Officer, Chief Science Officer, Chief Data Officer',
+                    'Secondary: Chief Operating Officer, Head of Operations'
+                  ],
+                  decision_making_factors: [
+                    'Ability to integrate with current systems',
+                    'Cost',
+                    'Scalability'
+                  ],
+                  desired_business_objectives: [
+                    'Increase patient satisfaction by delivering consistent real-time, always-on user experience anywhere in the world',
+                    'Make better care decisions with smart connected devices with access to better information',
+                    'Save on equipment costs by increasing capacity utilization of the existing medical equipment and inventory',
+                    'Avoid poor patient outcomes by easily identifying those in need of guided care based upon presenting symptoms and personal history'
+                  ],
+                  customer_pain_points: [
+                    'Need to improve processes, gain efficiencies, and effectively manage resources; increase capacity utilization of the existing medical product stock. This enables hospitals to avoid unnecessary new acquisitions',
+                    'Need to equip decision makers with real-time dashboards that visualize patient data such as treatment progress and hospital data such as inventory data, supply chain status, and cost management',
+                    'Need ways to improve the quality of patient care and healthcare outcomes'
+                  ],
+                  proposed_technical_solution: [
+                    'Manage and monitor data from medical devices and equipment to optimize operations (resource allocation, maintenance)'
+                  ],
+                  other_notable_attributes: [],
+                  products_tech_stack: []
+                },
+                idealCostomerProfile: {
+                  industries: "",
+                  geography: "",
+                  market_cap: "",
+                  employees: "",
+                  budget: "",
+                  image: medical_device_and_equipment_tracking,
+                  image_subtitle: "Business  Architecture: Medical Device and Equipment Tracking ",
+                  image_link: "",
+                },
+                partners: [
+                  {
+                    image: "",
+                    link: "",
+                  },
+                  {
+                    image: "",
+                    link: "",
+                  },
+                  {
+                    image: "",
+                    link: "",
+                  },
+                  {
+                    image: "",
+                    link: "",
+                  },
+                  {
+                    image: "",
+                    link: "",
+                  },
+                  {
+                    image: "",
+                    link: "",
+                  },
+                  {
+                    image: "",
+                    link: "",
+                  },
+                  {
+                    image: "",
+                    link: "",
+                  },
+                ],
               },
             ],
-          },
+          }, ],
+      },
+
+      //  4th use cases
+      {
+        id: crypto.randomUUID(),
+        title: "Foster Health Team Collaboration",
+        content: ` <div>
+        <p className="font-bold">Connect, engage, and efficiently manage your healthcare workforce with tools that help them provide the best possible care.</p>
+        
+        <p className="font-bold">Customer Scenarios</p>
+        <p>Care Coordination: Develop systems of care management with clinical intelligence and workflows</p>
+        <p>Care Team Collaboration: Optimize resources and solve problems collectively</p>
+        <p>Remote Patient Monitoring: Combine IoT and analytics to optimize treatments</p>
+        
+        <p className="font-bold">Roles</p>
+        <ul>
+          <li>CEO or Clinical Leads</li>
+          <li>Chief Medical/Nurse Officer</li>
+          <li>COO, VP/Dir. Of Ops</li>
+          <li>CTO/Head of IT/Development Leaders</li>
+        </ul>
+        
+        <p className="font-bold">Challenges</p>
+        <ul>
+          <li>Remote collaboration</li>
+          <li>Distributed workforce</li>
+          <li>Complex workflow management</li>
+          <li>Fragmented data</li>
+          <li>Siloed systems and applications that slow health team productivity</li>
+        </ul>
+        
+        <p className="font-bold">Business Outcomes</p>
+        <p>Connect, engage, and efficiently manage your healthcare workforce with tools that help them provide the best possible care.</p>
+        
+        <p className="font-bold">Questions to Ask</p>
+        <ul>
+          <li>Are your teams able to collaborate and stay productive with your existing tools?</li>
+          <li>Do your employees have access to the right training needed to perform their specific job function?</li>
+          <li>How aligned are teams across your organization?</li>
+          <li>Are you proactively giving care teams information to engage with their patients?</li>
+          <li>Do you have manual or paper-based processes that could be automated?</li>
+        </ul>
+        
+        <p><a className="text-blue font-semibold" target="_blank" href="https://industryhub.transform.microsoft.com/solution-plays">Learn More</a> about this Industry Pillar</p>
+      </div>`,
+        use_cases: [
           {
             id: crypto.randomUUID(),
-            title: " Connected Businesses",
-            // l3 page link
+            title: "",
             link: "",
             use_cases_content: [
               {
-                subtitle: "Overview",
+                subtitle: "",
                 link: "",
-                desc: ` <p>
-              Every industry is facing transformational change and we have a
-              strategic opportunity in Business Applications to drive long
-              lasting impact and change for our customers. Industry customers
-              are facing more challenges than ever before and need a partner to
-              help them use technology as their key to success. To engage
-              effectively, we need to leverage the industry value propositions
-              we have at Microsoft and pair them with a Business Applications
-              point of view, The assets in this section will help you
-              demonstrate to customers that you understand their challenges and
-              how to address them with industry-specific solutions.
-            </p>
-            <p>
-              To learn more about all public and commercial sector industries
-              and drive effective
-            </p>
-            <p>
-              conversations with your customers visit the
-              <span className="text-cyan-600">Industry Hub</span> today.
-            </p>`,
-              },
-            ],
-          },
-          {
-            id: crypto.randomUUID(),
-            title: "Sustainability",
-            // l3 page link
-            link: "",
-            use_cases_content: [
-              {
-                subtitle: "Overview",
-                link: "",
-                desc: ` <p>
-              Every industry is facing transformational change and we have a
-              strategic opportunity in Business Applications to drive long
-              lasting impact and change for our customers. Industry customers
-              are facing more challenges than ever before and need a partner to
-              help them use technology as their key to success. To engage
-              effectively, we need to leverage the industry value propositions
-              we have at Microsoft and pair them with a Business Applications
-              point of view, The assets in this section will help you
-              demonstrate to customers that you understand their challenges and
-              how to address them with industry-specific solutions.
-            </p>
-            <p>
-              To learn more about all public and commercial sector industries
-              and drive effective
-            </p>
-            <p>
-              conversations with your customers visit the
-              <span className="text-cyan-600">Industry Hub</span> today.
-            </p>`,
-              },
-            ],
-          },
-          {
-            id: crypto.randomUUID(),
-            title: " Automated Quality Inspection",
-            // l3 page link
-            link: "",
-            use_cases_content: [
-              {
-                subtitle: "Overview",
-                link: "",
-                desc: `  <p>
-                Automated quality control improves inspection measurement
-                reliability. Accurate measurements on complex parts and high
-                throughput production lines is assured with automated inspections.
-                These systems can capture more data for large quantities of parts
-                faster. <br />
-                <br />
-                Artificial Intelligence of Things (AlT) is the combination of
-                artificial intelligence (AI) technologies with the Internet of
-                Things (loT) infrastructure to achieve more efficient loT
-                operations, improve human-machine interactions and enhance data
-                management and analytics. Automated quality inspection typically
-                leverages Al image analysis (vision) and data from loT sensors to
-                identify product quality issues in real-time on the production
-                line, triggering an alert for further inspection and/or action if
-                problems are detected. <br />
-              </p>
-              <p>
-                <p className="font-bold pr-4 ">
-                  
-                  Key Services / Product Stack
-                </p>
-                <br />
-                Azure Container Registry, Azure DevOps, Azure loT Hub, Azure
-                Key/ault, Azure Machine Learning, Cognitive Services: Vision,
-                Azure SQL, Azure Storage, Docker, Power BI
-              </p>
-            </div>`,
+                desc: "",
+                keyHighlights: {
+                  decision_makers: [],
+                  decision_making_factors: [],
+                  desired_business_objectives: [],
+                  customer_pain_points: [],
+                  proposed_technical_solution: [],
+                  other_notable_attributes: [],
+                  products: [],
+                },
+                idealCostomerProfile: {
+                  industries: "",
+                  geography: "",
+                  market_cap: "",
+                  employees: "",
+                  budget: "",
+                  image: "",
+                  image_subtitle: "Business  Architecture:  ",
+                  image_link: "",
+                },
+                partners: [
+                  {
+                    image: "",
+                    link: "",
+                  },
+                  {
+                    image: "",
+                    link: "",
+                  },
+                  {
+                    image: "",
+                    link: "",
+                  },
+                  {
+                    image: "",
+                    link: "",
+                  },
+                  {
+                    image: "",
+                    link: "",
+                  },
+                  {
+                    image: "",
+                    link: "",
+                  },
+                  {
+                    image: "",
+                    link: "",
+                  },
+                  {
+                    image: "",
+                    link: "",
+                  },
+                ],
               },
             ],
           },
         ],
       },
+
 
       // 5th all use cases
       {
         id: crypto.randomUUID(),
-        title: "All Usecases",
+        title: "All Use Cases",
         content: `
-        <p className="font-bold"> Business Application Industry Content</p>
+        <p className="font-bold">Healthcare Industry</p>
           `,
         use_cases: [
-          {
-            id: crypto.randomUUID(),
-            title: "Critical Infrastructure Customer Conversations",
-            link: "critical_infrastructure_customer_conversations",
-            use_cases_content: [
-              {
-                subtitle: "Overview",
-                link: "",
-                desc: "",
-                keyHighlights: {
-                  decision_makers: [],
-                  decision_making_factors: [],
-                  desired_business_objectives: [],
-                  customer_pain_points: [],
-                  proposed_technical_solution: [],
-                  other_notable_attributes: [],
-                  products: [],
+            // todo :: Clinical Analytics and Decision Support (Patient Risk)
+
+            {
+              id: crypto.randomUUID(),
+              title: "Clinical Analytics and Decision Support (Patient Risk)",
+              link: "",
+              solution_play : "Unlock Value from Your Clinical and Operational Data",
+              use_cases_content: [
+                {
+                  subtitle: "Overview",
+                  link: "",
+                  desc: "",
+                  keyHighlights: {
+                    decision_makers: [
+                      'Primary: Chief Medical Officer, Chief Science Officer, Chief Data Officer'
+                    ],
+                    decision_making_factors: [
+                      'Ability to integrate with current systems',
+                      'Cost',
+                      'Impact on patient outcomes',
+                      'Scalability'
+                    ],
+                    desired_business_objectives: [
+                      'Improve patient outcomes by optimizing treatments based on individual factors',
+                      'Improve patient experience by transforming their health data into actionable guidance',
+                      'Reduce unnecessary intake/re-admissions through proactive/reactive intervention',
+                      'Reduce operating costs by enabling providers to make faster, more reliable decisions'
+                    ],
+                    customer_pain_points: [
+                      'Struggling to accelerate transition to value-based, personalized care',
+                      'Early intervention is a challenge',
+                      'Data is disparate, or cannot be processed effectively, limiting ability to do predictive analytics for patient and treatment insights',
+                      'Variation in care and quality of outcomes is high',
+                      'Burnout among staff is high, demanding workloads and schedules'
+                    ],
+                    proposed_technical_solution: [],
+                    other_notable_attributes: [],
+                    products: [
+                      'Azure Machine Learning',
+                      'Cognitive Services: Speech',
+                      'Applied AI Services: Form Recognizer',
+                      'Azure Synapse Analytics',
+                      'Azure Cosmos DB',
+                      'PowerApps',
+                      'Azure Kubernetes Service',
+                      'Azure Container Registry'
+                    ]
+                  },
+                  idealCostomerProfile: {
+                    industries: "Healthcare",
+                    geography: "",
+                    market_cap: "",
+                    employees: "",
+                    budget: "",
+                    image: clinical_analytics_and_decision_support_patient_risk,
+                    image_subtitle: "Business  Architecture: Clinical Analytics and Decision Support (Patient Risk)",
+                    image_link: "",
+                  },
+                  partners: [
+                    {
+                      image: "",
+                      link: "",
+                    },
+                    {
+                      image: "",
+                      link: "",
+                    },
+                    {
+                      image: "",
+                      link: "",
+                    },
+                    {
+                      image: "",
+                      link: "",
+                    },
+                    {
+                      image: "",
+                      link: "",
+                    },
+                    {
+                      image: "",
+                      link: "",
+                    },
+                    {
+                      image: "",
+                      link: "",
+                    },
+                    {
+                      image: "",
+                      link: "",
+                    },
+                  ],
                 },
-                idealCostomerProfile: {
-                  industries: "",
-                  geography: "",
-                  market_cap: "",
-                  employees: "",
-                  budget: "",
-                  image: "",
-                  image_subtitle: "",
-                  image_link: "",
+              ],
+            },
+  
+            // Todo :: Document Process Automation
+  
+            {
+              id: crypto.randomUUID(),
+              title: "Document Process Automation",
+               solution_play : "Unlock Value from Your Clinical and Operational Data",
+              link: "",
+              use_cases_content: [
+                {
+                  subtitle: "Overview",
+                  link: "",
+                  desc: "Reduce human intervention and automate extraction of data from large and complex structured and unstructured documents to unlock insights and enable users to find key data points",
+                  keyHighlights: {
+                    decision_makers: [
+                      'Primary: Chief Operations Officer, Chief Data Officer, Chief Information Officer'
+                    ],
+                    decision_making_factors: [
+                      'Scalability',
+                      'Cost',
+                      'Efficiency'
+                    ],
+                    desired_business_objectives: [
+                      'Increase speed to value/insight by reducing document processing times',
+                      'Reduce operating expenses through automation of manual processes',
+                      'Improve data confidence and accuracy in extracted data by relying less on error-prone manual processes'
+                    ],
+                    customer_pain_points: [
+                      'Investing in expensive manual labor to extract data',
+                      'Manual data extraction is inefficient and/or error-prone, resulting in low confidence in data accuracy'
+                    ],
+                    proposed_technical_solution: [
+                      'Reduce human intervention and automate extraction of data from large and complex structured and unstructured documents to unlock insights and enable users to find key data points'
+                    ],
+                    other_notable_attributes: [],
+                    products: [
+                      'Form Recognizer',
+                      'Azure Logic Apps',
+                      'Azure Cosmos DB',
+                      'Power BI',
+                      'Azure Data Explorer',
+                      'Bot Framework',
+                      'Luis'
+                    ]
+  
+                    
+                  },
+                  idealCostomerProfile: {
+                    industries: "Healthcare",
+                    geography: "",
+                    market_cap: "",
+                    employees: "",
+                    budget: "",
+                    image: document_process_automation_healtcare,
+                    image_subtitle: "Business  Architecture: Document Process Automation ",
+                    image_link: "",
+                  },
+                  partners: [
+                    {
+                      image: "",
+                      link: "",
+                    },
+                    {
+                      image: "",
+                      link: "",
+                    },
+                    {
+                      image: "",
+                      link: "",
+                    },
+                    {
+                      image: "",
+                      link: "",
+                    },
+                    {
+                      image: "",
+                      link: "",
+                    },
+                    {
+                      image: "",
+                      link: "",
+                    },
+                    {
+                      image: "",
+                      link: "",
+                    },
+                    {
+                      image: "",
+                      link: "",
+                    },
+                  ],
                 },
-                partners: [
-                  {
-                    image: "",
-                    link: "",
+              ],
+            },
+  
+            // Todo :: Drug Discovery and Research
+  
+            {
+              id: crypto.randomUUID(),
+              title: "Drug Discovery and Research",
+              solution_play : "Unlock Value from Your Clinical and Operational Data",
+              link: "",
+              use_cases_content: [
+                {
+                  subtitle: "Overview",
+                  link: "",
+                  desc: "Assist in drug research through drug property prediction and drug-target interaction prediction (in addition to searching literature)",
+                  keyHighlights: {
+                    decision_makers: [
+                      'Primary: Head of Research, Chief Operating Officer, Chief Executive Officer, Chief Data Officer, Director of Innovation'
+                    ],
+                    decision_making_factors: [
+                      'Scalability',
+                      'Cost',
+                      'Efficiency'
+                    ],
+                    desired_business_objectives: [
+                      'Increase speed to market by reducing time needed to identify viable drugs',
+                      'Improve patient outcomes by discovering drugs that combat diseases with little or no treatments',
+                      'Reduce cost of experimentation and research by automating the process to go through data and past results to feed AI-enabled simulations'
+                    ],
+                    customer_pain_points: [
+                      'Long discovery and trial and error lead times put the organization at a competitive disadvantage',
+                      'Drug R&D costs are very high, putting pressure on margins',
+                      'Low rates of viability (both in terms of drug efficacy and commercialization)'
+                    ],
+                    proposed_technical_solution: [
+                      'Assist in drug research through drug property prediction and drug-target interaction prediction (in addition to searching literature)'
+                    ],
+                    other_notable_attributes: [],
+                    products_tech_stack: []
                   },
-                  {
-                    image: "",
-                    link: "",
+                  idealCostomerProfile: {
+                    industries: "",
+                    geography: "",
+                    market_cap: "",
+                    employees: "",
+                    budget: "",
+                    image: drug_discovery_and_research,
+                    image_subtitle: "Business  Architecture: Drug Discovery and Research ",
+                    image_link: "",
                   },
-                  {
-                    image: "",
-                    link: "",
-                  },
-                  {
-                    image: "",
-                    link: "",
-                  },
-                  {
-                    image: "",
-                    link: "",
-                  },
-                  {
-                    image: "",
-                    link: "",
-                  },
-                  {
-                    image: "",
-                    link: "",
-                  },
-                  {
-                    image: "",
-                    link: "",
-                  },
-                ],
-              },
-            ],
-          },
-          {
-            id: crypto.randomUUID(),
-            title: "Public Safety & Justice",
-            link: "public_safety_&_justice",
-            use_cases_content: [
-              {
-                subtitle: "Overview",
-                link: "",
-                desc: "",
-                keyHighlights: {
-                  decision_makers: [],
-                  decision_making_factors: [],
-                  desired_business_objectives: [],
-                  customer_pain_points: [],
-                  proposed_technical_solution: [],
-                  other_notable_attributes: [],
-                  products: [],
+                  partners: [
+                    {
+                      image: "",
+                      link: "",
+                    },
+                    {
+                      image: "",
+                      link: "",
+                    },
+                    {
+                      image: "",
+                      link: "",
+                    },
+                    {
+                      image: "",
+                      link: "",
+                    },
+                    {
+                      image: "",
+                      link: "",
+                    },
+                    {
+                      image: "",
+                      link: "",
+                    },
+                    {
+                      image: "",
+                      link: "",
+                    },
+                    {
+                      image: "",
+                      link: "",
+                    },
+                  ],
                 },
-                idealCostomerProfile: {
-                  industries: "",
-                  geography: "",
-                  market_cap: "",
-                  employees: "",
-                  budget: "",
-                  image: "",
-                  image_subtitle: "",
-                  image_link: "",
+              ],
+            },
+
+
+            {
+              id: crypto.randomUUID(),
+              title: "Service and Support Bot",
+              solution_play : "Deliver Exceptional Patient Experiences",
+              link: "",
+              use_cases_content: [
+                {
+                  subtitle: "Overview",
+                  link: "",
+                  desc: "Resolve user and customer queries without human intervention across multiple channels, including voice-enabled support",
+                  keyHighlights: {
+                    decision_makers: [
+                      'Primary: Head of Customer Service, Head of Customer Experience, Head of IT, Head of Legal, Head of HR, Chief Marketing Officer, Product Owner, Director of eCommerce',
+                      'Secondary: Head of Customer Service, Head of Customer Experience'
+                    ],
+                    decision_making_factors: [
+                      'Scalability',
+                      'Cost',
+                      'Efficiency'
+                    ],
+                    desired_business_objectives: [
+                      'Improve first-call resolution rates by answering specific questions with the best available knowledge',
+                      'Increase patient satisfaction by reducing wait times with immediate 24/7 service through a conversational agent',
+                      'Improve patient experience by leveraging conversational interfaces for personal health management and administration',
+                      'Reduce support costs/cost of operations by offloading and automating certain support services'
+                    ],
+                    customer_pain_points: [
+                      'Case volumes and wait times are increasing',
+                      'Growing customer churn due to impersonal and inconsistent sales or support service',
+                      'Customers are dissatisfied with response wait times and expect to be able to reach sales or support service at all hours, but the business is unable to provide or must spend exorbitant amounts to do so, adding pressure on tight margins',
+                      'Sales or support agents are tied up answering simple queries that can be automated'
+                    ],
+                    proposed_technical_solution: [
+                      'Resolve user and customer queries without human intervention across multiple channels, including voice-enabled support'
+                    ],
+                    other_notable_attributes: [],
+                    products_tech_stack: []
+                  },
+                  idealCostomerProfile: {
+                    industries: "Healthcare",
+                    geography: "",
+                    market_cap: "",
+                    employees: "",
+                    budget: "",
+                    image: service_and_support_bot_healthcare,
+                    image_subtitle: "Business Architecture: Service and Support Bot",
+                    image_link: "",
+                  },
+                  partners: [
+                    {
+                      image: "",
+                      link: "",
+                    },
+                    {
+                      image: "",
+                      link: "",
+                    },
+                    {
+                      image: "",
+                      link: "",
+                    },
+                    {
+                      image: "",
+                      link: "",
+                    },
+                    {
+                      image: "",
+                      link: "",
+                    },
+                    {
+                      image: "",
+                      link: "",
+                    },
+                    {
+                      image: "",
+                      link: "",
+                    },
+                    {
+                      image: "",
+                      link: "",
+                    },
+                  ],
                 },
-                partners: [
-                  {
-                    image: "",
-                    link: "",
+              ],
+            },
+
+            {
+              id: crypto.randomUUID(),
+              title: "Medical Device and Equipment Tracking",
+              solution_play :"Empower Your Healthcare Workforce",
+              link: "",
+              use_cases_content: [
+                {
+                  subtitle: "Overview",
+                  link: "",
+                  desc: "Manage and monitor data from medical devices and equipment to optimize operations (resource allocation, maintenance)",
+                  keyHighlights: {
+                    decision_makers: [
+                      'Primary: Chief Medical Officer, Chief Science Officer, Chief Data Officer',
+                      'Secondary: Chief Operating Officer, Head of Operations'
+                    ],
+                    decision_making_factors: [
+                      'Ability to integrate with current systems',
+                      'Cost',
+                      'Scalability'
+                    ],
+                    desired_business_objectives: [
+                      'Increase patient satisfaction by delivering consistent real-time, always-on user experience anywhere in the world',
+                      'Make better care decisions with smart connected devices with access to better information',
+                      'Save on equipment costs by increasing capacity utilization of the existing medical equipment and inventory',
+                      'Avoid poor patient outcomes by easily identifying those in need of guided care based upon presenting symptoms and personal history'
+                    ],
+                    customer_pain_points: [
+                      'Need to improve processes, gain efficiencies, and effectively manage resources; increase capacity utilization of the existing medical product stock. This enables hospitals to avoid unnecessary new acquisitions',
+                      'Need to equip decision makers with real-time dashboards that visualize patient data such as treatment progress and hospital data such as inventory data, supply chain status, and cost management',
+                      'Need ways to improve the quality of patient care and healthcare outcomes'
+                    ],
+                    proposed_technical_solution: [
+                      'Manage and monitor data from medical devices and equipment to optimize operations (resource allocation, maintenance)'
+                    ],
+                    other_notable_attributes: [],
+                    products_tech_stack: []
                   },
-                  {
-                    image: "",
-                    link: "",
+                  idealCostomerProfile: {
+                    industries: "",
+                    geography: "",
+                    market_cap: "",
+                    employees: "",
+                    budget: "",
+                    image: medical_device_and_equipment_tracking,
+                    image_subtitle: "Business  Architecture: Medical Device and Equipment Tracking ",
+                    image_link: "",
                   },
-                  {
-                    image: "",
-                    link: "",
-                  },
-                  {
-                    image: "",
-                    link: "",
-                  },
-                  {
-                    image: "",
-                    link: "",
-                  },
-                  {
-                    image: "",
-                    link: "",
-                  },
-                  {
-                    image: "",
-                    link: "",
-                  },
-                  {
-                    image: "",
-                    link: "",
-                  },
-                ],
-              },
-            ],
-          },
-          {
-            id: crypto.randomUUID(),
-            title: "Public Finance",
-            link: "public_finance",
-            use_cases_content: [
-              {
-                subtitle: "Overview",
-                link: "",
-                desc: "",
-                keyHighlights: {
-                  decision_makers: [],
-                  decision_making_factors: [],
-                  desired_business_objectives: [],
-                  customer_pain_points: [],
-                  proposed_technical_solution: [],
-                  other_notable_attributes: [],
-                  products: [],
+                  partners: [
+                    {
+                      image: "",
+                      link: "",
+                    },
+                    {
+                      image: "",
+                      link: "",
+                    },
+                    {
+                      image: "",
+                      link: "",
+                    },
+                    {
+                      image: "",
+                      link: "",
+                    },
+                    {
+                      image: "",
+                      link: "",
+                    },
+                    {
+                      image: "",
+                      link: "",
+                    },
+                    {
+                      image: "",
+                      link: "",
+                    },
+                    {
+                      image: "",
+                      link: "",
+                    },
+                  ],
                 },
-                idealCostomerProfile: {
-                  industries: "",
-                  geography: "",
-                  market_cap: "",
-                  employees: "",
-                  budget: "",
-                  image: "",
-                  image_subtitle: "",
-                  image_link: "",
-                },
-                partners: [
-                  {
-                    image: "",
-                    link: "",
-                  },
-                  {
-                    image: "",
-                    link: "",
-                  },
-                  {
-                    image: "",
-                    link: "",
-                  },
-                  {
-                    image: "",
-                    link: "",
-                  },
-                  {
-                    image: "",
-                    link: "",
-                  },
-                  {
-                    image: "",
-                    link: "",
-                  },
-                  {
-                    image: "",
-                    link: "",
-                  },
-                  {
-                    image: "",
-                    link: "",
-                  },
-                ],
-              },
-            ],
-          },
-          {
-            id: crypto.randomUUID(),
-            title: "Public Health",
-            link: "public_health",
-            use_cases_content: [
-              {
-                subtitle: "Overview",
-                link: "",
-                desc: "",
-                keyHighlights: {
-                  decision_makers: [],
-                  decision_making_factors: [],
-                  desired_business_objectives: [],
-                  customer_pain_points: [],
-                  proposed_technical_solution: [],
-                  other_notable_attributes: [],
-                  products: [],
-                },
-                idealCostomerProfile: {
-                  industries: "",
-                  geography: "",
-                  market_cap: "",
-                  employees: "",
-                  budget: "",
-                  image: "",
-                  image_subtitle: "",
-                  image_link: "",
-                },
-                partners: [
-                  {
-                    image: "",
-                    link: "",
-                  },
-                  {
-                    image: "",
-                    link: "",
-                  },
-                  {
-                    image: "",
-                    link: "",
-                  },
-                  {
-                    image: "",
-                    link: "",
-                  },
-                  {
-                    image: "",
-                    link: "",
-                  },
-                  {
-                    image: "",
-                    link: "",
-                  },
-                  {
-                    image: "",
-                    link: "",
-                  },
-                  {
-                    image: "",
-                    link: "",
-                  },
-                ],
-              },
-            ],
-          },
-          {
-            id: crypto.randomUUID(),
-            title: "Modernize Case Management",
-            link: "modernize_case_management",
-            use_cases_content: [
-              {
-                subtitle: "Overview",
-                link: "",
-                desc: "",
-                keyHighlights: {
-                  decision_makers: [],
-                  decision_making_factors: [],
-                  desired_business_objectives: [],
-                  customer_pain_points: [],
-                  proposed_technical_solution: [],
-                  other_notable_attributes: [],
-                  products: [],
-                },
-                idealCostomerProfile: {
-                  industries: "",
-                  geography: "",
-                  market_cap: "",
-                  employees: "",
-                  budget: "",
-                  image: "",
-                  image_subtitle: "",
-                  image_link: "",
-                },
-                partners: [
-                  {
-                    image: "",
-                    link: "",
-                  },
-                  {
-                    image: "",
-                    link: "",
-                  },
-                  {
-                    image: "",
-                    link: "",
-                  },
-                  {
-                    image: "",
-                    link: "",
-                  },
-                  {
-                    image: "",
-                    link: "",
-                  },
-                  {
-                    image: "",
-                    link: "",
-                  },
-                  {
-                    image: "",
-                    link: "",
-                  },
-                  {
-                    image: "",
-                    link: "",
-                  },
-                ],
-              },
-            ],
-          },
+              ],
+            },
+
+            
         ],
       },
     ],
@@ -4038,7 +4391,7 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
                   employees: "",
                   budget: "",
                   image: "",
-                  image_subtitle: "",
+                   image_subtitle: "Business  Architecture:  ",
                   image_link: "",
                 },
 
@@ -4771,117 +5124,194 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
     link: "government",
     heading: "Government Overview",
     overview:
-      "The market for the movement of people and goods is one of the largest and most dynamic ecosystems globally which represents $6T in global revenues today and is projected to grow to $11T by 2030 (~6% CAGR). This shift is disrupting the ecosystem, creating the opportunity for new market entrants to become future market leaders and driving traditional players to partner with technology providers who can help them reinvent their business models and deliver next generation experiences across automotive, mobility, and transportation. While we represent these industry trends separately, the alignment of automotive, mobility, and transportation was purposeful as the lines between each continue to converge.",
+        "At Microsoft, we aspire towards economic, social, and environmental prosperity for governments and the societies we serve together. Our mission is to empower every government agency and person on the planet to achieve more: Deliver enhanced digital services to the public with inclusive, responsive, and accessible experiences Enable trusted, secure, compliant government platforms to address cybersecurity and protect citizen data Empower a future ready workforce through skilling, capacity building and economic development tools Help governments efficiently deliver on the promise of sustainable growth with new and emerging technologies",
 
     solution_plays: [
       // 1st use cases
       {
         id: crypto.randomUUID(),
-        title: "Accelerated Innovations",
+        title: "Transform Government Operations and Services",
         content: `
-        <p className="font-bold"> Business Application Industry Content</p>
-          <p>
-            Every industry is facing transformational change and we have a
-            strategic opportunity in Business Applications to drive long
-            lasting impact and change for our customers. Industry customers
-            are facing more challenges than ever before and need a partner to
-            help them use technology as their key to success. To engage
-            effectively, we need to leverage the industry value propositions
-            we have at Microsoft and pair them with a Business Applications
-            point of view.
-          </p>
-          <p>
-            Every industry is facing transformational change and we have a
-            strategic opportunity in Business Applications to drive long
-            lasting impact and change for our customers. Industry customers
-            are facing more challenges than ever before and need a partner to
-            help them use technology as their key to success. To engage
-            effectively, we need to leverage the industry value propositions
-            we have at Microsoft and pair them with a Business Applications
-            point of view.
-          </p>
-          <p>
-            Every industry is facing transformational change and we have a
-            strategic opportunity in Business Applications to drive long
-            lasting impact and change for our customers. Industry customers
-            are facing more challenges than ever before and need a partner to
-            help them use technology as their key to success. To engage
-            effectively, we need to leverage the industry value propositions
-            we have at Microsoft and pair them with a Business Applications
-            point of view.
-          </p>
-          <p>
-            Every industry is facing transformational change and we have a
-            strategic opportunity in Business Applications to drive long
-            lasting impact and change for our customers. Industry customers
-            are facing more challenges than ever before and need a partner to
-            help them use technology as their key to success. To engage
-            effectively, we need to leverage the industry value propositions
-            we have at Microsoft and pair them with a Business Applications
-            point of view.
-          </p>`,
+      
+<!--          <p>-->
+<!--            <b>Coming Soon</b>-->
+<!--          </p>-->
+
+<p><a className="text-blue font-semibold" target="_blank href="https://industryhub.transform.microsoft.com/public-sector/government?tab=overview"> Learn More </a>  about this Indusrty Pillar</p>
+`
+
+        ,
         use_cases: [
           {
             id: crypto.randomUUID(),
-            title: "Autonomous Dev Workflow",
+            title: "Information Discovery and Management",
+            solution_play:  "Transform Government Operations and Services",
             // l3 page link
-            link: "",
+            link: "information_discovery_and_management",
             use_cases_content: [
               {
                 subtitle: "Overview",
-                link: "/industry/resilient_operations/Automated_quality_inspection",
+                link:
+                    "/industry/transform_government_operations_and_services/information_discovery_and_management",
 
-                desc: `<p>Every industry is facing transformational change and we have a
-                strategic opportunity in Business Applications to drive long
-                lasting impact and change for our customers. Industry customers
-                are facing more challenges than ever before and need a partner to
-                help them use technology as their key to success. To engage
-                effectively, we need to leverage the industry value propositions
-                we have at Microsoft and pair them with a Business Applications
-                point of view, The assets in this section will help you
-                demonstrate to customers that you understand their challenges and
-                how to address them with industry-specific solutions.
-              </p>
-              <p>
-                To learn more about all public and commercial sector industries
-                and drive effective
-              </p>
-              <p>
-                conversations with your customers visit the
-                <span className="text-cyan-600">Industry Hub</span> today.
+                desc: `<p>Search through structured and unstructured documents to quickly find the most relevant information and documents with compliance risk and standards.
               </p>`,
+
+                keyHighlights : {
+
+                  decision_makers : ['Head of HR',
+                    'Head of Customer Service',
+                    'Chief Learning Officer',
+                    'Chief Knowledge Officer',
+                    'Chief Compliance Officer', 'Secondary (Influencers): Head of Customer Service'],
+
+                  decision_making_factors :['Scalability','Cost','Efficiency' ],
+                  desired_business_objectives : [
+                    'Increase speed to value/speed to insight by reducing time spent on search',
+                    'Improve user productivity by surfacing most relevant search results',
+                    'Ensure compliance through completeness of search over all data and documents',
+                    'Reduce search infrastructure costs'
+                  ],
+                  customer_pain_points : [
+                    'Employees or users are not finding the information they need in internal sites, or information takes a long time to find',
+                    'Failed searches commonly experienced, where no relevant search results are displayed',
+                    'Organization not able to pull together a comprehensive view of all data related to a specific topic (i.e., docs with regulatory terms for compliance purposes)'
+                  ],
+                  other_notable_attributes:[],
+                  products : [
+                    'Azure Cognitive Search',
+                    'Azure Web Apps',
+                    'Power BI'
+                  ],
+                  proposedTechnicalSolution: ['Search through structured and unstructured documents to quickly find the most relevant information and documents with compliance risk and standards.',]
+                },
+
+                idealCostomerProfile : {
+                  industries: 'Government',
+                  geography: '',
+                  market_cap: '',
+                  employees: '',
+                  budget: '',
+                  image : information_discovery_and_management,
+                  image_subtitle : 'Business  Architecture: Information Discovery and Management',
+                  image_link : ''
+                },
+
+                partners : [
+
+                  {
+                    image:  wipro,
+                    link :'',
+                  },
+                  {
+                    image:  adobe,
+                    link :'',
+                  },
+                  {
+                    image:  ibm,
+                    link :'',
+                  },
+                  {
+                    image:  accenture,
+                    link :'',
+                  },
+
+                  {
+                    image:  pwc,
+                    link :'',
+                  },
+                ]
               },
             ],
           },
           {
             id: crypto.randomUUID(),
-            title: "Connected Vehicle",
+            title: "Document Process Automation",
+            solution_play:  "Transform Government Operations and Services",
             // l3 page link
-            link: "",
+            link: "document_process_automation",
             use_cases_content: [
               {
                 subtitle: "Overview",
-                link: "",
+                link: "/industry/transform_government_operations_and_services/document_process_automation",
                 desc: ` <p>
-                Every industry is facing transformational change and we have a
-                strategic opportunity in Business Applications to drive long
-                lasting impact and change for our customers. Industry customers
-                are facing more challenges than ever before and need a partner to
-                help them use technology as their key to success. To engage
-                effectively, we need to leverage the industry value propositions
-                we have at Microsoft and pair them with a Business Applications
-                point of view, The assets in this section will help you
-                demonstrate to customers that you understand their challenges and
-                how to address them with industry-specific solutions.
-              </p>
-              <p>
-                To learn more about all public and commercial sector industries
-                and drive effective
-              </p>
-              <p>
-                conversations with your customers visit the
-                <span className="text-cyan-600">Industry Hub</span> today.
+               
+              Reduce human intervention and automate extraction of data from large and complex structured and unstructured documents to unlock insights and enable users to find key data points.
+
               </p>`,
+
+                keyHighlights : {
+
+                  decision_makers : [
+                    'Primary: Chief Legal Officer','Chief Operations Officer','Chief Data Officer','Chief Financial Officer','Chief Information Officers','Chief Risk Officer','Chief Compliance Officer'
+                  ],
+                  decision_making_factors :  [
+                    'Scalability',
+                    'Cost',
+                    'Efficiency'
+                  ],
+                  desired_business_objectives :[
+                    'Increase speed to value/speed to insight by reducing document processing times',
+                    'Reduce operating expenses through automation of manual processes',
+                    'Improve data confidence and accuracy in extracted data by relying less on error-prone manual processes'
+                  ],
+                  customer_pain_points :[
+                    'Handles large volumes of documents and is not able to efficiently capture any rich insights from them',
+                    'Investing in expensive manual labor to extract data',
+                    'Manual data extraction is inefficient and/or error-prone, resulting in low confidence or data accuracy',
+                    'More time is spent on extracting data than on analysis, insights, and action'
+                  ],
+                  other_notable_attributes:[],
+                  products : [
+                    'Applied AI Services',
+                    'Form Recognizer',
+                    'Azure Logic Apps',
+                    'Azure Cosmos DB',
+                    'Power BI',
+                    'Azure Data Explorer',
+                    'Bot Framework',
+                    'Luis'
+                  ],
+                  proposedTechnicalSolution: [
+                    'Reduce human intervention and automate extraction of data from large and complex structured and unstructured documents to unlock insights and enable users to find key data points'
+                  ],
+                },
+
+                idealCostomerProfile : {
+                  industries: 'Government',
+                  geography: '',
+                  market_cap: '',
+                  employees: '',
+                  budget: '',
+                  image : document_process_automation_government,
+                  image_subtitle : 'Business  Architecture: Document Process Automation',
+                  image_link : ''
+                },
+
+                partners : [
+
+                  {
+                    image:  wipro,
+                    link :'',
+                  },
+                  {
+                    image:  adobe,
+                    link :'',
+                  },
+                  {
+                    image:  ibm,
+                    link :'',
+                  },
+                  {
+                    image:  accenture,
+                    link :'',
+                  },
+
+                  {
+                    image:  pwc,
+                    link :'',
+                  },
+                ]
               },
             ],
           },
@@ -4891,683 +5321,557 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
       // 2nd use cases
       {
         id: crypto.randomUUID(),
-        title: "Deliver Differentiated CX",
-        content: `<p className="font-bold"> Business Application Industry Content</p>
-            <p>
-              Every industry is facing transformational change and we have a
-              strategic opportunity in Business Applications to drive long
-              lasting impact and change for our customers. Industry customers
-              are facing more challenges than ever before and need a partner to
-              help them use technology as their key to success. To engage
-              effectively, we need to leverage the industry value propositions
-              we have at Microsoft and pair them with a Business Applications
-              point of view.
-            </p>`,
+        title: "Deliver Innovation in Programs and Experience",
+        content: `
+            
+<!--          <p>-->
+<!--          <b>Coming Soon </b> -->
+<!--        </p>-->
+
+<p><a className="text-blue font-semibold" target="_blank href="https://industryhub.transform.microsoft.com/public-sector/government?tab=overview"> Learn More </a>  about this Indusrty Pillar</p>
+
+`,
+
+
+
         use_cases: [
           {
             id: crypto.randomUUID(),
-            title: "Customer Data Platform",
+            title: "Service and Support Bot",
+            solution_play: "Deliver Innovation in Programs and Experience",
             // l3 page link
-            link: "",
+            link: "service_and_support_bot",
             use_cases_content: [
               {
                 subtitle: "Overview",
-                link: "",
+                link: "/industry/deliver_innovation_in_Programs_and_experience/service_and_support_bot",
                 desc: ` <p>
-                Every industry is facing transformational change and we have a
-                strategic opportunity in Business Applications to drive long
-                lasting impact and change for our customers. Industry customers
-                are facing more challenges than ever before and need a partner to
-                help them use technology as their key to success. To engage
-                effectively, we need to leverage the industry value propositions
-                we have at Microsoft and pair them with a Business Applications
-                point of view, The assets in this section will help you
-                demonstrate to customers that you understand their challenges and
-                how to address them with industry-specific solutions.
-              </p>
-              <p>
-                To learn more about all public and commercial sector industries
-                and drive effective
-              </p>
-              <p>
-                conversations with your customers visit the
-                <span className="text-cyan-600">Industry Hub</span> today.
+              Resolve user and customer queries without human intervention across multiple channels, including voice enabled support.
               </p>`,
+                keyHighlights : {
+
+                  decision_makers : ['Head of Customer Service',
+                    'Head of Customer Experience',
+                    'Head of IT',
+                    'Head of Legal',
+                    'Head of HR',
+                    'Chief Marketing Officer',
+                    'Product Owner',
+                    'Director of eCommerce', 'Secondary (Influencers): Head of Customer Service',
+                    'Head of Customer Experience'],
+                  decision_making_factors :  [
+                    'Scalability',
+                    'Cost',
+                    'Efficiency'
+                  ],
+                  desired_business_objectives : [
+                    'Improve first-call resolution rates by answering specific questions with the best available knowledge',
+                    'Increase customer satisfaction by reducing wait times with immediate 24/7 service through a conversational agent',
+                    'Grow revenue with differentiated customer experience by leveraging conversational interfaces for personal shopping',
+                    'Reduce support costs/cost of operations by offloading and automating certain support services'
+                  ],
+                  customer_pain_points : [
+                    'Case volumes and wait times are increasing',
+                    'Growing customer churn due to impersonal and inconsistent sales or support service',
+                    'Customers are dissatisfied with response wait times and expect to be able to reach sales or support service at all hours, but business is unable to provide or must spend exorbitant amounts to do so, adding pressure on tight margins',
+                    'Sales or support agents are tied up answering simple queries that can be automated'
+                  ],
+                  other_notable_attributes:[],
+                  products :[],
+                  proposedTechnicalSolution: [ 'Resolve user and customer queries without human intervention across multiple channels, including voice-enabled support.']
+                },
+
+                idealCostomerProfile : {
+                  industries: 'Government',
+                  geography: '',
+                  market_cap: '',
+                  employees: '',
+                  budget: '',
+                  image : service_and_support_bot_government,
+                  image_subtitle : 'Business  Architecture: Service and Support Bot',
+                  image_link : ''
+                },
+
+                partners : [
+
+                  {
+                    image:  wipro,
+                    link :'',
+                  },
+                  {
+                    image:  adobe,
+                    link :'',
+                  },
+                  {
+                    image:  ibm,
+                    link :'',
+                  },
+                  {
+                    image:  accenture,
+                    link :'',
+                  },
+
+                  {
+                    image:  pwc,
+                    link :'',
+                  },
+                ]
               },
             ],
           },
+
         ],
+
+
       },
 
       //  3rd use cases
       {
         id: crypto.randomUUID(),
-        title: "Emerging Mobility Services",
-        content: `<p className="font-bold"> Business Application Industry Content</p>
-            <p>
-              Every industry is facing transformational change and we have a
-              strategic opportunity in Business Applications to drive long
-              lasting impact and change for our customers. Industry customers
-              are facing more challenges than ever before and need a partner to
-              help them use technology as their key to success. To engage
-              effectively, we need to leverage the industry value propositions
-              we have at Microsoft and pair them with a Business Applications
-              point of view.
-            </p>`,
+        title: "Secure Government Data and Protect Resources",
+        content: `
+            
+<!--          <p>-->
+<!--          <b>Coming Soon </b> -->
+<!--        </p>-->
+
+<p><a className="text-blue font-semibold" target="_blank href="https://industryhub.transform.microsoft.com/public-sector/government?tab=overview"> Learn More </a>  about this Indusrty Pillar</p>
+
+
+`,
+
+
+
         use_cases: [
           {
             id: crypto.randomUUID(),
-            title: "Data Sharing & Monetization",
+            title: "Fraud Detection and Transaction Monitoring",
+            solution_play: "Secure Government Data and Protect Resources",
             // l3 page link
-            link: "",
+            link: "fraud_detection_and_transaction_monitoring",
             use_cases_content: [
               {
                 subtitle: "Overview",
-                link: "",
+                link: "/industry/secure_gGovernment_data_and_protect_resources/fraud_detection_and_transaction_monitoring",
                 desc: ` <p>
-                Every industry is facing transformational change and we have a
-                strategic opportunity in Business Applications to drive long
-                lasting impact and change for our customers. Industry customers
-                are facing more challenges than ever before and need a partner to
-                help them use technology as their key to success. To engage
-                effectively, we need to leverage the industry value propositions
-                we have at Microsoft and pair them with a Business Applications
-                point of view, The assets in this section will help you
-                demonstrate to customers that you understand their challenges and
-                how to address them with industry-specific solutions.
-              </p>
-              <p>
-                To learn more about all public and commercial sector industries
-                and drive effective
-              </p>
-              <p>
-                conversations with your customers visit the
-                <span className="text-cyan-600">Industry Hub</span> today.
+              Every industry is facing transformational change and we Identify risk of fraud or fraud associated activities including phone calls, credit card transactions, money laundering and online purchases with real-time analysis and streaming data
               </p>`,
+                keyHighlights : {
+
+                  decision_makers : ['Primary: Chief Financial Officer, Chief Risk Officer',
+                    'Secondary: Chief Data Officer, Chief Information Officer'],
+                  decision_making_factors :  [
+                    'Scalability', 'Cost', 'Efficiency'
+                  ],
+                  desired_business_objectives : [
+                    'Ensure client and company security by continuously reviewing transactions for fraudulent activities and high-risk areas',
+                    'Improve customer satisfaction by proactively identifying and stopping fraudulent transactions with greater accuracy',
+                    'Avoid costly claim scenarios by improving detection rates and delivering better insights to case workers',
+                    'Save time and costs by reducing the amount of time to discover and stop fraud'
+                  ],
+                  customer_pain_points : [
+                    'Fraud is resulting in significant costs to the business and is growing',
+                    'Fraud claim rates from customers are high',
+                    'Actions taken to combat fraud are reactive vs. preventative',
+                    'Fraud detection accuracy rates are low'
+                  ],
+                  other_notable_attributes:[],
+                  products :[ 'Azure Machine Learning',
+                    'Azure Synapse Analytics',
+                    'Azure Cosmos DB',
+                    'Power BI'],
+                  proposedTechnicalSolution: [ 'Identify risk of fraud or fraud associated activities including phone calls, credit card transactions, money laundering, and online purchases with real-time analysis and streaming data',]
+                },
+
+                idealCostomerProfile : {
+                  industries: 'Government',
+                  geography: '',
+                  market_cap: '',
+                  employees: '',
+                  budget: '',
+                  image : fraud_detection_and_transaction_monitoring,
+                  image_subtitle : 'Business  Architecture: Fraud Detection and Transaction Monitoring',
+                  image_link : ''
+                },
+
+                partners : [
+
+                  {
+                    image:  wipro,
+                    link :'',
+                  },
+                  {
+                    image:  adobe,
+                    link :'',
+                  },
+                  {
+                    image:  ibm,
+                    link :'',
+                  },
+                  {
+                    image:  accenture,
+                    link :'',
+                  },
+
+                  {
+                    image:  pwc,
+                    link :'',
+                  },
+                ]
               },
             ],
           },
+
+
         ],
+
+
       },
 
       // 4th use case
-      {
-        id: crypto.randomUUID(),
-        title: "Resilient Operations",
-        content: ` <div className="flex flex-col gap-4">
-              <p className="font-bold"> Overview </p>
-              <p>
-                Realize the true value of your data by unifying disparate data
-                sources across the shopper journey, discovering insights that
-                enable better experiences
-              </p>
-            </div>
-            <div className="flex flex-col gap-4">
-              <p className="font-bold">Roles </p>
-              <ul className="list-disc ">
-                <li className="mx-4">CIO/VP</li>
-                <li className="mx-4">CDO/VP</li>
-                <li className="mx-4">COO/VP</li>
-                <li className="mx-4">CMO/VP (required by all)</li>
-              </ul>
-            </div>
-            <div className="flex flex-col gap-4">
-              <p className="font-bold">Customer Challenges </p>
-              <ul className="list-disc ">
-                <li className="mx-4">
-                  Vast amounts of data in many places makes it hard to make
-                  sense of it or know what's important and what's not
-                </li>
-                <li className="mx-4">360-degree view of the customer</li>
-                <li className="mx-4">
-                  New shopping journeys creating fraud vulnerabilities across
-                  digital and voice channels
-                </li>
-              </ul>
-            </div>
-            <div className="flex flex-col gap-4">
-              <p className="font-bold">Desiried Business Outcomes </p>
-             <p>
-                Realize the true value of your data by unifying disparate data
-                sources across the shopper journey, discovering insights that
-                enable better experiences
-              </p>
-              <ul className="list-disc ">
-                <li className="mx-4">
-                  Gain insights across the complete view of a shopper's journey
-                </li>
-                <li className="mx-4">
-                  Unlock omnichannel insights with advanced analytics
-                </li>
-                <li className="mx-4">
-                  Protect your revenue from fraud using AI to id patterns and
-                  multi-modal biometrics stop fraudsters
-                </li>
-                <li className="mx-4">
-                  Unlock ad revenue using your 1st party shopper data
-                </li>
-                <li className="mx-4">
-                  Reduce costs by optimizing shopper journeys and streamlining
-                  automation
-                </li>
-              </ul>
-              <p>
-             
-                <a
-                  className="text-blue"
-                  target={"_blank"}
-                  href=
-                    "https://industryhub.transform.microsoft.com/solution-plays/maximize-the-value-of-your-data?tab=overview"
-                  
-                >
-                  Learn more
-                </a>
-              
-                about this Indusrty Pillar
-              </p>
-            </div>`,
-        use_cases: [
-          {
-            id: crypto.randomUUID(),
-            title: "Connected Factories/Digital Twins",
-            // l3 page link
-            link: "",
-            use_cases_content: [
-              {
-                subtitle: "Overview",
-                link: "",
-                desc: ` <p>
-              Every industry is facing transformational change and we have a
-              strategic opportunity in Business Applications to drive long
-              lasting impact and change for our customers. Industry customers
-              are facing more challenges than ever before and need a partner to
-              help them use technology as their key to success. To engage
-              effectively, we need to leverage the industry value propositions
-              we have at Microsoft and pair them with a Business Applications
-              point of view, The assets in this section will help you
-              demonstrate to customers that you understand their challenges and
-              how to address them with industry-specific solutions.
-            </p>
-            <p>
-              To learn more about all public and commercial sector industries
-              and drive effective
-            </p>
-            <p>
-              conversations with your customers visit the
-              <span className="text-cyan-600">Industry Hub</span> today.
-            </p>`,
-              },
-            ],
-          },
-          {
-            id: crypto.randomUUID(),
-            title: "Integrated Supply Chain",
-            // l3 page link
-            link: "",
-            use_cases_content: [
-              {
-                subtitle: "Overview",
-                link: "",
-                desc: ` <p>
-              Every industry is facing transformational change and we have a
-              strategic opportunity in Business Applications to drive long
-              lasting impact and change for our customers. Industry customers
-              are facing more challenges than ever before and need a partner to
-              help them use technology as their key to success. To engage
-              effectively, we need to leverage the industry value propositions
-              we have at Microsoft and pair them with a Business Applications
-              point of view, The assets in this section will help you
-              demonstrate to customers that you understand their challenges and
-              how to address them with industry-specific solutions.
-            </p>
-            <p>
-              To learn more about all public and commercial sector industries
-              and drive effective
-            </p>
-            <p>
-              conversations with your customers visit the
-              <span className="text-cyan-600">Industry Hub</span> today.
-            </p>`,
-              },
-            ],
-          },
-          {
-            id: crypto.randomUUID(),
-            title: " Connected Businesses",
-            // l3 page link
-            link: "",
-            use_cases_content: [
-              {
-                subtitle: "Overview",
-                link: "",
-                desc: ` <p>
-              Every industry is facing transformational change and we have a
-              strategic opportunity in Business Applications to drive long
-              lasting impact and change for our customers. Industry customers
-              are facing more challenges than ever before and need a partner to
-              help them use technology as their key to success. To engage
-              effectively, we need to leverage the industry value propositions
-              we have at Microsoft and pair them with a Business Applications
-              point of view, The assets in this section will help you
-              demonstrate to customers that you understand their challenges and
-              how to address them with industry-specific solutions.
-            </p>
-            <p>
-              To learn more about all public and commercial sector industries
-              and drive effective
-            </p>
-            <p>
-              conversations with your customers visit the
-              <span className="text-cyan-600">Industry Hub</span> today.
-            </p>`,
-              },
-            ],
-          },
-          {
-            id: crypto.randomUUID(),
-            title: "Sustainability",
-            // l3 page link
-            link: "",
-            use_cases_content: [
-              {
-                subtitle: "Overview",
-                link: "",
-                desc: ` <p>
-              Every industry is facing transformational change and we have a
-              strategic opportunity in Business Applications to drive long
-              lasting impact and change for our customers. Industry customers
-              are facing more challenges than ever before and need a partner to
-              help them use technology as their key to success. To engage
-              effectively, we need to leverage the industry value propositions
-              we have at Microsoft and pair them with a Business Applications
-              point of view, The assets in this section will help you
-              demonstrate to customers that you understand their challenges and
-              how to address them with industry-specific solutions.
-            </p>
-            <p>
-              To learn more about all public and commercial sector industries
-              and drive effective
-            </p>
-            <p>
-              conversations with your customers visit the
-              <span className="text-cyan-600">Industry Hub</span> today.
-            </p>`,
-              },
-            ],
-          },
-          {
-            id: crypto.randomUUID(),
-            title: " Automated Quality Inspection",
-            // l3 page link
-            link: "",
-            use_cases_content: [
-              {
-                subtitle: "Overview",
-                link: "",
-                desc: `  <p>
-                Automated quality control improves inspection measurement
-                reliability. Accurate measurements on complex parts and high
-                throughput production lines is assured with automated inspections.
-                These systems can capture more data for large quantities of parts
-                faster. <br />
-                <br />
-                Artificial Intelligence of Things (AlT) is the combination of
-                artificial intelligence (AI) technologies with the Internet of
-                Things (loT) infrastructure to achieve more efficient loT
-                operations, improve human-machine interactions and enhance data
-                management and analytics. Automated quality inspection typically
-                leverages Al image analysis (vision) and data from loT sensors to
-                identify product quality issues in real-time on the production
-                line, triggering an alert for further inspection and/or action if
-                problems are detected. <br />
-              </p>
-              <p>
-                <p className="font-bold pr-4 ">
-                  
-                  Key Services / Product Stack
-                </p>
-                <br />
-                Azure Container Registry, Azure DevOps, Azure loT Hub, Azure
-                Key/ault, Azure Machine Learning, Cognitive Services: Vision,
-                Azure SQL, Azure Storage, Docker, Power BI
-              </p>
-            </div>`,
-              },
-            ],
-          },
-        ],
-      },
+
 
       // 5th all use cases
       {
         id: crypto.randomUUID(),
-        title: "All Usecases",
+        title: "All Use Cases",
         content: `
-        <p className="font-bold"> Business Application Industry Content</p>
+        <p className="font-bold">Government Industry</p>
           `,
         use_cases: [
           {
             id: crypto.randomUUID(),
-            title: "Win New Customers with Teamwork",
-            link: "win_new_customers_with_teamwork",
+            title: "Information Discovery and Management",
+            solution_play:  "Transform Government Operations and Services",
+            // l3 page link
+            link: "information_discovery_and_management",
             use_cases_content: [
               {
                 subtitle: "Overview",
-                link: "",
-                desc: "",
-                keyHighlights: {
-                  decision_makers: [],
-                  decision_making_factors: [],
-                  desired_business_objectives: [],
-                  customer_pain_points: [],
-                  proposed_technical_solution: [],
-                  other_notable_attributes: [],
-                  products: [],
+                link:
+                    "/industry/transform_government_operations_and_services/information_discovery_and_management",
+
+                desc: `<p>Search through structured and unstructured documents to quickly find the most relevant information and documents with compliance risk and standards.
+              </p>`,
+
+                keyHighlights : {
+
+                  decision_makers : ['Head of HR',
+                    'Head of Customer Service',
+                    'Chief Learning Officer',
+                    'Chief Knowledge Officer',
+                    'Chief Compliance Officer', 'Secondary (Influencers): Head of Customer Service'],
+
+                  decision_making_factors :['Scalability','Cost','Efficiency' ],
+                  desired_business_objectives : [
+                    'Increase speed to value/speed to insight by reducing time spent on search',
+                    'Improve user productivity by surfacing most relevant search results',
+                    'Ensure compliance through completeness of search over all data and documents',
+                    'Reduce search infrastructure costs'
+                  ],
+                  customer_pain_points : [
+                    'Employees or users are not finding the information they need in internal sites, or information takes a long time to find',
+                    'Failed searches commonly experienced, where no relevant search results are displayed',
+                    'Organization not able to pull together a comprehensive view of all data related to a specific topic (i.e., docs with regulatory terms for compliance purposes)'
+                  ],
+                  other_notable_attributes:[],
+                  products : [
+                    'Azure Cognitive Search',
+                    'Azure Web Apps',
+                    'Power BI'
+                  ],
+                  proposedTechnicalSolution: ['Search through structured and unstructured documents to quickly find the most relevant information and documents with compliance risk and standards.',]
                 },
-                idealCostomerProfile: {
-                  industries: "",
-                  geography: "",
-                  market_cap: "",
-                  employees: "",
-                  budget: "",
-                  image: "",
-                  image_subtitle: "",
-                  image_link: "",
+
+                idealCostomerProfile : {
+                  industries: 'Government',
+                  geography: '',
+                  market_cap: '',
+                  employees: '',
+                  budget: '',
+                  image : information_discovery_and_management,
+                  image_subtitle : 'Business  Architecture: Information Discovery and Management',
+                  image_link : ''
                 },
-                partners: [
+
+                partners : [
+
                   {
-                    image: "",
-                    link: "",
+                    image:  wipro,
+                    link :'',
                   },
                   {
-                    image: "",
-                    link: "",
+                    image:  adobe,
+                    link :'',
                   },
                   {
-                    image: "",
-                    link: "",
+                    image:  ibm,
+                    link :'',
                   },
                   {
-                    image: "",
-                    link: "",
+                    image:  accenture,
+                    link :'',
                   },
+
                   {
-                    image: "",
-                    link: "",
+                    image:  pwc,
+                    link :'',
                   },
-                  {
-                    image: "",
-                    link: "",
-                  },
-                  {
-                    image: "",
-                    link: "",
-                  },
-                  {
-                    image: "",
-                    link: "",
-                  },
-                ],
+                ]
               },
             ],
           },
           {
             id: crypto.randomUUID(),
-            title: "Retail Banking",
-            link: "retail_banking",
+            title: "Document Process Automation",
+            solution_play:  "Transform Government Operations and Services",
+            // l3 page link
+            link: "document_process_automation",
             use_cases_content: [
               {
                 subtitle: "Overview",
-                link: "",
-                desc: "",
-                keyHighlights: {
-                  decision_makers: [],
-                  decision_making_factors: [],
-                  desired_business_objectives: [],
-                  customer_pain_points: [],
-                  proposed_technical_solution: [],
-                  other_notable_attributes: [],
-                  products: [],
+                link: "/industry/transform_government_operations_and_services/document_process_automation",
+                desc: ` <p>
+               
+              Reduce human intervention and automate extraction of data from large and complex structured and unstructured documents to unlock insights and enable users to find key data points.
+
+              </p>`,
+
+                keyHighlights : {
+
+                  decision_makers : [
+                    'Primary: Chief Legal Officer','Chief Operations Officer','Chief Data Officer','Chief Financial Officer','Chief Information Officers','Chief Risk Officer','Chief Compliance Officer'
+                  ],
+                  decision_making_factors :  [
+                    'Scalability',
+                    'Cost',
+                    'Efficiency'
+                  ],
+                  desired_business_objectives :[
+                    'Increase speed to value/speed to insight by reducing document processing times',
+                    'Reduce operating expenses through automation of manual processes',
+                    'Improve data confidence and accuracy in extracted data by relying less on error-prone manual processes'
+                  ],
+                  customer_pain_points :[
+                    'Handles large volumes of documents and is not able to efficiently capture any rich insights from them',
+                    'Investing in expensive manual labor to extract data',
+                    'Manual data extraction is inefficient and/or error-prone, resulting in low confidence or data accuracy',
+                    'More time is spent on extracting data than on analysis, insights, and action'
+                  ],
+                  other_notable_attributes:[],
+                  products : [
+                    'Applied AI Services',
+                    'Form Recognizer',
+                    'Azure Logic Apps',
+                    'Azure Cosmos DB',
+                    'Power BI',
+                    'Azure Data Explorer',
+                    'Bot Framework',
+                    'Luis'
+                  ],
+                  proposedTechnicalSolution: [
+                    'Reduce human intervention and automate extraction of data from large and complex structured and unstructured documents to unlock insights and enable users to find key data points'
+                  ],
                 },
-                idealCostomerProfile: {
-                  industries: "",
-                  geography: "",
-                  market_cap: "",
-                  employees: "",
-                  budget: "",
-                  image: "",
-                  image_subtitle: "",
-                  image_link: "",
+
+                idealCostomerProfile : {
+                  industries: 'Government',
+                  geography: '',
+                  market_cap: '',
+                  employees: '',
+                  budget: '',
+                  image : document_process_automation_government,
+                  image_subtitle : 'Business  Architecture: Document Process Automation',
+                  image_link : ''
                 },
-                partners: [
+
+                partners : [
+
                   {
-                    image: "",
-                    link: "",
+                    image:  wipro,
+                    link :'',
                   },
                   {
-                    image: "",
-                    link: "",
+                    image:  adobe,
+                    link :'',
                   },
                   {
-                    image: "",
-                    link: "",
+                    image:  ibm,
+                    link :'',
                   },
                   {
-                    image: "",
-                    link: "",
+                    image:  accenture,
+                    link :'',
                   },
+
                   {
-                    image: "",
-                    link: "",
+                    image:  pwc,
+                    link :'',
                   },
-                  {
-                    image: "",
-                    link: "",
-                  },
-                  {
-                    image: "",
-                    link: "",
-                  },
-                  {
-                    image: "",
-                    link: "",
-                  },
-                ],
+                ]
               },
             ],
           },
           {
             id: crypto.randomUUID(),
-            title: "Commercial Banking",
-            link: "commercial_banking",
+            title: "Service and Support Bot",
+            solution_play: "Deliver Innovation in Programs and Experience",
+            // l3 page link
+            link: "service_and_support_bot",
             use_cases_content: [
               {
                 subtitle: "Overview",
-                link: "",
-                desc: "",
-                keyHighlights: {
-                  decision_makers: [],
-                  decision_making_factors: [],
-                  desired_business_objectives: [],
-                  customer_pain_points: [],
-                  proposed_technical_solution: [],
-                  other_notable_attributes: [],
-                  products: [],
+                link: "/industry/deliver_innovation_in_Programs_and_experience/service_and_support_bot",
+                desc: ` <p>
+              Resolve user and customer queries without human intervention across multiple channels, including voice enabled support.
+              </p>`,
+                keyHighlights : {
+
+                  decision_makers : ['Head of Customer Service',
+                    'Head of Customer Experience',
+                    'Head of IT',
+                    'Head of Legal',
+                    'Head of HR',
+                    'Chief Marketing Officer',
+                    'Product Owner',
+                    'Director of eCommerce', 'Secondary (Influencers): Head of Customer Service',
+                    'Head of Customer Experience'],
+                  decision_making_factors :  [
+                    'Scalability',
+                    'Cost',
+                    'Efficiency'
+                  ],
+                  desired_business_objectives : [
+                    'Improve first-call resolution rates by answering specific questions with the best available knowledge',
+                    'Increase customer satisfaction by reducing wait times with immediate 24/7 service through a conversational agent',
+                    'Grow revenue with differentiated customer experience by leveraging conversational interfaces for personal shopping',
+                    'Reduce support costs/cost of operations by offloading and automating certain support services'
+                  ],
+                  customer_pain_points : [
+                    'Case volumes and wait times are increasing',
+                    'Growing customer churn due to impersonal and inconsistent sales or support service',
+                    'Customers are dissatisfied with response wait times and expect to be able to reach sales or support service at all hours, but business is unable to provide or must spend exorbitant amounts to do so, adding pressure on tight margins',
+                    'Sales or support agents are tied up answering simple queries that can be automated'
+                  ],
+                  other_notable_attributes:[],
+                  products :[],
+                  proposedTechnicalSolution: [ 'Resolve user and customer queries without human intervention across multiple channels, including voice-enabled support.']
                 },
-                idealCostomerProfile: {
-                  industries: "",
-                  geography: "",
-                  market_cap: "",
-                  employees: "",
-                  budget: "",
-                  image: "",
-                  image_subtitle: "",
-                  image_link: "",
+
+                idealCostomerProfile : {
+                  industries: 'Government',
+                  geography: '',
+                  market_cap: '',
+                  employees: '',
+                  budget: '',
+                  image : service_and_support_bot_government,
+                  image_subtitle : 'Business  Architecture: Service and Support Bot',
+                  image_link : ''
                 },
-                partners: [
+
+                partners : [
+
                   {
-                    image: "",
-                    link: "",
+                    image:  wipro,
+                    link :'',
                   },
                   {
-                    image: "",
-                    link: "",
+                    image:  adobe,
+                    link :'',
                   },
                   {
-                    image: "",
-                    link: "",
+                    image:  ibm,
+                    link :'',
                   },
                   {
-                    image: "",
-                    link: "",
+                    image:  accenture,
+                    link :'',
                   },
+
                   {
-                    image: "",
-                    link: "",
+                    image:  pwc,
+                    link :'',
                   },
-                  {
-                    image: "",
-                    link: "",
-                  },
-                  {
-                    image: "",
-                    link: "",
-                  },
-                  {
-                    image: "",
-                    link: "",
-                  },
-                ],
+                ]
               },
             ],
           },
+
           {
             id: crypto.randomUUID(),
-            title: "Asset Management",
-            link: "asset_management",
+            title: "Fraud Detection and Transaction Monitoring",
+            solution_play: "Secure Government Data and Protect Resources",
+            // l3 page link
+            link: "fraud_detection_and_transaction_monitoring",
             use_cases_content: [
               {
                 subtitle: "Overview",
-                link: "",
-                desc: "",
-                keyHighlights: {
-                  decision_makers: [],
-                  decision_making_factors: [],
-                  desired_business_objectives: [],
-                  customer_pain_points: [],
-                  proposed_technical_solution: [],
-                  other_notable_attributes: [],
-                  products: [],
+                link: "/industry/secure_gGovernment_data_and_protect_resources/fraud_detection_and_transaction_monitoring",
+                desc: ` <p>
+              Every industry is facing transformational change and we Identify risk of fraud or fraud associated activities including phone calls, credit card transactions, money laundering and online purchases with real-time analysis and streaming data
+              </p>`,
+                keyHighlights : {
+
+                  decision_makers : ['Primary: Chief Financial Officer, Chief Risk Officer',
+                    'Secondary: Chief Data Officer, Chief Information Officer'],
+                  decision_making_factors :  [
+                    'Scalability', 'Cost', 'Efficiency'
+                  ],
+                  desired_business_objectives : [
+                    'Ensure client and company security by continuously reviewing transactions for fraudulent activities and high-risk areas',
+                    'Improve customer satisfaction by proactively identifying and stopping fraudulent transactions with greater accuracy',
+                    'Avoid costly claim scenarios by improving detection rates and delivering better insights to case workers',
+                    'Save time and costs by reducing the amount of time to discover and stop fraud'
+                  ],
+                  customer_pain_points : [
+                    'Fraud is resulting in significant costs to the business and is growing',
+                    'Fraud claim rates from customers are high',
+                    'Actions taken to combat fraud are reactive vs. preventative',
+                    'Fraud detection accuracy rates are low'
+                  ],
+                  other_notable_attributes:[],
+                  products :[ 'Azure Machine Learning',
+                    'Azure Synapse Analytics',
+                    'Azure Cosmos DB',
+                    'Power BI'],
+                  proposedTechnicalSolution: [ 'Identify risk of fraud or fraud associated activities including phone calls, credit card transactions, money laundering, and online purchases with real-time analysis and streaming data',]
                 },
-                idealCostomerProfile: {
-                  industries: "",
-                  geography: "",
-                  market_cap: "",
-                  employees: "",
-                  budget: "",
-                  image: "",
-                  image_subtitle: "",
-                  image_link: "",
+
+                idealCostomerProfile : {
+                  industries: 'Government',
+                  geography: '',
+                  market_cap: '',
+                  employees: '',
+                  budget: '',
+                  image : fraud_detection_and_transaction_monitoring,
+                  image_subtitle : 'Business  Architecture: Fraud Detection and Transaction Monitoring',
+                  image_link : ''
                 },
-                partners: [
+
+                partners : [
+
                   {
-                    image: "",
-                    link: "",
+                    image:  wipro,
+                    link :'',
                   },
                   {
-                    image: "",
-                    link: "",
+                    image:  adobe,
+                    link :'',
                   },
                   {
-                    image: "",
-                    link: "",
+                    image:  ibm,
+                    link :'',
                   },
                   {
-                    image: "",
-                    link: "",
+                    image:  accenture,
+                    link :'',
                   },
+
                   {
-                    image: "",
-                    link: "",
+                    image:  pwc,
+                    link :'',
                   },
-                  {
-                    image: "",
-                    link: "",
-                  },
-                  {
-                    image: "",
-                    link: "",
-                  },
-                  {
-                    image: "",
-                    link: "",
-                  },
-                ],
-              },
-            ],
-          },
-          {
-            id: crypto.randomUUID(),
-            title: "Wealth Management",
-            link: "wealth_management",
-            use_cases_content: [
-              {
-                subtitle: "Overview",
-                link: "",
-                desc: "",
-                keyHighlights: {
-                  decision_makers: [],
-                  decision_making_factors: [],
-                  desired_business_objectives: [],
-                  customer_pain_points: [],
-                  proposed_technical_solution: [],
-                  other_notable_attributes: [],
-                  products: [],
-                },
-                idealCostomerProfile: {
-                  industries: "",
-                  geography: "",
-                  market_cap: "",
-                  employees: "",
-                  budget: "",
-                  image: "",
-                  image_subtitle: "",
-                  image_link: "",
-                },
-                partners: [
-                  {
-                    image: "",
-                    link: "",
-                  },
-                  {
-                    image: "",
-                    link: "",
-                  },
-                  {
-                    image: "",
-                    link: "",
-                  },
-                  {
-                    image: "",
-                    link: "",
-                  },
-                  {
-                    image: "",
-                    link: "",
-                  },
-                  {
-                    image: "",
-                    link: "",
-                  },
-                  {
-                    image: "",
-                    link: "",
-                  },
-                  {
-                    image: "",
-                    link: "",
-                  },
-                ],
+                ]
               },
             ],
           },
@@ -6053,7 +6357,7 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
       // 5th all use cases
       {
         id: crypto.randomUUID(),
-        title: "All Usecases",
+        title: "All Use Cases",
         content: `
         <p className="font-bold"> Business Application Industry Content</p>
           `,
@@ -6083,7 +6387,7 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
                   employees: "",
                   budget: "",
                   image: "",
-                  image_subtitle: "",
+                    image_subtitle: "Business  Architecture:  ",
                   image_link: "",
                 },
                 partners: [
