@@ -139,3 +139,16 @@ export const information_discovery_and_management = require("../assets/industry_
 export const document_process_automation_government = require("assets/industry_usecases_imges/Government/GOV_DocumentProcessAutomation 1.png")
 export const service_and_support_bot_government = require("assets/industry_usecases_imges/Government/GOV_SalesServiceSupport 1.png")
 export const fraud_detection_and_transaction_monitoring = require("assets/industry_usecases_imges/Government/GOV_FraudDetection 1.png")
+
+
+//Todo :: Financial Services
+
+export const DocumentProcessAutomation = require('assets/industry_usecases_imges/Financial_Services/FS_DocProcessAutomation 1.png')
+export const InformationDiscoveryAndManagement = require('assets/industry_usecases_imges/Financial_Services/FS_InfoDiscovery&Mgmnt 1.png')
+export const TransactionProcessingAtAnyScale = require('assets/industry_usecases_imges/Financial_Services/Transaction Processing at Any Scale 1.png')
+export const AIPoweredInsuranceClaimsAutomation = require('assets/industry_usecases_imges/Financial_Services/AI-Powered Insurance Claims Automation 1.png')
+export const ServiceAndSupportBot = require('assets/industry_usecases_imges/Financial_Services/FS_Service&SupportBot 1.png')
+export const AIPoweredCallCenterIntelligence = require('assets/industry_usecases_imges/Financial_Services/AI-Powered Call Center Intelligence 1.png')
+export const CustomerComplaintManagement = require('assets/industry_usecases_imges/Financial_Services/Customer Complaint Management 1.png')
+export const FraudDetectionAndTransactionMonitoring = require('assets/industry_usecases_imges/Financial_Services/FS_RealTimeFraudDetection 1.png')
+export const RiskClassificationAndLoanModeling = require('assets/industry_usecases_imges/Financial_Services/Risk Classification and Loan Modeling 1.png')

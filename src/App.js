@@ -11,12 +11,15 @@ import IndustryCasesPage from "pages/IndustryCasesPage/IndustryCasesPage";
 import DynamicIndustry from "pages/DynamicIndustry";
 import NotFound from "./components/NotFound";
 
+
+
 function App() {
   return (
     <div className="App ">
       <BrowserRouter>
         <Navbar />
         <Routes>
+
           <Route path="/" element={<Home />} />
           <Route path="/industry_grid" element={<BufferPage />} />
           <Route path="/industry" element={<Industry />} />

@@ -12,23 +12,25 @@ import { document_process_automation } from "constants";
 import { connected_smart_products } from "constants";
 import { automated_quality_inspection } from "constants";
 import {
+  AIPoweredCallCenterIntelligence,
+  AIPoweredInsuranceClaimsAutomation,
   azure_intelligent_recommendations,
   buy_online_pick_up_in_store,
   clinical_analytics_and_decision_support_patient_risk,
   conversational_ai_with_azure_openai_for_retail,
-  customer_revenue_growth_factor,
+  customer_revenue_growth_factor, CustomerComplaintManagement,
   document_process_automation_government,
-  document_process_automation_healtcare,
+  document_process_automation_healtcare, DocumentProcessAutomation,
   drug_discovery_and_research,
   factory_working_safety, fraud_detection_and_transaction_monitoring,
-  information_discovery_and_management,
+  information_discovery_and_management, InformationDiscoveryAndManagement,
   medical_device_and_equipment_tracking,
   personalization_and_recommendations,
   product_catalog_discovery,
-  remote_asset_monitoring,
+  remote_asset_monitoring, RiskClassificationAndLoanModeling,
   sales_service_and_support_bot,
   service_and_support_bot_government,
-  service_and_support_bot_healthcare,
+  service_and_support_bot_healthcare, ServiceAndSupportBot,
 } from "../../constants";
 
 export const Industry = [
@@ -41,7 +43,7 @@ export const Industry = [
     overview:
       "Microsoft's approach to manufacturing takes into account market insights and competitive landscape, and positions Microsoft's value proposition via the Industry Priority Scenarios. Our Industry Priority Scenarios (IPSs) are the fundamental areas we believe manufacturers should focus their efforts on their digital transformation journey. Microsoft Cloud for Manufacturing is the vehicle to enable manufacturers to execute that digital transformation through Microsoft and partner capabilities aligned to our IPSs. Microsoft Cloud for Manufacturing (MC4M) became available for Preview in FY22 on November 1, 2021, and is expected to be generally available in FY23 H2.",
     solution_plays: [
-      // 1st solition plays
+      // 1st solution plays
       {
         id: crypto.randomUUID(),
         title: "Enable Intelligent Factories",
@@ -57,7 +59,7 @@ export const Industry = [
 
 
           
-          <p><a className="text-blue font-semibold" target="_blank" href="https://industryhub.transform.microsoft.com/enterprise-commercial/manufacturing?tab=overview"> Learn More </a>  about this Indusrty Pillar</p>
+          <p><a className="text-blue font-semibold" target="_blank" href="https://industryhub.transform.microsoft.com/enterprise-commercial/manufacturing?tab=overview"> Learn More </a>  about this Industry Pillar</p>
        `,
         use_cases: [
           // Todo :: Automated Quality Inspection
@@ -478,7 +480,7 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
 </p>
 <p>Delivering your product-as-a-service also means you need to take a new, collaborative approach to the sales process to help sellers navigate your increasingly complex portfolio of products and services, and to build long-term relationships and ongoing customer loyalty.​ With connected sales and service solutions, you can empower your sellers to see the full spectrum of a customer’s needs. Sellers can analyze previous product usage and performance, and then predict potential needs using intelligent tools.​ Sellers can also collaborate with customers to customize product purchases and efficiently execute contracts using configure-price-quote, quote-to-cash, and contract lifecycle management tools.</p>
 <p>These tools can shorten the buying cycle and help the customer get precisely what’s needed. And there’s the call center of the future, where you can tap into the insights gleaned from your smart connected products to improve the effectiveness of your customer service agents using virtual agents or bots, like HP is doing to handle the 600 million service inquires they get annually.​</p>
-<p><a className="text-blue font-semibold" target="_blank" href="https://industryhub.transform.microsoft.com/enterprise-commercial/manufacturing?tab=overview">Learn More  </a>about this Indusrty Pillar</p>
+<p><a className="text-blue font-semibold" target="_blank" href="https://industryhub.transform.microsoft.com/enterprise-commercial/manufacturing?tab=overview">Learn More  </a>about this Industry Pillar</p>
 `,
 
         use_cases: [
@@ -558,7 +560,7 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
               Transform your manufacturing and supply chain operations using predictive insights and intelligence from AI and Internet of Things (IoT) across planning, production, maintenance, inventory, warehouse, and transportation management to maximize operational efficiency, product quality, and profitability.
             </p>
 <p>Microsoft understands that collaboration is required for manufacturers to achieve a truly intelligent supply chain. Our portfolio of supply chain solutions leverages the power, scalability and security of Azure, enabling manufacturers to transform business processes and operate as “mission control,” orchestrating with agility across the value network.</p>
-<p><a className="text-blue font-semibold" target="_blank" href="https://industryhub.transform.microsoft.com/enterprise-commercial/manufacturing?tab=overview">Learn More  </a>about this Indusrty Pillar</p>
+<p><a className="text-blue font-semibold" target="_blank" href="https://industryhub.transform.microsoft.com/enterprise-commercial/manufacturing?tab=overview">Learn More  </a>about this Industry Pillar</p>
 `,
 
         // Todo :: Demand Forecasting
@@ -647,7 +649,7 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
              You can use all this data coming in from IoT sensors, field service, sales, factories, and the supply chain to speed innovation.
             </p>
 <p>With connected product innovation solutions, you can get real-time insight into which products and features customers are using without waiting for customer survey results. And with big computing capacity available on demand, you can iterate the next version of your product much more rapidly using digital twins, as well as simulation and analysis tools. The Automotive industry is doing this on a massive scale with the data coming in from their connected vehicles, and fleets of specially instrumented autonomous vehicles. EFS is doing using this data to teach the next generation of vehicles how to see the real world. But any IoT connected machine provides this opportunity for a digital feedback loop to improve the product innovation process. You can also get more accurate, timely data on which parts failed and what the best problem resolutions were so you can improve product and service performance. These are just a few ways you can analyze data to realize a faster speed-to-market and improve the quality of your products and services, or product-as-a-service!.</p>
-<p><a className="text-blue font-semibold" target="_blank" href="https://industryhub.transform.microsoft.com/enterprise-commercial/manufacturing?tab=overview">Learn More  </a>about this Indusrty Pillar</p>
+<p><a className="text-blue font-semibold" target="_blank" href="https://industryhub.transform.microsoft.com/enterprise-commercial/manufacturing?tab=overview">Learn More  </a>about this Industry Pillar</p>
 `,
         use_cases: [
           // Todo :: Connected Smart Product
@@ -1302,117 +1304,415 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
     link: "financial",
     heading: "Financial Services Overview",
     overview:
-      "The market for the movement of people and goods is one of the largest and most dynamic ecosystems globally which represents $6T in global revenues today and is projected to grow to $11T by 2030 (~6% CAGR). This shift is disrupting the ecosystem, creating the opportunity for new market entrants to become future market leaders and driving traditional players to partner with technology providers who can help them reinvent their business models and deliver next generation experiences across automotive, mobility, and transportation. While we represent these industry trends separately, the alignment of automotive, mobility, and transportation was purposeful as the lines between each continue to converge.",
+        "Facing a range of challenges—from customer expectations and workforce transformation to competitive threats and innovation imperatives counterbalanced by risk, security, and regulatory compliance considerations—leaders in the banking industry are focused on helping their organizations weather storms and adapt to relentless change. Among the strategies they need to employ to address these challenges are the financial, cultural, and technological investments they need to make to stay competitive today and prepare for an uncertain future.In this context, Microsoft offers banks a highly secure and compliant, enterprise-grade cloud platform to run their business and the latest technology needed to unlock business value and deepen customer relationships. With the Microsoft Cloud, banks can optimize costs, reduce time to value, enhance collaboration, and use data and AI to deliver more impactful business outcomes—whether transforming the banking experience, empowering employees, managing risk, or modernizing payments and core banking. The security, compliance, and scale of the Microsoft Cloud, combined with our global partner ecosystem, empower banks to address evolving customer needs, hybrid workplace requirements, complex regulations, new competitors, solution integration, and increased cyber threats with both efficiency and resiliency.",
 
     solution_plays: [
       // 1st use cases
       {
         id: crypto.randomUUID(),
-        title: "Accelerated Innovations",
+        title: "Modernize Payments & Core Banking",
         content: `
-        <p className="font-bold"> Business Application Industry Content</p>
+
           <p>
-            Every industry is facing transformational change and we have a
-            strategic opportunity in Business Applications to drive long
-            lasting impact and change for our customers. Industry customers
-            are facing more challenges than ever before and need a partner to
-            help them use technology as their key to success. To engage
-            effectively, we need to leverage the industry value propositions
-            we have at Microsoft and pair them with a Business Applications
-            point of view.
+            <b>Modernize payments and core banking:   </b>Increase agility to roll out new products and services while saving on infrastructure costs.
           </p>
           <p>
-            Every industry is facing transformational change and we have a
-            strategic opportunity in Business Applications to drive long
-            lasting impact and change for our customers. Industry customers
-            are facing more challenges than ever before and need a partner to
-            help them use technology as their key to success. To engage
-            effectively, we need to leverage the industry value propositions
-            we have at Microsoft and pair them with a Business Applications
-            point of view.
+          <b>Customer challenges : </b> Integrating open banking and API-based solutions 
+           Providing payments-as-a-service 
+           Real-time, 24/7 processing to serve customers 
+           Need for new payments products to compete 
+           Modernizing the data estate and implementing a data culture 
+           Integrating AI solutions to interpret business signals 
+           Core banking modernization 
+           Proliferation of fintech and challenger banks
+           Lowering TCO and the need to reduce “run the bank” costs
+           Regulatory compliance and market infrastructure requirements
+           New technical standards like ISO 20022
+           Cloud adoption for future-proofing systems and managing change
           </p>
           <p>
-            Every industry is facing transformational change and we have a
-            strategic opportunity in Business Applications to drive long
-            lasting impact and change for our customers. Industry customers
-            are facing more challenges than ever before and need a partner to
-            help them use technology as their key to success. To engage
-            effectively, we need to leverage the industry value propositions
-            we have at Microsoft and pair them with a Business Applications
-            point of view.
+          <b>Key business outcomes  :</b> Ensure resiliency of core banking systems based on the latest cloud-based technology.
+          Move payments and core systems to cloud to provide the agility needed to meet changing customer expectations and challenge non-traditional competitors.
+          Expand distribution through embedded finance and open banking models.
+          Employ analytics and AI to unlock real-time insights and new revenue streams from the flow of data through payment systems.
+          Establish a trusted brand with comprehensive security, privacy, identity management, and compliance.
           </p>
           <p>
-            Every industry is facing transformational change and we have a
-            strategic opportunity in Business Applications to drive long
-            lasting impact and change for our customers. Industry customers
-            are facing more challenges than ever before and need a partner to
-            help them use technology as their key to success. To engage
-            effectively, we need to leverage the industry value propositions
-            we have at Microsoft and pair them with a Business Applications
-            point of view.
-          </p>`,
+          <b>Roles :  </b>
+
+          Primary: CIO
+          Secondary: CEO, head of payments, LOB banking function, VP customer support, call center operations, commercial banking executive, retail banking executive
+          </p>
+          
+          <p>
+          <b>
+          Questions to Ask : <br/> </b>
+          How is your business able to expand into new markets quickly?
+          How effective are your current solutions for reducing fraud and increasing operational efficiency?
+          Are your current operations able to support building new products with agility and serve today’s real-time economy?
+          How quickly and securely can you onboard new customers?
+          How efficient is your payments system? Are you able to approximate real-time execution?
+          How does your business put its data to work effectively to better serve customers/clients?
+          What insights do you need to transform working capital products?
+          What historical data and predictive insights do you use to drive your business?
+          </p>
+          
+          <p><a className="text-blue font-semibold" target="_blank" href="https://industryhub.transform.microsoft.com/enterprise-commercial/financial-services?tab=overview"> Learn More </a>  about this Industry Pillar</p>`
+
+        ,
         use_cases: [
           {
             id: crypto.randomUUID(),
-            title: "Autonomous Dev Workflow",
+            title: "Document Process Automation",
+          solution_play: "Modernize Payments & Core Banking",
             // l3 page link
-            link: "",
+            link: "document_process_automation",
             use_cases_content: [
               {
                 subtitle: "Overview",
-                link: "/industry/resilient_operations/Automated_quality_inspection",
+                link:
+                    "/industry/financial_services/document_process_automation",
 
-                desc: `<p>Every industry is facing transformational change and we have a
-                strategic opportunity in Business Applications to drive long
-                lasting impact and change for our customers. Industry customers
-                are facing more challenges than ever before and need a partner to
-                help them use technology as their key to success. To engage
-                effectively, we need to leverage the industry value propositions
-                we have at Microsoft and pair them with a Business Applications
-                point of view, The assets in this section will help you
-                demonstrate to customers that you understand their challenges and
-                how to address them with industry-specific solutions.
-              </p>
-              <p>
-                To learn more about all public and commercial sector industries
-                and drive effective
-              </p>
-              <p>
-                conversations with your customers visit the
-                <span className="text-cyan-600">Industry Hub</span> today.
+                desc: `<p>Reduce human intervention and automate extraction of data from large and complex structured and unstructured documents to unlock insights and enable users to find key data points
               </p>`,
+
+                keyHighlights : {
+
+                  decision_makers : [
+                    'Primary: Chief Legal Officer',
+                    'Chief Operations Officer',
+                    'Chief Data Officer',
+                    'Chief Financial Officer',
+                    'Chief Information Officer',
+                    'Chief Risk Officer',
+                    'Chief Compliance Officer'
+                  ],
+                  decision_making_factors : [
+                    'Scalability',
+                    'Cost',
+                    'Efficiency'
+                  ],
+                  desired_business_objectives : [
+                    'Increase speed to value/insight by reducing document processing times',
+                    'Reduce operating expenses through automation of manual processes',
+                    'Improve data confidence and accuracy in extracted data by relying less on error-prone manual processes'
+                  ],
+                  customer_pain_points :[
+                    'Handle large volumes of documents and not able to efficiently capture any rich insights from them',
+                    'Investing in expensive manual labor to extract data',
+                    'Manual data extraction is inefficient and/or error-prone, resulting in low confidence in data accuracy',
+                    'More time is spent on extracting data than on analysis, insights, and action'
+                  ],
+                  other_notable_attributes:[
+                    'Reduce human intervention and automate extraction of data from large and complex structured and unstructured documents to unlock insights and enable users to find key data points'
+                  ],
+                  products :[
+                    'Form Recognizer',
+                    'Azure Logic Apps',
+                    'Azure Cosmos DB',
+                    'Power BI',
+                    'Azure Data Explorer',
+                    'Bot Framework',
+                    'Luis'
+                  ],
+                  proposedTechnicalSolution: ['Reduce human intervention and automate extraction of data from large and complex structured and unstructured documents to unlock insights and enable users to find key data points',]
+                },
+
+                idealCostomerProfile : {
+                  industries: 'Financial services',
+                  geography: '',
+                  market_cap: '',
+                  employees: '',
+                  budget: '',
+                  image : DocumentProcessAutomation,
+                  image_subtitle : 'Business  Architecture: Document Process Automation',
+                  image_link : ''
+                },
+
+                partners : [
+
+                  {
+                    image:  wipro,
+                    link :'',
+                  },
+                  {
+                    image:  adobe,
+                    link :'',
+                  },
+                  {
+                    image:  ibm,
+                    link :'',
+                  },
+                  {
+                    image:  accenture,
+                    link :'',
+                  },
+
+                  {
+                    image:  pwc,
+                    link :'',
+                  },
+                ]
               },
             ],
           },
           {
             id: crypto.randomUUID(),
-            title: "Connected Vehicle",
+            title: "Information Discovery and Management",
+            solution_play: "Modernize Payments & Core Banking",
             // l3 page link
-            link: "",
+            link: "information_discovery_and_management",
             use_cases_content: [
               {
                 subtitle: "Overview",
-                link: "",
+                link: "/industry/financial_services/information_discovery_and_management",
                 desc: ` <p>
-                Every industry is facing transformational change and we have a
-                strategic opportunity in Business Applications to drive long
-                lasting impact and change for our customers. Industry customers
-                are facing more challenges than ever before and need a partner to
-                help them use technology as their key to success. To engage
-                effectively, we need to leverage the industry value propositions
-                we have at Microsoft and pair them with a Business Applications
-                point of view, The assets in this section will help you
-                demonstrate to customers that you understand their challenges and
-                how to address them with industry-specific solutions.
-              </p>
-              <p>
-                To learn more about all public and commercial sector industries
-                and drive effective
-              </p>
-              <p>
-                conversations with your customers visit the
-                <span className="text-cyan-600">Industry Hub</span> today.
+               
+              Search through structured and unstructured documents to quickly find the most relevant information and documents including areas with compliance risk.
+
               </p>`,
+
+                keyHighlights : {
+
+                  decision_makers : [
+                    'Primary: Head of HR',
+                    'Head of Customer Service',
+                    'Chief Learning Officer',
+                    'Chief Knowledge Officer',
+                    'Chief Compliance Officer'
+                  ],
+                  decision_making_factors :  ['Scalability', 'Cost', 'Efficiency'],
+                  desired_business_objectives : [
+                    'Increase speed to value/speed to insight by reducing time spent on search',
+                    'Improve user productivity by surfacing most relevant search results',
+                    'Ensure compliance through completeness of search over all data and documents',
+                    'Reduce search infrastructure costs'
+                  ],
+                  customer_pain_points :[
+                    'Employees or users are not finding the information they need in internal sites, or information takes a long time to find',
+                    'Failed searches commonly experienced, where no relevant search results are displayed',
+                    'Organization not able to pull together a comprehensive view of all data related to a specific topic (i.e., docs with regulatory terms for compliance purposes)'
+                  ],
+                  other_notable_attributes:[
+                    'Search through structured and unstructured documents to quickly find the most relevant information and documents including areas with compliance risk'
+                  ],
+                  products :[
+                    'Azure Cognitive Search',
+                    'Azure Web Apps',
+                    'Power BI'
+                  ],
+                  proposedTechnicalSolution: ['Search through structured and unstructured documents to quickly find the most relevant information and documents including areas with compliance risk.']
+                },
+
+                idealCostomerProfile : {
+                  industries: 'Financial Services',
+                  geography: '',
+                  market_cap: '',
+                  employees: '',
+                  budget: '',
+                  image : InformationDiscoveryAndManagement,
+                  image_subtitle : 'Business  Architecture: Information Discovery and Management',
+                  image_link : ''
+                },
+
+                partners : [
+
+                  {
+                    image:  wipro,
+                    link :'',
+                  },
+                  {
+                    image:  adobe,
+                    link :'',
+                  },
+                  {
+                    image:  ibm,
+                    link :'',
+                  },
+                  {
+                    image:  accenture,
+                    link :'',
+                  },
+
+                  {
+                    image:  pwc,
+                    link :'',
+                  },
+                ]
+              },
+            ],
+          },
+
+          {
+            id: crypto.randomUUID(),
+            title: "Transaction Processing at Any Scale",
+            solution_play: "Modernize Payments & Core Banking",
+            // l3 page link
+            link: "transaction_processing_at_any_scale",
+            use_cases_content: [
+              {
+                subtitle: "Overview",
+                link: "/industry/financial_services/transaction_processing_at_any_scale",
+                desc: ` <p>
+               
+              Scale high volumes of transactional data at any time accurately and reliably.
+
+              </p>`,
+                keyHighlights : {
+
+                  decision_makers :[
+                    'Primary: Chief Information Officer',
+                    'Chief Digital Officer',
+                    'Business Innovation team',
+                    'Enterprise or Cloud Architects'
+                  ],
+                  decision_making_factors :  ['Scalability', 'Cost', 'Efficiency'],
+                  desired_business_objectives :  [
+                    'Increase revenue by scaling high volumes of payment data at any time accurately and reliably',
+                    'Act on sales data faster by centralizing payment pipelines with real-time processing and analytics',
+                    'Expand sales footprint through fast, scalable, on-demand, globally distributed tech platform',
+                    'Reduce search infrastructure costs'
+                  ],
+                  customer_pain_points :[
+                    'Payment infrastructure needs to be agile and mature enough to capitalize on the benefits of the innovation',
+                    'Need to leverage enterprise data to drive greater business value, develop new business models, and implement innovative pricing models',
+                    'Need ways to improve customer satisfaction and retention by providing a bridge from cash and check forms to real-time digital transactions'
+                  ],
+                  other_notable_attributes:[],
+                  products : [],
+                  proposedTechnicalSolution: [
+                    'Scale high volumes of transactional data at any time accurately and reliably',
+                  ],
+                },
+
+                idealCostomerProfile : {
+                  industries: 'Financial Services',
+                  geography: '',
+                  market_cap: '',
+                  employees: '',
+                  budget: '',
+                  image : automated_quality_inspection,
+                  image_subtitle : 'Business  Architecture: Transaction Processing at Any Scale',
+                  image_link : ''
+                },
+
+                partners : [
+
+                  {
+                    image:  wipro,
+                    link :'',
+                  },
+                  {
+                    image:  adobe,
+                    link :'',
+                  },
+                  {
+                    image:  ibm,
+                    link :'',
+                  },
+                  {
+                    image:  accenture,
+                    link :'',
+                  },
+
+                  {
+                    image:  pwc,
+                    link :'',
+                  },
+                ]
+              },
+            ],
+          },
+
+          {
+            id: crypto.randomUUID(),
+            title: "AI-Powered Insurance Claims Automation",
+            solution_play: "Modernize Payments & Core Banking",
+            // l3 page link
+            link: "AI-powered_insurance_claims_automation",
+            use_cases_content: [
+              {
+                subtitle: "Overview",
+                link: "/industry/financial_services/AI-powered_insurance_claims_automation",
+                desc: ` <p>
+               
+              Handle claims processing through an intelligent agent with cognitive skills to handle image, ID, and documents with goal to reduce claims processing time and manual effort in end-to-end claims processing for better customer experience. Provide capability to recognize document type, extract required fields and push data to downstream applications, significantly reducing manual efforts and creating smoother customer experience.
+              </p>`,
+                keyHighlights : {
+
+                  decision_makers : [
+                    'Primary: Business Decision Makers',
+                    'Claim Processing Engine Owners',
+                    'Chief Claims Officers',
+                    'Regional Chief Information Officers',
+                    'Technical Decision Makers'
+                  ],
+                  decision_making_factors : [
+                    'Scalability',
+                    'Cost',
+                    'Efficiency'
+                  ],
+                  desired_business_objectives : [
+                    'Increase time to value/time to insight by reducing document processing times',
+                    'Reduce operating expenses by automation of manual processes',
+                    'Improve confidence and accuracy in extracted data by relying less on error-prone manual processes'
+                  ],
+                  customer_pain_points :[
+                    'Organization handles large volumes of documents (claims, applications, contracts, invoices, etc.) and is not able to efficiently capture any rich insights from them',
+                    'Organization is investing in expensive manual labor to extract data',
+                    'Manual data extraction is inefficient and/or error-prone, resulting in low confidence in data accuracy',
+                    'More time is spent on extracting data than on analysis and insights'
+                  ],
+                  other_notable_attributes:[],
+                  products : [
+                    'Cognitive Services',
+                    'Cosmos DB',
+                    'Bot Framework',
+                    'Azure Storage',
+                    'Form Recognizer',
+                    'Luis'
+                  ],
+                  proposedTechnicalSolution: [
+                    'Handle claims processing through an intelligent agent with cognitive skills to handle image, ID, and documents with the goal to reduce claims processing time and manual effort in end-to-end claims processing for better customer experience',
+                    'Provide capability to recognize document type, extract required fields, and push data to downstream applications, significantly reducing manual efforts and creating smoother customer experience'
+                  ],
+                },
+
+                idealCostomerProfile : {
+                  industries: 'Financial Services',
+                  geography: '',
+                  market_cap: '',
+                  employees: '',
+                  budget: '',
+                  image : AIPoweredInsuranceClaimsAutomation,
+                  image_subtitle : 'Business  Architecture: AI-Powered Insurance Claims Automation',
+                  image_link : ''
+                },
+
+                partners : [
+
+                  {
+                    image:  wipro,
+                    link :'',
+                  },
+                  {
+                    image:  adobe,
+                    link :'',
+                  },
+                  {
+                    image:  ibm,
+                    link :'',
+                  },
+                  {
+                    image:  accenture,
+                    link :'',
+                  },
+
+                  {
+                    image:  pwc,
+                    link :'',
+                  },
+                ]
               },
             ],
           },
@@ -1422,99 +1722,528 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
       // 2nd use cases
       {
         id: crypto.randomUUID(),
-        title: "Deliver Differentiated CX",
-        content: `<p className="font-bold"> Business Application Industry Content</p>
-            <p>
-              Every industry is facing transformational change and we have a
-              strategic opportunity in Business Applications to drive long
-              lasting impact and change for our customers. Industry customers
-              are facing more challenges than ever before and need a partner to
-              help them use technology as their key to success. To engage
-              effectively, we need to leverage the industry value propositions
-              we have at Microsoft and pair them with a Business Applications
-              point of view.
-            </p>`,
+        title: "Transform the Banking Experience",
+        content: `
+            
+          <p>
+          <b>Transform the banking experience:  </b>Deliver differentiated customer experiences through deeper insights and relationships.
+        </p>
+        <p>
+        <b>Customer challenges  </b> Explosive growth in customer data but limited insights
+        Customers are more sophisticated and want more personalization
+        Customers value their time and want intelligent solutions
+        Lack of consistent experience across channels
+        Legacy systems modernization
+        </p>
+        <p>
+        <b>Key business outcomes</b> Use a 360-degree customer view to create more personalized and relevant experiences.
+        Enrich customer understanding with insights from banking data, social, life events, and other sources.
+        Use predictive analytics to anticipate and proactively provide more relevant banking products and offers.
+        Enable faster and more cost-effective interactions with the help of AI and automation across key channels.
+        Employ a banking-specific data model to roll out new services faster, including onboarding and referrals.
+        </p>
+
+        <p>
+        <b> 
+        Roles </b>
+
+        Primary: Head of retail/commercial banking, head of customer experience  Secondary: Head of customer care, head of contact center, head of channels, head of strategy, head of transformation
+        <p><b>Key questions to ask
+        </b>How does your organization consolidate and unify its information about customers across departments and channels?
+        How are you leveraging a 360-degree customer/household view including all related activities, communications, and interactions?
+        How is your organization able to consistently offer proactive, relevant products and offers aligned to your customers’ needs and interests?
+        How do you identify key trends and patterns across your customer base and employ predictive models to take advantage of latent opportunities?
+        How do you use AI within our contact center to improve both the customer and agent experience?
+        What kind of plans do you have for harnessing the power of generative AI in your customer journey?
+        What insights can help your service team enhance customer experience?
+
+        
+        </p>       
+        <p><a className="text-blue font-semibold" target="_blank" href="https://industryhub.transform.microsoft.com/enterprise-commercial/financial-services?tab=overview"> Learn More </a>  about this Industry Pillar</p>`,
+
+
+
         use_cases: [
           {
             id: crypto.randomUUID(),
-            title: "Customer Data Platform",
+            title: "Service and Support Bot",
+            solution_play: "Transform the Banking Experience",
             // l3 page link
-            link: "",
+            link: "service_and_support_bot",
             use_cases_content: [
               {
                 subtitle: "Overview",
                 link: "",
                 desc: ` <p>
-                Every industry is facing transformational change and we have a
-                strategic opportunity in Business Applications to drive long
-                lasting impact and change for our customers. Industry customers
-                are facing more challenges than ever before and need a partner to
-                help them use technology as their key to success. To engage
-                effectively, we need to leverage the industry value propositions
-                we have at Microsoft and pair them with a Business Applications
-                point of view, The assets in this section will help you
-                demonstrate to customers that you understand their challenges and
-                how to address them with industry-specific solutions.
-              </p>
-              <p>
-                To learn more about all public and commercial sector industries
-                and drive effective
-              </p>
-              <p>
-                conversations with your customers visit the
-                <span className="text-cyan-600">Industry Hub</span> today.
+              Resolve user and customer queries without human intervention across multiple channels, including voice enabled support.
               </p>`,
+                keyHighlights : {
+
+                  decision_makers : ['Head of Customer Service',
+                    'Head of Customer Experience',
+                    'Head of IT',
+                    'Head of Legal',
+                    'Head of HR',
+                    'Chief Marketing Officer',
+                    'Product Owner',
+                    'Director of eCommerce', 'Secondary (Influencers): Head of Customer Service', 'Head of Customer Experience'],
+                  decision_making_factors :  [
+                    'Scalability',
+                    'Cost',
+                    'Efficiency'
+                  ],
+                  desired_business_objectives :[
+                    'Improve first-call resolution rates by answering specific questions with the best available knowledge',
+                    'Increase customer satisfaction by reducing wait times with immediate 24/7 service through a conversational agent',
+                    'Grow revenue with differentiated customer experience by leveraging conversational interfaces for personal shopping',
+                    'Reduce support costs/cost of operations by offloading and automating certain support services'
+                  ],
+                  customer_pain_points : [
+                    'Case volumes and wait times are increasing',
+                    'Growing customer churn due to impersonal and inconsistent sales or support service',
+                    'Customers are dissatisfied with response wait times and expect to be able to reach sales or support service at all hours, but the business is unable to provide or must spend exorbitant amounts to do so, adding pressure on tight margins',
+                    'Sales or support agents are tied up answering simple queries that can be automated'
+                  ],
+                  other_notable_attributes:[
+                    'Resolve user and customer queries without human intervention across multiple channels, including voice-enabled support'
+                  ],
+                  products :['Resolve user and customer queries without human intervention across multiple channels, including voice enabled support.'],
+                  proposedTechnicalSolution: ['Resolve user and customer queries without human intervention across multiple channels, including voice-enabled support',]
+                },
+
+                idealCostomerProfile : {
+                  industries: 'Financial Services',
+                  geography: '',
+                  market_cap: '',
+                  employees: '',
+                  budget: '',
+                  image : ServiceAndSupportBot,
+                  image_subtitle : 'Business  Architecture:Service and Support Bot' ,
+                  image_link : ''
+                },
+
+                partners : [
+
+                  {
+                    image:  wipro,
+                    link :'',
+                  },
+                  {
+                    image:  adobe,
+                    link :'',
+                  },
+                  {
+                    image:  ibm,
+                    link :'',
+                  },
+                  {
+                    image:  accenture,
+                    link :'',
+                  },
+
+                  {
+                    image:  pwc,
+                    link :'',
+                  },
+                ]
+              },
+            ],
+          },
+
+          {
+            id: crypto.randomUUID(),
+            title: "AI-Powered Call Center Intelligence",
+            solution_play: "Transform the Banking Experience",
+            // l3 page link
+            link: "AI-powered_call_center_intelligencee",
+            use_cases_content: [
+              {
+                subtitle: "Overview",
+                link: "",
+                desc: ` <p>
+              Automate call transcriptions for real-time and previously recorded calls by using custom speech models, text analytics, and industry-specific natural language processing. Data insight on customer sentiment, topic analysis, and other valuable call attributes are served up in a user-friendly visual dashboard in Power BI.
+              </p>`,
+                keyHighlights : {
+
+                  decision_makers :[
+                    'Primary: Chief Information Officer, Chief Digital Officer, Business Innovation team, Enterprise or Cloud Architects'
+                  ],
+                  decision_making_factors :   [
+                    'Scalability',
+                    'Cost',
+                    'Efficiency'
+                  ],
+                  desired_business_objectives : [
+                    'Customizable speech model incorporating industry and business language',
+                    'Automated PII detection and redaction protects customer privacy and promotes compliance',
+                    'Insights on real-time and previously recorded customer calls',
+                    'Improve data confidence and accuracy in extracted data by relying less on error-prone manual processes'
+                  ],
+                  customer_pain_points :[
+                    'Manual data entry during real-time conversation slows service delivery and creates errors',
+                    'Labor shortages and high turnover add strain to call center operations',
+                    'Privacy laws protecting customer data are varied and complex',
+                    'Untapped data from historic call records is a wasted resource',
+                    'Legacy AI transcription technologies are significantly less accurate than human transcription'
+                  ],
+                  other_notable_attributes:[],
+
+                  products :[
+                    'Cognitive Services',
+                    'Azure Machine Learning',
+                    'Power BI',
+                    'Azure Speech Services',
+                    'Azure SQL',
+                    'Azure Storage'
+                  ],
+                  proposedTechnicalSolution: [
+                    'Automate call transcriptions for real-time and previously recorded calls by using custom speech models, text analytics, and industry-specific natural language processing.',
+                    'Data insight on customer sentiment, topic analysis, and other valuable call attributes are served up in a user-friendly visual dashboard in Power BI.'
+                  ],
+                },
+
+                idealCostomerProfile : {
+                  industries: 'Financial Services',
+                  geography: '',
+                  market_cap: '',
+                  employees: '',
+                  budget: '',
+                  image : AIPoweredCallCenterIntelligence,
+                  image_subtitle : 'Business  Architecture: AI-Powered Call Center Intelligence',
+                  image_link : ''
+                },
+
+                partners : [
+
+                  {
+                    image:  wipro,
+                    link :'',
+                  },
+                  {
+                    image:  adobe,
+                    link :'',
+                  },
+                  {
+                    image:  ibm,
+                    link :'',
+                  },
+                  {
+                    image:  accenture,
+                    link :'',
+                  },
+
+                  {
+                    image:  pwc,
+                    link :'',
+                  },
+                ]
+              },
+            ],
+          },
+
+          {
+            id: crypto.randomUUID(),
+            title: "Customer Complaint Management",
+            solution_play: "Transform the Banking Experience",
+            // l3 page link
+            link: "customer_complaint_management",
+            use_cases_content: [
+              {
+                subtitle: "Overview",
+                link: "",
+                desc: ` <p>
+              Ingest customer complaints from a variety of designated platforms (email, social media, review sites, etc.) and intelligently classify these complaints while surfacing them to the correct support agent for quick resolution. Finding similar previously resolved complaints as a reference for the support agents.
+              </p>`,
+                keyHighlights : {
+
+                  decision_makers : [
+                    'Primary: Business Decision Makers',
+                    'Technical Decision Makers'
+                  ],
+                  decision_making_factors :  [
+                    'Scalability',
+                    'Cost',
+                    'Efficiency'
+                  ],
+                  desired_business_objectives : [
+                    'All complaints in one data platform',
+                    'Complaints tagged and routed to correct support agents',
+                    'Review similar past complaints to ensure the correct support agent is designated for resolution'
+                  ],
+                  customer_pain_points : [
+                    'Not enough time to respond to the multitude of complaints received',
+                    'Difficult to keep track of and promptly address customer needs',
+                    'Overlooking incoming complaints due to volume',
+                    'Stress on employees and diminished productivity',
+                    'Tedious and delayed sorting and resolution of complaints due to hampered agility'
+                  ],
+                  other_notable_attributes:[],
+                  products :[
+                    'Azure Kubernetes Services',
+                    'Cognitive Search',
+                    'Synapse',
+                    'Azure Machine Learning',
+                    'PowerApps'
+                  ],
+                  proposedTechnicalSolution: [
+                    'Ingest customer complaints from a variety of designated platforms (email, social media, review sites, etc.) and intelligently classify these complaints while surfacing them to the correct support agent for quick resolution',
+                    'Finding similar previously resolved complaints as a reference for the support agents'
+                  ],
+                },
+
+                idealCostomerProfile : {
+                  industries: 'Financial Services',
+                  geography: '',
+                  market_cap: '',
+                  employees: '',
+                  budget: '',
+                  image : CustomerComplaintManagement,
+                  image_subtitle : 'Business  Architecture: Customer Complaint Management',
+                  image_link : ''
+                },
+
+                partners : [
+
+                  {
+                    image:  wipro,
+                    link :'',
+                  },
+                  {
+                    image:  adobe,
+                    link :'',
+                  },
+                  {
+                    image:  ibm,
+                    link :'',
+                  },
+                  {
+                    image:  accenture,
+                    link :'',
+                  },
+
+                  {
+                    image:  pwc,
+                    link :'',
+                  },
+                ]
               },
             ],
           },
         ],
+
+
       },
 
       //  3rd use cases
       {
         id: crypto.randomUUID(),
-        title: "Emerging Mobility Services",
-        content: `<p className="font-bold"> Business Application Industry Content</p>
-            <p>
-              Every industry is facing transformational change and we have a
-              strategic opportunity in Business Applications to drive long
-              lasting impact and change for our customers. Industry customers
-              are facing more challenges than ever before and need a partner to
-              help them use technology as their key to success. To engage
-              effectively, we need to leverage the industry value propositions
-              we have at Microsoft and pair them with a Business Applications
-              point of view.
-            </p>`,
+        title: "Manage Risk & Compliance",
+        content: `
+            
+          <p>
+          <b>Manage risk and compliance:   </b> Deepen risk insights, facilitate regulatory compliance, and combat financial crime.
+
+        </p>
+        <p>
+        <b>Customer challenges  </b> • Risk models take too long to run
+        Improving risk model accuracy
+        Regulatory changes severely impacting efficiency and timely compliance
+        High infrastructure costs related to risk workloads
+        Quickly identifying new criminal transaction patterns and anomalies
+        Complex transaction monitoring and sanction-screening requirements
+        Need for flexible tools to minimize false alerts
+        Uncovering criminal activity in payment types from small and real-time to large-value transactions
+        </p>
+        <p>
+        <b>Roles</b> Primary: Chief risk officer
+        Secondary: Chief compliance officer, chief information security officer, head of fraud
+
+        </p>
+
+       
+        <p><b>Questions to Ask </b>How are different teams using data from disparate systems to make decisions?
+        How do you support increased spikes in risk modeling?
+        What advance analytics do you employ for risk?
+        What tools do you depend on to react to market conditions?
+        What tools do you use to monitor transaction anomalies?
+        How are you looking at fraud to protect your bank while balancing controls that could impede growth?
+
+        
+        </p>       
+        <p><a className="text-blue font-semibold" target="_blank" href="https://industryhub.transform.microsoft.com/enterprise-commercial/financial-services?tab=overview"> Learn More </a>  about this Industry Pillar</p>`,
+
         use_cases: [
           {
             id: crypto.randomUUID(),
-            title: "Data Sharing & Monetization",
+            solution_play: "Manage Risk & Compliance",
+            title: "Fraud Detection and Transaction Monitoring",
             // l3 page link
-            link: "",
+            link: "fraud_detection_and_transaction_monitoring",
+            use_cases_content: [
+              {
+                subtitle: "Overview",
+                link: "",
+                desc: `<p>
+              Identify risk of fraud or fraud associated activities including phone calls, credit card transactions, money laundering and online purchases with real-time analysis and streaming data.
+              </p>`,
+
+                keyHighlights : {
+
+                  decision_makers : [
+                    'Primary: Chief Financial Officer, Chief Risk Officer',
+                    'Secondary: Chief Information Officer, Chief Data Officer'
+                  ],
+                  decision_making_factors : [
+                    'Data availability',
+                    'Ease of execution',
+                    'Speed and accuracy of solution'
+                  ],
+                  desired_business_objectives : [
+                    'Ensure client and company security by continuously reviewing transactions for fraudulent activities and high-risk areas',
+                    'Improve customer satisfaction by proactively identifying and stopping fraudulent transactions with greater accuracy',
+                    'Avoid costly claim scenarios by improving detection rates and delivering better insights to case workers',
+                    'Save time and costs by reducing the amount of time to discover and stop fraud'
+                  ],
+                  customer_pain_points : [
+                    'Fraud is resulting in significant costs to the business and is growing',
+                    'Fraud claim rates from customers are high',
+                    'Actions taken to combat fraud are reactive vs. preventative',
+                    'Fraud detection accuracy rates are low'
+                  ],
+                  other_notable_attributes:[],
+                  products :[
+                    'Azure Machine Learning',
+                    'Azure Synapse Analytics',
+                    'Azure Cosmos DB',
+                    'Power BI'
+                  ],
+                  proposedTechnicalSolution: ['Identify risk of fraud or fraud-associated activities including phone calls, credit card transactions, money laundering, and online purchases with real-time analysis and streaming data.',]
+                },
+
+                idealCostomerProfile : {
+                  industries: 'Financial Services',
+                  geography: '',
+                  market_cap: '',
+                  employees: '',
+                  budget: '',
+                  image : fraud_detection_and_transaction_monitoring,
+                  image_subtitle : 'Business  Architecture: Fraud Detection and Transaction Monitoring',
+                  image_link : ''
+                },
+
+                partners : [
+
+                  {
+                    image:  wipro,
+                    link :'',
+                  },
+                  {
+                    image:  adobe,
+                    link :'',
+                  },
+                  {
+                    image:  ibm,
+                    link :'',
+                  },
+                  {
+                    image:  accenture,
+                    link :'',
+                  },
+
+                  {
+                    image:  pwc,
+                    link :'',
+                  },
+                ]
+              },
+            ],
+          },
+
+          {
+            id: crypto.randomUUID(),
+            title: "Risk Classification and Loan Modeling",
+            solution_play: "Manage Risk & Compliance",
+            // l3 page link
+            link: "risk_classification_and_loan_modeling",
             use_cases_content: [
               {
                 subtitle: "Overview",
                 link: "",
                 desc: ` <p>
-                Every industry is facing transformational change and we have a
-                strategic opportunity in Business Applications to drive long
-                lasting impact and change for our customers. Industry customers
-                are facing more challenges than ever before and need a partner to
-                help them use technology as their key to success. To engage
-                effectively, we need to leverage the industry value propositions
-                we have at Microsoft and pair them with a Business Applications
-                point of view, The assets in this section will help you
-                demonstrate to customers that you understand their challenges and
-                how to address them with industry-specific solutions.
-              </p>
-              <p>
-                To learn more about all public and commercial sector industries
-                and drive effective
-              </p>
-              <p>
-                conversations with your customers visit the
-                <span className="text-cyan-600">Industry Hub</span> today.
+              Use predictive analytics and machine learning to estimate the optimal loan size that the SBA will approve for a given applicant which enables lending partners to process loan applications and make data-driven lending decisions quickly. Automate process for accelerating loan approval and rejection process and providing right-size loans to increase the likelihood of complete and timely payments to ensure compliance with SBA guidelines.
               </p>`,
+
+                keyHighlights : {
+
+                  decision_makers : [
+                    'Primary: Business Analysts, Product Management team, Load origination and underwriting departments, Shared services team, Infrastructure team, Data team, Data Scientists'
+                  ],
+                  decision_making_factors : [
+                    'Scalability',
+                    'Cost',
+                    'Efficiency'
+                  ],
+                  desired_business_objectives : [
+                    'Model predicts the SBA loan amount the applicant will most likely be approved for',
+                    'Holistic analytics reports for one or multiple borrowers',
+                    'Automate processes to ensure compliance with SBA guidelines',
+                    'Accelerate the loan approval and rejection process',
+                    'Improve customer experience and increase customer retention'
+                  ],
+                  customer_pain_points : [
+                    'Backlogs and errors in loan applications due to reliance on labor-intensive, manual, low-tech processing',
+                    'High volumes of loan applications lead to bottlenecks and delays',
+                    'Delays can cause applicants to lose critical business opportunities and impact their risk profiles',
+                    'Inability to regularly run and re-run risk classification limits the accuracy of assessments',
+                    'Lack of efficient, precise loan modeling makes it difficult to determine exactly what the SBA will approve'
+                  ],
+                  other_notable_attributes:[],
+                  products :[
+                    'Azure Data Lake Storage',
+                    'Synapse Analytics'
+                  ],
+                  proposedTechnicalSolution: [
+                    'Use predictive analytics and machine learning to estimate the optimal loan size that the SBA will approve for a given applicant',
+                    'Automate process for accelerating loan approval and rejection process and providing right-size loans',
+                    'Increase the likelihood of complete and timely payments to ensure compliance with SBA guidelines'
+                  ],
+                },
+
+                idealCostomerProfile : {
+                  industries: 'Financial Services',
+                  geography: '',
+                  market_cap: '',
+                  employees: '',
+                  budget: '',
+                  image : RiskClassificationAndLoanModeling,
+                  image_subtitle : 'Business  Architecture: Risk Classification and Loan Modeling',
+                  image_link : ''
+                },
+
+                partners : [
+
+                  {
+                    image:  wipro,
+                    link :'',
+                  },
+                  {
+                    image:  adobe,
+                    link :'',
+                  },
+                  {
+                    image:  ibm,
+                    link :'',
+                  },
+                  {
+                    image:  accenture,
+                    link :'',
+                  },
+
+                  {
+                    image:  pwc,
+                    link :'',
+                  },
+                ]
               },
             ],
           },
@@ -1524,586 +2253,964 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
       // 4th use case
       {
         id: crypto.randomUUID(),
-        title: "Resilient Operations",
-        content: ` <div className="flex flex-col gap-4">
-              <p className="font-bold"> Overview </p>
-              <p>
-                Realize the true value of your data by unifying disparate data
-                sources across the shopper journey, discovering insights that
-                enable better experiences
-              </p>
-            </div>
-            <div className="flex flex-col gap-4">
-              <p className="font-bold">Roles </p>
-              <ul className="list-disc ">
-                <li className="mx-4">CIO/VP</li>
-                <li className="mx-4">CDO/VP</li>
-                <li className="mx-4">COO/VP</li>
-                <li className="mx-4">CMO/VP (required by all)</li>
-              </ul>
-            </div>
-            <div className="flex flex-col gap-4">
-              <p className="font-bold">Customer Challenges </p>
-              <ul className="list-disc ">
-                <li className="mx-4">
-                  Vast amounts of data in many places makes it hard to make
-                  sense of it or know what's important and what's not
-                </li>
-                <li className="mx-4">360-degree view of the customer</li>
-                <li className="mx-4">
-                  New shopping journeys creating fraud vulnerabilities across
-                  digital and voice channels
-                </li>
-              </ul>
-            </div>
-            <div className="flex flex-col gap-4">
-              <p className="font-bold">Desiried Business Outcomes </p>
-             <p>
-                Realize the true value of your data by unifying disparate data
-                sources across the shopper journey, discovering insights that
-                enable better experiences
-              </p>
-              <ul className="list-disc ">
-                <li className="mx-4">
-                  Gain insights across the complete view of a shopper's journey
-                </li>
-                <li className="mx-4">
-                  Unlock omnichannel insights with advanced analytics
-                </li>
-                <li className="mx-4">
-                  Protect your revenue from fraud using AI to id patterns and
-                  multi-modal biometrics stop fraudsters
-                </li>
-                <li className="mx-4">
-                  Unlock ad revenue using your 1st party shopper data
-                </li>
-                <li className="mx-4">
-                  Reduce costs by optimizing shopper journeys and streamlining
-                  automation
-                </li>
-              </ul>
-              <p>
-             
-                <a
-                  className="text-blue"
-                  target={"_blank"}
-                  href=
-                    "https://industryhub.transform.microsoft.com/solution-plays/maximize-the-value-of-your-data?tab=overview"
-                  
-                >
-                  Learn more
-                </a>
-              
-                about this Indusrty Pillar
-              </p>
-            </div>`,
+        title: "Empower Banking Employees",
+        content: `
+            
+          <p>
+          <b>Empower banking employees: </b> Improve productivity through better teamwork, insights, and communications.
+
+        </p>
+        <p>
+        <b>Customer challenges </b> Stagnant or declining staff productivity and organizational efficiency
+        Lack of collaboration across departments and teams
+        Difficulty in supporting remote and hybrid work scenarios
+        Lack of unified communication tools and/or platform across the organization
+        High employee dissatisfaction and attrition
+        High cost to train and onboard employees
+        Insufficient focus on accessibility, inclusion, and wellbeing
+        </p>
+        <p>
+        <b>Key business outcomes</b>Break down silos to enable secure, cross-group collaboration across front, mid, and back offices.
+        Enhance accessibility and usability of relevant information while meeting regulatory requirements.
+        Foster inclusion and wellbeing by optimizing work-life integration through data-driven insights.
+        Untether bankers to be productive and collaborative anywhere on secure mobile devices.
+        Enable real-time employee engagement and live events with a suite of modern communication tools.
+        Streamline key processes, improve productivity, and reduce operational costs with automation, self-service tools, and low-code apps.
+        Improve operational agility with real-time business insights and key predictive trends and patterns.
+
+        </p>
+
+        <p>
+        <b>Roles </b>
+
+        Primary: Head of retail and/or corporate/commercial banking, COO, CTO, head of HR
+        Secondary: Head of digital innovation, head of workplace, head of strategy/transformation, IT manager
+        </p>
+
+        <p><b>Key questions to ask </b>What is your plan for improving the employee experience as you implement a hybrid workplace?
+        How does personnel burnout factor into your plans to improve the employee experience?
+        Do you have manual or paper-based processes that could be automated?
+        How easy is it for employees to access the resources and engage their colleagues to achieve their business goals?
+        Is your workforce adequately trained and productive in using the latest tools and technologies available to them?
+        What are your plans for employing or evaluating generative AI to improve banker productivity and empower your employees?
+        How do you promote inclusion and employee well-being across your organization?
+        
+        </p>       
+        <p><a className="text-blue font-semibold" target="_blank" href="https://industryhub.transform.microsoft.com/enterprise-commercial/financial-services?tab=overview"> Learn More </a>  about this Industry Pillar</p>`,
+
         use_cases: [
           {
             id: crypto.randomUUID(),
-            title: "Connected Factories/Digital Twins",
+            title: "",
+            solution_play: "",
             // l3 page link
-            link: "",
+            link: "document_process_automation",
             use_cases_content: [
               {
                 subtitle: "Overview",
-                link: "",
-                desc: ` <p>
-              Every industry is facing transformational change and we have a
-              strategic opportunity in Business Applications to drive long
-              lasting impact and change for our customers. Industry customers
-              are facing more challenges than ever before and need a partner to
-              help them use technology as their key to success. To engage
-              effectively, we need to leverage the industry value propositions
-              we have at Microsoft and pair them with a Business Applications
-              point of view, The assets in this section will help you
-              demonstrate to customers that you understand their challenges and
-              how to address them with industry-specific solutions.
-            </p>
-            <p>
-              To learn more about all public and commercial sector industries
-              and drive effective
-            </p>
-            <p>
-              conversations with your customers visit the
-              <span className="text-cyan-600">Industry Hub</span> today.
-            </p>`,
+                link:
+                    "/industry/financial_services/document_process_automation",
+
+                desc: `<p>Reduce human intervention and automate extraction of data from large and complex structured and unstructured documents to unlock insights and enable users to find key data points
+              </p>`,
+
+                keyHighlights : {
+
+                  decision_makers : [
+                    'Primary: Chief Legal Officer',
+                    'Chief Operations Officer',
+                    'Chief Data Officer',
+                    'Chief Financial Officer',
+                    'Chief Information Officer',
+                    'Chief Risk Officer',
+                    'Chief Compliance Officer'
+                  ],
+                  decision_making_factors : [
+                    'Scalability',
+                    'Cost',
+                    'Efficiency'
+                  ],
+                  desired_business_objectives : [
+                    'Increase speed to value/insight by reducing document processing times',
+                    'Reduce operating expenses through automation of manual processes',
+                    'Improve data confidence and accuracy in extracted data by relying less on error-prone manual processes'
+                  ],
+                  customer_pain_points :[
+                    'Handle large volumes of documents and not able to efficiently capture any rich insights from them',
+                    'Investing in expensive manual labor to extract data',
+                    'Manual data extraction is inefficient and/or error-prone, resulting in low confidence in data accuracy',
+                    'More time is spent on extracting data than on analysis, insights, and action'
+                  ],
+                  other_notable_attributes:[
+                    'Reduce human intervention and automate extraction of data from large and complex structured and unstructured documents to unlock insights and enable users to find key data points'
+                  ],
+                  products :[
+                    'Form Recognizer',
+                    'Azure Logic Apps',
+                    'Azure Cosmos DB',
+                    'Power BI',
+                    'Azure Data Explorer',
+                    'Bot Framework',
+                    'Luis'
+                  ],
+                  proposedTechnicalSolution: ['Reduce human intervention and automate extraction of data from large and complex structured and unstructured documents to unlock insights and enable users to find key data points',]
+                },
+
+                idealCostomerProfile : {
+                  industries: 'Financial services',
+                  geography: '',
+                  market_cap: '',
+                  employees: '',
+                  budget: '',
+                  image : DocumentProcessAutomation,
+                  image_subtitle : 'Business  Architecture: Document Process Automation',
+                  image_link : ''
+                },
+
+                partners : [
+
+                  {
+                    image:  wipro,
+                    link :'',
+                  },
+                  {
+                    image:  adobe,
+                    link :'',
+                  },
+                  {
+                    image:  ibm,
+                    link :'',
+                  },
+                  {
+                    image:  accenture,
+                    link :'',
+                  },
+
+                  {
+                    image:  pwc,
+                    link :'',
+                  },
+                ]
               },
             ],
           },
-          {
-            id: crypto.randomUUID(),
-            title: "Integrated Supply Chain",
-            // l3 page link
-            link: "",
-            use_cases_content: [
-              {
-                subtitle: "Overview",
-                link: "",
-                desc: ` <p>
-              Every industry is facing transformational change and we have a
-              strategic opportunity in Business Applications to drive long
-              lasting impact and change for our customers. Industry customers
-              are facing more challenges than ever before and need a partner to
-              help them use technology as their key to success. To engage
-              effectively, we need to leverage the industry value propositions
-              we have at Microsoft and pair them with a Business Applications
-              point of view, The assets in this section will help you
-              demonstrate to customers that you understand their challenges and
-              how to address them with industry-specific solutions.
-            </p>
-            <p>
-              To learn more about all public and commercial sector industries
-              and drive effective
-            </p>
-            <p>
-              conversations with your customers visit the
-              <span className="text-cyan-600">Industry Hub</span> today.
-            </p>`,
-              },
-            ],
-          },
-          {
-            id: crypto.randomUUID(),
-            title: " Connected Businesses",
-            // l3 page link
-            link: "",
-            use_cases_content: [
-              {
-                subtitle: "Overview",
-                link: "",
-                desc: ` <p>
-              Every industry is facing transformational change and we have a
-              strategic opportunity in Business Applications to drive long
-              lasting impact and change for our customers. Industry customers
-              are facing more challenges than ever before and need a partner to
-              help them use technology as their key to success. To engage
-              effectively, we need to leverage the industry value propositions
-              we have at Microsoft and pair them with a Business Applications
-              point of view, The assets in this section will help you
-              demonstrate to customers that you understand their challenges and
-              how to address them with industry-specific solutions.
-            </p>
-            <p>
-              To learn more about all public and commercial sector industries
-              and drive effective
-            </p>
-            <p>
-              conversations with your customers visit the
-              <span className="text-cyan-600">Industry Hub</span> today.
-            </p>`,
-              },
-            ],
-          },
-          {
-            id: crypto.randomUUID(),
-            title: "Sustainability",
-            // l3 page link
-            link: "",
-            use_cases_content: [
-              {
-                subtitle: "Overview",
-                link: "",
-                desc: ` <p>
-              Every industry is facing transformational change and we have a
-              strategic opportunity in Business Applications to drive long
-              lasting impact and change for our customers. Industry customers
-              are facing more challenges than ever before and need a partner to
-              help them use technology as their key to success. To engage
-              effectively, we need to leverage the industry value propositions
-              we have at Microsoft and pair them with a Business Applications
-              point of view, The assets in this section will help you
-              demonstrate to customers that you understand their challenges and
-              how to address them with industry-specific solutions.
-            </p>
-            <p>
-              To learn more about all public and commercial sector industries
-              and drive effective
-            </p>
-            <p>
-              conversations with your customers visit the
-              <span className="text-cyan-600">Industry Hub</span> today.
-            </p>`,
-              },
-            ],
-          },
-          {
-            id: crypto.randomUUID(),
-            title: " Automated Quality Inspection",
-            // l3 page link
-            link: "",
-            use_cases_content: [
-              {
-                subtitle: "Overview",
-                link: "",
-                desc: `  <p>
-                Automated quality control improves inspection measurement
-                reliability. Accurate measurements on complex parts and high
-                throughput production lines is assured with automated inspections.
-                These systems can capture more data for large quantities of parts
-                faster. <br />
-                <br />
-                Artificial Intelligence of Things (AlT) is the combination of
-                artificial intelligence (AI) technologies with the Internet of
-                Things (loT) infrastructure to achieve more efficient loT
-                operations, improve human-machine interactions and enhance data
-                management and analytics. Automated quality inspection typically
-                leverages Al image analysis (vision) and data from loT sensors to
-                identify product quality issues in real-time on the production
-                line, triggering an alert for further inspection and/or action if
-                problems are detected. <br />
-              </p>
-              <p>
-                <p className="font-bold pr-4 ">
-                  
-                  Key Services / Product Stack
-                </p>
-                <br />
-                Azure Container Registry, Azure DevOps, Azure loT Hub, Azure
-                Key/ault, Azure Machine Learning, Cognitive Services: Vision,
-                Azure SQL, Azure Storage, Docker, Power BI
-              </p>
-            </div>`,
-              },
-            ],
-          },
+
         ],
+
       },
+
 
       // 5th all use cases
       {
         id: crypto.randomUUID(),
         title: "All Use Cases",
+        link: "all_use_cases",
         content: `
-        <p className="font-bold"> Financial Services </p>
-          `,
+      <p className="font-bold"> Financial Services </p>
+        `,
         use_cases: [
           {
             id: crypto.randomUUID(),
-            title: "Personalized Digital Customer Engagement",
-            link: "personalized_digital_customer_engagement",
+            title: "Document Process Automation",
+            solution_play: "Modernize Payments & Core Banking",
+            // l3 page link
+            link: "document_process_automation",
             use_cases_content: [
               {
                 subtitle: "Overview",
-                link: "",
-                desc: "",
-                keyHighlights: {
-                  decision_makers: [],
-                  decision_making_factors: [],
-                  desired_business_objectives: [],
-                  customer_pain_points: [],
-                  proposed_technical_solution: [],
-                  other_notable_attributes: [],
-                  products: [],
+                link:
+                    "/industry/financial_services/document_process_automation",
+
+                desc: `<p>Reduce human intervention and automate extraction of data from large and complex structured and unstructured documents to unlock insights and enable users to find key data points
+              </p>`,
+
+                keyHighlights : {
+
+                  decision_makers : [
+                    'Primary: Chief Legal Officer',
+                    'Chief Operations Officer',
+                    'Chief Data Officer',
+                    'Chief Financial Officer',
+                    'Chief Information Officer',
+                    'Chief Risk Officer',
+                    'Chief Compliance Officer'
+                  ],
+                  decision_making_factors : [
+                    'Scalability',
+                    'Cost',
+                    'Efficiency'
+                  ],
+                  desired_business_objectives : [
+                    'Increase speed to value/insight by reducing document processing times',
+                    'Reduce operating expenses through automation of manual processes',
+                    'Improve data confidence and accuracy in extracted data by relying less on error-prone manual processes'
+                  ],
+                  customer_pain_points :[
+                    'Handle large volumes of documents and not able to efficiently capture any rich insights from them',
+                    'Investing in expensive manual labor to extract data',
+                    'Manual data extraction is inefficient and/or error-prone, resulting in low confidence in data accuracy',
+                    'More time is spent on extracting data than on analysis, insights, and action'
+                  ],
+                  other_notable_attributes:[
+                    'Reduce human intervention and automate extraction of data from large and complex structured and unstructured documents to unlock insights and enable users to find key data points'
+                  ],
+                  products :[
+                    'Form Recognizer',
+                    'Azure Logic Apps',
+                    'Azure Cosmos DB',
+                    'Power BI',
+                    'Azure Data Explorer',
+                    'Bot Framework',
+                    'Luis'
+                  ],
+                  proposedTechnicalSolution: ['Reduce human intervention and automate extraction of data from large and complex structured and unstructured documents to unlock insights and enable users to find key data points',]
                 },
-                idealCostomerProfile: {
-                  industries: "",
-                  geography: "",
-                  market_cap: "",
-                  employees: "",
-                  budget: "",
-                  image: "",
-                  image_subtitle: "Business  Architecture:  ",
-                  image_link: "",
+
+                idealCostomerProfile : {
+                  industries: 'Financial services',
+                  geography: '',
+                  market_cap: '',
+                  employees: '',
+                  budget: '',
+                  image : DocumentProcessAutomation,
+                  image_subtitle : 'Business  Architecture: Document Process Automation',
+                  image_link : ''
                 },
-                partners: [
+
+                partners : [
+
                   {
-                    image: "",
-                    link: "",
+                    image:  wipro,
+                    link :'',
                   },
                   {
-                    image: "",
-                    link: "",
+                    image:  adobe,
+                    link :'',
                   },
                   {
-                    image: "",
-                    link: "",
+                    image:  ibm,
+                    link :'',
                   },
                   {
-                    image: "",
-                    link: "",
+                    image:  accenture,
+                    link :'',
                   },
+
                   {
-                    image: "",
-                    link: "",
+                    image:  pwc,
+                    link :'',
                   },
-                  {
-                    image: "",
-                    link: "",
-                  },
-                  {
-                    image: "",
-                    link: "",
-                  },
-                  {
-                    image: "",
-                    link: "",
-                  },
-                ],
+                ]
               },
             ],
           },
           {
             id: crypto.randomUUID(),
-            title: "Maximize Visibility and Profitability",
-            link: "maximize_visibility_and_profitability",
+            title: "Information Discovery and Management",
+            solution_play: "Modernize Payments & Core Banking",
+            // l3 page link
+            link: "information_discovery_and_management",
             use_cases_content: [
               {
                 subtitle: "Overview",
-                link: "",
-                desc: "",
-                keyHighlights: {
-                  decision_makers: [],
-                  decision_making_factors: [],
-                  desired_business_objectives: [],
-                  customer_pain_points: [],
-                  proposed_technical_solution: [],
-                  other_notable_attributes: [],
-                  products: [],
+                link: "/industry/financial_services/information_discovery_and_management",
+                desc: ` <p>
+               
+              Search through structured and unstructured documents to quickly find the most relevant information and documents including areas with compliance risk.
+
+              </p>`,
+
+                keyHighlights : {
+
+                  decision_makers : [
+                    'Primary: Head of HR',
+                    'Head of Customer Service',
+                    'Chief Learning Officer',
+                    'Chief Knowledge Officer',
+                    'Chief Compliance Officer'
+                  ],
+                  decision_making_factors :  ['Scalability', 'Cost', 'Efficiency'],
+                  desired_business_objectives : [
+                    'Increase speed to value/speed to insight by reducing time spent on search',
+                    'Improve user productivity by surfacing most relevant search results',
+                    'Ensure compliance through completeness of search over all data and documents',
+                    'Reduce search infrastructure costs'
+                  ],
+                  customer_pain_points :[
+                    'Employees or users are not finding the information they need in internal sites, or information takes a long time to find',
+                    'Failed searches commonly experienced, where no relevant search results are displayed',
+                    'Organization not able to pull together a comprehensive view of all data related to a specific topic (i.e., docs with regulatory terms for compliance purposes)'
+                  ],
+                  other_notable_attributes:[
+                    'Search through structured and unstructured documents to quickly find the most relevant information and documents including areas with compliance risk'
+                  ],
+                  products :[
+                    'Azure Cognitive Search',
+                    'Azure Web Apps',
+                    'Power BI'
+                  ],
+                  proposedTechnicalSolution: ['Search through structured and unstructured documents to quickly find the most relevant information and documents including areas with compliance risk.']
                 },
-                idealCostomerProfile: {
-                  industries: "",
-                  geography: "",
-                  market_cap: "",
-                  employees: "",
-                  budget: "",
-                  image: "",
-                  image_subtitle: "Business  Architecture:  ",
-                  image_link: "",
+
+                idealCostomerProfile : {
+                  industries: 'Financial Services',
+                  geography: '',
+                  market_cap: '',
+                  employees: '',
+                  budget: '',
+                  image : InformationDiscoveryAndManagement,
+                  image_subtitle : 'Business  Architecture: Information Discovery and Management',
+                  image_link : ''
                 },
-                partners: [
+
+                partners : [
+
                   {
-                    image: "",
-                    link: "",
+                    image:  wipro,
+                    link :'',
                   },
                   {
-                    image: "",
-                    link: "",
+                    image:  adobe,
+                    link :'',
                   },
                   {
-                    image: "",
-                    link: "",
+                    image:  ibm,
+                    link :'',
                   },
                   {
-                    image: "",
-                    link: "",
+                    image:  accenture,
+                    link :'',
                   },
+
                   {
-                    image: "",
-                    link: "",
+                    image:  pwc,
+                    link :'',
                   },
-                  {
-                    image: "",
-                    link: "",
-                  },
-                  {
-                    image: "",
-                    link: "",
-                  },
-                  {
-                    image: "",
-                    link: "",
-                  },
-                ],
+                ]
               },
             ],
           },
+
           {
             id: crypto.randomUUID(),
-            title: "Automated B2C Online Order Fulfillment",
-            link: "automated_b2c_online_order_fulfillment",
+            title: "Transaction Processing at Any Scale",
+            solution_play: "Modernize Payments & Core Banking",
+            // l3 page link
+            link: "transaction_processing_at_any_scale",
             use_cases_content: [
               {
                 subtitle: "Overview",
-                link: "",
-                desc: "",
-                keyHighlights: {
-                  decision_makers: [],
-                  decision_making_factors: [],
-                  desired_business_objectives: [],
-                  customer_pain_points: [],
-                  proposed_technical_solution: [],
-                  other_notable_attributes: [],
-                  products: [],
+                link: "/industry/financial_services/transaction_processing_at_any_scale",
+                desc: ` <p>
+               
+              Scale high volumes of transactional data at any time accurately and reliably.
+
+              </p>`,
+                keyHighlights : {
+
+                  decision_makers :[
+                    'Primary: Chief Information Officer',
+                    'Chief Digital Officer',
+                    'Business Innovation team',
+                    'Enterprise or Cloud Architects'
+                  ],
+                  decision_making_factors :  ['Scalability', 'Cost', 'Efficiency'],
+                  desired_business_objectives :  [
+                    'Increase revenue by scaling high volumes of payment data at any time accurately and reliably',
+                    'Act on sales data faster by centralizing payment pipelines with real-time processing and analytics',
+                    'Expand sales footprint through fast, scalable, on-demand, globally distributed tech platform',
+                    'Reduce search infrastructure costs'
+                  ],
+                  customer_pain_points :[
+                    'Payment infrastructure needs to be agile and mature enough to capitalize on the benefits of the innovation',
+                    'Need to leverage enterprise data to drive greater business value, develop new business models, and implement innovative pricing models',
+                    'Need ways to improve customer satisfaction and retention by providing a bridge from cash and check forms to real-time digital transactions'
+                  ],
+                  other_notable_attributes:[],
+                  products : [],
+                  proposedTechnicalSolution: [
+                    'Scale high volumes of transactional data at any time accurately and reliably',
+                  ],
                 },
-                idealCostomerProfile: {
-                  industries: "",
-                  geography: "",
-                  market_cap: "",
-                  employees: "",
-                  budget: "",
-                  image: "",
-                  image_subtitle: "Business  Architecture:  ",
-                  image_link: "",
+
+                idealCostomerProfile : {
+                  industries: 'Financial Services',
+                  geography: '',
+                  market_cap: '',
+                  employees: '',
+                  budget: '',
+                  image : automated_quality_inspection,
+                  image_subtitle : 'Business  Architecture: Transaction Processing at Any Scale',
+                  image_link : ''
                 },
-                partners: [
+
+                partners : [
+
                   {
-                    image: "",
-                    link: "",
+                    image:  wipro,
+                    link :'',
                   },
                   {
-                    image: "",
-                    link: "",
+                    image:  adobe,
+                    link :'',
                   },
                   {
-                    image: "",
-                    link: "",
+                    image:  ibm,
+                    link :'',
                   },
                   {
-                    image: "",
-                    link: "",
+                    image:  accenture,
+                    link :'',
                   },
+
                   {
-                    image: "",
-                    link: "",
+                    image:  pwc,
+                    link :'',
                   },
-                  {
-                    image: "",
-                    link: "",
-                  },
-                  {
-                    image: "",
-                    link: "",
-                  },
-                  {
-                    image: "",
-                    link: "",
-                  },
-                ],
+                ]
               },
             ],
           },
+
           {
             id: crypto.randomUUID(),
-            title: "Reduce Asset Downtime",
-            link: "reduce_asset_downtime",
+            title: "AI-Powered Insurance Claims Automation",
+            solution_play: "Modernize Payments & Core Banking",
+            // l3 page link
+            link: "AI-powered_insurance_claims_automation",
             use_cases_content: [
               {
                 subtitle: "Overview",
-                link: "",
-                desc: "",
-                keyHighlights: {
-                  decision_makers: [],
-                  decision_making_factors: [],
-                  desired_business_objectives: [],
-                  customer_pain_points: [],
-                  proposed_technical_solution: [],
-                  other_notable_attributes: [],
-                  products: [],
+                link: "/industry/financial_services/AI-powered_insurance_claims_automation",
+                desc: ` <p>
+               
+              Handle claims processing through an intelligent agent with cognitive skills to handle image, ID, and documents with goal to reduce claims processing time and manual effort in end-to-end claims processing for better customer experience. Provide capability to recognize document type, extract required fields and push data to downstream applications, significantly reducing manual efforts and creating smoother customer experience.
+              </p>`,
+                keyHighlights : {
+
+                  decision_makers : [
+                    'Primary: Business Decision Makers',
+                    'Claim Processing Engine Owners',
+                    'Chief Claims Officers',
+                    'Regional Chief Information Officers',
+                    'Technical Decision Makers'
+                  ],
+                  decision_making_factors : [
+                    'Scalability',
+                    'Cost',
+                    'Efficiency'
+                  ],
+                  desired_business_objectives : [
+                    'Increase time to value/time to insight by reducing document processing times',
+                    'Reduce operating expenses by automation of manual processes',
+                    'Improve confidence and accuracy in extracted data by relying less on error-prone manual processes'
+                  ],
+                  customer_pain_points :[
+                    'Organization handles large volumes of documents (claims, applications, contracts, invoices, etc.) and is not able to efficiently capture any rich insights from them',
+                    'Organization is investing in expensive manual labor to extract data',
+                    'Manual data extraction is inefficient and/or error-prone, resulting in low confidence in data accuracy',
+                    'More time is spent on extracting data than on analysis and insights'
+                  ],
+                  other_notable_attributes:[],
+                  products : [
+                    'Cognitive Services',
+                    'Cosmos DB',
+                    'Bot Framework',
+                    'Azure Storage',
+                    'Form Recognizer',
+                    'Luis'
+                  ],
+                  proposedTechnicalSolution: [
+                    'Handle claims processing through an intelligent agent with cognitive skills to handle image, ID, and documents with the goal to reduce claims processing time and manual effort in end-to-end claims processing for better customer experience',
+                    'Provide capability to recognize document type, extract required fields, and push data to downstream applications, significantly reducing manual efforts and creating smoother customer experience'
+                  ],
                 },
-                idealCostomerProfile: {
-                  industries: "",
-                  geography: "",
-                  market_cap: "",
-                  employees: "",
-                  budget: "",
-                  image: "",
-                  image_subtitle: "Business  Architecture:  ",
-                  image_link: "",
+
+                idealCostomerProfile : {
+                  industries: 'Financial Services',
+                  geography: '',
+                  market_cap: '',
+                  employees: '',
+                  budget: '',
+                  image : AIPoweredInsuranceClaimsAutomation,
+                  image_subtitle : 'Business  Architecture: AI-Powered Insurance Claims Automation',
+                  image_link : ''
                 },
-                partners: [
+
+                partners : [
+
                   {
-                    image: "",
-                    link: "",
+                    image:  wipro,
+                    link :'',
                   },
                   {
-                    image: "",
-                    link: "",
+                    image:  adobe,
+                    link :'',
                   },
                   {
-                    image: "",
-                    link: "",
+                    image:  ibm,
+                    link :'',
                   },
                   {
-                    image: "",
-                    link: "",
+                    image:  accenture,
+                    link :'',
                   },
+
                   {
-                    image: "",
-                    link: "",
+                    image:  pwc,
+                    link :'',
                   },
-                  {
-                    image: "",
-                    link: "",
-                  },
-                  {
-                    image: "",
-                    link: "",
-                  },
-                  {
-                    image: "",
-                    link: "",
-                  },
-                ],
+                ]
               },
             ],
           },
+
           {
             id: crypto.randomUUID(),
-            title: "CPG Retail Execution Control Tower",
-            link: "cpg_retail_execution_control_tower",
+            title: "Service and Support Bot",
+            solution_play: "Transform the Banking Experience",
+            // l3 page link
+            link: "service_and_support_bot",
             use_cases_content: [
               {
                 subtitle: "Overview",
                 link: "",
-                desc: "",
-                keyHighlights: {
-                  decision_makers: [],
-                  decision_making_factors: [],
-                  desired_business_objectives: [],
-                  customer_pain_points: [],
-                  proposed_technical_solution: [],
-                  other_notable_attributes: [],
-                  products: [],
+                desc: ` <p>
+              Resolve user and customer queries without human intervention across multiple channels, including voice enabled support.
+              </p>`,
+                keyHighlights : {
+
+                  decision_makers : ['Head of Customer Service',
+                    'Head of Customer Experience',
+                    'Head of IT',
+                    'Head of Legal',
+                    'Head of HR',
+                    'Chief Marketing Officer',
+                    'Product Owner',
+                    'Director of eCommerce', 'Secondary (Influencers): Head of Customer Service', 'Head of Customer Experience'],
+                  decision_making_factors :  [
+                    'Scalability',
+                    'Cost',
+                    'Efficiency'
+                  ],
+                  desired_business_objectives :[
+                    'Improve first-call resolution rates by answering specific questions with the best available knowledge',
+                    'Increase customer satisfaction by reducing wait times with immediate 24/7 service through a conversational agent',
+                    'Grow revenue with differentiated customer experience by leveraging conversational interfaces for personal shopping',
+                    'Reduce support costs/cost of operations by offloading and automating certain support services'
+                  ],
+                  customer_pain_points : [
+                    'Case volumes and wait times are increasing',
+                    'Growing customer churn due to impersonal and inconsistent sales or support service',
+                    'Customers are dissatisfied with response wait times and expect to be able to reach sales or support service at all hours, but the business is unable to provide or must spend exorbitant amounts to do so, adding pressure on tight margins',
+                    'Sales or support agents are tied up answering simple queries that can be automated'
+                  ],
+                  other_notable_attributes:[
+                    'Resolve user and customer queries without human intervention across multiple channels, including voice-enabled support'
+                  ],
+                  products :['Resolve user and customer queries without human intervention across multiple channels, including voice enabled support.'],
+                  proposedTechnicalSolution: ['Resolve user and customer queries without human intervention across multiple channels, including voice-enabled support',]
                 },
-                idealCostomerProfile: {
-                  industries: "",
-                  geography: "",
-                  market_cap: "",
-                  employees: "",
-                  budget: "",
-                  image: "",
-                  image_subtitle: "Business  Architecture:  ",
-                  image_link: "",
+
+                idealCostomerProfile : {
+                  industries: 'Financial Services',
+                  geography: '',
+                  market_cap: '',
+                  employees: '',
+                  budget: '',
+                  image : ServiceAndSupportBot,
+                  image_subtitle : 'Business  Architecture:Service and Support Bot' ,
+                  image_link : ''
                 },
-                partners: [
+
+                partners : [
+
                   {
-                    image: "",
-                    link: "",
+                    image:  wipro,
+                    link :'',
                   },
                   {
-                    image: "",
-                    link: "",
+                    image:  adobe,
+                    link :'',
                   },
                   {
-                    image: "",
-                    link: "",
+                    image:  ibm,
+                    link :'',
                   },
                   {
-                    image: "",
-                    link: "",
+                    image:  accenture,
+                    link :'',
                   },
+
                   {
-                    image: "",
-                    link: "",
+                    image:  pwc,
+                    link :'',
                   },
-                  {
-                    image: "",
-                    link: "",
-                  },
-                  {
-                    image: "",
-                    link: "",
-                  },
-                  {
-                    image: "",
-                    link: "",
-                  },
-                ],
+                ]
               },
             ],
           },
+
+          {
+            id: crypto.randomUUID(),
+            title: "AI-Powered Call Center Intelligence",
+            solution_play: "Transform the Banking Experience",
+            // l3 page link
+            link: "AI-powered_call_center_intelligencee",
+            use_cases_content: [
+              {
+                subtitle: "Overview",
+                link: "",
+                desc: ` <p>
+              Automate call transcriptions for real-time and previously recorded calls by using custom speech models, text analytics, and industry-specific natural language processing. Data insight on customer sentiment, topic analysis, and other valuable call attributes are served up in a user-friendly visual dashboard in Power BI.
+              </p>`,
+                keyHighlights : {
+
+                  decision_makers :[
+                    'Primary: Chief Information Officer, Chief Digital Officer, Business Innovation team, Enterprise or Cloud Architects'
+                  ],
+                  decision_making_factors :   [
+                    'Scalability',
+                    'Cost',
+                    'Efficiency'
+                  ],
+                  desired_business_objectives : [
+                    'Customizable speech model incorporating industry and business language',
+                    'Automated PII detection and redaction protects customer privacy and promotes compliance',
+                    'Insights on real-time and previously recorded customer calls',
+                    'Improve data confidence and accuracy in extracted data by relying less on error-prone manual processes'
+                  ],
+                  customer_pain_points :[
+                    'Manual data entry during real-time conversation slows service delivery and creates errors',
+                    'Labor shortages and high turnover add strain to call center operations',
+                    'Privacy laws protecting customer data are varied and complex',
+                    'Untapped data from historic call records is a wasted resource',
+                    'Legacy AI transcription technologies are significantly less accurate than human transcription'
+                  ],
+                  other_notable_attributes:[],
+
+                  products :[
+                    'Cognitive Services',
+                    'Azure Machine Learning',
+                    'Power BI',
+                    'Azure Speech Services',
+                    'Azure SQL',
+                    'Azure Storage'
+                  ],
+                  proposedTechnicalSolution: [
+                    'Automate call transcriptions for real-time and previously recorded calls by using custom speech models, text analytics, and industry-specific natural language processing.',
+                    'Data insight on customer sentiment, topic analysis, and other valuable call attributes are served up in a user-friendly visual dashboard in Power BI.'
+                  ],
+                },
+
+                idealCostomerProfile : {
+                  industries: 'Financial Services',
+                  geography: '',
+                  market_cap: '',
+                  employees: '',
+                  budget: '',
+                  image : AIPoweredCallCenterIntelligence,
+                  image_subtitle : 'Business  Architecture: AI-Powered Call Center Intelligence',
+                  image_link : ''
+                },
+
+                partners : [
+
+                  {
+                    image:  wipro,
+                    link :'',
+                  },
+                  {
+                    image:  adobe,
+                    link :'',
+                  },
+                  {
+                    image:  ibm,
+                    link :'',
+                  },
+                  {
+                    image:  accenture,
+                    link :'',
+                  },
+
+                  {
+                    image:  pwc,
+                    link :'',
+                  },
+                ]
+              },
+            ],
+          },
+
+          {
+            id: crypto.randomUUID(),
+            title: "Customer Complaint Management",
+            solution_play: "Transform the Banking Experience",
+            // l3 page link
+            link: "customer_complaint_management",
+            use_cases_content: [
+              {
+                subtitle: "Overview",
+                link: "",
+                desc: ` <p>
+              Ingest customer complaints from a variety of designated platforms (email, social media, review sites, etc.) and intelligently classify these complaints while surfacing them to the correct support agent for quick resolution. Finding similar previously resolved complaints as a reference for the support agents.
+              </p>`,
+                keyHighlights : {
+
+                  decision_makers : [
+                    'Primary: Business Decision Makers',
+                    'Technical Decision Makers'
+                  ],
+                  decision_making_factors :  [
+                    'Scalability',
+                    'Cost',
+                    'Efficiency'
+                  ],
+                  desired_business_objectives : [
+                    'All complaints in one data platform',
+                    'Complaints tagged and routed to correct support agents',
+                    'Review similar past complaints to ensure the correct support agent is designated for resolution'
+                  ],
+                  customer_pain_points : [
+                    'Not enough time to respond to the multitude of complaints received',
+                    'Difficult to keep track of and promptly address customer needs',
+                    'Overlooking incoming complaints due to volume',
+                    'Stress on employees and diminished productivity',
+                    'Tedious and delayed sorting and resolution of complaints due to hampered agility'
+                  ],
+                  other_notable_attributes:[],
+                  products :[
+                    'Azure Kubernetes Services',
+                    'Cognitive Search',
+                    'Synapse',
+                    'Azure Machine Learning',
+                    'PowerApps'
+                  ],
+                  proposedTechnicalSolution: [
+                    'Ingest customer complaints from a variety of designated platforms (email, social media, review sites, etc.) and intelligently classify these complaints while surfacing them to the correct support agent for quick resolution',
+                    'Finding similar previously resolved complaints as a reference for the support agents'
+                  ],
+                },
+
+                idealCostomerProfile : {
+                  industries: 'Financial Services',
+                  geography: '',
+                  market_cap: '',
+                  employees: '',
+                  budget: '',
+                  image : CustomerComplaintManagement,
+                  image_subtitle : 'Business  Architecture: Customer Complaint Management',
+                  image_link : ''
+                },
+
+                partners : [
+
+                  {
+                    image:  wipro,
+                    link :'',
+                  },
+                  {
+                    image:  adobe,
+                    link :'',
+                  },
+                  {
+                    image:  ibm,
+                    link :'',
+                  },
+                  {
+                    image:  accenture,
+                    link :'',
+                  },
+
+                  {
+                    image:  pwc,
+                    link :'',
+                  },
+                ]
+              },
+            ],
+          },
+
+          {
+            id: crypto.randomUUID(),
+            solution_play: "Manage Risk & Compliance",
+            title: "Fraud Detection and Transaction Monitoring",
+            // l3 page link
+            link: "fraud_detection_and_transaction_monitoring",
+            use_cases_content: [
+              {
+                subtitle: "Overview",
+                link: "",
+                desc: `<p>
+              Identify risk of fraud or fraud associated activities including phone calls, credit card transactions, money laundering and online purchases with real-time analysis and streaming data.
+              </p>`,
+
+                keyHighlights : {
+
+                  decision_makers : [
+                    'Primary: Chief Financial Officer, Chief Risk Officer',
+                    'Secondary: Chief Information Officer, Chief Data Officer'
+                  ],
+                  decision_making_factors : [
+                    'Data availability',
+                    'Ease of execution',
+                    'Speed and accuracy of solution'
+                  ],
+                  desired_business_objectives : [
+                    'Ensure client and company security by continuously reviewing transactions for fraudulent activities and high-risk areas',
+                    'Improve customer satisfaction by proactively identifying and stopping fraudulent transactions with greater accuracy',
+                    'Avoid costly claim scenarios by improving detection rates and delivering better insights to case workers',
+                    'Save time and costs by reducing the amount of time to discover and stop fraud'
+                  ],
+                  customer_pain_points : [
+                    'Fraud is resulting in significant costs to the business and is growing',
+                    'Fraud claim rates from customers are high',
+                    'Actions taken to combat fraud are reactive vs. preventative',
+                    'Fraud detection accuracy rates are low'
+                  ],
+                  other_notable_attributes:[],
+                  products :[
+                    'Azure Machine Learning',
+                    'Azure Synapse Analytics',
+                    'Azure Cosmos DB',
+                    'Power BI'
+                  ],
+                  proposedTechnicalSolution: ['Identify risk of fraud or fraud-associated activities including phone calls, credit card transactions, money laundering, and online purchases with real-time analysis and streaming data.',]
+                },
+
+                idealCostomerProfile : {
+                  industries: 'Financial Services',
+                  geography: '',
+                  market_cap: '',
+                  employees: '',
+                  budget: '',
+                  image : fraud_detection_and_transaction_monitoring,
+                  image_subtitle : 'Business  Architecture: Fraud Detection and Transaction Monitoring',
+                  image_link : ''
+                },
+
+                partners : [
+
+                  {
+                    image:  wipro,
+                    link :'',
+                  },
+                  {
+                    image:  adobe,
+                    link :'',
+                  },
+                  {
+                    image:  ibm,
+                    link :'',
+                  },
+                  {
+                    image:  accenture,
+                    link :'',
+                  },
+
+                  {
+                    image:  pwc,
+                    link :'',
+                  },
+                ]
+              },
+            ],
+          },
+
+          {
+            id: crypto.randomUUID(),
+            title: "Risk Classification and Loan Modeling",
+            solution_play: "Manage Risk & Compliance",
+            // l3 page link
+            link: "risk_classification_and_loan_modeling",
+            use_cases_content: [
+              {
+                subtitle: "Overview",
+                link: "",
+                desc: ` <p>
+              Use predictive analytics and machine learning to estimate the optimal loan size that the SBA will approve for a given applicant which enables lending partners to process loan applications and make data-driven lending decisions quickly. Automate process for accelerating loan approval and rejection process and providing right-size loans to increase the likelihood of complete and timely payments to ensure compliance with SBA guidelines.
+              </p>`,
+
+                keyHighlights : {
+
+                  decision_makers : [
+                    'Primary: Business Analysts, Product Management team, Load origination and underwriting departments, Shared services team, Infrastructure team, Data team, Data Scientists'
+                  ],
+                  decision_making_factors : [
+                    'Scalability',
+                    'Cost',
+                    'Efficiency'
+                  ],
+                  desired_business_objectives : [
+                    'Model predicts the SBA loan amount the applicant will most likely be approved for',
+                    'Holistic analytics reports for one or multiple borrowers',
+                    'Automate processes to ensure compliance with SBA guidelines',
+                    'Accelerate the loan approval and rejection process',
+                    'Improve customer experience and increase customer retention'
+                  ],
+                  customer_pain_points : [
+                    'Backlogs and errors in loan applications due to reliance on labor-intensive, manual, low-tech processing',
+                    'High volumes of loan applications lead to bottlenecks and delays',
+                    'Delays can cause applicants to lose critical business opportunities and impact their risk profiles',
+                    'Inability to regularly run and re-run risk classification limits the accuracy of assessments',
+                    'Lack of efficient, precise loan modeling makes it difficult to determine exactly what the SBA will approve'
+                  ],
+                  other_notable_attributes:[],
+                  products :[
+                    'Azure Data Lake Storage',
+                    'Synapse Analytics'
+                  ],
+                  proposedTechnicalSolution: [
+                    'Use predictive analytics and machine learning to estimate the optimal loan size that the SBA will approve for a given applicant',
+                    'Automate process for accelerating loan approval and rejection process and providing right-size loans',
+                    'Increase the likelihood of complete and timely payments to ensure compliance with SBA guidelines'
+                  ],
+                },
+
+                idealCostomerProfile : {
+                  industries: 'Financial Services',
+                  geography: '',
+                  market_cap: '',
+                  employees: '',
+                  budget: '',
+                  image : RiskClassificationAndLoanModeling,
+                  image_subtitle : 'Business  Architecture: Risk Classification and Loan Modeling',
+                  image_link : ''
+                },
+
+                partners : [
+
+                  {
+                    image:  wipro,
+                    link :'',
+                  },
+                  {
+                    image:  adobe,
+                    link :'',
+                  },
+                  {
+                    image:  ibm,
+                    link :'',
+                  },
+                  {
+                    image:  accenture,
+                    link :'',
+                  },
+
+                  {
+                    image:  pwc,
+                    link :'',
+                  },
+                ]
+              },
+            ],
+          },
+
         ],
       },
+
+
+
     ],
   },
 
@@ -2158,7 +3265,7 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
           <li>Does the technology you're using today preserve the integrity of patient records as physicians are measured on accuracy and compliance audits?</li>
         </ul>
 
-        <p><a className="text-blue font-semibold" target="_blank" href="https://industryhub.transform.microsoft.com/solution-plays"> Learn More </a>  about this Indusrty Pillar</p>
+        <p><a className="text-blue font-semibold" target="_blank" href="https://industryhub.transform.microsoft.com/solution-plays"> Learn More </a>  about this Industry Pillar</p>
       </div>`,
         use_cases: [
 
@@ -3268,7 +4375,7 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
     link: "retail_and_cg",
     heading: "Retail & CG Overview",
     overview:
-      "Microsoft’s approach to retail takes into account market insights and the competitive landscape, and positions Microsoft’s value proposition via these industry Indusrty Pillar: Maximize the value of your data, Elevate the consumer shopping experience, Build a real-time sustainable supply chain and Empower your store associates.Our industry Indusrty Pillar are the fundamental areas we believe retailers should focus on in their digital transformation journey. Microsoft Cloud for Retail is the vehicle to enable retailers to execute their digital transformation.",
+      "Microsoft’s approach to retail takes into account market insights and the competitive landscape, and positions Microsoft’s value proposition via these industry Industry Pillar: Maximize the value of your data, Elevate the consumer shopping experience, Build a real-time sustainable supply chain and Empower your store associates.Our industry Industry Pillar are the fundamental areas we believe retailers should focus on in their digital transformation journey. Microsoft Cloud for Retail is the vehicle to enable retailers to execute their digital transformation.",
 
     solution_plays: [
       // 1st use cases
@@ -3304,7 +4411,7 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
             </p>
             
           
-            <p><a className="text-blue font-semibold" target="_blank" href="https://industryhub.transform.microsoft.com/solution-plays/maximize-the-value-of-your-data?tab=overview"> Learn More </a>  about Indusrty Pillar</p>
+            <p><a className="text-blue font-semibold" target="_blank" href="https://industryhub.transform.microsoft.com/solution-plays/maximize-the-value-of-your-data?tab=overview"> Learn More </a>  about Industry Pillar</p>
             `,
 
         use_cases: [
@@ -3485,7 +4592,7 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
 
           {
             id: crypto.randomUUID(),
-            title: "Azure Intelligent Recommendationsr",
+            title: "Azure Intelligent Recommendations",
             // l3 page link
             link: "azure_intelligent_recommendations",
             use_cases_content: [
@@ -3691,7 +4798,7 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
   
           
           </p>       
-          <p><a className="text-blue font-semibold" target="_blank" href="https://industryhub.transform.microsoft.com/solution-plays"> Learn More </a>  about Indusrty Pillar</p>`,
+          <p><a className="text-blue font-semibold" target="_blank" href="https://industryhub.transform.microsoft.com/solution-plays"> Learn More </a>  about Industry Pillar</p>`,
 
         use_cases: [
           {
@@ -3974,7 +5081,7 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
   
           
           </p>       
-          <p><a className="text-blue font-semibold" target="_blank" href="https://industryhub.transform.microsoft.com/solution-plays"> Learn More </a>  about Indusrty Pillar</p>`,
+          <p><a className="text-blue font-semibold" target="_blank" href="https://industryhub.transform.microsoft.com/solution-plays"> Learn More </a>  about Industry Pillar</p>`,
 
         use_cases: [
           {
@@ -4095,7 +5202,7 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
   
           
           </p> 
-          <p><a className="text-blue font-semibold" target="_blank" href="https://industryhub.transform.microsoft.com/solution-plays"> Learn More </a>  about Indusrty Pillar</p>      
+          <p><a className="text-blue font-semibold" target="_blank" href="https://industryhub.transform.microsoft.com/solution-plays"> Learn More </a>  about Industry Pillar</p>      
           `,
         use_cases : [
           {
@@ -4893,7 +6000,7 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
 <!--            <b>Coming Soon</b>-->
 <!--          </p>-->
 
-<p><a className="text-blue font-semibold" target="_blank" href="https://industryhub.transform.microsoft.com/public-sector/government?tab=overview"> Learn More </a>  about this Indusrty Pillar</p>
+<p><a className="text-blue font-semibold" target="_blank" href="https://industryhub.transform.microsoft.com/public-sector/government?tab=overview"> Learn More </a>  about this Industry Pillar</p>
 `
 
         ,
@@ -5084,7 +6191,7 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
 <!--          <b>Coming Soon </b> -->
 <!--        </p>-->
 
-<p><a className="text-blue font-semibold" target="_blank" href="https://industryhub.transform.microsoft.com/public-sector/government?tab=overview"> Learn More </a>  about this Indusrty Pillar</p>
+<p><a className="text-blue font-semibold" target="_blank" href="https://industryhub.transform.microsoft.com/public-sector/government?tab=overview"> Learn More </a>  about this Industry Pillar</p>
 
 `,
 
@@ -5191,7 +6298,7 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
 <!--          <b>Coming Soon </b> -->
 <!--        </p>-->
 
-<p><a className="text-blue font-semibold" target="_blank" href="https://industryhub.transform.microsoft.com/public-sector/government?tab=overview"> Learn More </a>  about this Indusrty Pillar</p>
+<p><a className="text-blue font-semibold" target="_blank" href="https://industryhub.transform.microsoft.com/public-sector/government?tab=overview"> Learn More </a>  about this Industry Pillar</p>
 
 
 `,
@@ -5935,7 +7042,7 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
                   Learn more
                 </a>
               
-                about this Indusrty Pillar
+                about this Industry Pillar
               </p>
             </div>`,
         use_cases: [

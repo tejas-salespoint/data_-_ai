@@ -10,9 +10,9 @@ const IndustrySolutionPlayes = ({ activeIndustryData }) => {
   
   const industry = activeIndustryData;
 
-  const [tabIndustry,setTabIndustry] = industry.link
+
   const [tabActive, setTabActive] = useState(industry?.solution_plays[0].id);
-  const [tabActiveSolutionPlayTitle,setTabActiveSolutionPlayTitle] = useState(industry?.solution_plays[0].title)
+  const [tabActiveSolutionPlayTitle,setTabActiveSolutionPlayTitle] = useState(industry?.solution_plays[0]?.title)
 
   const tabActiveHandler = (id,title) => {
     setTabActive(id);

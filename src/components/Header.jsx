@@ -6,7 +6,7 @@ import { Breadcrumb } from "flowbite-react";
 const Header = ({ title, subtitle }) => {
   return (
     <div className="w-full shadow-main-navbar-shadow h-[13rem] bg-img-banner bg-no-repeat bg-cover flex flex-col justify-center pl-24">
-      {/* <Breadcrumbs /> */}
+       <Breadcrumbs />
 
       
       
