@@ -6,7 +6,7 @@ const BufferPage = () => {
   return (
     <div>
 
-    <Header title={'Industry Hub'} subtitle={'We think these resources will be helpful as you work with your customers.'} />
+    <Header title={'All Data & AI Industry'} subtitle={'DAI Industry Assets & Resources to help you accelerate customer opportunities.'} />
     <IndustryGrids />
     </div>
   )

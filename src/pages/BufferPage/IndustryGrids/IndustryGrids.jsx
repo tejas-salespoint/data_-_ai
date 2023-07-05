@@ -64,20 +64,20 @@ const IndustryGrids = () => {
     {
       id: "7",
       title: "Media & Entertainment",
-      link: "",
+      link: "coming_soon",
       img: Media_buffer,
     },
     {
       id: "9",
       title: "Education",
-      link: "",
+      link: "coming_soon",
       img: Education_buffer,
       coming: true,
     },
     {
       id: "10",
       title: "Engineering & Construction",
-      link: "",
+      link: "coming_soon",
       img: Engineering_buffer,
       coming: true,
     },
@@ -86,7 +86,7 @@ const IndustryGrids = () => {
     {
       id: "12",
       title: "Sustainability",
-      link: "",
+      link: "coming_soon",
       img: Sustainability_buffer,
       coming: true,
     },
@@ -140,7 +140,7 @@ const IndustryGrids = () => {
                   {item?.title}
                 </button>
               <div className=" font-bold text-white">
-                <Link to={"/industry"}>
+                <Link to={`/${item?.link}`}>
                   <button className="p-1 text-xl text-blue bg-white  px-5 rounded-full ">
                     Coming Soon
                   </button>
