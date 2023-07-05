@@ -24,8 +24,9 @@ const IndustryCasesPage = () => {
 
   return (
     <>
-        <Header title={useCase?.title} subtitle={`${industry?.title} |  ${solutionPlay?.title}` } />
-        <CasesContent usecase={useCase} />
+        {/*<Header title={useCase?.title} subtitle={`${industry?.title} |  ${solutionPlay?.title}` } />*/}
+        <Header title={useCase?.title}  />
+        <CasesContent usecase={useCase} title={useCase?.title} />
         <CasesAdditionalResources />
     </>
   );

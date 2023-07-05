@@ -41,7 +41,7 @@ export const Industry = [
     link: "manufacturing_&_mobility",
     heading: "Manufacturing & Mobility Overview",
     overview:
-      "Microsoft's approach to manufacturing takes into account market insights and competitive landscape, and positions Microsoft's value proposition via the Industry Priority Scenarios. Our Industry Priority Scenarios (IPSs) are the fundamental areas we believe manufacturers should focus their efforts on their digital transformation journey. Microsoft Cloud for Manufacturing is the vehicle to enable manufacturers to execute that digital transformation through Microsoft and partner capabilities aligned to our IPSs. Microsoft Cloud for Manufacturing (MC4M) became available for Preview in FY22 on November 1, 2021, and is expected to be generally available in FY23 H2.",
+      "Microsoft's approach to manufacturing takes into account market insights and competitive landscape, and positions Microsoft's value proposition via the Industry Priority Scenarios. Our Industry Priority Scenarios (IPSs) are the fundamental areas we believe manufacturers should focus their efforts on their digital transformation journey. Microsoft Cloud for Manufacturing is the vehicle to enable manufacturers to execute that digital transformation through Microsoft and partner capabilities aligned to our IPSs. ",
     solution_plays: [
       // 1st solution plays
       {
@@ -123,7 +123,7 @@ export const Industry = [
                   image: automated_quality_inspection,
                   image_subtitle:
                     "Business  Architecture: Automated Quality Inspection",
-                  image_link: "",
+                  image_link: "https://microsofteur.sharepoint.com/:p:/t/HQDataAIIndustryTeam/EWem9s1YQExIiK6NP6-p8EwBvNKrKi5ZgiNJGCslCUpAoA?e=evcnYB",
                 },
 
                 partners: [
@@ -227,7 +227,7 @@ export const Industry = [
                   image: predictive_maintainance,
                   image_subtitle:
                     "Business  Architecture: Predictive Maintenance",
-                  image_link: "",
+                  image_link: "https://microsofteur.sharepoint.com/:p:/t/HQDataAIIndustryTeam/EWem9s1YQExIiK6NP6-p8EwBvNKrKi5ZgiNJGCslCUpAoA?e=evcnYB",
                 },
 
                 partners: [
@@ -297,7 +297,7 @@ export const Industry = [
                   image: remote_asset_monitoring,
                   image_subtitle:
                     "Business  Architecture: Remote Asset Monitoring",
-                  image_link: "",
+                  image_link: "https://microsofteur.sharepoint.com/:p:/t/HQDataAIIndustryTeam/EWem9s1YQExIiK6NP6-p8EwBvNKrKi5ZgiNJGCslCUpAoA?e=evcnYB",
                 },
 
                 partners: [
@@ -365,7 +365,7 @@ export const Industry = [
                   image: document_process_automation,
                   image_subtitle:
                     "Business  Architecture: Document Process Automation",
-                  image_link: "",
+                  image_link: "https://microsofteur.sharepoint.com/:p:/t/HQDataAIIndustryTeam/EWem9s1YQExIiK6NP6-p8EwBvNKrKi5ZgiNJGCslCUpAoA?e=evcnYB",
                 },
 
                 partners: [
@@ -449,7 +449,7 @@ export const Industry = [
                   image: factory_working_safety,
                   image_subtitle:
                     "Business  Architecture: Factory Working Safety",
-                  image_link: "",
+                  image_link: "https://microsofteur.sharepoint.com/:p:/t/HQDataAIIndustryTeam/EWem9s1YQExIiK6NP6-p8EwBvNKrKi5ZgiNJGCslCUpAoA?e=evcnYB",
                 },
 
                 partners: [
@@ -534,7 +534,7 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
                   budget: "",
                   image: "",
                   image_subtitle: "Business  Architecture:  ",
-                  image_link: "",
+                  image_link: "https://microsofteur.sharepoint.com/:p:/t/HQDataAIIndustryTeam/EWem9s1YQExIiK6NP6-p8EwBvNKrKi5ZgiNJGCslCUpAoA?e=evcnYB",
                 },
 
                 partners: [
@@ -623,7 +623,7 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
                   budget: "",
                   image: demand_forecasting,
                   image_subtitle: "Business  Architecture: Demand Forecasting",
-                  image_link: "",
+                  image_link: "https://microsofteur.sharepoint.com/:p:/t/HQDataAIIndustryTeam/EWem9s1YQExIiK6NP6-p8EwBvNKrKi5ZgiNJGCslCUpAoA?e=evcnYB",
                 },
 
                 partners: [
@@ -714,7 +714,7 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
                   image: connected_smart_products,
                   image_subtitle:
                     "Business  Architecture: Connected Smart Products",
-                  image_link: "",
+                  image_link: "https://microsofteur.sharepoint.com/:p:/t/HQDataAIIndustryTeam/EWem9s1YQExIiK6NP6-p8EwBvNKrKi5ZgiNJGCslCUpAoA?e=evcnYB",
                 },
 
                 partners: [
@@ -734,10 +734,10 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
       // 5th all use cases
       {
         id: crypto.randomUUID(),
-        title: "All Use Cases",
+        title: "All Use Cases ",
         link: "all_use_cases",
         content: `
-        <p className="font-bold"> Manufacturing & Mobility</p>
+        <p className="font-bold"> Manufacturing & Mobility Industry</p>
           `,
         use_cases: [
           // Todo :: Automated Quality Inspection
@@ -803,7 +803,7 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
                   image: automated_quality_inspection,
                   image_subtitle:
                     "Business  Architecture: Automated Quality Inspection",
-                  image_link: "",
+                  image_link: "https://microsofteur.sharepoint.com/:p:/t/HQDataAIIndustryTeam/EWem9s1YQExIiK6NP6-p8EwBvNKrKi5ZgiNJGCslCUpAoA?e=evcnYB",
                 },
 
                 partners: [
@@ -908,7 +908,7 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
                   image: predictive_maintainance,
                   image_subtitle:
                     "Business  Architecture: Predictive Maintenance",
-                  image_link: "",
+                  image_link: "https://microsofteur.sharepoint.com/:p:/t/HQDataAIIndustryTeam/EWem9s1YQExIiK6NP6-p8EwBvNKrKi5ZgiNJGCslCUpAoA?e=evcnYB",
                 },
 
                 partners: [
@@ -979,7 +979,7 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
                   image: remote_asset_monitoring,
                   image_subtitle:
                     "Business  Architecture: Remote Asset Monitoring",
-                  image_link: "",
+                  image_link: "https://microsofteur.sharepoint.com/:p:/t/HQDataAIIndustryTeam/EWem9s1YQExIiK6NP6-p8EwBvNKrKi5ZgiNJGCslCUpAoA?e=evcnYB",
                 },
 
                 partners: [
@@ -1048,7 +1048,7 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
                   image: document_process_automation,
                   image_subtitle:
                     "Business  Architecture: Document Process Automation",
-                  image_link: "",
+                  image_link: "https://microsofteur.sharepoint.com/:p:/t/HQDataAIIndustryTeam/EWem9s1YQExIiK6NP6-p8EwBvNKrKi5ZgiNJGCslCUpAoA?e=evcnYB",
                 },
 
                 partners: [
@@ -1133,7 +1133,7 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
                   image: factory_working_safety,
                   image_subtitle:
                     "Business  Architecture: Factory Working Safety",
-                  image_link: "",
+                  image_link: "https://microsofteur.sharepoint.com/:p:/t/HQDataAIIndustryTeam/EWem9s1YQExIiK6NP6-p8EwBvNKrKi5ZgiNJGCslCUpAoA?e=evcnYB",
                 },
 
                 partners: [
@@ -1205,7 +1205,7 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
                   budget: "",
                   image: demand_forecasting,
                   image_subtitle: "Business  Architecture: Demand Forecasting",
-                  image_link: "",
+                  image_link: "https://microsofteur.sharepoint.com/:p:/t/HQDataAIIndustryTeam/EWem9s1YQExIiK6NP6-p8EwBvNKrKi5ZgiNJGCslCUpAoA?e=evcnYB",
                 },
 
                 partners: [
@@ -1280,7 +1280,7 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
                   image: connected_smart_products,
                   image_subtitle:
                     "Business  Architecture: Connected Smart Products",
-                  image_link: "",
+                  image_link: "https://microsofteur.sharepoint.com/:p:/t/HQDataAIIndustryTeam/EWem9s1YQExIiK6NP6-p8EwBvNKrKi5ZgiNJGCslCUpAoA?e=evcnYB",
                 },
 
                 partners: [
@@ -1312,52 +1312,60 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
         id: crypto.randomUUID(),
         title: "Modernize Payments & Core Banking",
         content: `
+    <div >
+  <p class="font-bold">Modernize payments and core banking:</p>
+  <p class="py-2">Increase agility to roll out new products and services while saving on infrastructure costs.</p>
 
-          <p>
-            <b>Modernize payments and core banking:   </b>Increase agility to roll out new products and services while saving on infrastructure costs.
-          </p>
-          <p>
-          <b>Customer challenges : </b> Integrating open banking and API-based solutions 
-           Providing payments-as-a-service 
-           Real-time, 24/7 processing to serve customers 
-           Need for new payments products to compete 
-           Modernizing the data estate and implementing a data culture 
-           Integrating AI solutions to interpret business signals 
-           Core banking modernization 
-           Proliferation of fintech and challenger banks
-           Lowering TCO and the need to reduce “run the bank” costs
-           Regulatory compliance and market infrastructure requirements
-           New technical standards like ISO 20022
-           Cloud adoption for future-proofing systems and managing change
-          </p>
-          <p>
-          <b>Key business outcomes  :</b> Ensure resiliency of core banking systems based on the latest cloud-based technology.
-          Move payments and core systems to cloud to provide the agility needed to meet changing customer expectations and challenge non-traditional competitors.
-          Expand distribution through embedded finance and open banking models.
-          Employ analytics and AI to unlock real-time insights and new revenue streams from the flow of data through payment systems.
-          Establish a trusted brand with comprehensive security, privacy, identity management, and compliance.
-          </p>
-          <p>
-          <b>Roles :  </b>
+  <p class="font-bold mt-6 mb-2">Customer challenges:</p>
+  <ul class="list-disc pl-6 mb-4">
+    <li>Integrating open banking and API-based solutions</li>
+    <li>Providing payments-as-a-service</li>
+    <li>Real-time, 24/7 processing to serve customers</li>
+    <li>Need for new payments products to compete</li>
+    <li>Modernizing the data estate and implementing a data culture</li>
+    <li>Integrating AI solutions to interpret business signals</li>
+    <li>Core banking modernization</li>
+    <li>Proliferation of fintech and challenger banks</li>
+    <li>Lowering TCO and the need to reduce "run the bank" costs</li>
+    <li>Regulatory compliance and market infrastructure requirements</li>
+    <li>New technical standards like ISO 20022</li>
+    <li>Cloud adoption for future-proofing systems and managing change</li>
+  </ul>
 
-          Primary: CIO
-          Secondary: CEO, head of payments, LOB banking function, VP customer support, call center operations, commercial banking executive, retail banking executive
-          </p>
-          
-          <p>
-          <b>
-          Questions to Ask : <br/> </b>
-          How is your business able to expand into new markets quickly?
-          How effective are your current solutions for reducing fraud and increasing operational efficiency?
-          Are your current operations able to support building new products with agility and serve today’s real-time economy?
-          How quickly and securely can you onboard new customers?
-          How efficient is your payments system? Are you able to approximate real-time execution?
-          How does your business put its data to work effectively to better serve customers/clients?
-          What insights do you need to transform working capital products?
-          What historical data and predictive insights do you use to drive your business?
-          </p>
-          
-          <p><a className="text-blue font-semibold" target="_blank" href="https://industryhub.transform.microsoft.com/enterprise-commercial/financial-services?tab=overview"> Learn More </a>  about this Industry Pillar</p>`
+  <p class="font-bold mt-6 mb-2">Key business outcomes:</p>
+  <ul class="list-disc pl-6 mb-4">
+    <li>Ensure resiliency of core banking systems based on the latest cloud-based technology</li>
+    <li>Move payments and core systems to cloud to provide the agility needed to meet changing customer expectations and challenge non-traditional competitors</li>
+    <li>Expand distribution through embedded finance and open banking models</li>
+    <li>Employ analytics and AI to unlock real-time insights and new revenue streams from the flow of data through payment systems</li>
+    <li>Establish a trusted brand with comprehensive security, privacy, identity management, and compliance</li>
+  </ul>
+
+  <p class="font-bold mt-6 mb-2">Roles:</p>
+  <ul class="list-disc pl-6 mb-4">
+    <li>Primary: CIO</li>
+    <li>Secondary: CEO, head of payments, LOB banking function, VP customer support, call center operations, commercial banking executive, retail banking executive</li>
+  </ul>
+
+  <p class="font-bold mt-6 mb-2">Questions to Ask:</p>
+  <ul class="list-disc pl-6 mb-4">
+    <li>How is your business able to expand into new markets quickly?</li>
+    <li>How effective are your current solutions for reducing fraud and increasing operational efficiency?</li>
+    <li>Are your current operations able to support building new products with agility and serve today’s real-time economy?</li>
+    <li>How quickly and securely can you onboard new customers?</li>
+    <li>How efficient is your payments system? Are you able to approximate real-time execution?</li>
+    <li>How does your business put its data to work effectively to better serve customers/clients?</li>
+    <li>What insights do you need to transform working capital products?</li>
+    <li>What historical data and predictive insights do you use to drive your business?</li>
+  </ul>
+
+  <p><a class="text-blue font-semibold" target="_blank" href="https://industryhub.transform.microsoft.com/enterprise-commercial/financial-services?tab=overview">Learn More</a> about this Industry Pillar</p>
+</div>
+
+
+
+
+        `
 
         ,
         use_cases: [
@@ -1415,7 +1423,8 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
                     'Bot Framework',
                     'Luis'
                   ],
-                  proposedTechnicalSolution: ['Reduce human intervention and automate extraction of data from large and complex structured and unstructured documents to unlock insights and enable users to find key data points',]
+                  // proposed_technical_solution
+                  proposed_technical_solution: ['Reduce human intervention and automate extraction of data from large and complex structured and unstructured documents to unlock insights and enable users to find key data points']
                 },
 
                 idealCostomerProfile : {
@@ -1426,7 +1435,7 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
                   budget: '',
                   image : DocumentProcessAutomation,
                   image_subtitle : 'Business  Architecture: Document Process Automation',
-                  image_link : ''
+                  image_link : 'https://microsofteur.sharepoint.com/:p:/t/HQDataAIIndustryTeam/EWNlQ1ANRcVDlXfdCxUFBTQBWEP9WTaU5zgtsDzJw_d7Nw?e=TmTgYA'
                 },
 
                 partners : [
@@ -1501,7 +1510,7 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
                     'Azure Web Apps',
                     'Power BI'
                   ],
-                  proposedTechnicalSolution: ['Search through structured and unstructured documents to quickly find the most relevant information and documents including areas with compliance risk.']
+                  proposed_technical_solution: ['Search through structured and unstructured documents to quickly find the most relevant information and documents including areas with compliance risk.']
                 },
 
                 idealCostomerProfile : {
@@ -1512,7 +1521,7 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
                   budget: '',
                   image : InformationDiscoveryAndManagement,
                   image_subtitle : 'Business  Architecture: Information Discovery and Management',
-                  image_link : ''
+                  image_link : 'https://microsofteur.sharepoint.com/:p:/t/HQDataAIIndustryTeam/EWNlQ1ANRcVDlXfdCxUFBTQBWEP9WTaU5zgtsDzJw_d7Nw?e=TmTgYA'
                 },
 
                 partners : [
@@ -1580,7 +1589,7 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
                   ],
                   other_notable_attributes:[],
                   products : [],
-                  proposedTechnicalSolution: [
+                  proposed_technical_solution: [
                     'Scale high volumes of transactional data at any time accurately and reliably',
                   ],
                 },
@@ -1593,7 +1602,7 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
                   budget: '',
                   image : automated_quality_inspection,
                   image_subtitle : 'Business  Architecture: Transaction Processing at Any Scale',
-                  image_link : ''
+                  image_link : 'https://microsofteur.sharepoint.com/:p:/t/HQDataAIIndustryTeam/EWNlQ1ANRcVDlXfdCxUFBTQBWEP9WTaU5zgtsDzJw_d7Nw?e=TmTgYA'
                 },
 
                 partners : [
@@ -1672,7 +1681,7 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
                     'Form Recognizer',
                     'Luis'
                   ],
-                  proposedTechnicalSolution: [
+                  proposed_technical_solution: [
                     'Handle claims processing through an intelligent agent with cognitive skills to handle image, ID, and documents with the goal to reduce claims processing time and manual effort in end-to-end claims processing for better customer experience',
                     'Provide capability to recognize document type, extract required fields, and push data to downstream applications, significantly reducing manual efforts and creating smoother customer experience'
                   ],
@@ -1686,7 +1695,7 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
                   budget: '',
                   image : AIPoweredInsuranceClaimsAutomation,
                   image_subtitle : 'Business  Architecture: AI-Powered Insurance Claims Automation',
-                  image_link : ''
+                  image_link : 'https://microsofteur.sharepoint.com/:p:/t/HQDataAIIndustryTeam/EWNlQ1ANRcVDlXfdCxUFBTQBWEP9WTaU5zgtsDzJw_d7Nw?e=TmTgYA'
                 },
 
                 partners : [
@@ -1724,42 +1733,57 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
         id: crypto.randomUUID(),
         title: "Transform the Banking Experience",
         content: `
-            
-          <p>
-          <b>Transform the banking experience:  </b>Deliver differentiated customer experiences through deeper insights and relationships.
-        </p>
-        <p>
-        <b>Customer challenges  </b> Explosive growth in customer data but limited insights
-        Customers are more sophisticated and want more personalization
-        Customers value their time and want intelligent solutions
-        Lack of consistent experience across channels
-        Legacy systems modernization
-        </p>
-        <p>
-        <b>Key business outcomes</b> Use a 360-degree customer view to create more personalized and relevant experiences.
-        Enrich customer understanding with insights from banking data, social, life events, and other sources.
-        Use predictive analytics to anticipate and proactively provide more relevant banking products and offers.
-        Enable faster and more cost-effective interactions with the help of AI and automation across key channels.
-        Employ a banking-specific data model to roll out new services faster, including onboarding and referrals.
-        </p>
+        <div>
+  <p class="font-bold">
+    Transform the banking experience: 
+  </p>
+  <p  class="py-2">Deliver differentiated customer experiences through deeper insights and relationships.</p>
+  <p class="my-2">
+    <span class="font-bold">Customer challenges:</span>
+    <ul class="list-disc pl-6 mb-4">
+      <li>Explosive growth in customer data but limited insights</li>
+      <li>Customers are more sophisticated and want more personalization</li>
+      <li>Customers value their time and want intelligent solutions</li>
+      <li>Lack of consistent experience across channels</li>
+      <li>Legacy systems modernization</li>
+    </ul>
+  </p>
+  <p class="my-2">
+    <span class="font-bold">Key business outcomes:</span>
+    <ul class="list-disc pl-6 mb-4">
+      <li>Use a 360-degree customer view to create more personalized and relevant experiences.</li>
+      <li>Enrich customer understanding with insights from banking data, social, life events, and other sources.</li>
+      <li>Use predictive analytics to anticipate and proactively provide more relevant banking products and offers.</li>
+      <li>Enable faster and more cost-effective interactions with the help of AI and automation across key channels.</li>
+      <li>Employ a banking-specific data model to roll out new services faster, including onboarding and referrals.</li>
+    </ul>
+  </p>
+  <p class="my-2">
+    <span class="font-bold">Roles:</span>
+    Primary: Head of retail/commercial banking, head of customer experience<br>
+    Secondary: Head of customer care, head of contact center, head of channels, head of strategy, head of transformation
+  </p>
+  <p class="my-2">
+    <span class="font-bold">Key questions to ask:</span>
+  </p>
+  <ul class="list-disc pl-6 mb-4">
+    <li>How does your organization consolidate and unify its information about customers across departments and channels?</li>
+    <li>How are you leveraging a 360-degree customer/household view including all related activities, communications, and interactions?</li>
+    <li>How is your organization able to consistently offer proactive, relevant products and offers aligned to your customers’ needs and interests?</li>
+    <li>How do you identify key trends and patterns across your customer base and employ predictive models to take advantage of latent opportunities?</li>
+    <li>How do you use AI within our contact center to improve both the customer and agent experience?</li>
+    <li>What kind of plans do you have for harnessing the power of generative AI in your customer journey?</li>
+    <li>What insights can help your service team enhance customer experience?</li>
+  </ul>
+  <p class="my-2">
+    <a class="text-blue font-semibold" target="_blank" href="https://industryhub.transform.microsoft.com/enterprise-commercial/financial-services?tab=overview">Learn More</a> about this Industry Pillar
+  </p>
+</div>
 
-        <p>
-        <b> 
-        Roles </b>
 
-        Primary: Head of retail/commercial banking, head of customer experience  Secondary: Head of customer care, head of contact center, head of channels, head of strategy, head of transformation
-        <p><b>Key questions to ask
-        </b>How does your organization consolidate and unify its information about customers across departments and channels?
-        How are you leveraging a 360-degree customer/household view including all related activities, communications, and interactions?
-        How is your organization able to consistently offer proactive, relevant products and offers aligned to your customers’ needs and interests?
-        How do you identify key trends and patterns across your customer base and employ predictive models to take advantage of latent opportunities?
-        How do you use AI within our contact center to improve both the customer and agent experience?
-        What kind of plans do you have for harnessing the power of generative AI in your customer journey?
-        What insights can help your service team enhance customer experience?
 
-        
-        </p>       
-        <p><a className="text-blue font-semibold" target="_blank" href="https://industryhub.transform.microsoft.com/enterprise-commercial/financial-services?tab=overview"> Learn More </a>  about this Industry Pillar</p>`,
+
+`,
 
 
 
@@ -1808,7 +1832,7 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
                     'Resolve user and customer queries without human intervention across multiple channels, including voice-enabled support'
                   ],
                   products :['Resolve user and customer queries without human intervention across multiple channels, including voice enabled support.'],
-                  proposedTechnicalSolution: ['Resolve user and customer queries without human intervention across multiple channels, including voice-enabled support',]
+                  proposed_technical_solution: ['Resolve user and customer queries without human intervention across multiple channels, including voice-enabled support',]
                 },
 
                 idealCostomerProfile : {
@@ -1819,7 +1843,7 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
                   budget: '',
                   image : ServiceAndSupportBot,
                   image_subtitle : 'Business  Architecture:Service and Support Bot' ,
-                  image_link : ''
+                  image_link : 'https://microsofteur.sharepoint.com/:p:/t/HQDataAIIndustryTeam/EWNlQ1ANRcVDlXfdCxUFBTQBWEP9WTaU5zgtsDzJw_d7Nw?e=TmTgYA'
                 },
 
                 partners : [
@@ -1896,7 +1920,7 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
                     'Azure SQL',
                     'Azure Storage'
                   ],
-                  proposedTechnicalSolution: [
+                  proposed_technical_solution: [
                     'Automate call transcriptions for real-time and previously recorded calls by using custom speech models, text analytics, and industry-specific natural language processing.',
                     'Data insight on customer sentiment, topic analysis, and other valuable call attributes are served up in a user-friendly visual dashboard in Power BI.'
                   ],
@@ -1910,7 +1934,7 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
                   budget: '',
                   image : AIPoweredCallCenterIntelligence,
                   image_subtitle : 'Business  Architecture: AI-Powered Call Center Intelligence',
-                  image_link : ''
+                  image_link : 'https://microsofteur.sharepoint.com/:p:/t/HQDataAIIndustryTeam/EWNlQ1ANRcVDlXfdCxUFBTQBWEP9WTaU5zgtsDzJw_d7Nw?e=TmTgYA'
                 },
 
                 partners : [
@@ -1985,7 +2009,7 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
                     'Azure Machine Learning',
                     'PowerApps'
                   ],
-                  proposedTechnicalSolution: [
+                  proposed_technical_solution: [
                     'Ingest customer complaints from a variety of designated platforms (email, social media, review sites, etc.) and intelligently classify these complaints while surfacing them to the correct support agent for quick resolution',
                     'Finding similar previously resolved complaints as a reference for the support agents'
                   ],
@@ -1999,7 +2023,7 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
                   budget: '',
                   image : CustomerComplaintManagement,
                   image_subtitle : 'Business  Architecture: Customer Complaint Management',
-                  image_link : ''
+                  image_link : 'https://microsofteur.sharepoint.com/:p:/t/HQDataAIIndustryTeam/EWNlQ1ANRcVDlXfdCxUFBTQBWEP9WTaU5zgtsDzJw_d7Nw?e=TmTgYA'
                 },
 
                 partners : [
@@ -2039,38 +2063,49 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
         id: crypto.randomUUID(),
         title: "Manage Risk & Compliance",
         content: `
-            
-          <p>
-          <b>Manage risk and compliance:   </b> Deepen risk insights, facilitate regulatory compliance, and combat financial crime.
+      <div >
+  <p class="font-bold">
+    Manage risk and compliance: 
+  </p>
+  <p class="py-2">Deepen risk insights, facilitate regulatory compliance, and combat financial crime.</p>
+  <p class="my-2">
+    <span class="font-bold">Customer challenges:</span>
+    <ul class="list-disc pl-6 mb-4">
+      <li>Risk models take too long to run</li>
+      <li>Improving risk model accuracy</li>
+      <li>Regulatory changes severely impacting efficiency and timely compliance</li>
+      <li>High infrastructure costs related to risk workloads</li>
+      <li>Quickly identifying new criminal transaction patterns and anomalies</li>
+      <li>Complex transaction monitoring and sanction-screening requirements</li>
+      <li>Need for flexible tools to minimize false alerts</li>
+      <li>Uncovering criminal activity in payment types from small and real-time to large-value transactions</li>
+    </ul>
+  </p>
+  <p class="my-2">
+    <span class="font-bold">Roles:</span>
+    <ul class="list-disc pl-6 mb-4">
+      <li>Primary: Chief risk officer</li>
+      <li>Secondary: Chief compliance officer, chief information security officer, head of fraud</li>
+    </ul>
+  </p>
+  <p class="my-2">
+    <span class="font-bold">Questions to Ask:</span>
+  </p>
+  <ul class="list-disc pl-6 mb-4">
+    <li>How are different teams using data from disparate systems to make decisions?</li>
+    <li>How do you support increased spikes in risk modeling?</li>
+    <li>What advanced analytics do you employ for risk?</li>
+    <li>What tools do you depend on to react to market conditions?</li>
+    <li>What tools do you use to monitor transaction anomalies?</li>
+    <li>How are you looking at fraud to protect your bank while balancing controls that could impede growth?</li>
+  </ul>
+  <p>
+    <a class="text-blue font-semibold" target="_blank" href="https://industryhub.transform.microsoft.com/enterprise-commercial/financial-services?tab=overview">Learn More</a> about this Industry Pillar
+  </p>
+</div>
 
-        </p>
-        <p>
-        <b>Customer challenges  </b> • Risk models take too long to run
-        Improving risk model accuracy
-        Regulatory changes severely impacting efficiency and timely compliance
-        High infrastructure costs related to risk workloads
-        Quickly identifying new criminal transaction patterns and anomalies
-        Complex transaction monitoring and sanction-screening requirements
-        Need for flexible tools to minimize false alerts
-        Uncovering criminal activity in payment types from small and real-time to large-value transactions
-        </p>
-        <p>
-        <b>Roles</b> Primary: Chief risk officer
-        Secondary: Chief compliance officer, chief information security officer, head of fraud
 
-        </p>
-
-       
-        <p><b>Questions to Ask </b>How are different teams using data from disparate systems to make decisions?
-        How do you support increased spikes in risk modeling?
-        What advance analytics do you employ for risk?
-        What tools do you depend on to react to market conditions?
-        What tools do you use to monitor transaction anomalies?
-        How are you looking at fraud to protect your bank while balancing controls that could impede growth?
-
-        
-        </p>       
-        <p><a className="text-blue font-semibold" target="_blank" href="https://industryhub.transform.microsoft.com/enterprise-commercial/financial-services?tab=overview"> Learn More </a>  about this Industry Pillar</p>`,
+        `,
 
         use_cases: [
           {
@@ -2117,7 +2152,7 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
                     'Azure Cosmos DB',
                     'Power BI'
                   ],
-                  proposedTechnicalSolution: ['Identify risk of fraud or fraud-associated activities including phone calls, credit card transactions, money laundering, and online purchases with real-time analysis and streaming data.',]
+                  proposed_technical_solution: ['Identify risk of fraud or fraud-associated activities including phone calls, credit card transactions, money laundering, and online purchases with real-time analysis and streaming data.',]
                 },
 
                 idealCostomerProfile : {
@@ -2128,7 +2163,7 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
                   budget: '',
                   image : fraud_detection_and_transaction_monitoring,
                   image_subtitle : 'Business  Architecture: Fraud Detection and Transaction Monitoring',
-                  image_link : ''
+                  image_link : 'https://microsofteur.sharepoint.com/:p:/t/HQDataAIIndustryTeam/EWNlQ1ANRcVDlXfdCxUFBTQBWEP9WTaU5zgtsDzJw_d7Nw?e=TmTgYA'
                 },
 
                 partners : [
@@ -2202,7 +2237,7 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
                     'Azure Data Lake Storage',
                     'Synapse Analytics'
                   ],
-                  proposedTechnicalSolution: [
+                  proposed_technical_solution: [
                     'Use predictive analytics and machine learning to estimate the optimal loan size that the SBA will approve for a given applicant',
                     'Automate process for accelerating loan approval and rejection process and providing right-size loans',
                     'Increase the likelihood of complete and timely payments to ensure compliance with SBA guidelines'
@@ -2217,7 +2252,7 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
                   budget: '',
                   image : RiskClassificationAndLoanModeling,
                   image_subtitle : 'Business  Architecture: Risk Classification and Loan Modeling',
-                  image_link : ''
+                  image_link : 'https://microsofteur.sharepoint.com/:p:/t/HQDataAIIndustryTeam/EWNlQ1ANRcVDlXfdCxUFBTQBWEP9WTaU5zgtsDzJw_d7Nw?e=TmTgYA'
                 },
 
                 partners : [
@@ -2255,48 +2290,60 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
         id: crypto.randomUUID(),
         title: "Empower Banking Employees",
         content: `
-            
-          <p>
-          <b>Empower banking employees: </b> Improve productivity through better teamwork, insights, and communications.
+        <div >
+  <p>
+    <span class="font-bold">Empower banking employees:</span> 
+  </p>
+  <p class="py-2">Improve productivity through better teamwork, insights, and communications.</p>
+  <p class="my-2">
+    <span class="font-bold">Customer challenges:</span>
+    <ul class="list-disc pl-6 mb-4">
+      <li>Stagnant or declining staff productivity and organizational efficiency</li>
+      <li>Lack of collaboration across departments and teams</li>
+      <li>Difficulty in supporting remote and hybrid work scenarios</li>
+      <li>Lack of unified communication tools and/or platform across the organization</li>
+      <li>High employee dissatisfaction and attrition</li>
+      <li>High cost to train and onboard employees</li>
+      <li>Insufficient focus on accessibility, inclusion, and well-being</li>
+    </ul>
+  </p>
+  <p class="my-2">
+    <span class="font-bold">Key business outcomes:</span>
+    <ul class="list-disc pl-6 mb-4">
+      <li>Break down silos to enable secure, cross-group collaboration across front, mid, and back offices.</li>
+      <li>Enhance accessibility and usability of relevant information while meeting regulatory requirements.</li>
+      <li>Foster inclusion and well-being by optimizing work-life integration through data-driven insights.</li>
+      <li>Untether bankers to be productive and collaborative anywhere on secure mobile devices.</li>
+      <li>Enable real-time employee engagement and live events with a suite of modern communication tools.</li>
+      <li>Streamline key processes, improve productivity, and reduce operational costs with automation, self-service tools, and low-code apps.</li>
+      <li>Improve operational agility with real-time business insights and key predictive trends and patterns.</li>
+    </ul>
+  </p>
+  <p class="my-2">
+    <span class="font-bold">Roles:</span>
+    <ul class="list-disc pl-6 mb-4">
+      <li>Primary: Head of retail and/or corporate/commercial banking, COO, CTO, head of HR</li>
+      <li>Secondary: Head of digital innovation, head of workplace, head of strategy/transformation, IT manager</li>
+    </ul>
+  </p>
+  <p class="my-2">
+    <span class="font-bold">Key questions to ask:</span>
+  </p>
+  <ul class="list-disc pl-6 mb-4">
+    <li>What is your plan for improving the employee experience as you implement a hybrid workplace?</li>
+    <li>How does personnel burnout factor into your plans to improve the employee experience?</li>
+    <li>Do you have manual or paper-based processes that could be automated?</li>
+    <li>How easy is it for employees to access the resources and engage their colleagues to achieve their business goals?</li>
+    <li>Is your workforce adequately trained and productive in using the latest tools and technologies available to them?</li>
+    <li>What are your plans for employing or evaluating generative AI to improve banker productivity and empower your employees?</li>
+    <li>How do you promote inclusion and employee well-being across your organization?</li>
+  </ul>
+  <p>
+    <a class="text-blue font-semibold" target="_blank" href="https://industryhub.transform.microsoft.com/enterprise-commercial/financial-services?tab=overview">Learn More</a> about this Industry Pillar
+  </p>
+</div>
 
-        </p>
-        <p>
-        <b>Customer challenges </b> Stagnant or declining staff productivity and organizational efficiency
-        Lack of collaboration across departments and teams
-        Difficulty in supporting remote and hybrid work scenarios
-        Lack of unified communication tools and/or platform across the organization
-        High employee dissatisfaction and attrition
-        High cost to train and onboard employees
-        Insufficient focus on accessibility, inclusion, and wellbeing
-        </p>
-        <p>
-        <b>Key business outcomes</b>Break down silos to enable secure, cross-group collaboration across front, mid, and back offices.
-        Enhance accessibility and usability of relevant information while meeting regulatory requirements.
-        Foster inclusion and wellbeing by optimizing work-life integration through data-driven insights.
-        Untether bankers to be productive and collaborative anywhere on secure mobile devices.
-        Enable real-time employee engagement and live events with a suite of modern communication tools.
-        Streamline key processes, improve productivity, and reduce operational costs with automation, self-service tools, and low-code apps.
-        Improve operational agility with real-time business insights and key predictive trends and patterns.
-
-        </p>
-
-        <p>
-        <b>Roles </b>
-
-        Primary: Head of retail and/or corporate/commercial banking, COO, CTO, head of HR
-        Secondary: Head of digital innovation, head of workplace, head of strategy/transformation, IT manager
-        </p>
-
-        <p><b>Key questions to ask </b>What is your plan for improving the employee experience as you implement a hybrid workplace?
-        How does personnel burnout factor into your plans to improve the employee experience?
-        Do you have manual or paper-based processes that could be automated?
-        How easy is it for employees to access the resources and engage their colleagues to achieve their business goals?
-        Is your workforce adequately trained and productive in using the latest tools and technologies available to them?
-        What are your plans for employing or evaluating generative AI to improve banker productivity and empower your employees?
-        How do you promote inclusion and employee well-being across your organization?
-        
-        </p>       
-        <p><a className="text-blue font-semibold" target="_blank" href="https://industryhub.transform.microsoft.com/enterprise-commercial/financial-services?tab=overview"> Learn More </a>  about this Industry Pillar</p>`,
+      `,
 
         use_cases: [
           {
@@ -2353,7 +2400,7 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
                     'Bot Framework',
                     'Luis'
                   ],
-                  proposedTechnicalSolution: ['Reduce human intervention and automate extraction of data from large and complex structured and unstructured documents to unlock insights and enable users to find key data points',]
+                  proposed_technical_solution: ['Reduce human intervention and automate extraction of data from large and complex structured and unstructured documents to unlock insights and enable users to find key data points',]
                 },
 
                 idealCostomerProfile : {
@@ -2364,7 +2411,7 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
                   budget: '',
                   image : DocumentProcessAutomation,
                   image_subtitle : 'Business  Architecture: Document Process Automation',
-                  image_link : ''
+                  image_link : 'https://microsofteur.sharepoint.com/:p:/t/HQDataAIIndustryTeam/EWNlQ1ANRcVDlXfdCxUFBTQBWEP9WTaU5zgtsDzJw_d7Nw?e=TmTgYA'
                 },
 
                 partners : [
@@ -2406,7 +2453,7 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
         title: "All Use Cases",
         link: "all_use_cases",
         content: `
-      <p className="font-bold"> Financial Services </p>
+      <p className="font-bold"> Financial Services Industry</p>
         `,
         use_cases: [
           {
@@ -2463,7 +2510,7 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
                     'Bot Framework',
                     'Luis'
                   ],
-                  proposedTechnicalSolution: ['Reduce human intervention and automate extraction of data from large and complex structured and unstructured documents to unlock insights and enable users to find key data points',]
+                  proposed_technical_solution: ['Reduce human intervention and automate extraction of data from large and complex structured and unstructured documents to unlock insights and enable users to find key data points',]
                 },
 
                 idealCostomerProfile : {
@@ -2474,7 +2521,7 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
                   budget: '',
                   image : DocumentProcessAutomation,
                   image_subtitle : 'Business  Architecture: Document Process Automation',
-                  image_link : ''
+                  image_link : 'https://microsofteur.sharepoint.com/:p:/t/HQDataAIIndustryTeam/EWNlQ1ANRcVDlXfdCxUFBTQBWEP9WTaU5zgtsDzJw_d7Nw?e=TmTgYA'
                 },
 
                 partners : [
@@ -2549,7 +2596,7 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
                     'Azure Web Apps',
                     'Power BI'
                   ],
-                  proposedTechnicalSolution: ['Search through structured and unstructured documents to quickly find the most relevant information and documents including areas with compliance risk.']
+                  proposed_technical_solution: ['Search through structured and unstructured documents to quickly find the most relevant information and documents including areas with compliance risk.']
                 },
 
                 idealCostomerProfile : {
@@ -2560,7 +2607,7 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
                   budget: '',
                   image : InformationDiscoveryAndManagement,
                   image_subtitle : 'Business  Architecture: Information Discovery and Management',
-                  image_link : ''
+                  image_link : 'https://microsofteur.sharepoint.com/:p:/t/HQDataAIIndustryTeam/EWNlQ1ANRcVDlXfdCxUFBTQBWEP9WTaU5zgtsDzJw_d7Nw?e=TmTgYA'
                 },
 
                 partners : [
@@ -2628,7 +2675,7 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
                   ],
                   other_notable_attributes:[],
                   products : [],
-                  proposedTechnicalSolution: [
+                  proposed_technical_solution: [
                     'Scale high volumes of transactional data at any time accurately and reliably',
                   ],
                 },
@@ -2641,7 +2688,7 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
                   budget: '',
                   image : automated_quality_inspection,
                   image_subtitle : 'Business  Architecture: Transaction Processing at Any Scale',
-                  image_link : ''
+                  image_link : 'https://microsofteur.sharepoint.com/:p:/t/HQDataAIIndustryTeam/EWNlQ1ANRcVDlXfdCxUFBTQBWEP9WTaU5zgtsDzJw_d7Nw?e=TmTgYA'
                 },
 
                 partners : [
@@ -2720,7 +2767,7 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
                     'Form Recognizer',
                     'Luis'
                   ],
-                  proposedTechnicalSolution: [
+                  proposed_technical_solution: [
                     'Handle claims processing through an intelligent agent with cognitive skills to handle image, ID, and documents with the goal to reduce claims processing time and manual effort in end-to-end claims processing for better customer experience',
                     'Provide capability to recognize document type, extract required fields, and push data to downstream applications, significantly reducing manual efforts and creating smoother customer experience'
                   ],
@@ -2734,7 +2781,7 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
                   budget: '',
                   image : AIPoweredInsuranceClaimsAutomation,
                   image_subtitle : 'Business  Architecture: AI-Powered Insurance Claims Automation',
-                  image_link : ''
+                  image_link : 'https://microsofteur.sharepoint.com/:p:/t/HQDataAIIndustryTeam/EWNlQ1ANRcVDlXfdCxUFBTQBWEP9WTaU5zgtsDzJw_d7Nw?e=TmTgYA'
                 },
 
                 partners : [
@@ -2809,7 +2856,7 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
                     'Resolve user and customer queries without human intervention across multiple channels, including voice-enabled support'
                   ],
                   products :['Resolve user and customer queries without human intervention across multiple channels, including voice enabled support.'],
-                  proposedTechnicalSolution: ['Resolve user and customer queries without human intervention across multiple channels, including voice-enabled support',]
+                  proposed_technical_solution: ['Resolve user and customer queries without human intervention across multiple channels, including voice-enabled support',]
                 },
 
                 idealCostomerProfile : {
@@ -2820,7 +2867,7 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
                   budget: '',
                   image : ServiceAndSupportBot,
                   image_subtitle : 'Business  Architecture:Service and Support Bot' ,
-                  image_link : ''
+                  image_link : 'https://microsofteur.sharepoint.com/:p:/t/HQDataAIIndustryTeam/EWNlQ1ANRcVDlXfdCxUFBTQBWEP9WTaU5zgtsDzJw_d7Nw?e=TmTgYA'
                 },
 
                 partners : [
@@ -2897,7 +2944,7 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
                     'Azure SQL',
                     'Azure Storage'
                   ],
-                  proposedTechnicalSolution: [
+                  proposed_technical_solution: [
                     'Automate call transcriptions for real-time and previously recorded calls by using custom speech models, text analytics, and industry-specific natural language processing.',
                     'Data insight on customer sentiment, topic analysis, and other valuable call attributes are served up in a user-friendly visual dashboard in Power BI.'
                   ],
@@ -2911,7 +2958,7 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
                   budget: '',
                   image : AIPoweredCallCenterIntelligence,
                   image_subtitle : 'Business  Architecture: AI-Powered Call Center Intelligence',
-                  image_link : ''
+                  image_link : 'https://microsofteur.sharepoint.com/:p:/t/HQDataAIIndustryTeam/EWNlQ1ANRcVDlXfdCxUFBTQBWEP9WTaU5zgtsDzJw_d7Nw?e=TmTgYA'
                 },
 
                 partners : [
@@ -2986,7 +3033,7 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
                     'Azure Machine Learning',
                     'PowerApps'
                   ],
-                  proposedTechnicalSolution: [
+                  proposed_technical_solution: [
                     'Ingest customer complaints from a variety of designated platforms (email, social media, review sites, etc.) and intelligently classify these complaints while surfacing them to the correct support agent for quick resolution',
                     'Finding similar previously resolved complaints as a reference for the support agents'
                   ],
@@ -3000,7 +3047,7 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
                   budget: '',
                   image : CustomerComplaintManagement,
                   image_subtitle : 'Business  Architecture: Customer Complaint Management',
-                  image_link : ''
+                  image_link : 'https://microsofteur.sharepoint.com/:p:/t/HQDataAIIndustryTeam/EWNlQ1ANRcVDlXfdCxUFBTQBWEP9WTaU5zgtsDzJw_d7Nw?e=TmTgYA'
                 },
 
                 partners : [
@@ -3075,7 +3122,7 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
                     'Azure Cosmos DB',
                     'Power BI'
                   ],
-                  proposedTechnicalSolution: ['Identify risk of fraud or fraud-associated activities including phone calls, credit card transactions, money laundering, and online purchases with real-time analysis and streaming data.',]
+                  proposed_technical_solution: ['Identify risk of fraud or fraud-associated activities including phone calls, credit card transactions, money laundering, and online purchases with real-time analysis and streaming data.',]
                 },
 
                 idealCostomerProfile : {
@@ -3086,7 +3133,7 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
                   budget: '',
                   image : fraud_detection_and_transaction_monitoring,
                   image_subtitle : 'Business  Architecture: Fraud Detection and Transaction Monitoring',
-                  image_link : ''
+                  image_link : 'https://microsofteur.sharepoint.com/:p:/t/HQDataAIIndustryTeam/EWNlQ1ANRcVDlXfdCxUFBTQBWEP9WTaU5zgtsDzJw_d7Nw?e=TmTgYA'
                 },
 
                 partners : [
@@ -3160,7 +3207,7 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
                     'Azure Data Lake Storage',
                     'Synapse Analytics'
                   ],
-                  proposedTechnicalSolution: [
+                  proposed_technical_solution: [
                     'Use predictive analytics and machine learning to estimate the optimal loan size that the SBA will approve for a given applicant',
                     'Automate process for accelerating loan approval and rejection process and providing right-size loans',
                     'Increase the likelihood of complete and timely payments to ensure compliance with SBA guidelines'
@@ -3175,7 +3222,7 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
                   budget: '',
                   image : RiskClassificationAndLoanModeling,
                   image_subtitle : 'Business  Architecture: Risk Classification and Loan Modeling',
-                  image_link : ''
+                  image_link : 'https://microsofteur.sharepoint.com/:p:/t/HQDataAIIndustryTeam/EWNlQ1ANRcVDlXfdCxUFBTQBWEP9WTaU5zgtsDzJw_d7Nw?e=TmTgYA'
                 },
 
                 partners : [
@@ -3239,7 +3286,7 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
         <p>Operational analytics: Gain insights to help optimize operational effectiveness</p>
         
         <p className="font-bold mt-6 mb-2">Roles</p>
-        <ul>
+       <ul class="list-disc pl-6 mb-4">
           <li>COO, VP/Dir. Of Ops</li>
           <li>CTO/Head of IT/Development Leaders</li>
           <li>Chief digital officer</li>
@@ -3247,7 +3294,7 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
         </ul>
         
         <p className="font-bold mt-6 mb-2">Challenges</p>
-        <ul>
+       <ul class="list-disc pl-6 mb-4">
           <li>Managing a fragmented ecosystem of data, applications, and devices</li>
           <li>Managing changing technology and legacy systems</li>
           <li>Lack of consolidated and real-time financial data to assess performance and opportunities</li>
@@ -3258,15 +3305,16 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
         <p>Leverage insights to improve patient care by connecting data from multiple sources and using predictive analytics for data modeling and identifying clinical trends.</p>
         
         <p className="font-bold mt-6 mb-2">Questions to Ask</p>
-        <ul>
+       <ul class="list-disc pl-6 mb-4">
           <li>How do you ensure that you have the right resources - inventory, people, equipment - at the right place at the right time?</li>
           <li>Are different teams using data from disparate systems to make decisions?</li>
           <li>How are you using IT as an entry point to qualify for strategic initiatives like population health?</li>
           <li>Does the technology you're using today preserve the integrity of patient records as physicians are measured on accuracy and compliance audits?</li>
         </ul>
 
-        <p><a className="text-blue font-semibold" target="_blank" href="https://industryhub.transform.microsoft.com/solution-plays"> Learn More </a>  about this Industry Pillar</p>
-      </div>`,
+        <p classname="mt-3"><a className="text-blue font-semibold" target="_blank" href="https://industryhub.transform.microsoft.com/solution-plays"> Learn More </a>  about this Industry Pillar</p>
+     
+        `,
         use_cases: [
 
           // todo :: Clinical Analytics and Decision Support (Patient Risk)
@@ -3279,7 +3327,7 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
               {
                 subtitle: "Overview",
                 link: "",
-                desc: "",
+                desc: "Clinical analytics involve predictive analytics, processing patient data to discover insights and identify correlations, thereby assisting providers in suggesting actions and treatments based on patient risk factors. Patients receive personalized care and optimized treatment plans (precision medicine) via web or mobile.",
                 keyHighlights: {
                   decision_makers: [
                     'Primary: Chief Medical Officer, Chief Science Officer, Chief Data Officer'
@@ -3303,7 +3351,7 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
                     'Variation in care and quality of outcomes is high',
                     'Burnout among staff is high, demanding workloads and schedules'
                   ],
-                  proposed_technical_solution: [],
+                  proposed_technical_solution: ['Clinical analytics involve predictive analytics, processing patient data to discover insights and identify correlations, thereby assisting providers in suggesting actions and treatments based on patient risk factors. Patients receive personalized care and optimized treatment plans (precision medicine) via web or mobile.'],
                   other_notable_attributes: [],
                   products: [
                     'Azure Machine Learning',
@@ -3324,7 +3372,7 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
                   budget: "",
                   image: clinical_analytics_and_decision_support_patient_risk,
                   image_subtitle: "Business  Architecture: Clinical Analytics and Decision Support (Patient Risk)",
-                  image_link: "",
+                  image_link: "https://microsofteur.sharepoint.com/:p:/t/HQDataAIIndustryTeam/EZD_Yfurw3tIlmrT116fCCIBW9Ij3u4nVincdAYcEqI44A?e=U6lC4f",
                 },
                 partners: [
                   {
@@ -3417,7 +3465,7 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
                   budget: "",
                   image: document_process_automation_healtcare,
                   image_subtitle: "Business  Architecture: Document Process Automation ",
-                  image_link: "",
+                  image_link: "https://microsofteur.sharepoint.com/:p:/t/HQDataAIIndustryTeam/EZD_Yfurw3tIlmrT116fCCIBW9Ij3u4nVincdAYcEqI44A?e=U6lC4f",
                 },
                 partners: [
                   {
@@ -3494,14 +3542,14 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
                   products_tech_stack: []
                 },
                 idealCostomerProfile: {
-                  industries: "",
+                  industries: "Healtcare",
                   geography: "",
                   market_cap: "",
                   employees: "",
                   budget: "",
                   image: drug_discovery_and_research,
                   image_subtitle: "Business  Architecture: Drug Discovery and Research ",
-                  image_link: "",
+                  image_link: "https://microsofteur.sharepoint.com/:p:/t/HQDataAIIndustryTeam/EZD_Yfurw3tIlmrT116fCCIBW9Ij3u4nVincdAYcEqI44A?e=U6lC4f",
                 },
                 partners: [
                   {
@@ -3549,37 +3597,38 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
         id: crypto.randomUUID(),
         title: "Deliver Exceptional Patient Experiences",
         content: `
-        <div>
-      <p className="font-bold">Deliver Exceptional Patient Experiences: Deliver personalized experiences to engage patients in secure, individualized encounters through every point of care.</p>
-      
-      <p className="font-bold">Customer Scenarios</p>
-      <p>Personalized care: Build relationships through enhanced omnichannel experiences</p>
-      <p>Patient insights: Transform data into prescriptive insights</p>
-      <p>Virtual health: Provide new avenues for care</p>
-      
-      <p className="font-bold">Roles</p>
-      <ul>
-        <li>CEO, CXO or Clinical Leads</li>
-        <li>Chief experience officer, VP/Head of Marketing, Customer support</li>
-        <li>Chief Digital Officer</li>
-        <li>COO</li>
-      </ul>
-      
-      <p className="font-bold">Business Outcomes</p>
-      <p>Deliver personalized experiences to engage patients in secure, individualized encounters through every point of care.</p>
-      
-      <p className="font-bold">Questions to Ask</p>
-      <ul>
-        <li>Do you personalize and nurture patient interactions across the entire journey?</li>
-        <li>Do you have a method of easily escalating a support conversation from digital messaging to a more personal method?</li>
-        <li>Do you have every detail of your patients aggregated in a single view?</li>
-        <li>How do you measure and quantify patient satisfaction within your health system today?</li>
-      </ul>
-      
-      <p><a className="text-blue font-semibold" target="_blank" href="https://industryhub.transform.microsoft.com/solution-plays">Learn More</a> about this Industry Pillar</p>
-      
-   
-    </div>
+  <div>
+  <p class="font-bold mb-2">Deliver Exceptional Patient Experiences:</p>
+  <p>Deliver personalized experiences to engage patients in secure, individualized encounters through every point of care</p>
+
+  <p class="font-bold mt-6 mb-2">Customer Scenarios</p>
+  <p>Personalized care: Build relationships through enhanced omnichannel experiences</p>
+  <p>Patient insights: Transform data into prescriptive insights</p>
+  <p>Virtual health: Provide new avenues for care</p>
+
+  <p class="font-bold mt-6 mb-2">Roles</p>
+  <ul class="list-disc pl-6 mb-4">
+    <li>CEO, CXO or Clinical Leads</li>
+    <li>Chief experience officer, VP/Head of Marketing, Customer support</li>
+    <li>Chief Digital Officer</li>
+    <li>COO</li>
+  </ul>
+
+  <p class="font-bold mt-6 mb-2">Business Outcomes</p>
+  <p>Deliver personalized experiences to engage patients in secure, individualized encounters through every point of care.</p>
+
+  <p class="font-bold mt-6 mb-2">Questions to Ask</p>
+  <ul class="list-disc pl-6 mb-4">
+    <li>Do you personalize and nurture patient interactions across the entire journey?</li>
+    <li>Do you have a method of easily escalating a support conversation from digital messaging to a more personal method?</li>
+    <li>Do you have every detail of your patients aggregated in a single view?</li>
+    <li>How do you measure and quantify patient satisfaction within your health system today?</li>
+  </ul>
+
+  <p><a class="text-blue font-semibold" target="_blank" href="https://industryhub.transform.microsoft.com/solution-plays">Learn More</a> about this Industry Pillar</p>
+</div>
+
+
         
         `,
         use_cases: [
@@ -3628,7 +3677,7 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
                   budget: "",
                   image: service_and_support_bot_healthcare,
                   image_subtitle: "Business Architecture: Service and Support Bot",
-                  image_link: "",
+                  image_link: "https://microsofteur.sharepoint.com/:p:/t/HQDataAIIndustryTeam/EZD_Yfurw3tIlmrT116fCCIBW9Ij3u4nVincdAYcEqI44A?e=U6lC4f",
                 },
                 partners: [
                   {
@@ -3676,36 +3725,38 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
         id: crypto.randomUUID(),
         title: "Empower Your Healthcare Workforce",
         content: `
-        <div>
-        <p className="font-bold"> Reduce time spent documenting patient encounters and alleviate provider burnout through AI-powered solutions that drive more personal and accessible patient care</p>
-        
-        <p className="font-bold">Customer Scenarios</p>
-        <p>Ambient clinical intelligence: Automatically document patient encounters</p>
-        <p>Clinical documentation: Reduce administrative tasks and burnout</p>
-        <p>Diagnostic intelligence: Empower radiologists to drive action, quality, and efficiency</p>
-        
-        <p className="font-bold">Roles</p>
-        <ul>
-          <li>CEO, CXO or Clinical Leads</li>
-          <li>Chief experience officer, VP/Head of Marketing, Customer support</li>
-          <li>Chief Digital Officer</li>
-          <li>COO</li>
-        </ul>
-        
-        <p className="font-bold">Business Outcomes</p>
-        <p>Reduce time spent documenting patient encounters and alleviate provider burnout through AI-powered solutions that drive more personal and accessible patient care</p>
-        
-        <p className="font-bold">Questions to Ask</p>
-        <ul>
-          <li>How are you reducing complexity with clinician workflows?</li>
-          <li>How are you training staff on new technologies?</li>
-          <li>Are your teams able to stay productive and efficient with your existing tools?</li>
-          <li>Do you have manual or paper-based processes that could be automated?</li>
-          <li>Are your teams able to stay productive and efficient with your existing tools?</li>
-        </ul>
-        
-        <p><a className="text-blue font-semibold" target="_blank" href="https://industryhub.transform.microsoft.com/solution-plays">Learn More</a> about this Industry Pillar</p>
-      </div>
+       <div>
+       <p classname="font-bold mb-2"> Empower Your Healthcare Workforce </p>
+  <p >Reduce time spent documenting patient encounters and alleviate provider burnout through AI-powered solutions that drive more personal and accessible patient care</p>
+
+  <p class="font-bold mt-6 mb-2">Customer Scenarios</p>
+  <p>Ambient clinical intelligence: Automatically document patient encounters</p>
+  <p>Clinical documentation: Reduce administrative tasks and burnout</p>
+  <p>Diagnostic intelligence: Empower radiologists to drive action, quality, and efficiency</p>
+
+  <p class="font-bold mt-6 mb-2">Roles</p>
+ <ul class="list-disc pl-6 mb-4">
+    <li>CEO, CXO or Clinical Leads</li>
+    <li>Chief experience officer, VP/Head of Marketing, Customer support</li>
+    <li>Chief Digital Officer</li>
+    <li>COO</li>
+  </ul>
+
+  <p class="font-bold mt-6 mb-2">Business Outcomes</p>
+  <p>Reduce time spent documenting patient encounters and alleviate provider burnout through AI-powered solutions that drive more personal and accessible patient care</p>
+
+  <p class="font-bold mt-6 mb-2">Questions to Ask</p>
+ <ul class="list-disc pl-6 mb-4">
+    <li>How are you reducing complexity with clinician workflows?</li>
+    <li>How are you training staff on new technologies?</li>
+    <li>Are your teams able to stay productive and efficient with your existing tools?</li>
+    <li>Do you have manual or paper-based processes that could be automated?</li>
+    <li>Are your teams able to stay productive and efficient with your existing tools?</li>
+  </ul>
+
+  <p><a class="text-blue font-semibold" target="_blank" href="https://industryhub.transform.microsoft.com/solution-plays">Learn More</a> about this Industry Pillar</p>
+</div>
+
         
         `,
         use_cases: [
@@ -3746,14 +3797,14 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
                   products_tech_stack: []
                 },
                 idealCostomerProfile: {
-                  industries: "",
+                  industries: "Healthcare",
                   geography: "",
                   market_cap: "",
                   employees: "",
                   budget: "",
                   image: medical_device_and_equipment_tracking,
                   image_subtitle: "Business  Architecture: Medical Device and Equipment Tracking ",
-                  image_link: "",
+                  image_link: "https://microsofteur.sharepoint.com/:p:/t/HQDataAIIndustryTeam/EZD_Yfurw3tIlmrT116fCCIBW9Ij3u4nVincdAYcEqI44A?e=U6lC4f",
                 },
                 partners: [
                   {
@@ -3799,44 +3850,46 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
         id: crypto.randomUUID(),
         title: "Foster Health Team Collaboration",
         content: ` <div>
-        <p className="font-bold">Connect, engage, and efficiently manage your healthcare workforce with tools that help them provide the best possible care.</p>
-        
-        <p className="font-bold">Customer Scenarios</p>
-        <p>Care Coordination: Develop systems of care management with clinical intelligence and workflows</p>
-        <p>Care Team Collaboration: Optimize resources and solve problems collectively</p>
-        <p>Remote Patient Monitoring: Combine IoT and analytics to optimize treatments</p>
-        
-        <p className="font-bold">Roles</p>
-        <ul>
-          <li>CEO or Clinical Leads</li>
-          <li>Chief Medical/Nurse Officer</li>
-          <li>COO, VP/Dir. Of Ops</li>
-          <li>CTO/Head of IT/Development Leaders</li>
-        </ul>
-        
-        <p className="font-bold">Challenges</p>
-        <ul>
-          <li>Remote collaboration</li>
-          <li>Distributed workforce</li>
-          <li>Complex workflow management</li>
-          <li>Fragmented data</li>
-          <li>Siloed systems and applications that slow health team productivity</li>
-        </ul>
-        
-        <p className="font-bold">Business Outcomes</p>
-        <p>Connect, engage, and efficiently manage your healthcare workforce with tools that help them provide the best possible care.</p>
-        
-        <p className="font-bold">Questions to Ask</p>
-        <ul>
-          <li>Are your teams able to collaborate and stay productive with your existing tools?</li>
-          <li>Do your employees have access to the right training needed to perform their specific job function?</li>
-          <li>How aligned are teams across your organization?</li>
-          <li>Are you proactively giving care teams information to engage with their patients?</li>
-          <li>Do you have manual or paper-based processes that could be automated?</li>
-        </ul>
-        
-        <p><a className="text-blue font-semibold" target="_blank" href="https://industryhub.transform.microsoft.com/solution-plays">Learn More</a> about this Industry Pillar</p>
-      </div>`,
+  <p class="font-bold mb-2">Foster Health Team Collaboration</p> 
+  <p>Connect, engage, and efficiently manage your healthcare workforce with tools that help them provide the best possible care.</p>
+
+  <p class="font-bold mt-6 mb-2">Customer Scenarios</p>
+  <p>Care Coordination: Develop systems of care management with clinical intelligence and workflows</p>
+  <p>Care Team Collaboration: Optimize resources and solve problems collectively</p>
+  <p>Remote Patient Monitoring: Combine IoT and analytics to optimize treatments</p>
+
+  <p class="font-bold mt-6 mb-2">Roles</p>
+ <ul class="list-disc pl-6 mb-4">
+    <li>CEO or Clinical Leads</li>
+    <li>Chief Medical/Nurse Officer</li>
+    <li>COO, VP/Dir. Of Ops</li>
+    <li>CTO/Head of IT/Development Leaders</li>
+  </ul>
+
+  <p class="font-bold mt-6 mb-2">Challenges</p>
+ <ul class="list-disc pl-6 mb-4">
+    <li>Remote collaboration</li>
+    <li>Distributed workforce</li>
+    <li>Complex workflow management</li>
+    <li>Fragmented data</li>
+    <li>Siloed systems and applications that slow health team productivity</li>
+  </ul>
+
+  <p class="font-bold mt-6 mb-2">Business Outcomes</p>
+  <p>Connect, engage, and efficiently manage your healthcare workforce with tools that help them provide the best possible care.</p>
+
+  <p class="font-bold mt-6 mb-2">Questions to Ask</p>
+ <ul class="list-disc pl-6 mb-4">
+    <li>Are your teams able to collaborate and stay productive with your existing tools?</li>
+    <li>Do your employees have access to the right training needed to perform their specific job function?</li>
+    <li>How aligned are teams across your organization?</li>
+    <li>Are you proactively giving care teams information to engage with their patients?</li>
+    <li>Do you have manual or paper-based processes that could be automated?</li>
+  </ul>
+
+  <p><a class="text-blue font-semibold" target="_blank" href="https://industryhub.transform.microsoft.com/solution-plays">Learn More</a> about this Industry Pillar</p>
+</div>
+`,
         use_cases: [
           {
             id: crypto.randomUUID(),
@@ -3857,14 +3910,14 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
                   products: [],
                 },
                 idealCostomerProfile: {
-                  industries: "",
+                  industries: "Healthcare",
                   geography: "",
                   market_cap: "",
                   employees: "",
                   budget: "",
                   image: "",
                   image_subtitle: "Business  Architecture:  ",
-                  image_link: "",
+                  image_link: "https://microsofteur.sharepoint.com/:p:/t/HQDataAIIndustryTeam/EZD_Yfurw3tIlmrT116fCCIBW9Ij3u4nVincdAYcEqI44A?e=U6lC4f",
                 },
                 partners: [
                   {
@@ -3926,7 +3979,7 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
                 {
                   subtitle: "Overview",
                   link: "",
-                  desc: "",
+                  desc: "Clinical analytics involve predictive analytics, processing patient data to discover insights and identify correlations, thereby assisting providers in suggesting actions and treatments based on patient risk factors. Patients receive personalized care and optimized treatment plans (precision medicine) via web or mobile.",
                   keyHighlights: {
                     decision_makers: [
                       'Primary: Chief Medical Officer, Chief Science Officer, Chief Data Officer'
@@ -3971,7 +4024,7 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
                     budget: "",
                     image: clinical_analytics_and_decision_support_patient_risk,
                     image_subtitle: "Business  Architecture: Clinical Analytics and Decision Support (Patient Risk)",
-                    image_link: "",
+                    image_link: "https://microsofteur.sharepoint.com/:p:/t/HQDataAIIndustryTeam/EZD_Yfurw3tIlmrT116fCCIBW9Ij3u4nVincdAYcEqI44A?e=U6lC4f",
                   },
                   partners: [
                     {
@@ -4065,7 +4118,7 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
                     budget: "",
                     image: document_process_automation_healtcare,
                     image_subtitle: "Business  Architecture: Document Process Automation ",
-                    image_link: "",
+                    image_link: "https://microsofteur.sharepoint.com/:p:/t/HQDataAIIndustryTeam/EZD_Yfurw3tIlmrT116fCCIBW9Ij3u4nVincdAYcEqI44A?e=U6lC4f",
                   },
                   partners: [
                     {
@@ -4143,14 +4196,14 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
                     products_tech_stack: []
                   },
                   idealCostomerProfile: {
-                    industries: "",
+                    industries: "Healthcare",
                     geography: "",
                     market_cap: "",
                     employees: "",
                     budget: "",
                     image: drug_discovery_and_research,
                     image_subtitle: "Business  Architecture: Drug Discovery and Research ",
-                    image_link: "",
+                    image_link: "https://microsofteur.sharepoint.com/:p:/t/HQDataAIIndustryTeam/EZD_Yfurw3tIlmrT116fCCIBW9Ij3u4nVincdAYcEqI44A?e=U6lC4f",
                   },
                   partners: [
                     {
@@ -4237,7 +4290,7 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
                     budget: "",
                     image: service_and_support_bot_healthcare,
                     image_subtitle: "Business Architecture: Service and Support Bot",
-                    image_link: "",
+                    image_link: "https://microsofteur.sharepoint.com/:p:/t/HQDataAIIndustryTeam/EZD_Yfurw3tIlmrT116fCCIBW9Ij3u4nVincdAYcEqI44A?e=U6lC4f",
                   },
                   partners: [
                     {
@@ -4315,14 +4368,14 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
                     products_tech_stack: []
                   },
                   idealCostomerProfile: {
-                    industries: "",
+                    industries: "Healthcare",
                     geography: "",
                     market_cap: "",
                     employees: "",
                     budget: "",
                     image: medical_device_and_equipment_tracking,
                     image_subtitle: "Business  Architecture: Medical Device and Equipment Tracking ",
-                    image_link: "",
+                    image_link: "https://microsofteur.sharepoint.com/:p:/t/HQDataAIIndustryTeam/EZD_Yfurw3tIlmrT116fCCIBW9Ij3u4nVincdAYcEqI44A?e=U6lC4f",
                   },
                   partners: [
                     {
@@ -4373,7 +4426,7 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
     id: crypto.randomUUID(),
     title: "Retail & CG",
     link: "retail_and_cg",
-    heading: "Retail & CG Overview",
+    heading: "Retail & Consumer Goods Overview",
     overview:
       "Microsoft’s approach to retail takes into account market insights and the competitive landscape, and positions Microsoft’s value proposition via these industry Industry Pillar: Maximize the value of your data, Elevate the consumer shopping experience, Build a real-time sustainable supply chain and Empower your store associates.Our industry Industry Pillar are the fundamental areas we believe retailers should focus on in their digital transformation journey. Microsoft Cloud for Retail is the vehicle to enable retailers to execute their digital transformation.",
 
@@ -4383,35 +4436,44 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
         id: crypto.randomUUID(),
         title: "Maximize the Value of Your Data",
         content: `
-            <p>
-              <b>Maximize the Value of Your Data:</b>Realize the true value of your data by unifying disparate data sources across the shopper journey, discovering insights that enable better experiences 
-            </p>
-            <p>
-            <b>Customer Scenarios Unified customer profile:</b> Gain insights across the complete view of a shopper's journey Shopper and operations analytics: Unlock omnichannel insights with advanced analytics Intelligent fraud prevention: Help protect your revenue from fraud using AI to identify patterns Retail media: Unlock ad revenue using your 1st party shopper data 
-            </p>
-            <p>
-            <b>Roles</b> CIO/VP, CDO/VP, COO/VP, CMO/VP (required by all) Challenges Vast amounts of data in many places makes it hard to make sense of it or know what's important and what's not 360-degree view of the customer New shopping journeys creating fraud vulnerabilities across digital and voice channels 
-            </p>
-            <p>
-            <b>Business Outcomes </b>
-  
-            Realize the true value of your data by unifying disparate data sources across the shopper journey, discovering insights that enable better experiences: Gain insights across the complete view of a shopper's journey Unlock omnichannel insights with advanced analytics Protect your revenue from fraud using AI to id patterns and multi-modal biometrics stop fraudsters Unlock ad revenue using your 1st party shopper data Reduce costs by optimizing shopper journeys and streamlining automation 
-            </p>
-            
-            <p>
-            <b>
-            Questions to Ask </b>
-            Do you have a data strategy in place? Are you leveraging your data across every part of your retail business to maximize sales? Your operating model? What kind of analytics tools do you use? 
-  
-            Do you have a complete view of your customers across all stages of the shopper journey? How are you using data to continuously optimize that journey and increase automation? 
-  
-            Do you have a retail media network? Where does it run? Are you leveraging your data to the best of your ability? What fraud prevention technologies and strategies are you using? 
-  
-            How effective is that reflected in your metrics? Is it effective? What advance analytics do you employ for return risk fraud and shrinkage?
-            </p>
-            
-          
-            <p><a className="text-blue font-semibold" target="_blank" href="https://industryhub.transform.microsoft.com/solution-plays/maximize-the-value-of-your-data?tab=overview"> Learn More </a>  about Industry Pillar</p>
+          <div >
+  <p>
+    <span class="font-bold">Maximize the Value of Your Data:</span> <br/> Realize the true value of your data by unifying disparate data sources across the shopper journey, discovering insights that enable better experiences.
+  </p>
+  <p class="my-2">
+    <span class="font-bold">Customer Scenarios Unified customer profile:</span> Gain insights across the complete view of a shopper's journey Shopper and operations analytics: Unlock omnichannel insights with advanced analytics Intelligent fraud prevention: Help protect your revenue from fraud using AI to identify patterns Retail media: Unlock ad revenue using your 1st party shopper data.
+  </p>
+  <p class="my-2">
+    <span class="font-bold">Roles:</span> CIO/VP, CDO/VP, COO/VP, CMO/VP (required by all)
+  </p>
+  <p class="my-2">
+    <span class="font-bold">Challenges:</span> Vast amounts of data in many places makes it hard to make sense of it or know what's important and what's not 360-degree view of the customer New shopping journeys creating fraud vulnerabilities across digital and voice channels.
+  </p>
+  <p class="my-2">
+    <span class="font-bold">Business Outcomes:</span>
+  </p>
+  <ul class="list-disc pl-6 mb-4">
+    <li>Realize the true value of your data by unifying disparate data sources across the shopper journey, discovering insights that enable better experiences</li>
+    <li>Gain insights across the complete view of a shopper's journey</li>
+    <li>Unlock omnichannel insights with advanced analytics</li>
+    <li>Protect your revenue from fraud using AI to identify patterns and multi-modal biometrics stop fraudsters</li>
+    <li>Unlock ad revenue using your 1st party shopper data</li>
+    <li>Reduce costs by optimizing shopper journeys and streamlining automation</li>
+  </ul>
+  <p class="my-2">
+    <span class="font-bold">Questions to Ask:</span>
+  </p>
+  <ul class="list-disc pl-6 mb-4">
+    <li>Do you have a data strategy in place? Are you leveraging your data across every part of your retail business to maximize sales? Your operating model? What kind of analytics tools do you use?</li>
+    <li>Do you have a complete view of your customers across all stages of the shopper journey? How are you using data to continuously optimize that journey and increase automation?</li>
+    <li>Do you have a retail media network? Where does it run? Are you leveraging your data to the best of your ability? What fraud prevention technologies and strategies are you using?</li>
+    <li>How effective is that reflected in your metrics? Is it effective? What advance analytics do you employ for return risk fraud and shrinkage?</li>
+  </ul>
+  <p>
+    <a class="text-blue font-semibold" target="_blank" href="https://industryhub.transform.microsoft.com/solution-plays/maximize-the-value-of-your-data?tab=overview">Learn More</a> about Industry Pillar
+  </p>
+</div>
+
             `,
 
         use_cases: [
@@ -4459,7 +4521,7 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
                     "Cosmos DB",
                     "Power BI",
                   ],
-                  proposedTechnicalSolution: [
+                  proposed_technical_solution: [
                     "Using omni-channel data, predict a customer's likely preferences to deliver a tailored browsing and/or shopping experience with personalized product recommendations. For a codeless experience off the shelf experience, use the Intelligent Recommendations solution to improve item discovery and driving upsell and cross sell.",
                   ],
                 },
@@ -4473,7 +4535,7 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
                   image: personalization_and_recommendations,
                   image_subtitle:
                     "Business  Architecture: Personalization And Recommendations",
-                  image_link: "",
+                  image_link: "https://microsofteur.sharepoint.com/:p:/t/HQDataAIIndustryTeam/EaYdLSdJeWBImla_MhPR_OkByLZViTvpUL8DtOXEJsp16Q?e=hLaouJ",
                 },
 
                 partners: [
@@ -4539,7 +4601,7 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
                     "More time is spent on extracting data than on analysis and insights",
                   ],
                   other_notable_attributes: [
-                    "Bring together data from different systems into a single platform to analyze which factors in your business are leading to customer revenue growth",
+
                   ],
                   products: [
                     "Synapse",
@@ -4548,7 +4610,7 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
                     "Azure Container Images",
                     "Power BI",
                   ],
-                  proposedTechnicalSolution: [],
+                  proposed_technical_solution: ['Bring together data from different systems into a single platform to analyze which factors in your business are leading to customer revenue growth.' ],
                 },
 
                 idealCostomerProfile: {
@@ -4560,7 +4622,7 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
                   image: customer_revenue_growth_factor,
                   image_subtitle:
                     "Business  Architecture: Customer Revenue Growth Factor",
-                  image_link: "",
+                  image_link: "https://microsofteur.sharepoint.com/:p:/t/HQDataAIIndustryTeam/EaYdLSdJeWBImla_MhPR_OkByLZViTvpUL8DtOXEJsp16Q?e=hLaouJ",
                 },
 
                 partners: [
@@ -4643,7 +4705,7 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
                     "Power BI",
                     "Azure Intelligent Recommendations",
                   ],
-                  proposedTechnicalSolution: [
+                  proposed_technical_solution: [
                     "Provide relevant discovery for customers through a codeless and powerful experience with innovative AI for personalization and recommendations.",
                     "Use modern machine-learning algorithms to provide personalized product recommendations and telemetry insights.",
                     "Improve catalog navigation and item discovery.",
@@ -4660,8 +4722,8 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
                   budget: "",
                   image: azure_intelligent_recommendations,
                   image_subtitle:
-                    "Business  Architecture: Azure Intelligent Recommendationsr",
-                  image_link: "",
+                    "Business  Architecture: Azure Intelligent Recommendations",
+                  image_link: "https://microsofteur.sharepoint.com/:p:/t/HQDataAIIndustryTeam/EaYdLSdJeWBImla_MhPR_OkByLZViTvpUL8DtOXEJsp16Q?e=hLaouJ",
                 },
 
                 partners: [
@@ -4726,10 +4788,10 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
                   ],
                   other_notable_attributes: [],
                   products: [
-                    "Store product information and session state",
-                    "Enable users to search the catalog on web or in-app effectively",
+
                   ],
-                  proposedTechnicalSolution: [],
+                  proposed_technical_solution: [ "Store product information and session state",
+                    "Enable users to search the catalog on web or in-app effectively",],
                 },
 
                 idealCostomerProfile: {
@@ -4741,7 +4803,7 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
                   image: product_catalog_discovery,
                   image_subtitle:
                     "Business  Architecture: Product Catalog Discovery",
-                  image_link: "",
+                  image_link: "https://microsofteur.sharepoint.com/:p:/t/HQDataAIIndustryTeam/EaYdLSdJeWBImla_MhPR_OkByLZViTvpUL8DtOXEJsp16Q?e=hLaouJ",
                 },
 
                 partners: [
@@ -4778,27 +4840,46 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
         id: crypto.randomUUID(),
         title: "Elevate the Shopping Experience",
         content: `
-            <p>
-            <b>Elevate the Shopping Experience: </b>Transform the shopping experience through data analytics and new store technology to create more engaged shoppers with stronger lifetime value 
-          </p>
-          <p>
-          <b>Customer Scenarios Intelligent Stores: </b> Maximize sales by optimizing in-store customer and product signals Unified commerce: Increase engagement and drive conversations across channels Real-time personalization: Enable personalized recommendations and search results Digital advertising solutions: Drive growth, acquire new customers, and increase LTV Seamless customer service: Utilize intelligent and automated customer service tools
-          </p>
-          <p>
-          <b>Roles</b> CMO/VP, Chief Merchant/VP, CDO/VP, COO/VP 
-          </p>
-  
-          <p>
-          <b> Challenges </b>
-  
-          Personalizing the shopping experience is a strategic priority, but few consumers believe retailers are doing a good job Product discovery and searchability in-store, mobile or online Poor customer service experiences Wasteful ad spend Inability to meet increased customer expectations for connected, contextual experiences across channels, including social, messaging, agent and voice Frictional, burdensome authentication experiences are reducing conversions and losing customers 
-          </p>
-          <p><b>Business Outcomes Transform the shopping experience through data analytics and new store technology to create more engaged shoppers with stronger lifetime value
-          </b> Maximize sales by optimizing in-store customer and product signals Increase customer engagement and retention and drive conversions across channels Improve acquisition with digital assistance through predictive targeting Enable personalized search results and recommendations that boost up- and cross-sell revenue Drive growth, acquire new customers and increase LTV Utilize intelligent and automated customer service tools Improve conversion and CX through frictionless multi-modal biometric authentication  How does your sales team help engage customers? What are your primary demand generation activities today? Are you satisfied with the ROI you are getting from your digital marketing investments? Are you maximizing profit across your retail media channels? Online or instore? What tools do you depend on to react to market conditions? What data are you using to personalize customer interactions? Are you achieving the conversion and average sale size metrics you want to? Do you have digital transformation/migration targets? Which channels are you able to offer shoppers? What actions can they achieve in each? Is customer information and context carried with them form channel to channel? What percentage of shopper are you losing at the authentication step? How are you authenticating shoppers digitally and/or in the voice channel?
-  
-          
-          </p>       
-          <p><a className="text-blue font-semibold" target="_blank" href="https://industryhub.transform.microsoft.com/solution-plays"> Learn More </a>  about Industry Pillar</p>`,
+    <div class="mt-4">
+  <p>
+    <span class="font-bold">Elevate the Shopping Experience:</span> Transform the shopping experience through data analytics and new store technology to create more engaged shoppers with stronger lifetime value.
+  </p>
+  <p class="my-2">
+    <span class="font-bold">Customer Scenarios Intelligent Stores:</span> Maximize sales by optimizing in-store customer and product signals Unified commerce: Increase engagement and drive conversations across channels Real-time personalization: Enable personalized recommendations and search results Digital advertising solutions: Drive growth, acquire new customers, and increase LTV Seamless customer service: Utilize intelligent and automated customer service tools.
+  </p>
+  <p class="my-2">
+    <span class="font-bold">Roles:</span> CMO/VP, Chief Merchant/VP, CDO/VP, COO/VP
+  </p>
+  <p class="my-2">
+    <span class="font-bold">Challenges:</span> Personalizing the shopping experience is a strategic priority, but few consumers believe retailers are doing a good job Product discovery and searchability in-store, mobile or online Poor customer service experiences Wasteful ad spend Inability to meet increased customer expectations for connected, contextual experiences across channels, including social, messaging, agent and voice Frictional, burdensome authentication experiences are reducing conversions and losing customers.
+  </p>
+  <p class="my-2">
+    <span class="font-bold">Business Outcomes:</span> Transform the shopping experience through data analytics and new store technology to create more engaged shoppers with stronger lifetime value Maximize sales by optimizing in-store customer and product signals Increase customer engagement and retention and drive conversions across channels Improve acquisition with digital assistance through predictive targeting Enable personalized search results and recommendations that boost up- and cross-sell revenue Drive growth, acquire new customers and increase LTV Utilize intelligent and automated customer service tools Improve conversion and CX through frictionless multi-modal biometric authentication.
+  </p>
+  <p class="my-2">
+    <span class="font-bold">Questions to Ask:</span>
+  </p>
+  <ul class="list-disc pl-6 mb-4">
+    <li>How does your sales team help engage customers?</li>
+    <li>What are your primary demand generation activities today?</li>
+    <li>Are you satisfied with the ROI you are getting from your digital marketing investments?</li>
+    <li>Are you maximizing profit across your retail media channels? Online or in-store?</li>
+    <li>What tools do you depend on to react to market conditions?</li>
+    <li>What data are you using to personalize customer interactions?</li>
+    <li>Are you achieving the conversion and average sale size metrics you want to?</li>
+    <li>Do you have digital transformation/migration targets?</li>
+    <li>Which channels are you able to offer shoppers? What actions can they achieve in each?</li>
+    <li>Is customer information and context carried with them from channel to channel?</li>
+    <li>What percentage of shoppers are you losing at the authentication step?</li>
+    <li>How are you authenticating shoppers digitally and/or in the voice channel?</li>
+  </ul>
+  <p>
+    <a class="text-blue font-semibold" target="_blank" href="https://industryhub.transform.microsoft.com/solution-plays">Learn More</a> about Industry Pillar
+  </p>
+</div>
+
+
+           `,
 
         use_cases: [
           {
@@ -4840,7 +4921,7 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
                     "Analytics and Reporting Tools",
                     "Natural Language Processing (NLP) Frameworks",
                   ],
-                  proposedTechnicalSolution: [
+                  proposed_technical_solution: [
                     "Resolve user and customer queries without human intervention across multiple channels, including voice-enabled support",
                   ],
                 },
@@ -4854,7 +4935,7 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
                   image: sales_service_and_support_bot,
                   image_subtitle:
                     "Business  Architecture: Sales, Service and Support BotCustomer Data Platform",
-                  image_link: "",
+                  image_link: "https://microsofteur.sharepoint.com/:p:/t/HQDataAIIndustryTeam/EaYdLSdJeWBImla_MhPR_OkByLZViTvpUL8DtOXEJsp16Q?e=hLaouJ",
                 },
 
                 partners: [
@@ -4894,7 +4975,7 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
                 subtitle: "Overview",
                 link: "",
                 desc: ` <p>
-                BOPIS (buy online, pick up in-store) is a business model that allows consumers to shop and place orders online and then pick up their purchases in the brick-and-mortar store, often within the same day..
+                BOPIS (buy online, pick up in-store) is a business model that allows consumers to shop and place orders online and then pick up their purchases in the brick-and-mortar store, often within the same day.
                 </p>`,
                 keyHighlights: {
                   decision_makers: [
@@ -4917,7 +4998,7 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
                     "Product lists are not updated in real-time, causing friction with in-store shopping experience",
                   ],
                   other_notable_attributes: [
-                    "BOPIS (buy online, pick up in-store) is a business model that allows consumers to shop and place orders online and then pick up their purchases in the brick-and-mortar store, often within the same day.",
+
                   ],
                   products: [
                     "Synapse",
@@ -4926,7 +5007,7 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
                     "Azure Container Images",
                     "Power BI",
                   ],
-                  proposedTechnicalSolution: [],
+                  proposed_technical_solution: ["BOPIS (buy online, pick up in-store) is a business model that allows consumers to shop and place orders online and then pick up their purchases in the brick-and-mortar store, often within the same day.",],
                 },
 
                 idealCostomerProfile: {
@@ -4938,7 +5019,7 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
                   image: buy_online_pick_up_in_store,
                   image_subtitle:
                     "Business  Architecture: Buy Online, Pick Up In-Store",
-                  image_link: "",
+                  image_link: "https://microsofteur.sharepoint.com/:p:/t/HQDataAIIndustryTeam/EaYdLSdJeWBImla_MhPR_OkByLZViTvpUL8DtOXEJsp16Q?e=hLaouJ",
                 },
 
                 partners: [
@@ -5006,7 +5087,7 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
                     "Cognitive Search",
                     "Cognitive Services",
                   ],
-                  proposedTechnicalSolution: [
+                  proposed_technical_solution: [
                     [
                       "Drive customer interactions with human-like responses, collecting data from every interaction in a feedback loop for optimization",
                       "Reduce customer contact center costs and improve user experience in retail by enabling you to create content once and deploy simultaneously to multiple channels in a single click",
@@ -5023,7 +5104,7 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
                   image: conversational_ai_with_azure_openai_for_retail,
                   image_subtitle:
                     "Business  Architecture: Conversational AI with Azure OpenAI for Retail",
-                  image_link: "",
+                  image_link: "https://microsofteur.sharepoint.com/:p:/t/HQDataAIIndustryTeam/EaYdLSdJeWBImla_MhPR_OkByLZViTvpUL8DtOXEJsp16Q?e=hLaouJ",
                 },
 
                 partners: [
@@ -5060,28 +5141,37 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
         id: crypto.randomUUID(),
         title: "Build a Real Time and Sustainable Supply Chain",
         content: `
-              
-            <p>
-            <b>Build a Real Time and Sustainable Supply Chain:  </b> Create an agile, resilient and sustainable supply chain by connecting data across your ecosystem to enhance time to value 
-          </p>
-          <p>
-          <b>Customer Scenarios </b> Demand planning and optimization: Predict demand using AI to optimize inventory Supply chain visibility: Leverage demand and supply signals for future opportunities Flexible fulfillment: Optimize order management, giving customers choice across channels 
-          </p>
-          <p>
-          <b>Roles</b> COO/VP, CSO Challenges Real-time supply chain visibility and actionable insights Ensuring the right inventory in the right place at the right time Need for agility to pivot due to disrupted supply chains Sustainability concerns Meeting expectations for order and delivery status in consumers' preferred channels, while enabling automated, interactive changes 
-  
-          </p>
-  
-          <p>
-          <b> Business Outcomes Create an agile, resilient and sustainable supply chain by connecting data across your ecosystem to enhance time to value: </b>
-  
-          Predict demand using AI to optimize inventory Leverage demand and supply signals for future opportunities Optimize order management, giving customers choice across channels Reduce costs and increase CSAT by meeting expectations for order and delivery status in consumers' preferred channels, while enabling automated, interactive changes 
-          </p>
-          <p><b>Questions to Ask </b>How long does it take on average to develop new digital products and services for fulfilment? Are there legacy systems that are key to enhanced ability to deliver products to customers? Do your time-tested operational systems seamlessly extend to support multi-channel fulfilment? Do you have the ability to move or promote product in real time to optimize inventory levels? What kinds of order, return and delivery status notifications do you provide customers? Through which channels? Can they engage and/or interact with your brand thouthrough those notifications? Are you able to run predictive and prescriptive analytics on your supply chain and inventory data?   
-  
-          
-          </p>       
-          <p><a className="text-blue font-semibold" target="_blank" href="https://industryhub.transform.microsoft.com/solution-plays"> Learn More </a>  about Industry Pillar</p>`,
+        <div >
+  <p>
+    <b>Build a Real Time and Sustainable Supply Chain:</b> Create an agile, resilient and sustainable supply chain by connecting data across your ecosystem to enhance time to value.
+  </p>
+  <p class="my-2">
+    <b>Customer Scenarios:</b> Demand planning and optimization: Predict demand using AI to optimize inventory Supply chain visibility: Leverage demand and supply signals for future opportunities Flexible fulfillment: Optimize order management, giving customers choice across channels.
+  </p>
+  <p class="my-2">
+    <b>Roles:</b> COO/VP, CSO
+  </p>
+  <p class="my-2">
+    <b>Challenges:</b> Real-time supply chain visibility and actionable insights Ensuring the right inventory in the right place at the right time Need for agility to pivot due to disrupted supply chains Sustainability concerns Meeting expectations for order and delivery status in consumers' preferred channels, while enabling automated, interactive changes.
+  </p>
+  <p class="my-2">
+    <b>Business Outcomes:</b> Create an agile, resilient and sustainable supply chain by connecting data across your ecosystem to enhance time to value.
+  </p>
+  <ul class="list-disc pl-6 mb-4">
+    <li>Predict demand using AI to optimize inventory</li>
+    <li>Leverage demand and supply signals for future opportunities</li>
+    <li>Optimize order management, giving customers choice across channels</li>
+    <li>Reduce costs and increase CSAT by meeting expectations for order and delivery status in consumers' preferred channels, while enabling automated, interactive changes</li>
+  </ul>
+  <p class="my-2">
+    <b>Questions to Ask:</b> How long does it take on average to develop new digital products and services for fulfillment? Are there legacy systems that are key to enhanced ability to deliver products to customers? Do your time-tested operational systems seamlessly extend to support multi-channel fulfillment? Do you have the ability to move or promote product in real time to optimize inventory levels? What kinds of order, return and delivery status notifications do you provide customers? Through which channels? Can they engage and/or interact with your brand through those notifications? Are you able to run predictive and prescriptive analytics on your supply chain and inventory data?
+  </p>
+  <p>
+    <a class="text-blue font-semibold" target="_blank" href="https://industryhub.transform.microsoft.com/solution-plays">Learn More</a> about Industry Pillar
+  </p>
+</div>
+
+          `,
 
         use_cases: [
           {
@@ -5117,7 +5207,7 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
                     "Legacy search has no semantic understanding and is not yielding the right results for what customers are expecting or looking for",
                   ],
                   other_notable_attributes: [
-                    "Determine how much demand there will be for a product at the store level to optimize inventory, material, and product orders",
+
                   ],
                   products: [
                     "Azure Cosmos DB",
@@ -5126,7 +5216,7 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
                     "Azure Synapse Analytics",
                     "Azure Storage",
                   ],
-                  proposedTechnicalSolution: [],
+                  proposed_technical_solution: ["Determine how much demand there will be for a product at the store level to optimize inventory, material, and product orders",],
                 },
 
                 idealCostomerProfile: {
@@ -5137,7 +5227,7 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
                   budget: "",
                   image: demand_forecasting,
                   image_subtitle: "Business  Architecture: Demand Forecasting",
-                  image_link: "",
+                  image_link: "https://microsofteur.sharepoint.com/:p:/t/HQDataAIIndustryTeam/EaYdLSdJeWBImla_MhPR_OkByLZViTvpUL8DtOXEJsp16Q?e=hLaouJ",
                 },
 
                 partners: [
@@ -5175,34 +5265,46 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
         title: "Empower Your Store Associate",
         content: `
               
-            <p>
-            <b>Empower Your Store Associate:  </b> Equip your store associate with solutions to enable real-time store communications, workforce management, and store automation 
-          </p>
-          <p>
-          <b>Customer Scenarios </b>  Real-time store communications and collaboration: Leverage modern tools for connecting your team Retail workforce management: Digitize managerial tasks like store scheduling Process automation and career development: Expand what your stores and people can do through automation 
-      
-          </p>
-          <p>
-          <b>Roles</b> COO/VP, CPO/VP 
-  
-          </p>
-  
-          <p>
-          <b>  Challenges </b>
-  
-          Retail frontline workers feel they do not have the right digital tools or technology to do their job effectively Increasing employee productivity Putting employees on level playing field with deeply informed consumers Flexible work and labor scheduling Retaining associates and agents amid a labor shortage Empowering agents to provide relevant recommendations that realize up- and cross-sell revenue potential 
-          </p>
-  
-          <p>
-          <b>  Business Outcomes Equip your store associate with solutions to enable real-time store communications, workforce management, and store automation: </b>
-  
-          Leverage modern tools for connecting your team Digitize managerial tasks like store scheduling Expand what your stores and people can do through automation Reduce agent churn, increase efficiency and increase up- and cross-sell revenue by empowering them with relevant recommendations, dialog and actions 
-          </p>
-          <p><b>Questions to Ask </b>Are different teams using data from disparate systems to make decisions? How do your employees in stores communicate with each other and HQ? How do you plan on supporting employee workplace as we come out of the pandemic? Are your teams able to collaborate and stay productive with your existing tools? How do store associates make scheduling requests or switch shifts with other employees? Do you provide chat and phone agents with action, dialog and product recommendations? What's your agent retention/churn rate and why?
-  
-          
-          </p> 
-          <p><a className="text-blue font-semibold" target="_blank" href="https://industryhub.transform.microsoft.com/solution-plays"> Learn More </a>  about Industry Pillar</p>      
+          <div>
+  <p>
+    <b>Empower Your Store Associate:</b> Equip your store associate with solutions to enable real-time store communications, workforce management, and store automation.
+  </p>
+  <p class="my-2">
+    <b>Customer Scenarios:</b> Real-time store communications and collaboration: Leverage modern tools for connecting your team Retail workforce management: Digitize managerial tasks like store scheduling Process automation and career development: Expand what your stores and people can do through automation.
+  </p>
+  <p class="my-2">
+    <b>Roles:</b> COO/VP, CPO/VP
+  </p>
+  <p class="my-2">
+    <b>Challenges:</b> Retail frontline workers feel they do not have the right digital tools or technology to do their job effectively Increasing employee productivity Putting employees on a level playing field with deeply informed consumers Flexible work and labor scheduling Retaining associates and agents amid a labor shortage Empowering agents to provide relevant recommendations that realize up- and cross-sell revenue potential.
+  </p>
+  <p class="my-2">
+    <b>Business Outcomes:</b> Equip your store associate with solutions to enable real-time store communications, workforce management, and store automation.
+  </p>
+  <ul class="list-disc pl-6 mb-4">
+    <li>Leverage modern tools for connecting your team</li>
+    <li>Digitize managerial tasks like store scheduling</li>
+    <li>Expand what your stores and people can do through automation</li>
+    <li>Reduce agent churn, increase efficiency and increase up- and cross-sell revenue by empowering them with relevant recommendations, dialog, and actions</li>
+  </ul>
+  <p class="my-2">
+    <b>Questions to Ask:</b>
+  </p>
+  <ul class="list-disc pl-6 mb-4">
+    <li>Are different teams using data from disparate systems to make decisions?</li>
+    <li>How do your employees in stores communicate with each other and HQ?</li>
+    <li>How do you plan on supporting employee workplace as we come out of the pandemic?</li>
+    <li>Are your teams able to collaborate and stay productive with your existing tools?</li>
+    <li>How do store associates make scheduling requests or switch shifts with other employees?</li>
+    <li>Do you provide chat and phone agents with action, dialog, and product recommendations?</li>
+    <li>What's your agent retention/churn rate and why?</li>
+  </ul>
+  <p>
+    <a class="text-blue font-semibold" target="_blank" href="https://industryhub.transform.microsoft.com/solution-plays">Learn More</a> about Industry Pillar
+  </p>
+</div>
+
+
           `,
         use_cases : [
           {
@@ -5220,42 +5322,33 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
                 // Todo L3 Content
                 keyHighlights: {
                   decision_makers: [
-                    "Primary: Chief Executive Officer, Chief Operations Officer",
-                    "Secondary (Influencers): Head of Quality Control",
+
                   ],
                   decision_making_factors: [
-                    "Ease of setup",
-                    "Ability to leverage",
-                    "current infrastructure Cost",
+
                   ],
                   desired_business_objectives: [
-                    "Improve quality assurance pass rates and product yield by automating inspection with higher accuracy and redirecting human labor to value adding tasks.",
-                    "Increase customer satisfaction and retention by reducing delivery of defective products.",
-                    "Reduce Operational Costs by catching anomalies faster, reducing amount of inventory that needs to be scrapped.",
+
                   ],
                   customer_pain_points: [
-                    "Quality control needs improvement.",
-                    "Product yields are lower than expected.",
-                    "Inventory scrap costs are high",
-                    " Data is siloed and is not leveraged for strategic decision-making.",
+
                   ],
                   proposed_technical_solution: [],
                   other_notable_attributes: [],
                   products: [
-                    "Azure Container Registry, Azure DevOps, Azure IoT Hub, Azure KeyVault, Azure Machine Learning,",
-                    "Cognitive Services: Vision, Azure SQL, Azure Storage, Docker, Power BI.",
+
                   ],
                 },
 
                 idealCostomerProfile: {
-                  industries: "Manufacturing & Mobility",
+                  industries: "",
                   geography: "",
                   market_cap: "",
                   employees: "",
                   budget: "",
                   image: "",
                    image_subtitle: "Business  Architecture:  ",
-                  image_link: "",
+                  image_link: "https://microsofteur.sharepoint.com/:p:/t/HQDataAIIndustryTeam/EaYdLSdJeWBImla_MhPR_OkByLZViTvpUL8DtOXEJsp16Q?e=hLaouJ",
                 },
 
                 partners: [
@@ -5275,7 +5368,7 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
         id: crypto.randomUUID(),
         title: "All Use Cases",
         content: `
-          <p className="font-bold"> Retail & CG </p>
+          <p className="font-bold"> Retail & CG Industry </p>
             `,
         use_cases: [
           {
@@ -5323,7 +5416,7 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
                     "Cosmos DB",
                     "Power BI",
                   ],
-                  proposedTechnicalSolution: [
+                  proposed_technical_solution: [
                     "Using omni-channel data, predict a customer's likely preferences to deliver a tailored browsing and/or shopping experience with personalized product recommendations. For a codeless experience off the shelf experience, use the Intelligent Recommendations solution to improve item discovery and driving upsell and cross sell.",
                   ],
                 },
@@ -5337,7 +5430,7 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
                   image: automated_quality_inspection,
                   image_subtitle:
                     "Business  Architecture: Personalization And Recommendations",
-                  image_link: "",
+                  image_link: "https://microsofteur.sharepoint.com/:p:/t/HQDataAIIndustryTeam/EaYdLSdJeWBImla_MhPR_OkByLZViTvpUL8DtOXEJsp16Q?e=hLaouJ",
                 },
 
                 partners: [
@@ -5413,7 +5506,7 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
                     "Azure Container Images",
                     "Power BI",
                   ],
-                  proposedTechnicalSolution: [],
+                  proposed_technical_solution: [],
                 },
 
                 idealCostomerProfile: {
@@ -5425,7 +5518,7 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
                   image: automated_quality_inspection,
                   image_subtitle:
                     "Business  Architecture: Customer Revenue Growth Factor",
-                  image_link: "",
+                  image_link: "https://microsofteur.sharepoint.com/:p:/t/HQDataAIIndustryTeam/EaYdLSdJeWBImla_MhPR_OkByLZViTvpUL8DtOXEJsp16Q?e=hLaouJ",
                 },
 
                 partners: [
@@ -5457,7 +5550,7 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
 
           {
             id: crypto.randomUUID(),
-            title: "Azure Intelligent Recommendationsr",
+            title: "Azure Intelligent Recommendations",
             solution_play: "Maximize the Value of Your Data",
             // l3 page link
             link: "azure_intelligent_recommendations",
@@ -5509,7 +5602,7 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
                     "Power BI",
                     "Azure Intelligent Recommendations",
                   ],
-                  proposedTechnicalSolution: [
+                  proposed_technical_solution: [
                     "Provide relevant discovery for customers through a codeless and powerful experience with innovative AI for personalization and recommendations.",
                     "Use modern machine-learning algorithms to provide personalized product recommendations and telemetry insights.",
                     "Improve catalog navigation and item discovery.",
@@ -5526,8 +5619,8 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
                   budget: "",
                   image: automated_quality_inspection,
                   image_subtitle:
-                    "Business  Architecture: Azure Intelligent Recommendationsr",
-                  image_link: "",
+                    "Business  Architecture: Azure Intelligent Recommendations",
+                  image_link: "https://microsofteur.sharepoint.com/:p:/t/HQDataAIIndustryTeam/EaYdLSdJeWBImla_MhPR_OkByLZViTvpUL8DtOXEJsp16Q?e=hLaouJ",
                 },
 
                 partners: [
@@ -5593,10 +5686,10 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
                   ],
                   other_notable_attributes: [],
                   products: [
-                    "Store product information and session state",
-                    "Enable users to search the catalog on web or in-app effectively",
+
                   ],
-                  proposedTechnicalSolution: [],
+                  proposed_technical_solution: ["Store product information and session state",
+                    "Enable users to search the catalog on web or in-app effectively",],
                 },
 
                 idealCostomerProfile: {
@@ -5608,7 +5701,7 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
                   image: automated_quality_inspection,
                   image_subtitle:
                     "Business  Architecture: Product Catalog Discovery",
-                  image_link: "",
+                  image_link: "https://microsofteur.sharepoint.com/:p:/t/HQDataAIIndustryTeam/EaYdLSdJeWBImla_MhPR_OkByLZViTvpUL8DtOXEJsp16Q?e=hLaouJ",
                 },
 
                 partners: [
@@ -5677,7 +5770,7 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
                     "Analytics and Reporting Tools",
                     "Natural Language Processing (NLP) Frameworks",
                   ],
-                  proposedTechnicalSolution: [
+                  proposed_technical_solution: [
                     "Resolve user and customer queries without human intervention across multiple channels, including voice-enabled support",
                   ],
                 },
@@ -5691,7 +5784,7 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
                   image: automated_quality_inspection,
                   image_subtitle:
                     "Business  Architecture: Sales, Service and Support BotCustomer Data Platform",
-                  image_link: "",
+                  image_link: "https://microsofteur.sharepoint.com/:p:/t/HQDataAIIndustryTeam/EaYdLSdJeWBImla_MhPR_OkByLZViTvpUL8DtOXEJsp16Q?e=hLaouJ",
                 },
 
                 partners: [
@@ -5755,7 +5848,7 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
                     "Product lists are not updated in real-time, causing friction with in-store shopping experience",
                   ],
                   other_notable_attributes: [
-                    "BOPIS (buy online, pick up in-store) is a business model that allows consumers to shop and place orders online and then pick up their purchases in the brick-and-mortar store, often within the same day.",
+
                   ],
                   products: [
                     "Synapse",
@@ -5764,7 +5857,7 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
                     "Azure Container Images",
                     "Power BI",
                   ],
-                  proposedTechnicalSolution: [],
+                  proposed_technical_solution: ["BOPIS (buy online, pick up in-store) is a business model that allows consumers to shop and place orders online and then pick up their purchases in the brick-and-mortar store, often within the same day.",],
                 },
 
                 idealCostomerProfile: {
@@ -5776,7 +5869,7 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
                   image: automated_quality_inspection,
                   image_subtitle:
                     "Business  Architecture: Buy Online, Pick Up In-Store",
-                  image_link: "",
+                  image_link: "https://microsofteur.sharepoint.com/:p:/t/HQDataAIIndustryTeam/EaYdLSdJeWBImla_MhPR_OkByLZViTvpUL8DtOXEJsp16Q?e=hLaouJ",
                 },
 
                 partners: [
@@ -5845,7 +5938,7 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
                     "Cognitive Search",
                     "Cognitive Services",
                   ],
-                  proposedTechnicalSolution: [
+                  proposed_technical_solution: [
                     [
                       "Drive customer interactions with human-like responses, collecting data from every interaction in a feedback loop for optimization",
                       "Reduce customer contact center costs and improve user experience in retail by enabling you to create content once and deploy simultaneously to multiple channels in a single click",
@@ -5862,7 +5955,7 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
                   image: automated_quality_inspection,
                   image_subtitle:
                     "Business  Architecture: Conversational AI with Azure OpenAI for Retail",
-                  image_link: "",
+                  image_link: "https://microsofteur.sharepoint.com/:p:/t/HQDataAIIndustryTeam/EaYdLSdJeWBImla_MhPR_OkByLZViTvpUL8DtOXEJsp16Q?e=hLaouJ",
                 },
 
                 partners: [
@@ -5926,7 +6019,7 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
                     "Legacy search has no semantic understanding and is not yielding the right results for what customers are expecting or looking for",
                   ],
                   other_notable_attributes: [
-                    "Determine how much demand there will be for a product at the store level to optimize inventory, material, and product orders",
+
                   ],
                   products: [
                     "Azure Cosmos DB",
@@ -5935,7 +6028,7 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
                     "Azure Synapse Analytics",
                     "Azure Storage",
                   ],
-                  proposedTechnicalSolution: [],
+                  proposed_technical_solution: ["Determine how much demand there will be for a product at the store level to optimize inventory, material, and product orders",],
                 },
 
                 idealCostomerProfile: {
@@ -5946,7 +6039,7 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
                   budget: "",
                   image: automated_quality_inspection,
                   image_subtitle: "Business  Architecture: Demand Forecasting",
-                  image_link: "",
+                  image_link: "https://microsofteur.sharepoint.com/:p:/t/HQDataAIIndustryTeam/EaYdLSdJeWBImla_MhPR_OkByLZViTvpUL8DtOXEJsp16Q?e=hLaouJ",
                 },
 
                 partners: [
@@ -5987,7 +6080,7 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
     link: "government",
     heading: "Government Overview",
     overview:
-        "At Microsoft, we aspire towards economic, social, and environmental prosperity for governments and the societies we serve together. Our mission is to empower every government agency and person on the planet to achieve more: Deliver enhanced digital services to the public with inclusive, responsive, and accessible experiences Enable trusted, secure, compliant government platforms to address cybersecurity and protect citizen data Empower a future ready workforce through skilling, capacity building and economic development tools Help governments efficiently deliver on the promise of sustainable growth with new and emerging technologies",
+        "At Microsoft, we aspire towards economic, social, and environmental prosperity for governments and the societies we serve together. Our mission is to empower every government agency and person on the planet to achieve more: Deliver enhanced digital services to the public with inclusive, responsive, and accessible experiences Enable trusted, secure, compliant government platforms to address cyber security and protect citizen data Empower a future ready workforce through skilling, capacity building and economic development tools Help governments efficiently deliver on the promise of sustainable growth with new and emerging technologies",
 
     solution_plays: [
       // 1st use cases
@@ -6046,7 +6139,7 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
                     'Azure Web Apps',
                     'Power BI'
                   ],
-                  proposedTechnicalSolution: ['Search through structured and unstructured documents to quickly find the most relevant information and documents with compliance risk and standards.',]
+                  proposed_technical_solution: ['Search through structured and unstructured documents to quickly find the most relevant information and documents with compliance risk and standards.',]
                 },
 
                 idealCostomerProfile : {
@@ -6057,7 +6150,7 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
                   budget: '',
                   image : information_discovery_and_management,
                   image_subtitle : 'Business  Architecture: Information Discovery and Management',
-                  image_link : ''
+                  image_link : 'https://microsofteur.sharepoint.com/:p:/t/HQDataAIIndustryTeam/EfwjPdfReOJItyySbilrXO8BZP9p_AapYhGx0NIVBCCRxg?e=BlhXTV'
                 },
 
                 partners : [
@@ -6135,7 +6228,7 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
                     'Bot Framework',
                     'Luis'
                   ],
-                  proposedTechnicalSolution: [
+                  proposed_technical_solution: [
                     'Reduce human intervention and automate extraction of data from large and complex structured and unstructured documents to unlock insights and enable users to find key data points'
                   ],
                 },
@@ -6148,7 +6241,7 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
                   budget: '',
                   image : document_process_automation_government,
                   image_subtitle : 'Business  Architecture: Document Process Automation',
-                  image_link : ''
+                  image_link : 'https://microsofteur.sharepoint.com/:p:/t/HQDataAIIndustryTeam/EfwjPdfReOJItyySbilrXO8BZP9p_AapYhGx0NIVBCCRxg?e=BlhXTV'
                 },
 
                 partners : [
@@ -6241,7 +6334,7 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
                   ],
                   other_notable_attributes:[],
                   products :[],
-                  proposedTechnicalSolution: [ 'Resolve user and customer queries without human intervention across multiple channels, including voice-enabled support.']
+                  proposed_technical_solution: [ 'Resolve user and customer queries without human intervention across multiple channels, including voice-enabled support.']
                 },
 
                 idealCostomerProfile : {
@@ -6252,7 +6345,7 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
                   budget: '',
                   image : service_and_support_bot_government,
                   image_subtitle : 'Business  Architecture: Service and Support Bot',
-                  image_link : ''
+                  image_link : 'https://microsofteur.sharepoint.com/:p:/t/HQDataAIIndustryTeam/EfwjPdfReOJItyySbilrXO8BZP9p_AapYhGx0NIVBCCRxg?e=BlhXTV'
                 },
 
                 partners : [
@@ -6343,7 +6436,7 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
                     'Azure Synapse Analytics',
                     'Azure Cosmos DB',
                     'Power BI'],
-                  proposedTechnicalSolution: [ 'Identify risk of fraud or fraud associated activities including phone calls, credit card transactions, money laundering, and online purchases with real-time analysis and streaming data',]
+                  proposed_technical_solution: [ 'Identify risk of fraud or fraud associated activities including phone calls, credit card transactions, money laundering, and online purchases with real-time analysis and streaming data',]
                 },
 
                 idealCostomerProfile : {
@@ -6354,7 +6447,7 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
                   budget: '',
                   image : fraud_detection_and_transaction_monitoring,
                   image_subtitle : 'Business  Architecture: Fraud Detection and Transaction Monitoring',
-                  image_link : ''
+                  image_link : 'https://microsofteur.sharepoint.com/:p:/t/HQDataAIIndustryTeam/EfwjPdfReOJItyySbilrXO8BZP9p_AapYhGx0NIVBCCRxg?e=BlhXTV'
                 },
 
                 partners : [
@@ -6443,7 +6536,7 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
                     'Azure Web Apps',
                     'Power BI'
                   ],
-                  proposedTechnicalSolution: ['Search through structured and unstructured documents to quickly find the most relevant information and documents with compliance risk and standards.',]
+                  proposed_technical_solution: ['Search through structured and unstructured documents to quickly find the most relevant information and documents with compliance risk and standards.',]
                 },
 
                 idealCostomerProfile : {
@@ -6454,7 +6547,7 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
                   budget: '',
                   image : information_discovery_and_management,
                   image_subtitle : 'Business  Architecture: Information Discovery and Management',
-                  image_link : ''
+                  image_link : 'https://microsofteur.sharepoint.com/:p:/t/HQDataAIIndustryTeam/EfwjPdfReOJItyySbilrXO8BZP9p_AapYhGx0NIVBCCRxg?e=BlhXTV'
                 },
 
                 partners : [
@@ -6532,7 +6625,7 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
                     'Bot Framework',
                     'Luis'
                   ],
-                  proposedTechnicalSolution: [
+                  proposed_technical_solution: [
                     'Reduce human intervention and automate extraction of data from large and complex structured and unstructured documents to unlock insights and enable users to find key data points'
                   ],
                 },
@@ -6545,7 +6638,7 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
                   budget: '',
                   image : document_process_automation_government,
                   image_subtitle : 'Business  Architecture: Document Process Automation',
-                  image_link : ''
+                  image_link : 'https://microsofteur.sharepoint.com/:p:/t/HQDataAIIndustryTeam/EfwjPdfReOJItyySbilrXO8BZP9p_AapYhGx0NIVBCCRxg?e=BlhXTV'
                 },
 
                 partners : [
@@ -6618,7 +6711,7 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
                   ],
                   other_notable_attributes:[],
                   products :[],
-                  proposedTechnicalSolution: [ 'Resolve user and customer queries without human intervention across multiple channels, including voice-enabled support.']
+                  proposed_technical_solution: [ 'Resolve user and customer queries without human intervention across multiple channels, including voice-enabled support.']
                 },
 
                 idealCostomerProfile : {
@@ -6629,7 +6722,7 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
                   budget: '',
                   image : service_and_support_bot_government,
                   image_subtitle : 'Business  Architecture: Service and Support Bot',
-                  image_link : ''
+                  image_link : 'https://microsofteur.sharepoint.com/:p:/t/HQDataAIIndustryTeam/EfwjPdfReOJItyySbilrXO8BZP9p_AapYhGx0NIVBCCRxg?e=BlhXTV'
                 },
 
                 partners : [
@@ -6697,7 +6790,7 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
                     'Azure Synapse Analytics',
                     'Azure Cosmos DB',
                     'Power BI'],
-                  proposedTechnicalSolution: [ 'Identify risk of fraud or fraud associated activities including phone calls, credit card transactions, money laundering, and online purchases with real-time analysis and streaming data',]
+                  proposed_technical_solution: [ 'Identify risk of fraud or fraud associated activities including phone calls, credit card transactions, money laundering, and online purchases with real-time analysis and streaming data',]
                 },
 
                 idealCostomerProfile : {
@@ -6708,7 +6801,7 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
                   budget: '',
                   image : fraud_detection_and_transaction_monitoring,
                   image_subtitle : 'Business  Architecture: Fraud Detection and Transaction Monitoring',
-                  image_link : ''
+                  image_link : 'https://microsofteur.sharepoint.com/:p:/t/HQDataAIIndustryTeam/EfwjPdfReOJItyySbilrXO8BZP9p_AapYhGx0NIVBCCRxg?e=BlhXTV'
                 },
 
                 partners : [

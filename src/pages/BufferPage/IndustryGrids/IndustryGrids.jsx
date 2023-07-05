@@ -22,49 +22,51 @@ const IndustryGrids = () => {
     {
       id: "1",
       title: "Manufacturing & Mobility",
-      link: "",
+      link: "manufacturing_&_mobility",
       img: Automotive_buffer,
     },
     {
       id: "2",
       title: "Financial Services",
-      link: "",
+      link: "financial",
       img: Energy_buffer,
     },
     {
       id: "3",
       title: "Healthcare",
-      link: "",
+      link: "healthcare",
       img: Healthcare_buffer,
     },
     {
       id: "4",
       title: "Retail & CG",
-      link: "",
+      link: "retail_and_cg",
       img: Government_buffer,
     },
     {
       id: "5",
       title: "Government",
-      link: "",
+      link: "government",
       img: Government_buffer,
     },
     {
       id: "6",
       title: "Energy",
-      link: "",
+      link: "energy",
       img: Energy_buffer,
     },
+
+
+  ];
+  const CommingSoonIndustry = [
+    // comming soon
+
     {
       id: "7",
       title: "Media & Entertainment",
       link: "",
       img: Media_buffer,
     },
-
-  ];
-  const CommingSoonIndustry = [
-    // comming soon
     {
       id: "9",
       title: "Education",
@@ -111,7 +113,7 @@ const IndustryGrids = () => {
               </div>
 
               <div className="absolute z-10 inset-1 flex justify-center items-center font-bold text-white">
-                <Link to={"/industry/automotive"}>
+                <Link to={`/industry/${item?.link}`}>
                 
                   <button className="p-2 text-xl hidden group-hover:block text-blue bg-white font-bold   px-5 rounded-full ">
                   Learn More

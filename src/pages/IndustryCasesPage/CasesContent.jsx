@@ -4,7 +4,7 @@ import {Link} from "react-router-dom";
 import Companies from "./Companies";
 import Lightbox, {ImagesListType} from 'react-spring-lightbox';
 
-const CasesContent = ({usecase}) => {
+const CasesContent = ({usecase,title}) => {
     usecase = usecase?.use_cases_content[0]
 
     const [isLightboxOpen, setIsLightboxOpen] = React.useState(true);
@@ -210,13 +210,16 @@ const CasesContent = ({usecase}) => {
                                 <p className="text-center  pt-1 font-bold text-blue">
                                     {usecase?.idealCostomerProfile?.image_subtitle}
                                 </p>
+
+                                <p className={'font-semibold'}> For more Information  <a className="text-blue font-semibold" target="_blank" href={usecase?.idealCostomerProfile?.image_link}> Click Here </a></p>
                             </div>
 
                         </div>
                     </div>
                 </div>
 
-                <Companies/>
+
+                <Companies usecase={title}/>
             </div>
 
             <Lightbox

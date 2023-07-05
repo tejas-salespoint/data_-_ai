@@ -5,12 +5,12 @@ import React from "react";
 import { Link } from "react-router-dom";
 import {accenture, adobe, ibm, pwc,wipro} from "../../constants";
 
-const Companies = () => {
+const Companies = ({usecase}) => {
   return (
     <>
       <section className="">
         <h4 className="font-semibold py-6  text-blue">
-          DAI Partner Solutions for Automated Quality Inspection
+          {` DAI Partner Solutions for ${usecase}`}
         </h4>
         <div className="grid grid-cols-2 gap-5">
           <Link to={'https://aka.ms/Adobe_Battlecards'} target={'_blank'} className="h-15 w-50 p-5 flex justify-center items-center bg-light-gray hover:bg-white hover:shadow-company-shadow ">

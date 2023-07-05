@@ -99,6 +99,10 @@ const IndustryDynamicTable = ({ activeId, activeIndustryData, tabActive,solution
           </div>
           <button className=" px-3 py-2 my-6 bg-blue text-sm font-extrabold rounded-full text-white">
             <Link
+
+
+
+
               // to={`/industry/${activeIndustryData?.link}/${solutionPlay}/${currentUseCases?.title}`}
               to={`/industry/${activeIndustryData?.link}/${ currentUseCases?.solution_play ? currentUseCases?.solution_play : solutionPlay}/${currentUseCases?.title}`}
             >

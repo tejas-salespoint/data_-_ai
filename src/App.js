@@ -22,7 +22,7 @@ function App() {
 
           <Route path="/" element={<Home />} />
           <Route path="/industry_grid" element={<BufferPage />} />
-          <Route path="/industry" element={<Industry />} />
+          <Route path="/industry" element={<NotFound />} />
           <Route path="/additional_resources" element={<Catalyst />} />
           <Route path="/connected_vehicle" element={<IndustryDetail />} />
           <Route exact  path="/industry/:industry" element={<DynamicIndustry />} />
