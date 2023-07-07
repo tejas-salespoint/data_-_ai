@@ -82,13 +82,13 @@ export const Education_buffer = require("assets/Industry images/Education.jpg");
 export const Energy_buffer = require("assets/Industry images/Energy.jpg");
 export const Engineering_buffer = require("assets/Industry images/Engineering & construction.jpg");
 export const Finance_buffer = require("assets/Industry images/Finance.jpg");
-export const Government_buffer = require("assets/Industry images/Government.jpg");
+export const Government_buffer = require("assets/Industry images/Government.png");
 export const Healthcare_buffer = require("assets/Industry images/Healthcare.jpg");
 export const Horizantal_buffer = require("assets/Industry images/Horizantal.png");
 export const Manufacturing_buffer = require("assets/Industry images/Manufacturing.jpg");
 export const Media_buffer = require("assets/Industry images/Media.jpg");
 export const Retail_buffer = require("assets/Industry images/Retail.jpg");
-export const Sustainability_buffer = require("assets/Industry images/Automotive.jpg");
+export const Sustainability_buffer = require("assets/Industry images/Sustainability.jpg");
 
 // icons svg
 export const AssetsIcons = require("assets/icons/Assets.svg");

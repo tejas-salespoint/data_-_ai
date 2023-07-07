@@ -42,7 +42,8 @@ module.exports = {
         black: "#2A2B2E",
         'light-gray' : '#F2F2F2',
         breadcrumb_color : '#9CA3AF',
-        'light-light-gray' : '#A4A4A4'
+        'light-light-gray' : '#A4A4A4',
+        all_use_case_color : "linear-gradient(to right, rgba(243, 83, 37, 1), rgba(129, 188, 6, 1), rgba(5, 166, 240, 1), rgba(255, 186, 8, 1))",
         
 
       },

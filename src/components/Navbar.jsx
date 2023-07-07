@@ -18,7 +18,7 @@ const Navbar = () => {
     {
       id: 4,
       title: "DAI Ind. Use Cases",
-      link: "/additional_resources",
+      link: "/all_data_&_AI_Industry_use_cases",
     },
     {
       id: 2,

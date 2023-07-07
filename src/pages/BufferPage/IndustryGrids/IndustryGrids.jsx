@@ -23,13 +23,13 @@ const IndustryGrids = () => {
       id: "1",
       title: "Manufacturing & Mobility",
       link: "manufacturing_&_mobility",
-      img: Automotive_buffer,
+      img: Manufacturing_buffer,
     },
     {
       id: "2",
       title: "Financial Services",
-      link: "financial",
-      img: Energy_buffer,
+      link: "financial_services",
+      img: Finance_buffer,
     },
     {
       id: "3",
@@ -41,7 +41,7 @@ const IndustryGrids = () => {
       id: "4",
       title: "Retail & CG",
       link: "retail_and_cg",
-      img: Government_buffer,
+      img: Retail_buffer,
     },
     {
       id: "5",

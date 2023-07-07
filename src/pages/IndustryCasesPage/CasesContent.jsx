@@ -7,16 +7,12 @@ import Lightbox, {ImagesListType} from 'react-spring-lightbox';
 const CasesContent = ({usecase,title}) => {
     usecase = usecase?.use_cases_content[0]
 
-    const [isLightboxOpen, setIsLightboxOpen] = React.useState(true);
-    // const images = [
-    //     { src: usecase?.idealCostomerProfile?.image },
-    // ];
 
     const images = [
         {
             src: usecase?.idealCostomerProfile?.image,
             loading: 'lazy',
-            alt: 'usecase img',
+            alt: 'use case img',
         }
     ];
 
@@ -47,8 +43,8 @@ const CasesContent = ({usecase,title}) => {
                             </p>
                             <ul className="list-disc mx-6">
                                 {
-                                    usecase?.keyHighlights?.decision_makers.map(item => (
-                                        <li>
+                                    usecase?.keyHighlights?.decision_makers.map((item,index) => (
+                                        <li key={index}>
                                             {item}
                                         </li>
                                     ))
@@ -64,8 +60,8 @@ const CasesContent = ({usecase,title}) => {
                             </p>
                             <ul className="list-disc mx-6">
                                 {
-                                    usecase?.keyHighlights?.decision_making_factors.map(item => (
-                                        <li>
+                                    usecase?.keyHighlights?.decision_making_factors.map((item,index) => (
+                                        <li key={index}>
                                             {item}
                                         </li>
                                     ))
@@ -82,8 +78,8 @@ const CasesContent = ({usecase,title}) => {
                             </p>
                             <ul className="list-disc mx-6">
                                 {
-                                    usecase?.keyHighlights?.desired_business_objectives.map(item => (
-                                        <li>
+                                    usecase?.keyHighlights?.desired_business_objectives.map((item,index) => (
+                                        <li key={index}>
                                             {item}
                                         </li>
                                     ))
@@ -101,8 +97,8 @@ const CasesContent = ({usecase,title}) => {
                             </p>
                             <ul className="list-disc mx-6">
                                 {
-                                    usecase?.keyHighlights?.customer_pain_points.map(item => (
-                                        <li>
+                                    usecase?.keyHighlights?.customer_pain_points.map((item,index) => (
+                                        <li key={index}>
                                             {item}
                                         </li>
                                     ))
@@ -125,8 +121,8 @@ const CasesContent = ({usecase,title}) => {
                             </p>
                             <ul className="list-disc mx-6">
                                 {
-                                    usecase?.keyHighlights?.products?.map(item => (
-                                        <li>
+                                    usecase?.keyHighlights?.products?.map((item,index) => (
+                                        <li key={index}>
                                             {item}
                                         </li>
                                     ))
@@ -143,8 +139,8 @@ const CasesContent = ({usecase,title}) => {
                             </p>
                             <ul className="list-disc mx-6">
                                 {
-                                    usecase?.keyHighlights?.proposed_technical_solution?.map(item => (
-                                        <li>
+                                    usecase?.keyHighlights?.proposed_technical_solution?.map((item,index) => (
+                                        <li key={index}>
                                             {item}
                                         </li>
                                     ))
@@ -161,8 +157,8 @@ const CasesContent = ({usecase,title}) => {
                         </p>
                         <ul className="list-disc mx-6">
                             {
-                                usecase?.keyHighlights?.other_notable_attributes?.map(item => (
-                                    <li>
+                                usecase?.keyHighlights?.other_notable_attributes?.map((item,index) => (
+                                    <li key={index}>
                                         {item}
                                     </li>
                                 ))

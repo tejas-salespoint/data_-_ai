@@ -23,7 +23,7 @@ const IndustryNavbar = () => {
         <li className="flex items-center h-full p-3 text-white font-medium text-2xl hover:border-b-8">
           Retail
         </li>
-        <Link to={"/industry_grid"}>
+        <Link to={"/all_industries"}>
           <li className="flex items-center p-3 px-5 rounded-full  bg-white text-blue font-medium text-2xl ">
             All Industries
           </li>

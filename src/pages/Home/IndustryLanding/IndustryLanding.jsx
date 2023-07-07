@@ -31,7 +31,7 @@ const IndustryLanding = () => {
       title: "Financial Services",
       icon: FinancialServicesIcon,
       icon_hover: FinancialServicesBlueIcon,
-      url: "/industry/financial",
+      url: "/industry/financial_services",
     },
     {
       title: "Healthcare",
@@ -74,7 +74,7 @@ const IndustryLanding = () => {
       title: "All Industries",
       icon: OtherIndustriesIcon,
       icon_hover: OtherIndustriesBlueIcon,
-      url: "/industry_grid",
+      url: "/all_industries",
     },
   ];
   
@@ -84,7 +84,7 @@ const IndustryLanding = () => {
       <h4 className="font-semibold py-6 text-blue">Industry Landing</h4>
       <div className="grid grid-cols-8">
         {/* All Dai use Cases */}
-          <Link to={'/additional_resources'} >
+          <Link to={'/all_data_&_AI_Industry_use_cases'} >
             <div className="flex flex-col group justify-center items-center">
               <div className=" bg-all-usecases-bg shadow-all_dai_usecases-shadow   w-[7rem] h-[7rem] m-5 flex justify-center items-center rounded-full">
                 <div className="bg-white p-3 rounded-full">

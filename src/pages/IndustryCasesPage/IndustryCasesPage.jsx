@@ -3,10 +3,13 @@ import React, { useEffect } from "react";
 import CasesAdditionalResources from "./CasesAdditionalResources";
 import CasesContent from "./CasesContent";
 import {Industry} from "../../data/Industry/Industry_data";
+import {useLocation} from "react-router-dom";
 
 const IndustryCasesPage = () => {
+    let stateData = useLocation();
 
-    const currentURL = window?.location?.pathname
+
+    const currentURL = stateData?.pathname
     let data = currentURL.split('/').slice(-3);
     data = data.map(item => item.replace(/%20/g, ' '));
     // Todo :: find Industry
@@ -25,7 +28,7 @@ const IndustryCasesPage = () => {
   return (
     <>
         {/*<Header title={useCase?.title} subtitle={`${industry?.title} |  ${solutionPlay?.title}` } />*/}
-        <Header title={useCase?.title}  />
+        <Header title={useCase?.title} state={stateData?.state}/>
         <CasesContent usecase={useCase} title={useCase?.title} />
         <CasesAdditionalResources />
     </>

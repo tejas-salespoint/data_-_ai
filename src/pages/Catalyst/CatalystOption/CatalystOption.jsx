@@ -18,7 +18,12 @@ const CatalystOption = () => {
 
 
                 <li >
-                    <Link to={`/industry/${industry?.link}/${item?.solution_play}/${item?.title}`} className="flex gap-2 font-medium items-center">
+                    <Link
+                        state={{
+                            solution : industry?.solution_plays[industry.solution_plays.length - 1].id,
+                            usecase : item?.id,
+                        }}
+                        to={`/industry/${industry?.link}/${item?.solution_play}/${item?.title}`} className="flex gap-2 font-medium items-center">
                     <img className="h-5" src={Edge} alt="edge" />
                         <p>
                             {item?.title}

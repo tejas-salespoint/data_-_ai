@@ -30,7 +30,7 @@ import {
   remote_asset_monitoring, RiskClassificationAndLoanModeling,
   sales_service_and_support_bot,
   service_and_support_bot_government,
-  service_and_support_bot_healthcare, ServiceAndSupportBot,
+  service_and_support_bot_healthcare, ServiceAndSupportBot, TransactionProcessingAtAnyScale,
 } from "../../constants";
 
 export const Industry = [
@@ -257,14 +257,14 @@ export const Industry = [
                 // Todo L3 Content
                 keyHighlights: {
                   decision_makers: [
-                    "Chief Legal Officer",
-                    "Chief Data Officer",
-                    "Chief Operations Officer",
-                    "Head of Factory Operations",
-                    "Chief Information Officer",
-                    "Plant Managers",
-                    "VP of Digital Transformation",
-                    "VP of Manufacturing",
+                    "Primary : Chief Legal Officer,Chief Data Officer," +
+                    "Chief Operations Officer," +
+                    "Head of Factory Operations," +
+                    "Chief Information Officer," +
+                    "Plant Managers," +
+                    "VP of Digital Transformation," +
+                    "VP of Manufacturing,",
+
                   ],
                   decision_making_factors: [
                     "Ease of execution (availability of expert and experienced)",
@@ -325,11 +325,11 @@ export const Industry = [
                 // Todo L3 Content
                 keyHighlights: {
                   decision_makers: [
-                    "Chief Legal Officer",
-                    "Chief Data Officer",
-                    "Chief Operations Officer",
-                    "Head of Factory Operations",
-                    "Chief Information Officer",
+                    "Primary : Chief Legal Officer,Chief Data Officer," +
+                    "Chief Operations Officer," +
+                    "Head of Factory Operations," +
+                    "Chief Information Officer,",
+
                   ],
                   decision_making_factors: [
                     "Scalability",
@@ -1301,7 +1301,7 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
   {
     id: crypto.randomUUID(),
     title: "Financial Services",
-    link: "financial",
+    link: "financial_services",
     heading: "Financial Services Overview",
     overview:
         "Facing a range of challenges—from customer expectations and workforce transformation to competitive threats and innovation imperatives counterbalanced by risk, security, and regulatory compliance considerations—leaders in the banking industry are focused on helping their organizations weather storms and adapt to relentless change. Among the strategies they need to employ to address these challenges are the financial, cultural, and technological investments they need to make to stay competitive today and prepare for an uncertain future.In this context, Microsoft offers banks a highly secure and compliant, enterprise-grade cloud platform to run their business and the latest technology needed to unlock business value and deepen customer relationships. With the Microsoft Cloud, banks can optimize costs, reduce time to value, enhance collaboration, and use data and AI to deliver more impactful business outcomes—whether transforming the banking experience, empowering employees, managing risk, or modernizing payments and core banking. The security, compliance, and scale of the Microsoft Cloud, combined with our global partner ecosystem, empower banks to address evolving customer needs, hybrid workplace requirements, complex regulations, new competitors, solution integration, and increased cyber threats with both efficiency and resiliency.",
@@ -1313,10 +1313,10 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
         title: "Modernize Payments & Core Banking",
         content: `
     <div >
-  <p class="font-bold">Modernize payments and core banking:</p>
+  <p class="font-bold">Modernize payments and core banking</p>
   <p class="py-2">Increase agility to roll out new products and services while saving on infrastructure costs.</p>
 
-  <p class="font-bold mt-6 mb-2">Customer challenges:</p>
+  <p class="font-bold mt-6 mb-2">Customer challenges</p>
   <ul class="list-disc pl-6 mb-4">
     <li>Integrating open banking and API-based solutions</li>
     <li>Providing payments-as-a-service</li>
@@ -1332,7 +1332,7 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
     <li>Cloud adoption for future-proofing systems and managing change</li>
   </ul>
 
-  <p class="font-bold mt-6 mb-2">Key business outcomes:</p>
+  <p class="font-bold mt-6 mb-2">Key business outcomes</p>
   <ul class="list-disc pl-6 mb-4">
     <li>Ensure resiliency of core banking systems based on the latest cloud-based technology</li>
     <li>Move payments and core systems to cloud to provide the agility needed to meet changing customer expectations and challenge non-traditional competitors</li>
@@ -1341,13 +1341,13 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
     <li>Establish a trusted brand with comprehensive security, privacy, identity management, and compliance</li>
   </ul>
 
-  <p class="font-bold mt-6 mb-2">Roles:</p>
+  <p class="font-bold mt-6 mb-2">Roles</p>
   <ul class="list-disc pl-6 mb-4">
     <li>Primary: CIO</li>
     <li>Secondary: CEO, head of payments, LOB banking function, VP customer support, call center operations, commercial banking executive, retail banking executive</li>
   </ul>
 
-  <p class="font-bold mt-6 mb-2">Questions to Ask:</p>
+  <p class="font-bold mt-6 mb-2">Questions to Ask</p>
   <ul class="list-disc pl-6 mb-4">
     <li>How is your business able to expand into new markets quickly?</li>
     <li>How effective are your current solutions for reducing fraud and increasing operational efficiency?</li>
@@ -1387,13 +1387,7 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
                 keyHighlights : {
 
                   decision_makers : [
-                    'Primary: Chief Legal Officer',
-                    'Chief Operations Officer',
-                    'Chief Data Officer',
-                    'Chief Financial Officer',
-                    'Chief Information Officer',
-                    'Chief Risk Officer',
-                    'Chief Compliance Officer'
+                   "Primary: Chief Legal Officer, Chief Operations Officer, Chief Data Officer, Chief Financial Officer, Chief Information Officer, Chief Risk Officer, Chief Compliance Officer"
                   ],
                   decision_making_factors : [
                     'Scalability',
@@ -1412,7 +1406,7 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
                     'More time is spent on extracting data than on analysis, insights, and action'
                   ],
                   other_notable_attributes:[
-                    'Reduce human intervention and automate extraction of data from large and complex structured and unstructured documents to unlock insights and enable users to find key data points'
+
                   ],
                   products :[
                     'Form Recognizer',
@@ -1484,11 +1478,8 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
                 keyHighlights : {
 
                   decision_makers : [
-                    'Primary: Head of HR',
-                    'Head of Customer Service',
-                    'Chief Learning Officer',
-                    'Chief Knowledge Officer',
-                    'Chief Compliance Officer'
+
+                    "Primary: Head of HR, Head of Customer Service, Chief Learning Officer, Chief Knowledge Officer, Chief Compliance Officer"
                   ],
                   decision_making_factors :  ['Scalability', 'Cost', 'Efficiency'],
                   desired_business_objectives : [
@@ -1503,7 +1494,7 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
                     'Organization not able to pull together a comprehensive view of all data related to a specific topic (i.e., docs with regulatory terms for compliance purposes)'
                   ],
                   other_notable_attributes:[
-                    'Search through structured and unstructured documents to quickly find the most relevant information and documents including areas with compliance risk'
+
                   ],
                   products :[
                     'Azure Cognitive Search',
@@ -1570,10 +1561,7 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
                 keyHighlights : {
 
                   decision_makers :[
-                    'Primary: Chief Information Officer',
-                    'Chief Digital Officer',
-                    'Business Innovation team',
-                    'Enterprise or Cloud Architects'
+                    'Primary: Chief Information Officer, Chief Digital Officer, Business Innovation team, Enterprise or Cloud Architects'
                   ],
                   decision_making_factors :  ['Scalability', 'Cost', 'Efficiency'],
                   desired_business_objectives :  [
@@ -1600,7 +1588,7 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
                   market_cap: '',
                   employees: '',
                   budget: '',
-                  image : automated_quality_inspection,
+                  image : TransactionProcessingAtAnyScale,
                   image_subtitle : 'Business  Architecture: Transaction Processing at Any Scale',
                   image_link : 'https://microsofteur.sharepoint.com/:p:/t/HQDataAIIndustryTeam/EWNlQ1ANRcVDlXfdCxUFBTQBWEP9WTaU5zgtsDzJw_d7Nw?e=TmTgYA'
                 },
@@ -1650,11 +1638,7 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
                 keyHighlights : {
 
                   decision_makers : [
-                    'Primary: Business Decision Makers',
-                    'Claim Processing Engine Owners',
-                    'Chief Claims Officers',
-                    'Regional Chief Information Officers',
-                    'Technical Decision Makers'
+                   'Primary: Business Decision Makers, Claim Processing Engine Owners, Chief Claims Officers, Regional Chief Information Officers, Technical Decision Makers'
                   ],
                   decision_making_factors : [
                     'Scalability',
@@ -1735,11 +1719,11 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
         content: `
         <div>
   <p class="font-bold">
-    Transform the banking experience: 
+    Transform the banking experience
   </p>
   <p  class="py-2">Deliver differentiated customer experiences through deeper insights and relationships.</p>
   <p class="my-2">
-    <span class="font-bold">Customer challenges:</span>
+    <span class="font-bold">Customer challenges</span>
     <ul class="list-disc pl-6 mb-4">
       <li>Explosive growth in customer data but limited insights</li>
       <li>Customers are more sophisticated and want more personalization</li>
@@ -1749,7 +1733,7 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
     </ul>
   </p>
   <p class="my-2">
-    <span class="font-bold">Key business outcomes:</span>
+    <span class="font-bold">Key business outcomes</span>
     <ul class="list-disc pl-6 mb-4">
       <li>Use a 360-degree customer view to create more personalized and relevant experiences.</li>
       <li>Enrich customer understanding with insights from banking data, social, life events, and other sources.</li>
@@ -1759,12 +1743,12 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
     </ul>
   </p>
   <p class="my-2">
-    <span class="font-bold">Roles:</span>
+    <span class="font-bold">Roles</span> <br>
     Primary: Head of retail/commercial banking, head of customer experience<br>
     Secondary: Head of customer care, head of contact center, head of channels, head of strategy, head of transformation
   </p>
   <p class="my-2">
-    <span class="font-bold">Key questions to ask:</span>
+    <span class="font-bold">Key Questions to Ask</span>
   </p>
   <ul class="list-disc pl-6 mb-4">
     <li>How does your organization consolidate and unify its information about customers across departments and channels?</li>
@@ -1803,14 +1787,7 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
               </p>`,
                 keyHighlights : {
 
-                  decision_makers : ['Head of Customer Service',
-                    'Head of Customer Experience',
-                    'Head of IT',
-                    'Head of Legal',
-                    'Head of HR',
-                    'Chief Marketing Officer',
-                    'Product Owner',
-                    'Director of eCommerce', 'Secondary (Influencers): Head of Customer Service', 'Head of Customer Experience'],
+                  decision_makers : ['Primary : Head of Customer Service, Head of Customer Experience, Head of IT, Head of Legal, Head of HR, Chief Marketing Officer, Product Owner, Director of eCommerce', 'Secondary (Influencers): Head of Customer Service Head of Customer Experience'],
                   decision_making_factors :  [
                     'Scalability',
                     'Cost',
@@ -1829,7 +1806,7 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
                     'Sales or support agents are tied up answering simple queries that can be automated'
                   ],
                   other_notable_attributes:[
-                    'Resolve user and customer queries without human intervention across multiple channels, including voice-enabled support'
+
                   ],
                   products :['Resolve user and customer queries without human intervention across multiple channels, including voice enabled support.'],
                   proposed_technical_solution: ['Resolve user and customer queries without human intervention across multiple channels, including voice-enabled support',]
@@ -1981,8 +1958,8 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
                 keyHighlights : {
 
                   decision_makers : [
-                    'Primary: Business Decision Makers',
-                    'Technical Decision Makers'
+                    'Primary: Business Decision Makers , Technical Decision Makers',
+
                   ],
                   decision_making_factors :  [
                     'Scalability',
@@ -2069,7 +2046,7 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
   </p>
   <p class="py-2">Deepen risk insights, facilitate regulatory compliance, and combat financial crime.</p>
   <p class="my-2">
-    <span class="font-bold">Customer challenges:</span>
+    <span class="font-bold">Customer challenges</span>
     <ul class="list-disc pl-6 mb-4">
       <li>Risk models take too long to run</li>
       <li>Improving risk model accuracy</li>
@@ -2082,14 +2059,14 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
     </ul>
   </p>
   <p class="my-2">
-    <span class="font-bold">Roles:</span>
+    <span class="font-bold">Roles</span>
     <ul class="list-disc pl-6 mb-4">
       <li>Primary: Chief risk officer</li>
       <li>Secondary: Chief compliance officer, chief information security officer, head of fraud</li>
     </ul>
   </p>
   <p class="my-2">
-    <span class="font-bold">Questions to Ask:</span>
+    <span class="font-bold">Questions to Ask</span>
   </p>
   <ul class="list-disc pl-6 mb-4">
     <li>How are different teams using data from disparate systems to make decisions?</li>
@@ -2292,11 +2269,11 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
         content: `
         <div >
   <p>
-    <span class="font-bold">Empower banking employees:</span> 
+    <span class="font-bold">Empower banking employees</span> 
   </p>
   <p class="py-2">Improve productivity through better teamwork, insights, and communications.</p>
   <p class="my-2">
-    <span class="font-bold">Customer challenges:</span>
+    <span class="font-bold">Customer challenges</span>
     <ul class="list-disc pl-6 mb-4">
       <li>Stagnant or declining staff productivity and organizational efficiency</li>
       <li>Lack of collaboration across departments and teams</li>
@@ -2308,7 +2285,7 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
     </ul>
   </p>
   <p class="my-2">
-    <span class="font-bold">Key business outcomes:</span>
+    <span class="font-bold">Key business outcomes</span>
     <ul class="list-disc pl-6 mb-4">
       <li>Break down silos to enable secure, cross-group collaboration across front, mid, and back offices.</li>
       <li>Enhance accessibility and usability of relevant information while meeting regulatory requirements.</li>
@@ -2320,14 +2297,14 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
     </ul>
   </p>
   <p class="my-2">
-    <span class="font-bold">Roles:</span>
+    <span class="font-bold">Roles</span>
     <ul class="list-disc pl-6 mb-4">
       <li>Primary: Head of retail and/or corporate/commercial banking, COO, CTO, head of HR</li>
       <li>Secondary: Head of digital innovation, head of workplace, head of strategy/transformation, IT manager</li>
     </ul>
   </p>
   <p class="my-2">
-    <span class="font-bold">Key questions to ask:</span>
+    <span class="font-bold">Key Questions to Ask</span>
   </p>
   <ul class="list-disc pl-6 mb-4">
     <li>What is your plan for improving the employee experience as you implement a hybrid workplace?</li>
@@ -3598,7 +3575,7 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
         title: "Deliver Exceptional Patient Experiences",
         content: `
   <div>
-  <p class="font-bold mb-2">Deliver Exceptional Patient Experiences:</p>
+  <p class="font-bold mb-2">Deliver Exceptional Patient Experiences</p>
   <p>Deliver personalized experiences to engage patients in secure, individualized encounters through every point of care</p>
 
   <p class="font-bold mt-6 mb-2">Customer Scenarios</p>
@@ -4437,20 +4414,20 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
         title: "Maximize the Value of Your Data",
         content: `
           <div >
-  <p>
-    <span class="font-bold">Maximize the Value of Your Data:</span> <br/> Realize the true value of your data by unifying disparate data sources across the shopper journey, discovering insights that enable better experiences.
+  <p class="mb-4">
+    <span class="font-bold">Maximize the Value of Your Data</span> <br/> Realize the true value of your data by unifying disparate data sources across the shopper journey, discovering insights that enable better experiences.
   </p>
   <p class="my-2">
-    <span class="font-bold">Customer Scenarios Unified customer profile:</span> Gain insights across the complete view of a shopper's journey Shopper and operations analytics: Unlock omnichannel insights with advanced analytics Intelligent fraud prevention: Help protect your revenue from fraud using AI to identify patterns Retail media: Unlock ad revenue using your 1st party shopper data.
+    <span class="font-bold">Customer Scenarios Unified customer profile</span> <br> Gain insights across the complete view of a shopper's journey Shopper and operations analytics: Unlock omnichannel insights with advanced analytics Intelligent fraud prevention: Help protect your revenue from fraud using AI to identify patterns Retail media: Unlock ad revenue using your 1st party shopper data.
   </p>
   <p class="my-2">
-    <span class="font-bold">Roles:</span> CIO/VP, CDO/VP, COO/VP, CMO/VP (required by all)
+    <span class="font-bold">Roles </span> CIO/VP, CDO/VP, COO/VP, CMO/VP (required by all)
   </p>
   <p class="my-2">
-    <span class="font-bold">Challenges:</span> Vast amounts of data in many places makes it hard to make sense of it or know what's important and what's not 360-degree view of the customer New shopping journeys creating fraud vulnerabilities across digital and voice channels.
+    <span class="font-bold">Challenges</span> Vast amounts of data in many places makes it hard to make sense of it or know what's important and what's not 360-degree view of the customer New shopping journeys creating fraud vulnerabilities across digital and voice channels.
   </p>
   <p class="my-2">
-    <span class="font-bold">Business Outcomes:</span>
+    <span class="font-bold">Business Outcomes</span>
   </p>
   <ul class="list-disc pl-6 mb-4">
     <li>Realize the true value of your data by unifying disparate data sources across the shopper journey, discovering insights that enable better experiences</li>
@@ -4461,7 +4438,7 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
     <li>Reduce costs by optimizing shopper journeys and streamlining automation</li>
   </ul>
   <p class="my-2">
-    <span class="font-bold">Questions to Ask:</span>
+    <span class="font-bold">Questions to Ask</span>
   </p>
   <ul class="list-disc pl-6 mb-4">
     <li>Do you have a data strategy in place? Are you leveraging your data across every part of your retail business to maximize sales? Your operating model? What kind of analytics tools do you use?</li>
@@ -4768,10 +4745,7 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
                 </p>`,
                 keyHighlights: {
                   decision_makers: [
-                    "Primary: Chief Marketing Officer",
-                    "Product Owner (App/Web)",
-                    "Director of eCommerce",
-                    "Chief Digital Officer",
+                    'Primary: Chief Marketing Officer, Product Owner (App/Web), Director of eCommerce, Chief Digital Officer'
                   ],
                   decision_making_factors: [],
                   desired_business_objectives: [
@@ -4840,24 +4814,43 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
         id: crypto.randomUUID(),
         title: "Elevate the Shopping Experience",
         content: `
-    <div class="mt-4">
-  <p>
-    <span class="font-bold">Elevate the Shopping Experience:</span> Transform the shopping experience through data analytics and new store technology to create more engaged shoppers with stronger lifetime value.
+   <div >
+  <p class="mb-4">
+    <span classname="font-bold">Elevate the Shopping Experience</span>
+    <br>Transform the shopping experience through data analytics and new store technology to create more engaged shoppers with stronger lifetime value.
+  </p>
+  <p class="my-2 ">
+  <span classname="font-bold">  Customer Scenarios Intelligent Stores </span>
+  <br>
+    Maximize sales by optimizing in-store customer and product signals. Unified commerce: Increase engagement and drive conversations across channels. Real-time personalization: Enable personalized recommendations and search results. Digital advertising solutions: Drive growth, acquire new customers, and increase LTV. Seamless customer service: Utilize intelligent and automated customer service tools.
   </p>
   <p class="my-2">
-    <span class="font-bold">Customer Scenarios Intelligent Stores:</span> Maximize sales by optimizing in-store customer and product signals Unified commerce: Increase engagement and drive conversations across channels Real-time personalization: Enable personalized recommendations and search results Digital advertising solutions: Drive growth, acquire new customers, and increase LTV Seamless customer service: Utilize intelligent and automated customer service tools.
+    <span class="font-bold">Roles : </span>  CMO/VP, Chief Merchant/VP, CDO/VP, COO/VP
   </p>
   <p class="my-2">
-    <span class="font-bold">Roles:</span> CMO/VP, Chief Merchant/VP, CDO/VP, COO/VP
+    <span class="font-bold">Challenges</span>
+    <br>Personalizing the shopping experience is a strategic priority, but few consumers believe retailers are doing a good job.
+    Product discovery and searchability in-store, mobile or online.
+    Poor customer service experiences.
+    Wasteful ad spend.
+    Inability to meet increased customer expectations for connected, contextual experiences across channels, including social, messaging, agent and voice.
+    Frictional, burdensome authentication experiences are reducing conversions and losing customers.
   </p>
   <p class="my-2">
-    <span class="font-bold">Challenges:</span> Personalizing the shopping experience is a strategic priority, but few consumers believe retailers are doing a good job Product discovery and searchability in-store, mobile or online Poor customer service experiences Wasteful ad spend Inability to meet increased customer expectations for connected, contextual experiences across channels, including social, messaging, agent and voice Frictional, burdensome authentication experiences are reducing conversions and losing customers.
+    <span class="font-bold">Business Outcomes</span>
   </p>
+  <ul class="list-disc pl-6 mb-4">
+    <li>Transform the shopping experience through data analytics and new store technology to create more engaged shoppers with stronger lifetime value.</li>
+    <li>Maximize sales by optimizing in-store customer and product signals.</li>
+    <li>Increase customer engagement and retention and drive conversions across channels.</li>
+    <li>Improve acquisition with digital assistance through predictive targeting.</li>
+    <li>Enable personalized search results and recommendations that boost up- and cross-sell revenue.</li>
+    <li>Drive growth, acquire new customers, and increase LTV.</li>
+    <li>Utilize intelligent and automated customer service tools.</li>
+    <li>Improve conversion and CX through frictionless multi-modal biometric authentication.</li>
+  </ul>
   <p class="my-2">
-    <span class="font-bold">Business Outcomes:</span> Transform the shopping experience through data analytics and new store technology to create more engaged shoppers with stronger lifetime value Maximize sales by optimizing in-store customer and product signals Increase customer engagement and retention and drive conversions across channels Improve acquisition with digital assistance through predictive targeting Enable personalized search results and recommendations that boost up- and cross-sell revenue Drive growth, acquire new customers and increase LTV Utilize intelligent and automated customer service tools Improve conversion and CX through frictionless multi-modal biometric authentication.
-  </p>
-  <p class="my-2">
-    <span class="font-bold">Questions to Ask:</span>
+    <span class="font-bold">Questions to Ask</span>
   </p>
   <ul class="list-disc pl-6 mb-4">
     <li>How does your sales team help engage customers?</li>
@@ -4877,6 +4870,8 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
     <a class="text-blue font-semibold" target="_blank" href="https://industryhub.transform.microsoft.com/solution-plays">Learn More</a> about Industry Pillar
   </p>
 </div>
+
+
 
 
            `,
@@ -5141,21 +5136,21 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
         id: crypto.randomUUID(),
         title: "Build a Real Time and Sustainable Supply Chain",
         content: `
-        <div >
-  <p>
-    <b>Build a Real Time and Sustainable Supply Chain:</b> Create an agile, resilient and sustainable supply chain by connecting data across your ecosystem to enhance time to value.
+       <div>
+  <p class="mb-4 ">
+    <b>Build a Real Time and Sustainable Supply Chain</b> <br> Create an agile, resilient, and sustainable supply chain by connecting data across your ecosystem to enhance time to value.
   </p>
   <p class="my-2">
-    <b>Customer Scenarios:</b> Demand planning and optimization: Predict demand using AI to optimize inventory Supply chain visibility: Leverage demand and supply signals for future opportunities Flexible fulfillment: Optimize order management, giving customers choice across channels.
+    <b>Customer Scenarios</b>  <br> Demand planning and optimization: Predict demand using AI to optimize inventory Supply chain visibility: Leverage demand and supply signals for future opportunities Flexible fulfillment: Optimize order management, giving customers choice across channels.
   </p>
   <p class="my-2">
     <b>Roles:</b> COO/VP, CSO
   </p>
   <p class="my-2">
-    <b>Challenges:</b> Real-time supply chain visibility and actionable insights Ensuring the right inventory in the right place at the right time Need for agility to pivot due to disrupted supply chains Sustainability concerns Meeting expectations for order and delivery status in consumers' preferred channels, while enabling automated, interactive changes.
+    <b>Challenges</b>  <br> Real-time supply chain visibility and actionable insights Ensuring the right inventory in the right place at the right time Need for agility to pivot due to disrupted supply chains Sustainability concerns Meeting expectations for order and delivery status in consumers' preferred channels, while enabling automated, interactive changes.
   </p>
   <p class="my-2">
-    <b>Business Outcomes:</b> Create an agile, resilient and sustainable supply chain by connecting data across your ecosystem to enhance time to value.
+    <b>Business Outcomes</b>  <br> Create an agile, resilient, and sustainable supply chain by connecting data across your ecosystem to enhance time to value.
   </p>
   <ul class="list-disc pl-6 mb-4">
     <li>Predict demand using AI to optimize inventory</li>
@@ -5164,12 +5159,21 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
     <li>Reduce costs and increase CSAT by meeting expectations for order and delivery status in consumers' preferred channels, while enabling automated, interactive changes</li>
   </ul>
   <p class="my-2">
-    <b>Questions to Ask:</b> How long does it take on average to develop new digital products and services for fulfillment? Are there legacy systems that are key to enhanced ability to deliver products to customers? Do your time-tested operational systems seamlessly extend to support multi-channel fulfillment? Do you have the ability to move or promote product in real time to optimize inventory levels? What kinds of order, return and delivery status notifications do you provide customers? Through which channels? Can they engage and/or interact with your brand through those notifications? Are you able to run predictive and prescriptive analytics on your supply chain and inventory data?
+    <b>Questions to Ask</b>
   </p>
+  <ul class="list-disc pl-6 mb-4">
+    <li>How long does it take on average to develop new digital products and services for fulfillment?</li>
+    <li>Are there legacy systems that are key to the enhanced ability to deliver products to customers?</li>
+    <li>Do your time-tested operational systems seamlessly extend to support multi-channel fulfillment?</li>
+    <li>Do you have the ability to move or promote products in real time to optimize inventory levels?</li>
+    <li>What kinds of order, return, and delivery status notifications do you provide customers? Through which channels? Can they engage and/or interact with your brand through those notifications?</li>
+    <li>Are you able to run predictive and prescriptive analytics on your supply chain and inventory data?</li>
+  </ul>
   <p>
     <a class="text-blue font-semibold" target="_blank" href="https://industryhub.transform.microsoft.com/solution-plays">Learn More</a> about Industry Pillar
   </p>
 </div>
+
 
           `,
 
@@ -5264,31 +5268,30 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
         id: crypto.randomUUID(),
         title: "Empower Your Store Associate",
         content: `
-              
-          <div>
+              <div>
   <p>
-    <b>Empower Your Store Associate:</b> Equip your store associate with solutions to enable real-time store communications, workforce management, and store automation.
+    <b>Empower Your Store Associate</b><br> Equip your store associate with solutions to enable real-time store communications, workforce management, and store automation.
   </p>
   <p class="my-2">
-    <b>Customer Scenarios:</b> Real-time store communications and collaboration: Leverage modern tools for connecting your team Retail workforce management: Digitize managerial tasks like store scheduling Process automation and career development: Expand what your stores and people can do through automation.
+    <b>Customer Scenarios</b><br> Real-time store communications and collaboration: Leverage modern tools for connecting your team<br> Retail workforce management: Digitize managerial tasks like store scheduling<br> Process automation and career development: Expand what your stores and people can do through automation.
   </p>
   <p class="my-2">
     <b>Roles:</b> COO/VP, CPO/VP
   </p>
   <p class="my-2">
-    <b>Challenges:</b> Retail frontline workers feel they do not have the right digital tools or technology to do their job effectively Increasing employee productivity Putting employees on a level playing field with deeply informed consumers Flexible work and labor scheduling Retaining associates and agents amid a labor shortage Empowering agents to provide relevant recommendations that realize up- and cross-sell revenue potential.
+    <b>Challenges</b><br> Retail frontline workers feel they do not have the right digital tools or technology to do their job effectively Increasing employee productivity Putting employees on a level playing field with deeply informed consumers Flexible work and labor scheduling Retaining associates and agents amid a labor shortage Empowering agents to provide relevant recommendations that realize up- and cross-sell revenue potential.
   </p>
   <p class="my-2">
-    <b>Business Outcomes:</b> Equip your store associate with solutions to enable real-time store communications, workforce management, and store automation.
+    <b>Business Outcomes</b><br> Equip your store associate with solutions to enable real-time store communications, workforce management, and store automation.
   </p>
   <ul class="list-disc pl-6 mb-4">
     <li>Leverage modern tools for connecting your team</li>
     <li>Digitize managerial tasks like store scheduling</li>
     <li>Expand what your stores and people can do through automation</li>
-    <li>Reduce agent churn, increase efficiency and increase up- and cross-sell revenue by empowering them with relevant recommendations, dialog, and actions</li>
+    <li>Reduce agent churn, increase efficiency, and increase up- and cross-sell revenue by empowering them with relevant recommendations, dialog, and actions</li>
   </ul>
   <p class="my-2">
-    <b>Questions to Ask:</b>
+    <b>Questions to Ask</b>
   </p>
   <ul class="list-disc pl-6 mb-4">
     <li>Are different teams using data from disparate systems to make decisions?</li>
@@ -6089,9 +6092,7 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
         title: "Transform Government Operations and Services",
         content: `
       
-<!--          <p>-->
-<!--            <b>Coming Soon</b>-->
-<!--          </p>-->
+
 
 <p><a className="text-blue font-semibold" target="_blank" href="https://industryhub.transform.microsoft.com/public-sector/government?tab=overview"> Learn More </a>  about this Industry Pillar</p>
 `
@@ -6115,11 +6116,7 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
 
                 keyHighlights : {
 
-                  decision_makers : ['Head of HR',
-                    'Head of Customer Service',
-                    'Chief Learning Officer',
-                    'Chief Knowledge Officer',
-                    'Chief Compliance Officer', 'Secondary (Influencers): Head of Customer Service'],
+                  decision_makers : ['Primary: Head of HR, Head of Customer Service, Chief Learning Officer, Chief Knowledge Officer, Chief Compliance Officer','Secondary (Influencers): Head of Customer Service'],
 
                   decision_making_factors :['Scalability','Cost','Efficiency' ],
                   desired_business_objectives : [
@@ -6199,7 +6196,7 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
                 keyHighlights : {
 
                   decision_makers : [
-                    'Primary: Chief Legal Officer','Chief Operations Officer','Chief Data Officer','Chief Financial Officer','Chief Information Officers','Chief Risk Officer','Chief Compliance Officer'
+                    'Primary: Chief Legal Officer, Chief Operations Officer, Chief Data Officer, Chief Financial Officer, Chief Information Officers, Chief Risk Officer, Chief Compliance Officer'
                   ],
                   decision_making_factors :  [
                     'Scalability',
@@ -6306,15 +6303,8 @@ For both predicted and unexpected maintenance issues, you can speed up repair ti
               </p>`,
                 keyHighlights : {
 
-                  decision_makers : ['Head of Customer Service',
-                    'Head of Customer Experience',
-                    'Head of IT',
-                    'Head of Legal',
-                    'Head of HR',
-                    'Chief Marketing Officer',
-                    'Product Owner',
-                    'Director of eCommerce', 'Secondary (Influencers): Head of Customer Service',
-                    'Head of Customer Experience'],
+                  decision_makers : ['Primary: Head of Customer Service, Head of Customer Experience, Head of IT, Head of Legal, Head of HR, Chief Marketing Officer, Product Owner, Director of eCommerce', 'Secondary (Influencers): Head of Customer Service, Head of Customer Experience'
+                    ],
                   decision_making_factors :  [
                     'Scalability',
                     'Cost',
